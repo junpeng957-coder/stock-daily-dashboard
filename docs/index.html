@@ -92,6 +92,7 @@
       .archive-wrap { display: grid; gap: 6px; }
       .archive-wrap label { font-size: 12px; font-weight: 800; }
       .archive { max-width: 180px; padding: 8px 32px 8px 13px; }
+      .mobile-alt { display: inline-block; margin-top: 10px; color: var(--ink); font-weight: 850; }
 
       .status { min-height: 24px; margin: 0 0 16px; color: var(--muted); font-size: 14px; font-weight: 700; }
       .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
@@ -150,6 +151,7 @@
         <p class="eyebrow">Daily Market Brief</p>
         <h1 id="page-title">每日股市资讯看板</h1>
         <p id="market-summary" class="lede">正在载入今日市场资讯…</p>
+        <a class="mobile-alt" href="https://cdn.jsdelivr.net/gh/junpeng957-coder/stock-daily-dashboard@main/docs/mobile.html">手机加载失败？打开备用入口 ↗</a>
       </section>
 
       <section class="metrics" aria-label="日报信息">
@@ -201,7 +203,8 @@
         [...regionFilters, ...assetFilters].forEach((label) => {
           const isRegion = regionFilters.includes(label);
           const active = isRegion ? state.region === label : state.asset === label;
-          const button = el("button", "chip", label);
+          const count = label.startsWith("全部") || !state.digest ? "" : ` ${state.digest.coverage?.[label] ?? 0}`;
+          const button = el("button", "chip", label + count);
           button.type = "button";
           button.setAttribute("aria-pressed", String(active));
           button.addEventListener("click", () => {
@@ -226,8 +229,8 @@
           const regionMatch = state.region === "全部地区" || item.region === state.region;
           const assetMatch = state.asset === "全部资产" || item.asset_types.includes(state.asset);
           return regionMatch && assetMatch;
-        });
-        $("#status").textContent = `当前显示 ${items.length} / ${state.digest.items.length} 条资讯`;
+        }).slice(0, state.region === "全部地区" && state.asset === "全部资产" ? state.digest.items.length : 10);
+        $("#status").textContent = `当前显示 ${items.length} 条资讯${state.region === "全部地区" && state.asset === "全部资产" ? "（已去重）" : "（板块上限 10 条）"}`;
         if (!items.length) {
           root.append(el("div", "empty", "当前筛选条件下暂无资讯。"));
           return;

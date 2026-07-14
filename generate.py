@@ -30,6 +30,9 @@ DATA_DIR = ROOT / "docs" / "data"
 BEIJING = ZoneInfo("Asia/Shanghai")
 ENGINE = "zero-api-rules-v1"
 LOOKBACK_HOURS = 36
+FALLBACK_LOOKBACK_HOURS = 24 * 7
+QUOTA = 10
+MAX_ITEMS = 40
 REGIONS = {"A股", "港股", "美股", "全球宏观"}
 ASSETS = {"股票", "基金", "ETF"}
 TONES = {"偏积极", "偏谨慎", "中性", "混合"}
@@ -48,7 +51,15 @@ HTML_SOURCES = [
     ("中国证监会", "https://www.csrc.gov.cn/csrc/xwfb/index.shtml", "A股", True),
     ("上海证券交易所", "https://www.sse.com.cn/aboutus/mediacenter/hotandd/", "A股", True),
     ("深圳证券交易所", "https://www.szse.cn/aboutus/trends/news/", "A股", True),
+    ("天天基金", "https://fund.eastmoney.com/a/cjjyw_1.html", "A股", False),
 ]
+
+EASTMONEY_COLUMNS = [
+    ("东方财富·A股", 416, "A股"),
+    ("东方财富·港股", 797, "港股"),
+]
+
+QUOTA_KEYS = ("A股", "港股", "股票", "基金", "ETF")
 
 TOPICS = [
     (("etf", "mutual fund", "fund manager", "fund flow", "asset manager", "基金"), "基金与ETF", "可能影响基金申赎、资金配置和相关指数产品表现。", ["基金", "ETF"]),
@@ -107,13 +118,56 @@ def request_json(url: str, payload: dict[str, Any], headers: dict[str, str], tim
 
 
 def fetch_text(url: str, timeout: int = 25) -> str:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/html"})
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json, application/rss+xml, application/xml, text/html, */*"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         data = response.read(3_000_001)
         if len(data) > 3_000_000:
             raise ValueError("来源页面超过 3 MB")
-        charset = response.headers.get_content_charset() or "utf-8"
+        charset = response.headers.get_content_charset()
+        if not charset:
+            head = data[:2000].decode("ascii", "ignore")
+            match = re.search(r"charset\s*=\s*[\"']?([\w-]+)", head, re.I)
+            charset = match.group(1) if match else "utf-8"
+        if charset.lower() in {"gb2312", "gbk"}:
+            charset = "gb18030"
         return data.decode(charset, "replace")
+
+
+def eastmoney_items(name: str, column: int, region: str) -> list[dict[str, Any]]:
+    query = urllib.parse.urlencode(
+        {
+            "client": "web",
+            "biz": "web_news_col",
+            "column": column,
+            "order": 1,
+            "needInteractData": 0,
+            "page_index": 1,
+            "page_size": 50,
+            "req_trace": f"dashboard-{int(time.time())}",
+            "fields": "code,showTime,title,mediaName,summary,uniqueUrl,Np_dst",
+            "types": "1,20",
+        }
+    )
+    payload = json.loads(fetch_text(f"https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?{query}"))
+    result = []
+    for item in payload.get("data", {}).get("list", []):
+        code = str(item.get("code", "")).strip()
+        title = clean_text(str(item.get("title", "")))
+        published = str(item.get("showTime", "")).strip()
+        if not (code and title and published):
+            continue
+        result.append(
+            {
+                "source_name": clean_text(str(item.get("mediaName", ""))) or name,
+                "source_url": f"https://finance.eastmoney.com/a/{code}.html",
+                "source_title": title,
+                "source_summary": clean_text(str(item.get("summary", ""))),
+                "published_at": datetime.fromisoformat(published).replace(tzinfo=BEIJING),
+                "region": region,
+                "official": False,
+            }
+        )
+    return result
 
 
 def clean_text(value: str) -> str:
@@ -224,7 +278,7 @@ def has_term(lowered: str, term: str) -> bool:
 
 def zh_item(item: dict[str, Any], watchlist: list[str], current: datetime) -> dict[str, Any] | None:
     text = f"{item['source_title']} {item['source_summary']}"
-    if not is_relevant(text) or not (current - timedelta(hours=LOOKBACK_HOURS) <= item["published_at"] <= current + timedelta(hours=2)):
+    if not is_relevant(text) or not (current - timedelta(hours=FALLBACK_LOOKBACK_HOURS) <= item["published_at"] <= current + timedelta(hours=2)):
         return None
     topic, why, assets = topic_for(text)
     original_title = clean_text(item["source_title"])
@@ -267,10 +321,15 @@ def collect_digest(watchlist: list[str], current: datetime) -> dict[str, Any]:
             collected.extend(html_items(*source, current))
         except Exception as exc:
             print(f"来源读取失败：{source[0]}：{exc}", file=sys.stderr)
+    for source in EASTMONEY_COLUMNS:
+        try:
+            collected.extend(eastmoney_items(*source))
+        except Exception as exc:
+            print(f"来源读取失败：{source[0]}：{exc}", file=sys.stderr)
 
     items = [candidate for raw in collected if (candidate := zh_item(raw, watchlist, current))]
     items.sort(key=lambda item: (item["watchlist_match"], item["importance"], item["published_at"]), reverse=True)
-    unique: list[dict[str, Any]] = []
+    candidates: list[dict[str, Any]] = []
     for item in items:
         key = normalize_title(item["title"])
         entities = set(re.findall(r"\b[A-Z][A-Z0-9.]{1,7}\b", item["title"])) - {"IPO", "ETF", "SEC", "FED", "CNBC"}
@@ -282,14 +341,27 @@ def collect_digest(watchlist: list[str], current: datetime) -> dict[str, Any]:
                 and entities & (set(re.findall(r"\b[A-Z][A-Z0-9.]{1,7}\b", saved["title"])) - {"IPO", "ETF", "SEC", "FED", "CNBC"})
                 and item["why_it_matters"] == saved["why_it_matters"]
             )
-            for saved in unique
+            for saved in candidates
         ):
             continue
-        unique.append(item)
-        if len(unique) == 15:
-            break
+        candidates.append(item)
+
+    def matches(item: dict[str, Any], key: str) -> bool:
+        return item["region"] == key if key in REGIONS else key in item["asset_types"]
+
+    unique: list[dict[str, Any]] = []
+    for key in QUOTA_KEYS:
+        for item in candidates:
+            if sum(matches(saved, key) for saved in unique) >= QUOTA:
+                break
+            if item not in unique and matches(item, key):
+                unique.append(item)
+                if len(unique) >= MAX_ITEMS:
+                    break
     if not unique:
-        raise ValueError("最近 36 小时没有筛选到可靠的股票或基金资讯，不覆盖上一期看板")
+        raise ValueError("最近 7 天没有筛选到可靠的股票或基金资讯，不覆盖上一期看板")
+
+    coverage = {key: min(QUOTA, sum(matches(item, key) for item in unique)) for key in QUOTA_KEYS}
 
     topic_counts: dict[str, int] = {}
     for item in unique:
@@ -300,8 +372,9 @@ def collect_digest(watchlist: list[str], current: datetime) -> dict[str, Any]:
         item.pop("topic", None)
     return {
         "headline": f"{current:%m月%d日} 全球股市与基金晨报",
-        "market_summary": f"过去 {LOOKBACK_HOURS} 小时共筛选 {len(unique)} 条股票、基金及相关宏观资讯，其中 {official_count} 条来自监管机构、交易所或央行。重点集中在{top_topics}。内容按来源可靠性、市场相关性与发布时间排序，不构成买卖建议。",
+        "market_summary": f"优先检索最近 {LOOKBACK_HOURS} 小时，不足类别回溯至 7 天，共筛选 {len(unique)} 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 {QUOTA} 条，其中 {official_count} 条来自监管机构、交易所或央行。重点集中在{top_topics}。一条资讯可能进入多个板块，不构成买卖建议。",
         "items": unique,
+        "coverage": coverage,
     }
 
 
@@ -325,7 +398,7 @@ def validate_digest(raw: dict[str, Any], current: datetime, source_hosts: set[st
     if not headline or not summary:
         raise ValueError("日报缺少标题或市场总览")
 
-    cutoff = current - timedelta(hours=LOOKBACK_HOURS)
+    cutoff = current - timedelta(hours=FALLBACK_LOOKBACK_HOURS)
     future_limit = current + timedelta(hours=2)
     seen_titles: set[str] = set()
     seen_urls: set[str] = set()
@@ -377,7 +450,11 @@ def validate_digest(raw: dict[str, Any], current: datetime, source_hosts: set[st
     if not items:
         raise ValueError("筛选后没有可靠资讯，不覆盖上一期看板")
     items.sort(key=lambda item: (item["watchlist_match"], item["importance"], item["published_at"]), reverse=True)
-    return {"headline": headline, "market_summary": summary, "items": items[:15]}
+    coverage = {
+        key: min(QUOTA, sum(item["region"] == key if key in REGIONS else key in item["asset_types"] for item in items[:MAX_ITEMS]))
+        for key in QUOTA_KEYS
+    }
+    return {"headline": headline, "market_summary": summary, "items": items[:MAX_ITEMS], "coverage": coverage}
 
 
 def public_digest(validated: dict[str, Any], current: datetime) -> dict[str, Any]:
@@ -393,6 +470,7 @@ def public_digest(validated: dict[str, Any], current: datetime) -> dict[str, Any
         "model": ENGINE,
         "headline": validated["headline"],
         "market_summary": validated["market_summary"],
+        "coverage": validated.get("coverage", {}),
         "items": items,
         "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。",
     }
@@ -419,6 +497,28 @@ def save_digest(digest: dict[str, Any], current: datetime) -> None:
     atomic_write_json(DATA_DIR / "latest.json", digest)
     archive = sorted((path.stem for path in DATA_DIR.glob("????-??-??.json")), reverse=True)
     atomic_write_json(DATA_DIR / "archive.json", {"dates": archive[:30]})
+    (ROOT / "docs" / "mobile.html").write_text(render_mobile_html(digest), encoding="utf-8")
+
+
+def render_mobile_html(digest: dict[str, Any]) -> str:
+    esc = lambda value: html.escape(str(value), quote=True)
+    coverage = digest.get("coverage", {})
+    chips = "".join(f'<a href="#{esc(key)}">{esc(key)} {int(coverage.get(key, 0))}</a>' for key in QUOTA_KEYS)
+    def card_html(item: dict[str, Any]) -> str:
+        tags = " ".join(esc(value) for value in [item["region"], *item["asset_types"], item["market_tone"]])
+        return (
+            f'<article><small>{tags} · {esc(item["published_at"][:16].replace("T", " "))}</small>'
+            f'<h3>{esc(item["title"])}</h3><p>{esc(item["summary"])}</p>'
+            f'<p class="why"><b>值得关注：</b>{esc(item["why_it_matters"])}</p>'
+            f'<a class="source" href="{esc(item["source_url"])}">原文 · {esc(item["source_name"])}</a></article>'
+        )
+    sections = []
+    for key in QUOTA_KEYS:
+        matched = [item for item in digest["items"] if item["region"] == key or key in item["asset_types"]][:QUOTA]
+        sections.append(f'<section id="{esc(key)}"><h2>{esc(key)} · {len(matched)} 条</h2>{"".join(card_html(item) for item in matched)}</section>')
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>{esc(digest["headline"])}</title><style>
+*{{box-sizing:border-box}}body{{margin:0;background:#fff8ef;color:#17131f;font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}}main{{max-width:760px;margin:auto;padding:20px 14px 48px}}header{{background:#ffcf3f;border:2px solid #17131f;border-radius:22px;padding:20px;box-shadow:4px 5px 0 #17131f}}h1{{font-size:28px;line-height:1.18;margin:5px 0 12px}}header p{{margin:8px 0}}nav{{display:flex;gap:8px;overflow:auto;padding:16px 2px 10px;position:sticky;top:0;background:#fff8ef}}nav a{{white-space:nowrap;color:#17131f;text-decoration:none;background:#92e7ff;border:2px solid #17131f;border-radius:999px;padding:7px 11px;font-weight:750}}section{{scroll-margin-top:70px}}section>h2{{font-size:23px;margin:24px 3px 8px}}article{{background:white;border:2px solid #17131f;border-radius:19px;padding:17px;margin:12px 0;box-shadow:3px 4px 0 #17131f}}article:nth-of-type(3n+1){{background:#e9dcff}}article:nth-of-type(3n+2){{background:#d8ff72}}small{{font-weight:750}}h3{{font-size:19px;line-height:1.4;margin:8px 0}}p{{margin:7px 0}}.why{{padding:10px;background:#ffffffa8;border-radius:12px}}.source{{display:inline-block;margin-top:7px;color:#17131f;font-weight:800}}footer{{text-align:center;color:#655d6b;margin-top:22px}}@media(max-width:380px){{h1{{font-size:24px}}article{{padding:14px}}}}
+</style></head><body><main><header><small>{esc(digest["date"])} · {len(digest["items"])} 条去重资讯</small><h1>{esc(digest["headline"])}</h1><p>{esc(digest["market_summary"])}</p></header><nav>{chips}</nav>{''.join(sections)}<footer>{esc(digest["disclaimer"])}<br>更新于 {esc(digest["generated_at"])}</footer></main></body></html>'''
 
 
 def dashboard_url() -> str:
@@ -430,6 +530,13 @@ def dashboard_url() -> str:
         owner, name = repository.split("/", 1)
         return f"https://{owner}.github.io/{name}/"
     return ""
+
+
+def mobile_dashboard_url(digest: dict[str, Any]) -> str:
+    repository = os.getenv("GITHUB_REPOSITORY", "")
+    if "/" not in repository:
+        return ""
+    return f"https://cdn.jsdelivr.net/gh/{repository}@main/docs/mobile.html?v={digest['date'].replace('-', '')}"
 
 
 def sign_feishu(payload: dict[str, Any], secret: str) -> None:
@@ -457,17 +564,27 @@ def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | No
     ]
     url = dashboard_url()
     if url:
+        actions = [
+            {
+                "tag": "button",
+                "text": {"tag": "plain_text", "content": "查看完整看板"},
+                "url": url,
+                "type": "primary",
+            }
+        ]
+        mobile_url = mobile_dashboard_url(digest)
+        if mobile_url:
+            actions.append(
+                {
+                    "tag": "button",
+                    "text": {"tag": "plain_text", "content": "手机备用入口"},
+                    "url": mobile_url,
+                }
+            )
         elements.append(
             {
                 "tag": "action",
-                "actions": [
-                    {
-                        "tag": "button",
-                        "text": {"tag": "plain_text", "content": "查看完整看板"},
-                        "url": url,
-                        "type": "primary",
-                    }
-                ],
+                "actions": actions,
             }
         )
     elements.append(
@@ -594,7 +711,7 @@ def self_test() -> None:
                 "why_it_matters": "过期",
                 "region": "美股",
                 "asset_types": ["ETF"],
-                "published_at": (current - timedelta(hours=40)).isoformat(),
+                "published_at": (current - timedelta(days=8)).isoformat(),
                 "importance": 3,
                 "market_tone": "混合",
                 "source_name": "过期来源",

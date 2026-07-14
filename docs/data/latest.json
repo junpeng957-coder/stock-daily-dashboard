@@ -1,182 +1,363 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T00:10+08:00",
+  "generated_at": "2026-07-15T00:21+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
-  "market_summary": "过去 36 小时共筛选 10 条股票、基金及相关宏观资讯，其中 0 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、并购重组。内容按来源可靠性、市场相关性与发布时间排序，不构成买卖建议。",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 20 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
   "items": [
     {
-      "id": "ab33f8cce6c2",
-      "title": "CNBC：利率与通胀｜Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-      "summary": "英文摘要：Warsh pledged Tuesday to \"get monetary policy right\" and defeat the inflation that has bedeviled the central bank for the past five years.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
+      "id": "72d23fdf5935",
+      "title": "深圳证监局对乔某编造传播涉共进股份虚假信息立案调查",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T23:39+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
-      "official": false
+      "published_at": "2026-07-10T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7644837/content.shtml",
+      "official": true
     },
     {
-      "id": "504fd80bf483",
-      "title": "MarketWatch：公司业绩｜Jamie Dimon says ‘booming’ markets and a ‘fine’ consumer fueled JPMorgan’s blowout profits",
-      "summary": "英文摘要：JPMorgan blew past earnings expectations for the second quarter, as CEO Jamie Dimon said markets are booming.",
+      "id": "ecd17caedb81",
+      "title": "证监会对安某编造传播涉中公教育虚假信息立案调查",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-10T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7644005/content.shtml",
+      "official": true
+    },
+    {
+      "id": "dd3f99171ed8",
+      "title": "晚报丨今晚美国或六年来首现环比“负CPI”；美联储本月加息概率升至近50%；韩国市场将面临“双重审判”；美国纽约州将暂时禁止建设新大型数据中心；SK海力士产能扩张只是“画饼”？长飞光纤：上半年净利润同比预增711%-914%",
+      "summary": "今晚美国或六年来首现环比“负CPI”；美联储本月加息概率升至近50%；韩国市场将面临“双重审判”；美国纽约州将暂时禁止建设新大型数据中心；SK海力士产能扩张只是“画饼”？长飞光纤：上半年净利润同比预增711%-914%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T23:20+08:00",
+      "published_at": "2026-07-14T18:11+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/jpmorgan-beats-profit-expectations-by-the-most-in-five-years-as-equity-markets-revenue-surges-9a0d8805?mod=mw_rss_topstories",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202607143805754482.html",
       "official": false
     },
     {
-      "id": "946c2ef8a813",
-      "title": "CNBC：公司业绩｜IBM stock craters 23% after issuing second-quarter earnings warning",
-      "summary": "英文摘要：CEO blamed the shortfall on weakness in the software and infrastructure business because clients shifted money toward hardware purchases.",
+      "id": "ad79417fe36a",
+      "title": "多重利好提振港股PCB概念 建滔积层板一度大涨超9%",
+      "summary": "今日港股PCB相关个股逆势反弹，其中建滔积层板及建滔集团一度走强。截至发稿，广合科技(01989.HK)涨4.20%，建滔积层板(01888.HK)涨3.62%，建滔集团(00148.HK)涨2.02%。消息方面，港股PCB概念股走强的直接催化剂来自A股核心PCB厂商集体发布的高增长业绩预告。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T23:16+08:00",
+      "published_at": "2026-07-14T11:10+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202607143805275484.html",
+      "official": false
+    },
+    {
+      "id": "c20ed11c6b46",
+      "title": "早报丨中东战火重燃推升通胀担忧，AI芯片股重挫拖累股市；远离算力军备竞赛，苹果股价逆市新高；今夜CPI沃什齐登场",
+      "summary": "中东战火重燃推升通胀担忧，AI芯片股重挫拖累股市；远离算力军备竞赛，苹果股价逆市新高；今夜CPI沃什齐登场。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T07:59+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202607143804517447.html",
+      "official": false
+    },
+    {
+      "id": "937ef0c4458b",
+      "title": "晚报丨AI恐慌蔓延，SK海力士跌超15%；美完成对伊朗新一轮打击；韩国五大银行已用掉85%全年家庭贷款额度；台积电6月营收同比增长68%；AI模型竞争进入成本战；Meta加码路易斯安那州数据中心；分析师：SpaceX只值每股30美元！",
+      "summary": "AI恐慌蔓延，SK海力士跌超15%；美完成对伊朗新一轮打击；韩国五大银行已用掉85%全年家庭贷款额度；台积电6月营收同比增长68%；AI模型竞争进入成本战；Meta加码路易斯安那州数据中心；分析师：SpaceX只值每股30美元！",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-13T18:19+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202607133803926910.html",
+      "official": false
+    },
+    {
+      "id": "4702e8ec2f81",
+      "title": "中报季港股资金追逐确定性 内银股分红落地逆势飘红",
+      "summary": "在存储等AI概念板块调整及市场风险偏好走弱的同时，港股内银股今日集体逆势飘红。截至发稿，甘肃银行(02139.HK)涨超4%，工商银行(01398.HK)涨逾2%，民生银行(01988.HK)等多只个股跟涨1%以上。短线来看，港股面对中东地缘博弈反复，AI交易拥挤及中报业绩验证，整体风险偏好回落，存量资金再度向防御品种轮动。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-13T15:13+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202607133803727228.html",
       "official": false
     },
     {
-      "id": "1c38b998f083",
-      "title": "CNBC：公司业绩｜Chamath Palihapitiya says soaring AI token spend will hit companies' earnings",
-      "summary": "英文摘要：Palihapitiya is part of a growing chorus of investors and tech executives who are cautioning that the tokenmaxxing era is coming to an end.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "id": "cdabc7b59758",
+      "title": "香港交易所新增18隻每周及月度股票期權類別",
+      "summary": "香港交易所发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-07-14T22:47+08:00",
+      "published_at": "2026-07-13T11:34+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/chamath-palihapitiya-ai-tokenmaxxing.html",
-      "official": false
+      "source_name": "香港交易所",
+      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/260713news?sc_lang=zh-HK",
+      "official": true
     },
     {
-      "id": "1eef65aafa45",
-      "title": "MarketWatch：公司业绩｜Bank of America’s stock reverses premarket decline in wake of blockbuster earnings report",
-      "summary": "英文摘要：Investors initially appeared to be “selling the news” after the bank handily beat Wall Street’s expectations",
+      "id": "bd0b5389ba39",
+      "title": "一周前瞻丨华尔街Q2财报季揭幕，台积电、阿斯麦检验AI需求；美国6月CPI/PPI数据来袭；沃什国会首秀；美伊“边打边谈”牵动油价",
+      "summary": "新一周重磅日程一览沃什首次以美联储主席身份出席国会听证，全周市场聚焦利率信号美联储主席沃什将于周二、周三连续两天出席国会半年度货币政策听证会。这是沃什上任以来首次以美联储主席身份赴国会就货币政策作证，也将成为全周最重要的交易事件。周二22:00（本文均为北京时间），沃什将出席众议院金融服务委员会听证会；周三22:00，他将转赴参议院银行、住房和城市事务委员会作证。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T21:52+08:00",
+      "published_at": "2026-07-13T07:26+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/bank-of-america-stock-falls-despite-earnings-beat-3d4db2b4?mod=mw_rss_topstories",
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202607133802728637.html",
       "official": false
     },
     {
-      "id": "836a42b67910",
-      "title": "CNBC：利率与通胀｜Sen. Tim Scott wants to hear from Warsh on data centers and artificial intelligence",
-      "summary": "英文摘要：Sen. Tim Scott, R-S.C., will host Kevin Warsh before the Senate Banking Committee on Wednesday for his first time testifying as Fed chairman.",
+      "id": "a9e3f2059b5e",
+      "title": "广发策略：不以物喜、不以己悲 如何看待科技股调整？",
+      "summary": "广发策略是本轮AI产业趋势中最坚定的乐观派之一，每当市场出现重大分歧的时刻，我们都对AI板块保持了战略看多的判断。尤其是今年3月美伊战争爆发的时候，大家对高油价、高利率、加息预期颇为担忧，但彼时最悲观时刻（指数跌破3800），我们建议抛开油价和战争，聚焦产业景气本身，事后来看，是否敢于在3月抄底AI可以说是今年最关键的胜负手，至少上半年看是如此。",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T21:36+08:00",
+      "published_at": "2026-07-12T16:30+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/tim-scott-kevin-warsh-data-centers-artificial-intelligence.html",
+      "source_name": "广发证券",
+      "source_url": "https://finance.eastmoney.com/a/202607123802634841.html",
       "official": false
     },
     {
-      "id": "8c63e84fc701",
-      "title": "CNBC：并购重组｜Paramount still plans to close WBD merger by end of September despite lawsuit",
-      "summary": "英文摘要：Paramount is still planning for its acquisition of Warner Bros. Discovery to close by late September despite lawsuit challenge from state attorneys general.",
-      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
-      "region": "美股",
+      "id": "d69003944773",
+      "title": "多只公募产品二季度净值大涨 “含科量”成业绩密码",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T23:36+08:00",
-      "importance": 2,
+      "published_at": "2026-07-11T12:00+08:00",
+      "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/paramount-wbd-merger-lawsuit.html",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607113802215647.html",
       "official": false
     },
     {
-      "id": "3cb1a9652f28",
-      "title": "MarketWatch：基金与ETF｜Why SpaceX and Tesla are ‘value’ stocks, according to this fund manager",
-      "summary": "英文摘要：Tesla and SpaceX may be winners in the next evolution of value investing, says the president and chief investment officer of Tsai Capital, Christopher Tsai.",
+      "id": "f081d4f30f5c",
+      "title": "“AI卖水人”拟上市：卖Token一年亏了3亿",
+      "summary": "【“AI卖水人”拟上市：卖Token一年亏了3亿】近日，AI“Token工厂”北京硅基流动科技股份有限公司（下称硅基流动）向港交所递交招股书。成立不到三年，硅基流动2025年的营收涨幅高达653.2%，但未实现盈利。随着公有云业务占比首次过半，公司整体毛利率由正转负，Token越卖越亏。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-11T10:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202607113802449922.html",
+      "official": false
+    },
+    {
+      "id": "b9e7e3328d12",
+      "title": "国常会：全链条推动新兴支柱产业规模化发展 加强基础研究和关键软硬件攻关",
+      "summary": "【国务院常务会议研究新兴支柱产业培育有关工作】李强主持召开国务院常务会议，会议研究新兴支柱产业培育有关工作。会议指出，要全链条推动新兴支柱产业规模化发展，加强基础研究和关键软硬件攻关，加速技术迭代和生态完善。要优化监管模式，引导各地因地制宜、错位发展。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-10T19:16+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "新华社",
+      "source_url": "https://finance.eastmoney.com/a/202607103802030444.html",
+      "official": false
+    },
+    {
+      "id": "1e489da10c33",
+      "title": "【一图看懂】重仓股大洗牌，知名基金经理最新持仓曝光",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "美股",
+      "region": "A股",
       "asset_types": [
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T21:45+08:00",
+      "published_at": "2026-07-14T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/why-spacex-and-tesla-are-value-stocks-according-to-this-fund-manager-5f59ff86?mod=mw_rss_topstories",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607143805945361.html",
       "official": false
     },
     {
-      "id": "76a7cab8f525",
-      "title": "CNBC：IPO与融资｜A French underwear brand is taking on fast fashion — with an IPO",
-      "summary": "英文摘要：Le Slip Français will make its stock market debut in Paris on Tuesday, betting that consumers will pay for locally made clothing amid competition from Shein.",
-      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
-      "region": "美股",
+      "id": "b73f5e3f9fd3",
+      "title": "宽基ETF惊现“机构式”扫货 7月已有1800亿元资金“入市” A股变盘时刻已到？",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
       "asset_types": [
-        "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-07-14T18:04+08:00",
+      "published_at": "2026-07-14T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/le-slip-francais-ipo-french-underwear.html",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607143805898813.html",
       "official": false
     },
     {
-      "id": "66d6d003d517",
-      "title": "CNBC：股东回报｜Business declares war on Pentagon stock buyback, dividend restrictions moving in Senate",
-      "summary": "英文摘要：The provision was pushed by Sen. Elizabeth Warren, D-Mass., and was included in the National Defense Authorization Act on a bipartisan basis.",
-      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
-      "region": "美股",
+      "id": "a0cb1f4f26db",
+      "title": "一批“翻倍基”二季报出炉，“站在光里”的基金经理分歧了？",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
       "asset_types": [
-        "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-07-14T17:00+08:00",
+      "published_at": "2026-07-14T12:00+08:00",
       "importance": 2,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/stock-buyback-ban-senate-lobbying-ndaa.html",
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607143805834886.html",
+      "official": false
+    },
+    {
+      "id": "6720a960b95e",
+      "title": "昨日股票ETF资金净流入超610亿元！宽基、半导体持续“吸金”",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607143805385833.html",
+      "official": false
+    },
+    {
+      "id": "9ab9cea20d50",
+      "title": "基金共管：“1+1”能否带来新气象？",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607143804295363.html",
+      "official": false
+    },
+    {
+      "id": "8c0684cae0bd",
+      "title": "个人养老金基金扩容至321只！Y份额年内收益最高已超50%",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607133804262958.html",
+      "official": false
+    },
+    {
+      "id": "fe50a5ebaa58",
+      "title": "科技“抱团资金”要瓦解？基金公司最新研判来了",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607133804183165.html",
       "official": false
     }
   ],
