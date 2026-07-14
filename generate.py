@@ -681,7 +681,14 @@ def create_feishu_document(digest: dict[str, Any]) -> str:
 
     feishu_api(
         f"drive/v1/permissions/{document_id}/public?type=docx",
-        {"link_share_entity": "tenant_readable"},
+        {
+            "external_access": True,
+            "invite_external": True,
+            "link_share_entity": "anyone_editable",
+            "share_entity": "anyone",
+            "comment_entity": "anyone_can_view",
+            "security_entity": "anyone_can_view",
+        },
         token,
         method="PATCH",
     )
