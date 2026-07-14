@@ -536,7 +536,7 @@ def mobile_dashboard_url(digest: dict[str, Any]) -> str:
     repository = os.getenv("GITHUB_REPOSITORY", "")
     if "/" not in repository:
         return ""
-    return f"https://cdn.jsdelivr.net/gh/{repository}@main/docs/mobile.html?v={digest['date'].replace('-', '')}"
+    return f"https://raw.githack.com/{repository}/main/docs/mobile.html?v={digest['date'].replace('-', '')}"
 
 
 def sign_feishu(payload: dict[str, Any], secret: str) -> None:
