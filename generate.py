@@ -547,9 +547,54 @@ def sign_feishu(payload: dict[str, Any], secret: str) -> None:
     payload["sign"] = base64.b64encode(digest).decode("utf-8")
 
 
-def feishu_card(digest: dict[str, Any]) -> dict[str, Any]:
+def feishu_section_panel(
+    digest: dict[str, Any], key: str, private_items: list[dict[str, Any]] | None = None
+) -> dict[str, Any]:
+    private_by_id = {item["id"]: item for item in private_items or []}
+    items = [
+        item for item in digest["items"]
+        if item["region"] == key or key in item["asset_types"]
+    ][:QUOTA]
+    lines = []
+    for index, item in enumerate(items, 1):
+        related = " · 自选相关" if private_by_id.get(item["id"], {}).get("watchlist_match") else ""
+        published = item["published_at"][:16].replace("T", " ")
+        assets = "/".join(item["asset_types"])
+        lines.append(
+            f"**{index}. {item['title']}**\n"
+            f"{item['summary'][:220]}\n"
+            f"**关注：** {item['why_it_matters'][:140]}\n"
+            f"{item['region']} · {assets} · {item['market_tone']}{related} · {published} · "
+            f"[{item['source_name']}]({item['source_url']})"
+        )
+    colors = {"A股": "orange", "港股": "turquoise", "股票": "blue", "基金": "purple", "ETF": "green"}
+    return {
+        "tag": "collapsible_panel",
+        "expanded": False,
+        "header": {
+            "title": {"tag": "plain_text", "content": f"{key}资讯 · {len(items)} 条（点击展开）"},
+            "vertical_align": "center",
+            "padding": "6px 8px 6px 8px",
+            "icon": {
+                "tag": "standard_icon",
+                "token": "down-small-ccm_outlined",
+                "color": colors[key],
+                "size": "16px 16px",
+            },
+            "icon_position": "right",
+            "icon_expanded_angle": -180,
+        },
+        "border": {"color": "grey", "corner_radius": "8px"},
+        "vertical_spacing": "8px",
+        "padding": "8px 8px 8px 8px",
+        "elements": [{"tag": "markdown", "content": "\n\n---\n\n".join(lines) or "当前板块暂无可靠资讯。"}],
+    }
+
+
+def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     elements: list[dict[str, Any]] = [
         {"tag": "div", "text": {"tag": "lark_md", "content": digest["market_summary"][:900]}},
+        *(feishu_section_panel(digest, key, private_items) for key in QUOTA_KEYS),
     ]
     url = dashboard_url()
     if url:
@@ -595,48 +640,8 @@ def feishu_card(digest: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def feishu_section_card(
-    digest: dict[str, Any], key: str, private_items: list[dict[str, Any]] | None = None
-) -> dict[str, Any]:
-    private_by_id = {item["id"]: item for item in private_items or []}
-    items = [
-        item for item in digest["items"]
-        if item["region"] == key or key in item["asset_types"]
-    ][:QUOTA]
-    lines = []
-    for index, item in enumerate(items, 1):
-        related = " · 自选相关" if private_by_id.get(item["id"], {}).get("watchlist_match") else ""
-        published = item["published_at"][:16].replace("T", " ")
-        assets = "/".join(item["asset_types"])
-        lines.append(
-            f"**{index}. {item['title']}**\n"
-            f"{item['summary'][:220]}\n"
-            f"**关注：** {item['why_it_matters'][:140]}\n"
-            f"{item['region']} · {assets} · {item['market_tone']}{related} · {published} · "
-            f"[{item['source_name']}]({item['source_url']})"
-        )
-    templates = {"A股": "orange", "港股": "turquoise", "股票": "blue", "基金": "purple", "ETF": "green"}
-    return {
-        "msg_type": "interactive",
-        "card": {
-            "config": {"wide_screen_mode": True},
-            "header": {
-                "template": templates[key],
-                "title": {"tag": "plain_text", "content": f"{digest['date']} · {key}资讯 · {len(items)} 条"},
-            },
-            "elements": [
-                {"tag": "div", "text": {"tag": "lark_md", "content": "\n\n---\n\n".join(lines)}},
-                {
-                    "tag": "note",
-                    "elements": [{"tag": "plain_text", "content": "自动汇总，仅供信息参考，不构成投资建议"}],
-                },
-            ],
-        },
-    }
-
-
 def feishu_cards(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
-    return [feishu_card(digest), *(feishu_section_card(digest, key, private_items) for key in QUOTA_KEYS)]
+    return [feishu_card(digest, private_items)]
 
 
 def post_feishu(payload: dict[str, Any]) -> None:
@@ -770,7 +775,8 @@ def self_test() -> None:
     encoded = json.dumps(public, ensure_ascii=False)
     assert "SECRET-STOCK" not in encoded and "watchlist" not in encoded
     cards = feishu_cards(public, validated["items"])
-    assert len(cards) == 6
+    assert len(cards) == 1
+    assert sum(element.get("tag") == "collapsible_panel" for element in cards[0]["card"]["elements"]) == 5
     assert all(len(json.dumps(card, ensure_ascii=False)) < 30000 for card in cards)
     parsed = parse_watchlist('["510300", {"symbol":"AAPL", "name":"Apple"}]')
     assert parsed == ["510300", "AAPL Apple"]
