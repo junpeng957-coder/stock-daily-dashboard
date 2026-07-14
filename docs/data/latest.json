@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T23:15+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "demo",
+  "headline": "全球市场晨间简报 · 示例",
+  "market_summary": "当前展示固定示例数据，用于预览页面而非投资决策。配置 API 密钥并运行自动化后，将替换为每日联网资讯。",
+  "items": [
+    {
+      "id": "9d3c787a7817",
+      "title": "中国市场监管动态进入观察窗口",
+      "summary": "这是用于验证看板布局和交互的固定示例，不代表当天真实市场资讯。",
+      "why_it_matters": "用于检查地区、资产、来源和市场影响标签是否清晰展示。",
+      "region": "A股",
+      "asset_types": [
+        "股票"
+      ],
+      "published_at": "2026-07-14T22:15+08:00",
+      "importance": 5,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/",
+      "official": true
+    },
+    {
+      "id": "0c214f529538",
+      "title": "港股基金关注海外资金与科技板块变化",
+      "summary": "这是用于验证看板布局和交互的固定示例，不代表当天真实市场资讯。",
+      "why_it_matters": "用于检查地区、资产、来源和市场影响标签是否清晰展示。",
+      "region": "港股",
+      "asset_types": [
+        "ETF"
+      ],
+      "published_at": "2026-07-14T21:15+08:00",
+      "importance": 4,
+      "market_tone": "混合",
+      "source_name": "香港交易所",
+      "source_url": "https://www.hkex.com.hk/",
+      "official": true
+    },
+    {
+      "id": "daef53ef75f7",
+      "title": "美股投资者等待企业披露与政策信号",
+      "summary": "这是用于验证看板布局和交互的固定示例，不代表当天真实市场资讯。",
+      "why_it_matters": "用于检查地区、资产、来源和市场影响标签是否清晰展示。",
+      "region": "美股",
+      "asset_types": [
+        "股票"
+      ],
+      "published_at": "2026-07-14T20:15+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "美国证券交易委员会",
+      "source_url": "https://www.sec.gov/",
+      "official": true
+    },
+    {
+      "id": "2a69d1ed4c7d",
+      "title": "主要央行表态仍是全球权益资产的重要变量",
+      "summary": "这是用于验证看板布局和交互的固定示例，不代表当天真实市场资讯。",
+      "why_it_matters": "用于检查地区、资产、来源和市场影响标签是否清晰展示。",
+      "region": "全球宏观",
+      "asset_types": [
+        "基金"
+      ],
+      "published_at": "2026-07-14T19:15+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/",
+      "official": true
+    }
+  ],
+  "disclaimer": "AI 汇总，仅供信息参考，不构成任何投资建议。"
+}
