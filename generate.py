@@ -566,11 +566,30 @@ def feishu_api(path: str, payload: dict[str, Any], token: str, method: str = "PO
     return response
 
 
-def feishu_text_block(block_type: int, field: str, content: str) -> dict[str, Any]:
+def feishu_text_block(
+    block_type: int,
+    field: str,
+    content: str = "",
+    element_style: dict[str, Any] | None = None,
+    elements: list[dict[str, Any]] | None = None,
+    align: int = 1,
+) -> dict[str, Any]:
+    if elements is None:
+        text_run: dict[str, Any] = {"content": content[:3500]}
+        if element_style:
+            text_run["text_element_style"] = element_style
+        elements = [{"text_run": text_run}]
     return {
         "block_type": block_type,
-        field: {"elements": [{"text_run": {"content": content[:3500]}}]},
+        field: {"elements": elements, "style": {"align": align}},
     }
+
+
+def feishu_text_run(content: str, **style: Any) -> dict[str, Any]:
+    text_run: dict[str, Any] = {"content": content[:3500]}
+    if style:
+        text_run["text_element_style"] = style
+    return {"text_run": text_run}
 
 
 def create_feishu_document(digest: dict[str, Any]) -> str:
@@ -599,31 +618,59 @@ def create_feishu_document(digest: dict[str, Any]) -> str:
         raise RuntimeError("飞书创建文档成功但未返回 document_id")
 
     blocks = [
-        feishu_text_block(2, "text", f"更新时间：{digest['generated_at']}\n共 {len(digest['items'])} 条去重资讯；以下按六个板块展示，跨板块资讯可能重复。"),
-        feishu_text_block(3, "heading1", "市场概览"),
-        feishu_text_block(2, "text", digest["market_summary"]),
+        feishu_text_block(
+            2,
+            "text",
+            f"🗓️ 更新时间：{digest['generated_at']}  ·  ✨ {len(digest['items'])} 条去重资讯  ·  📚 六大板块",
+            {"bold": True, "text_color": 5, "background_color": 5},
+            align=2,
+        ),
+        feishu_text_block(3, "heading1", "🌈 今日市场速览", {"bold": True, "text_color": 2, "background_color": 3}),
+        feishu_text_block(2, "text", digest["market_summary"], {"background_color": 3}),
+        {"block_type": 22, "divider": {}},
     ]
+    section_style = {
+        "A股": ("🟠", 2),
+        "港股": ("🟢", 4),
+        "美股": ("🔴", 1),
+        "股票": ("🔵", 5),
+        "基金": ("🟣", 6),
+        "ETF": ("🟡", 3),
+    }
     for key in QUOTA_KEYS:
         section_items = [
             item for item in digest["items"]
             if item["region"] == key or key in item["asset_types"]
         ][:QUOTA]
-        blocks.append(feishu_text_block(4, "heading2", f"{key}资讯 · {len(section_items)} 条"))
-        for index, item in enumerate(section_items, 1):
+        icon, color = section_style[key]
+        blocks.append(
+            feishu_text_block(
+                4,
+                "heading2",
+                f"{icon} {key}资讯  ·  {len(section_items)} 条",
+                {"bold": True, "text_color": color, "background_color": color},
+            )
+        )
+        for item in section_items:
             assets = "/".join(item["asset_types"])
             published = item["published_at"][:16].replace("T", " ")
-            content = (
-                f"{index}. {item['title']}\n"
-                f"{item['summary']}\n"
-                f"为什么值得关注：{item['why_it_matters']}\n"
-                f"{item['region']} · {assets} · {item['market_tone']} · {published} · "
-                f"{item['source_name']}\n原文：{item['source_url']}"
-            )
-            blocks.append(feishu_text_block(13, "ordered", content))
+            source_link = {"url": urllib.parse.quote(item["source_url"], safe="")}
+            elements = [
+                feishu_text_run(f"{item['title']}\n", bold=True, text_color=color),
+                feishu_text_run(f"{item['summary']}\n"),
+                feishu_text_run("💡 为什么值得关注：", bold=True, background_color=color),
+                feishu_text_run(f"{item['why_it_matters']}\n"),
+                feishu_text_run(
+                    f"{item['region']} · {assets} · {item['market_tone']} · {published} · ",
+                    text_color=7,
+                ),
+                feishu_text_run(item["source_name"], text_color=5, underline=True, link=source_link),
+            ]
+            blocks.append(feishu_text_block(13, "ordered", elements=elements))
+        blocks.append({"block_type": 22, "divider": {}})
     blocks.extend(
         [
-            {"block_type": 22, "divider": {}},
-            feishu_text_block(2, "text", digest["disclaimer"]),
+            feishu_text_block(2, "text", f"🛡️ {digest['disclaimer']}", {"italic": True, "text_color": 7, "background_color": 7}),
         ]
     )
 
