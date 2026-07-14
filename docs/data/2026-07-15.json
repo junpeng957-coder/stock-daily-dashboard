@@ -1,19 +1,38 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T00:41+08:00",
+  "generated_at": "2026-07-15T00:49+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 20 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 6 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
+    "美股": 10,
     "股票": 10,
     "基金": 10,
     "ETF": 10
   },
   "items": [
+    {
+      "id": "a5daa8f4133f",
+      "title": "美国证监会：监管政策｜SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+      "summary": "英文摘要：The Securities and Exchange Commission’s Office of Municipal Securities today announced it has updated its Registration of Municipal Advisors FAQs webpage to offer more clarity on municipal advisor registration and recordkeeping requirements. The…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-11T00:00+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors",
+      "official": true
+    },
     {
       "id": "72d23fdf5935",
       "title": "深圳证监局对乔某编造传播涉共进股份虚假信息立案调查",
@@ -49,6 +68,146 @@
       "source_name": "中国证监会",
       "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7644005/content.shtml",
       "official": true
+    },
+    {
+      "id": "f0ecce5ed3d8",
+      "title": "美国证监会：监管政策｜SEC to Host Virtual Roundtable on Modernizing IPOs and Expanding Access to Public Markets",
+      "summary": "英文摘要：The Securities and Exchange Commission’s Office of the Advocate for Small Business Capital Formation and the Division of Corporation Finance will co-host a livestreamed discussion on Monday, July 13, 2026, at 2 p.m. to re-examine…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-09T01:54+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-65-sec-host-virtual-roundtable-modernizing-ipos-expanding-access-public-markets",
+      "official": true
+    },
+    {
+      "id": "cf69615a5dc9",
+      "title": "美国证监会：监管政策｜SEC Small Business Advisory Committee to Explore Modernizing Market Access",
+      "summary": "英文摘要：The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, July 21, 2026 at 10 a.m. to explore ways to modernize public market access and encourage IPOs…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-08T21:01+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access",
+      "official": true
+    },
+    {
+      "id": "ab33f8cce6c2",
+      "title": "CNBC：利率与通胀｜Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
+      "summary": "英文摘要：Warsh pledged Tuesday to \"get monetary policy right\" and defeat the inflation that has bedeviled the central bank for the past five years.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T23:39+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "official": false
+    },
+    {
+      "id": "504fd80bf483",
+      "title": "MarketWatch：公司业绩｜Jamie Dimon says ‘booming’ markets and a ‘fine’ consumer fueled JPMorgan’s blowout profits",
+      "summary": "英文摘要：JPMorgan blew past earnings expectations for the second quarter, as CEO Jamie Dimon said markets are booming.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-14T23:20+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/jpmorgan-beats-profit-expectations-by-the-most-in-five-years-as-equity-markets-revenue-surges-9a0d8805?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "946c2ef8a813",
+      "title": "CNBC：公司业绩｜IBM stock craters 23% after issuing second-quarter earnings warning",
+      "summary": "英文摘要：CEO blamed the shortfall on weakness in the software and infrastructure business because clients shifted money toward hardware purchases.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-14T23:16+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
+      "official": false
+    },
+    {
+      "id": "1c38b998f083",
+      "title": "CNBC：公司业绩｜Chamath Palihapitiya says soaring AI token spend will hit companies' earnings",
+      "summary": "英文摘要：Palihapitiya is part of a growing chorus of investors and tech executives who are cautioning that the tokenmaxxing era is coming to an end.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-14T22:47+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/chamath-palihapitiya-ai-tokenmaxxing.html",
+      "official": false
+    },
+    {
+      "id": "1eef65aafa45",
+      "title": "MarketWatch：公司业绩｜Bank of America’s stock reverses premarket decline in wake of blockbuster earnings report",
+      "summary": "英文摘要：Investors initially appeared to be “selling the news” after the bank handily beat Wall Street’s expectations",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-14T21:52+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/bank-of-america-stock-falls-despite-earnings-beat-3d4db2b4?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "836a42b67910",
+      "title": "CNBC：利率与通胀｜Sen. Tim Scott wants to hear from Warsh on data centers and artificial intelligence",
+      "summary": "英文摘要：Sen. Tim Scott, R-S.C., will host Kevin Warsh before the Senate Banking Committee on Wednesday for his first time testifying as Fed chairman.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-14T21:36+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/tim-scott-kevin-warsh-data-centers-artificial-intelligence.html",
+      "official": false
     },
     {
       "id": "dd3f99171ed8",
@@ -239,6 +398,23 @@
       "market_tone": "中性",
       "source_name": "新华社",
       "source_url": "https://finance.eastmoney.com/a/202607103802030444.html",
+      "official": false
+    },
+    {
+      "id": "8c63e84fc701",
+      "title": "CNBC：并购重组｜Paramount still plans to close WBD merger by end of September despite lawsuit",
+      "summary": "英文摘要：Paramount is still planning for its acquisition of Warner Bros. Discovery to close by late September despite lawsuit challenge from state attorneys general.",
+      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-14T23:36+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/paramount-wbd-merger-lawsuit.html",
       "official": false
     },
     {

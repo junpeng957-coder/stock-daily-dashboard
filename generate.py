@@ -59,7 +59,7 @@ EASTMONEY_COLUMNS = [
     ("东方财富·港股", 797, "港股"),
 ]
 
-QUOTA_KEYS = ("A股", "港股", "股票", "基金", "ETF")
+QUOTA_KEYS = ("A股", "港股", "美股", "股票", "基金", "ETF")
 
 TOPICS = [
     (("etf", "mutual fund", "fund manager", "fund flow", "asset manager", "基金"), "基金与ETF", "可能影响基金申赎、资金配置和相关指数产品表现。", ["基金", "ETF"]),
@@ -102,12 +102,18 @@ def parse_watchlist(raw: str) -> list[str]:
     return result[:100]
 
 
-def request_json(url: str, payload: dict[str, Any], headers: dict[str, str], timeout: int = 180) -> dict[str, Any]:
+def request_json(
+    url: str,
+    payload: dict[str, Any],
+    headers: dict[str, str],
+    timeout: int = 180,
+    method: str = "POST",
+) -> dict[str, Any]:
     request = urllib.request.Request(
         url,
         data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
         headers={"Content-Type": "application/json", **headers},
-        method="POST",
+        method=method,
     )
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -372,7 +378,7 @@ def collect_digest(watchlist: list[str], current: datetime) -> dict[str, Any]:
         item.pop("topic", None)
     return {
         "headline": f"{current:%m月%d日} 全球股市与基金晨报",
-        "market_summary": f"优先检索最近 {LOOKBACK_HOURS} 小时，不足类别回溯至 7 天，共筛选 {len(unique)} 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 {QUOTA} 条，其中 {official_count} 条来自监管机构、交易所或央行。重点集中在{top_topics}。一条资讯可能进入多个板块，不构成买卖建议。",
+        "market_summary": f"优先检索最近 {LOOKBACK_HOURS} 小时，不足类别回溯至 7 天，共筛选 {len(unique)} 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 {QUOTA} 条，其中 {official_count} 条来自监管机构、交易所或央行。重点集中在{top_topics}。一条资讯可能进入多个板块，不构成买卖建议。",
         "items": unique,
         "coverage": coverage,
     }
@@ -547,6 +553,94 @@ def sign_feishu(payload: dict[str, Any], secret: str) -> None:
     payload["sign"] = base64.b64encode(digest).decode("utf-8")
 
 
+def feishu_api(path: str, payload: dict[str, Any], token: str, method: str = "POST") -> dict[str, Any]:
+    response = request_json(
+        f"https://open.feishu.cn/open-apis/{path.lstrip('/')}",
+        payload,
+        {"Authorization": f"Bearer {token}"},
+        timeout=30,
+        method=method,
+    )
+    if response.get("code", 0) != 0:
+        raise RuntimeError(f"飞书 API 失败：{response.get('code')} {response.get('msg', '')}")
+    return response
+
+
+def feishu_text_block(block_type: int, field: str, content: str) -> dict[str, Any]:
+    return {
+        "block_type": block_type,
+        field: {"elements": [{"text_run": {"content": content[:3500]}}]},
+    }
+
+
+def create_feishu_document(digest: dict[str, Any]) -> str:
+    app_id = os.getenv("FEISHU_APP_ID", "").strip()
+    app_secret = os.getenv("FEISHU_APP_SECRET", "").strip()
+    if not app_id or not app_secret:
+        return ""
+
+    auth = request_json(
+        "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal",
+        {"app_id": app_id, "app_secret": app_secret},
+        {},
+        timeout=20,
+    )
+    token = auth.get("tenant_access_token", "")
+    if auth.get("code", 0) != 0 or not token:
+        raise RuntimeError(f"获取飞书访问凭证失败：{auth.get('msg', 'unknown error')}")
+
+    created = feishu_api(
+        "docx/v1/documents",
+        {"title": f"{digest['date']} 每日股市资讯看板"},
+        token,
+    )
+    document_id = created.get("data", {}).get("document", {}).get("document_id", "")
+    if not document_id:
+        raise RuntimeError("飞书创建文档成功但未返回 document_id")
+
+    blocks = [
+        feishu_text_block(2, "text", f"更新时间：{digest['generated_at']}\n共 {len(digest['items'])} 条去重资讯；以下按六个板块展示，跨板块资讯可能重复。"),
+        feishu_text_block(3, "heading1", "市场概览"),
+        feishu_text_block(2, "text", digest["market_summary"]),
+    ]
+    for key in QUOTA_KEYS:
+        section_items = [
+            item for item in digest["items"]
+            if item["region"] == key or key in item["asset_types"]
+        ][:QUOTA]
+        blocks.append(feishu_text_block(4, "heading2", f"{key}资讯 · {len(section_items)} 条"))
+        for index, item in enumerate(section_items, 1):
+            assets = "/".join(item["asset_types"])
+            published = item["published_at"][:16].replace("T", " ")
+            content = (
+                f"{index}. {item['title']}\n"
+                f"{item['summary']}\n"
+                f"为什么值得关注：{item['why_it_matters']}\n"
+                f"{item['region']} · {assets} · {item['market_tone']} · {published} · "
+                f"{item['source_name']}\n原文：{item['source_url']}"
+            )
+            blocks.append(feishu_text_block(13, "ordered", content))
+    blocks.extend(
+        [
+            {"block_type": 22, "divider": {}},
+            feishu_text_block(2, "text", digest["disclaimer"]),
+        ]
+    )
+
+    children_url = f"docx/v1/documents/{document_id}/blocks/{document_id}/children"
+    for offset in range(0, len(blocks), 50):
+        feishu_api(children_url, {"index": -1, "children": blocks[offset:offset + 50]}, token)
+        time.sleep(0.4)
+
+    feishu_api(
+        f"drive/v1/permissions/{document_id}/public?type=docx",
+        {"link_share_entity": "tenant_readable"},
+        token,
+        method="PATCH",
+    )
+    return f"https://feishu.cn/docx/{document_id}"
+
+
 def feishu_section_panel(
     digest: dict[str, Any], key: str, private_items: list[dict[str, Any]] | None = None
 ) -> dict[str, Any]:
@@ -554,7 +648,7 @@ def feishu_section_panel(
     items = [
         item for item in digest["items"]
         if item["region"] == key or key in item["asset_types"]
-    ][:QUOTA]
+    ][:3]
     lines = []
     for index, item in enumerate(items, 1):
         related = " · 自选相关" if private_by_id.get(item["id"], {}).get("watchlist_match") else ""
@@ -562,12 +656,10 @@ def feishu_section_panel(
         assets = "/".join(item["asset_types"])
         lines.append(
             f"**{index}. {item['title']}**\n"
-            f"{item['summary'][:220]}\n"
-            f"**关注：** {item['why_it_matters'][:140]}\n"
             f"{item['region']} · {assets} · {item['market_tone']}{related} · {published} · "
             f"[{item['source_name']}]({item['source_url']})"
         )
-    colors = {"A股": "orange", "港股": "turquoise", "股票": "blue", "基金": "purple", "ETF": "green"}
+    colors = {"A股": "orange", "港股": "turquoise", "美股": "carmine", "股票": "blue", "基金": "purple", "ETF": "green"}
     return {
         "tag": "collapsible_panel",
         "expanded": False,
@@ -591,22 +683,26 @@ def feishu_section_panel(
     }
 
 
-def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+def feishu_card(
+    digest: dict[str, Any],
+    private_items: list[dict[str, Any]] | None = None,
+    document_url: str = "",
+) -> dict[str, Any]:
     elements: list[dict[str, Any]] = [
         {"tag": "div", "text": {"tag": "lark_md", "content": digest["market_summary"][:900]}},
         *(feishu_section_panel(digest, key, private_items) for key in QUOTA_KEYS),
     ]
-    url = dashboard_url()
+    url = document_url or dashboard_url()
     if url:
         actions = [
             {
                 "tag": "button",
-                "text": {"tag": "plain_text", "content": "查看完整看板"},
+                "text": {"tag": "plain_text", "content": "在飞书中查看完整看板" if document_url else "查看完整看板"},
                 "url": url,
                 "type": "primary",
             }
         ]
-        mobile_url = mobile_dashboard_url(digest)
+        mobile_url = "" if document_url else mobile_dashboard_url(digest)
         if mobile_url:
             actions.append(
                 {
@@ -640,8 +736,12 @@ def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | No
     }
 
 
-def feishu_cards(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
-    return [feishu_card(digest, private_items)]
+def feishu_cards(
+    digest: dict[str, Any],
+    private_items: list[dict[str, Any]] | None = None,
+    document_url: str = "",
+) -> list[dict[str, Any]]:
+    return [feishu_card(digest, private_items, document_url)]
 
 
 def post_feishu(payload: dict[str, Any]) -> None:
@@ -658,7 +758,14 @@ def post_feishu(payload: dict[str, Any]) -> None:
 
 
 def post_feishu_digest(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> None:
-    cards = feishu_cards(digest, private_items)
+    document_url = ""
+    try:
+        document_url = create_feishu_document(digest)
+        if document_url:
+            print("已生成飞书原生完整看板")
+    except Exception as exc:
+        print(f"飞书原生文档生成失败，改用网页入口：{exc}", file=sys.stderr)
+    cards = feishu_cards(digest, private_items, document_url)
     for index, card in enumerate(cards, 1):
         post_feishu(card)
         print(f"已推送飞书卡片 {index}/{len(cards)}")
@@ -776,7 +883,7 @@ def self_test() -> None:
     assert "SECRET-STOCK" not in encoded and "watchlist" not in encoded
     cards = feishu_cards(public, validated["items"])
     assert len(cards) == 1
-    assert sum(element.get("tag") == "collapsible_panel" for element in cards[0]["card"]["elements"]) == 5
+    assert sum(element.get("tag") == "collapsible_panel" for element in cards[0]["card"]["elements"]) == 6
     assert all(len(json.dumps(card, ensure_ascii=False)) < 30000 for card in cards)
     parsed = parse_watchlist('["510300", {"symbol":"AAPL", "name":"Apple"}]')
     assert parsed == ["510300", "AAPL Apple"]
