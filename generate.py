@@ -547,20 +547,9 @@ def sign_feishu(payload: dict[str, Any], secret: str) -> None:
     payload["sign"] = base64.b64encode(digest).decode("utf-8")
 
 
-def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> dict[str, Any]:
-    private_by_id = {item["id"]: item for item in private_items or []}
-    lines = []
-    for index, item in enumerate(digest["items"][:6], 1):
-        private = private_by_id.get(item["id"], {})
-        related = " · 自选相关" if private.get("watchlist_match") else ""
-        lines.append(
-            f"**{index}. {item['title']}**\n{item['region']} · {item['market_tone']}{related} · "
-            f"[{item['source_name']}]({item['source_url']})"
-        )
+def feishu_card(digest: dict[str, Any]) -> dict[str, Any]:
     elements: list[dict[str, Any]] = [
         {"tag": "div", "text": {"tag": "lark_md", "content": digest["market_summary"][:900]}},
-        {"tag": "hr"},
-        {"tag": "div", "text": {"tag": "lark_md", "content": "\n\n".join(lines)}},
     ]
     url = dashboard_url()
     if url:
@@ -606,6 +595,50 @@ def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | No
     }
 
 
+def feishu_section_card(
+    digest: dict[str, Any], key: str, private_items: list[dict[str, Any]] | None = None
+) -> dict[str, Any]:
+    private_by_id = {item["id"]: item for item in private_items or []}
+    items = [
+        item for item in digest["items"]
+        if item["region"] == key or key in item["asset_types"]
+    ][:QUOTA]
+    lines = []
+    for index, item in enumerate(items, 1):
+        related = " · 自选相关" if private_by_id.get(item["id"], {}).get("watchlist_match") else ""
+        published = item["published_at"][:16].replace("T", " ")
+        assets = "/".join(item["asset_types"])
+        lines.append(
+            f"**{index}. {item['title']}**\n"
+            f"{item['summary'][:220]}\n"
+            f"**关注：** {item['why_it_matters'][:140]}\n"
+            f"{item['region']} · {assets} · {item['market_tone']}{related} · {published} · "
+            f"[{item['source_name']}]({item['source_url']})"
+        )
+    templates = {"A股": "orange", "港股": "turquoise", "股票": "blue", "基金": "purple", "ETF": "green"}
+    return {
+        "msg_type": "interactive",
+        "card": {
+            "config": {"wide_screen_mode": True},
+            "header": {
+                "template": templates[key],
+                "title": {"tag": "plain_text", "content": f"{digest['date']} · {key}资讯 · {len(items)} 条"},
+            },
+            "elements": [
+                {"tag": "div", "text": {"tag": "lark_md", "content": "\n\n---\n\n".join(lines)}},
+                {
+                    "tag": "note",
+                    "elements": [{"tag": "plain_text", "content": "自动汇总，仅供信息参考，不构成投资建议"}],
+                },
+            ],
+        },
+    }
+
+
+def feishu_cards(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+    return [feishu_card(digest), *(feishu_section_card(digest, key, private_items) for key in QUOTA_KEYS)]
+
+
 def post_feishu(payload: dict[str, Any]) -> None:
     webhook = os.getenv("FEISHU_WEBHOOK_URL", "").strip()
     if not webhook:
@@ -617,6 +650,15 @@ def post_feishu(payload: dict[str, Any]) -> None:
     response = request_json(webhook, payload, {}, timeout=20)
     if response.get("code", response.get("StatusCode", 0)) not in (0, None):
         raise RuntimeError(f"飞书返回失败：{response}")
+
+
+def post_feishu_digest(digest: dict[str, Any], private_items: list[dict[str, Any]] | None = None) -> None:
+    cards = feishu_cards(digest, private_items)
+    for index, card in enumerate(cards, 1):
+        post_feishu(card)
+        print(f"已推送飞书卡片 {index}/{len(cards)}")
+        if index < len(cards):
+            time.sleep(0.6)
 
 
 def send_failure(message: str) -> None:
@@ -727,7 +769,9 @@ def self_test() -> None:
     public = public_digest(validated, current)
     encoded = json.dumps(public, ensure_ascii=False)
     assert "SECRET-STOCK" not in encoded and "watchlist" not in encoded
-    assert len(json.dumps(feishu_card(public, validated["items"]), ensure_ascii=False)) < 30000
+    cards = feishu_cards(public, validated["items"])
+    assert len(cards) == 6
+    assert all(len(json.dumps(card, ensure_ascii=False)) < 30000 for card in cards)
     parsed = parse_watchlist('["510300", {"symbol":"AAPL", "name":"Apple"}]')
     assert parsed == ["510300", "AAPL Apple"]
     payload: dict[str, Any] = {}
@@ -753,7 +797,7 @@ def main() -> int:
             digest = json.loads((DATA_DIR / "latest.json").read_text(encoding="utf-8"))
             private_path = ROOT / ".private-items.json"
             private_items = json.loads(private_path.read_text(encoding="utf-8")) if private_path.exists() else []
-            post_feishu(feishu_card(digest, private_items))
+            post_feishu_digest(digest, private_items)
         except Exception as exc:
             print(f"飞书推送失败（看板已保留）：{exc}", file=sys.stderr)
         return 0
