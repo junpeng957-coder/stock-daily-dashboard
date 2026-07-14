@@ -1,11 +1,11 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T00:36+08:00",
+  "generated_at": "2026-07-15T00:41+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 20 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 10 条，其中 1 条来自监管机构、交易所或央行。重点集中在基金与ETF、公司业绩、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 20 条去重资讯；A股、港股、股票、基金、ETF 五个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -14,6 +14,42 @@
     "ETF": 10
   },
   "items": [
+    {
+      "id": "72d23fdf5935",
+      "title": "深圳证监局对乔某编造传播涉共进股份虚假信息立案调查",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-10T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7644837/content.shtml",
+      "official": true
+    },
+    {
+      "id": "ecd17caedb81",
+      "title": "证监会对安某编造传播涉中公教育虚假信息立案调查",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-10T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7644005/content.shtml",
+      "official": true
+    },
     {
       "id": "dd3f99171ed8",
       "title": "晚报丨今晚美国或六年来首现环比“负CPI”；美联储本月加息概率升至近50%；韩国市场将面临“双重审判”；美国纽约州将暂时禁止建设新大型数据中心；SK海力士产能扩张只是“画饼”？长飞光纤：上半年净利润同比预增711%-914%",
@@ -322,40 +358,6 @@
       "market_tone": "中性",
       "source_name": "天天基金",
       "source_url": "https://fund.eastmoney.com/a/202607133804183165.html",
-      "official": false
-    },
-    {
-      "id": "4b177b648d67",
-      "title": "公募基金密集上新，权益类成绝对主力",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-14T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607133804238364.html",
-      "official": false
-    },
-    {
-      "id": "ebcad0a0d4e2",
-      "title": "登顶！反超沪深300，这类ETF规模涨超400%",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-14T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607133804182151.html",
       "official": false
     }
   ],
