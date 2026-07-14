@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T01:08+08:00",
+  "generated_at": "2026-07-15T01:14+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
@@ -106,6 +106,23 @@
       "official": true
     },
     {
+      "id": "e2c2a4f56230",
+      "title": "MarketWatch：公司业绩｜Sky-high returns and earnings expectations could mean the end is near for this stock-market bull run",
+      "summary": "英文摘要：Never since 1950 have the S&P 500’s price and earnings both been so far above the historical trend at one time, one strategist said.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-15T01:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/sky-high-returns-and-earnings-expectations-could-mean-the-end-is-near-for-this-stock-market-bull-run-429b4085?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
       "id": "ab33f8cce6c2",
       "title": "CNBC：利率与通胀｜Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
       "summary": "英文摘要：Warsh pledged Tuesday to \"get monetary policy right\" and defeat the inflation that has bedeviled the central bank for the past five years.",
@@ -172,23 +189,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/07/14/chamath-palihapitiya-ai-tokenmaxxing.html",
-      "official": false
-    },
-    {
-      "id": "1eef65aafa45",
-      "title": "MarketWatch：公司业绩｜Bank of America’s stock reverses premarket decline in wake of blockbuster earnings report",
-      "summary": "英文摘要：Investors initially appeared to be “selling the news” after the bank handily beat Wall Street’s expectations",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-07-14T21:52+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/bank-of-america-stock-falls-despite-earnings-beat-3d4db2b4?mod=mw_rss_topstories",
       "official": false
     },
     {
