@@ -5,8 +5,10 @@ from __future__ import annotations
 
 import argparse
 import base64
+import difflib
 import hashlib
 import hmac
+import html
 import json
 import os
 import re
@@ -16,70 +18,54 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
+from xml.etree import ElementTree
 from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "docs" / "data"
 BEIJING = ZoneInfo("Asia/Shanghai")
-OPENAI_URL = "https://api.openai.com/v1/responses"
-MODEL = os.getenv("OPENAI_MODEL", "gpt-5.6-luna")
+ENGINE = "zero-api-rules-v1"
+LOOKBACK_HOURS = 36
 REGIONS = {"A股", "港股", "美股", "全球宏观"}
 ASSETS = {"股票", "基金", "ETF"}
 TONES = {"偏积极", "偏谨慎", "中性", "混合"}
 BLOCKED_HOSTS = {"reddit.com", "www.reddit.com", "quora.com", "www.quora.com", "wikipedia.org", "www.wikipedia.org"}
+USER_AGENT = "stock-daily-dashboard/1.0 (+https://github.com/junpeng957-coder/stock-daily-dashboard)"
 
+RSS_SOURCES = [
+    ("美联储", "https://www.federalreserve.gov/feeds/press_all.xml", "全球宏观", True),
+    ("美国证监会", "https://www.sec.gov/news/pressreleases.rss", "美股", True),
+    ("香港交易所", "https://www.hkex.com.hk/Services/RSS-Feeds/News-Releases?sc_lang=zh-HK", "港股", True),
+    ("CNBC", "https://www.cnbc.com/id/100003114/device/rss/rss.html", "美股", False),
+    ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories", "美股", False),
+]
 
-ITEM_SCHEMA = {
-    "type": "object",
-    "additionalProperties": False,
-    "properties": {
-        "title": {"type": "string"},
-        "summary": {"type": "string"},
-        "why_it_matters": {"type": "string"},
-        "region": {"type": "string", "enum": sorted(REGIONS)},
-        "asset_types": {
-            "type": "array",
-            "items": {"type": "string", "enum": sorted(ASSETS)},
-        },
-        "published_at": {"type": "string"},
-        "importance": {"type": "integer", "minimum": 1, "maximum": 5},
-        "market_tone": {"type": "string", "enum": sorted(TONES)},
-        "source_name": {"type": "string"},
-        "source_url": {"type": "string"},
-        "official": {"type": "boolean"},
-        "watchlist_match": {"type": "boolean"},
-        "watchlist_symbols": {"type": "array", "items": {"type": "string"}},
-    },
-    "required": [
-        "title",
-        "summary",
-        "why_it_matters",
-        "region",
-        "asset_types",
-        "published_at",
-        "importance",
-        "market_tone",
-        "source_name",
-        "source_url",
-        "official",
-        "watchlist_match",
-        "watchlist_symbols",
-    ],
-}
+HTML_SOURCES = [
+    ("中国证监会", "https://www.csrc.gov.cn/csrc/xwfb/index.shtml", "A股", True),
+    ("上海证券交易所", "https://www.sse.com.cn/aboutus/mediacenter/hotandd/", "A股", True),
+    ("深圳证券交易所", "https://www.szse.cn/aboutus/trends/news/", "A股", True),
+]
 
-DIGEST_SCHEMA = {
-    "type": "object",
-    "additionalProperties": False,
-    "properties": {
-        "headline": {"type": "string"},
-        "market_summary": {"type": "string"},
-        "items": {"type": "array", "items": ITEM_SCHEMA, "minItems": 1, "maxItems": 15},
-    },
-    "required": ["headline", "market_summary", "items"],
-}
+TOPICS = [
+    (("etf", "mutual fund", "fund manager", "fund flow", "asset manager", "基金"), "基金与ETF", "可能影响基金申赎、资金配置和相关指数产品表现。", ["基金", "ETF"]),
+    (("earnings", "revenue", "profit", "guidance", "results", "业绩", "营收", "利润", "财报"), "公司业绩", "业绩与指引会改变市场对公司盈利和估值的预期。", ["股票", "基金"]),
+    (("ipo", "listing", "listed", "上市", "发行"), "IPO与融资", "融资与上市安排会影响市场供给、估值参照和相关板块情绪。", ["股票", "基金"]),
+    (("merger", "acquisition", "takeover", "并购", "重组", "收购"), "并购重组", "交易条款和整合预期可能影响相关公司估值与行业格局。", ["股票", "基金"]),
+    (("buyback", "dividend", "回购", "分红", "增持", "减持"), "股东回报", "资本运作会直接影响流通供给、股东回报和市场预期。", ["股票", "基金"]),
+    (("federal reserve", "fed ", "interest rate", "monetary", "inflation", "cpi", "pce", "payroll", "jobs", "央行", "利率", "通胀", "降息", "加息"), "利率与通胀", "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。", ["股票", "基金", "ETF"]),
+    (("sec ", "regulation", "rule", "enforcement", "suspension", "监管", "规则", "处罚", "立案", "退市"), "监管政策", "监管变化可能影响上市公司合规成本、交易制度和风险偏好。", ["股票", "基金", "ETF"]),
+    (("tariff", "sanction", "trade", "关税", "制裁", "贸易"), "贸易政策", "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。", ["股票", "基金", "ETF"]),
+    (("stock", "share", "market", "nasdaq", "s&p", "dow", "option", "指数", "股市", "股票", "成交", "期权"), "市场与交易", "市场结构或交易变化可能影响流动性、波动率及相关资产定价。", ["股票", "基金", "ETF"]),
+]
+
+RELEVANT_TERMS = tuple(term for terms, *_ in TOPICS for term in terms)
+EXCLUDED_TERMS = ("crypto", "bitcoin", "ethereum", "mortgage", "real estate", "personal finance", "social security", "donation", "donations", "charity", "funding round", "fund round", "work authorization", "退休顾问", "房贷", "加密货币")
+POSITIVE_TERMS = ("beat", "beats", "gain", "gains", "rise", "rises", "record", "approval", "buyback", "dividend", "stimulus", "增长", "上涨", "回购", "增持", "降息", "获批", "创新高")
+NEGATIVE_TERMS = ("miss", "misses", "fall", "falls", "drop", "drops", "warning", "probe", "charge", "enforcement", "tariff", "downgrade", "亏损", "下跌", "减持", "处罚", "调查", "风险", "退市")
 
 
 def now_beijing() -> datetime:
@@ -105,27 +91,6 @@ def parse_watchlist(raw: str) -> list[str]:
     return result[:100]
 
 
-def build_prompt(current: datetime, watchlist: list[str]) -> str:
-    cutoff = current - timedelta(hours=36)
-    watchlist_text = json.dumps(watchlist, ensure_ascii=False) if watchlist else "[]"
-    return f"""你是谨慎的中文金融资讯编辑。当前北京时间是 {current.isoformat(timespec='minutes')}。
-请实际联网搜索并整理 {cutoff.isoformat(timespec='minutes')} 至今发布的股票、基金和 ETF 资讯。
-
-覆盖范围：A股、港股、美股，以及会直接影响这些市场的全球央行、监管和宏观事件。
-来源优先级：监管机构/交易所/央行/上市公司原始发布 > Reuters、Bloomberg、FT、CNBC 等主流财经媒体 > 机构公开内容。公开社交媒体只能补充已被可靠来源确认的信息；排除匿名爆料、荐股、加密货币、商品期货、房地产和泛经济新闻。
-
-要求：
-1. 返回 8 至 15 条；若可靠资讯不足可以更少，绝不凑数。
-2. 每条只使用真实且直接指向原文的 HTTPS 链接，不使用搜索结果页或聚合跳转页。
-3. summary 最多两句；why_it_matters 用一句话说明可能影响，不给出买卖建议。
-4. importance 用 1-5 表示重要性；official 仅在来源确为官方机构或公司原始发布时为 true。
-5. 去除同一事件的重复报道，优先保留原始来源或信息量最大的一条。
-6. 自选清单仅用于排序和匹配，禁止在 headline 或 market_summary 中披露清单：{watchlist_text}
-7. watchlist_symbols 只填确实匹配的自选项，否则为空数组。
-8. headline 是简短日报标题；market_summary 是 2-4 句客观总览。
-"""
-
-
 def request_json(url: str, payload: dict[str, Any], headers: dict[str, str], timeout: int = 180) -> dict[str, Any]:
     request = urllib.request.Request(
         url,
@@ -141,71 +106,203 @@ def request_json(url: str, payload: dict[str, Any], headers: dict[str, str], tim
         raise RuntimeError(f"HTTP {exc.code}: {detail}") from exc
 
 
-def extract_output_text(response: dict[str, Any]) -> str:
-    for output in response.get("output", []):
-        if output.get("type") != "message":
-            continue
-        for content in output.get("content", []):
-            if content.get("type") == "output_text" and content.get("text"):
-                return content["text"]
-    raise ValueError("OpenAI 响应中没有可解析的 output_text")
+def fetch_text(url: str, timeout: int = 25) -> str:
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/html"})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        data = response.read(3_000_001)
+        if len(data) > 3_000_000:
+            raise ValueError("来源页面超过 3 MB")
+        charset = response.headers.get_content_charset() or "utf-8"
+        return data.decode(charset, "replace")
 
 
-def collect_source_hosts(response: dict[str, Any]) -> set[str]:
-    hosts: set[str] = set()
-
-    def walk(value: Any) -> None:
-        if isinstance(value, dict):
-            url = value.get("url")
-            if isinstance(url, str):
-                host = urllib.parse.urlparse(url).hostname
-                if host:
-                    hosts.add(host.lower().removeprefix("www."))
-            for child in value.values():
-                walk(child)
-        elif isinstance(value, list):
-            for child in value:
-                walk(child)
-
-    walk(response.get("output", []))
-    return hosts
+def clean_text(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " ", value)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
 
 
-def fetch_digest(api_key: str, watchlist: list[str], current: datetime) -> tuple[dict[str, Any], set[str]]:
-    payload = {
-        "model": MODEL,
-        "store": False,
-        "reasoning": {"effort": "low"},
-        "tools": [
-            {
-                "type": "web_search",
-                "search_context_size": "medium",
-                "filters": {"blocked_domains": sorted(BLOCKED_HOSTS)},
-            }
-        ],
-        "tool_choice": "auto",
-        "include": ["web_search_call.action.sources"],
-        "input": build_prompt(current, watchlist),
-        "text": {
-            "format": {
-                "type": "json_schema",
-                "name": "daily_market_digest",
-                "strict": True,
-                "schema": DIGEST_SCHEMA,
-            }
-        },
-        "max_output_tokens": 12000,
-    }
-    last_error: Exception | None = None
-    for attempt in range(2):
+def parse_feed_date(value: str) -> datetime:
+    try:
+        parsed = parsedate_to_datetime(value)
+    except (TypeError, ValueError):
+        parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(BEIJING)
+
+
+def feed_items(name: str, url: str, region: str, official: bool) -> list[dict[str, Any]]:
+    root = ElementTree.fromstring(fetch_text(url).lstrip("\ufeff"))
+    result = []
+    for node in root.findall(".//item"):
+        fields = {child.tag.rsplit("}", 1)[-1]: clean_text(child.text or "") for child in node}
+        if fields.get("title") and fields.get("link") and (fields.get("pubDate") or fields.get("date")):
+            result.append(
+                {
+                    "source_name": name,
+                    "source_url": fields["link"],
+                    "source_title": fields["title"],
+                    "source_summary": fields.get("description", ""),
+                    "published_at": parse_feed_date(fields.get("pubDate") or fields["date"]),
+                    "region": region,
+                    "official": official,
+                }
+            )
+    return result
+
+
+def nearest_page_date(page: str, position: int, current: datetime) -> datetime | None:
+    start, end = max(0, position - 500), min(len(page), position + 500)
+    candidates = []
+    for match in re.finditer(r"(?<!\d)(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})日?|(?<!\d)(\d{1,2})[-/.](\d{1,2})(?!\d)", page[start:end]):
         try:
-            response = request_json(OPENAI_URL, payload, {"Authorization": f"Bearer {api_key}"})
-            return json.loads(extract_output_text(response)), collect_source_hosts(response)
-        except Exception as exc:  # retry once for transient provider/network failures
-            last_error = exc
-            if attempt == 0:
-                time.sleep(3)
-    raise RuntimeError(f"OpenAI 生成失败（已重试一次）：{last_error}")
+            if match.group(1):
+                parsed = datetime(int(match.group(1)), int(match.group(2)), int(match.group(3)), 12, tzinfo=BEIJING)
+            else:
+                parsed = datetime(current.year, int(match.group(4)), int(match.group(5)), 12, tzinfo=BEIJING)
+                if parsed > current + timedelta(days=2):
+                    parsed = parsed.replace(year=current.year - 1)
+            candidates.append((abs(start + match.start() - position), parsed))
+        except ValueError:
+            continue
+    return min(candidates, default=(0, None))[1]
+
+
+def html_items(name: str, url: str, region: str, official: bool, current: datetime) -> list[dict[str, Any]]:
+    page = fetch_text(url)
+    result = []
+    for match in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", page, re.I | re.S):
+        title = clean_text(match.group(2))
+        published = nearest_page_date(page, match.start(), current)
+        if published and 8 <= len(title) <= 180:
+            result.append(
+                {
+                    "source_name": name,
+                    "source_url": urllib.parse.urljoin(url, html.unescape(match.group(1))),
+                    "source_title": title,
+                    "source_summary": title,
+                    "published_at": published,
+                    "region": region,
+                    "official": official,
+                }
+            )
+    return result
+
+
+def topic_for(text: str) -> tuple[str, str, list[str]]:
+    lowered = text.lower()
+    for terms, label, why, assets in TOPICS:
+        if any(has_term(lowered, term) for term in terms):
+            return label, why, assets
+    return "资本市场动态", "该信息可能影响市场预期、风险偏好或相关资产定价。", ["股票", "基金"]
+
+
+def market_tone(text: str) -> str:
+    lowered = text.lower()
+    positive = any(has_term(lowered, term) for term in POSITIVE_TERMS)
+    negative = any(has_term(lowered, term) for term in NEGATIVE_TERMS)
+    if positive and negative:
+        return "混合"
+    if positive:
+        return "偏积极"
+    if negative:
+        return "偏谨慎"
+    return "中性"
+
+
+def is_relevant(text: str) -> bool:
+    lowered = text.lower()
+    return any(has_term(lowered, term) for term in RELEVANT_TERMS) and not any(has_term(lowered, term) for term in EXCLUDED_TERMS)
+
+
+def has_term(lowered: str, term: str) -> bool:
+    term = term.lower().strip()
+    if re.search(r"[\u4e00-\u9fff]", term):
+        return term in lowered
+    return bool(re.search(rf"(?<![a-z]){re.escape(term)}(?![a-z])", lowered))
+
+
+def zh_item(item: dict[str, Any], watchlist: list[str], current: datetime) -> dict[str, Any] | None:
+    text = f"{item['source_title']} {item['source_summary']}"
+    if not is_relevant(text) or not (current - timedelta(hours=LOOKBACK_HOURS) <= item["published_at"] <= current + timedelta(hours=2)):
+        return None
+    topic, why, assets = topic_for(text)
+    original_title = clean_text(item["source_title"])
+    chinese = bool(re.search(r"[\u4e00-\u9fff]", original_title))
+    title = original_title if chinese else f"{item['source_name']}：{topic}｜{original_title}"
+    description = clean_text(item["source_summary"])
+    if chinese:
+        summary = description if description != original_title else f"{item['source_name']}发布与“{topic}”相关的新信息。"
+    else:
+        summary = f"英文摘要：{description or original_title}"
+    matched = [entry for entry in watchlist if any(part.lower() in text.lower() for part in entry.split() if len(part) >= 2)]
+    importance = 2 + int(item["official"]) + int(topic in {"利率与通胀", "监管政策", "公司业绩"})
+    return {
+        "title": title[:160],
+        "summary": summary[:500],
+        "why_it_matters": why,
+        "region": item["region"],
+        "asset_types": assets,
+        "published_at": item["published_at"].isoformat(timespec="minutes"),
+        "importance": min(5, importance),
+        "market_tone": market_tone(text),
+        "source_name": item["source_name"],
+        "source_url": item["source_url"],
+        "official": item["official"],
+        "watchlist_match": bool(matched),
+        "watchlist_symbols": matched,
+        "topic": topic,
+    }
+
+
+def collect_digest(watchlist: list[str], current: datetime) -> dict[str, Any]:
+    collected: list[dict[str, Any]] = []
+    for source in RSS_SOURCES:
+        try:
+            collected.extend(feed_items(*source))
+        except Exception as exc:
+            print(f"来源读取失败：{source[0]}：{exc}", file=sys.stderr)
+    for source in HTML_SOURCES:
+        try:
+            collected.extend(html_items(*source, current))
+        except Exception as exc:
+            print(f"来源读取失败：{source[0]}：{exc}", file=sys.stderr)
+
+    items = [candidate for raw in collected if (candidate := zh_item(raw, watchlist, current))]
+    items.sort(key=lambda item: (item["watchlist_match"], item["importance"], item["published_at"]), reverse=True)
+    unique: list[dict[str, Any]] = []
+    for item in items:
+        key = normalize_title(item["title"])
+        entities = set(re.findall(r"\b[A-Z][A-Z0-9.]{1,7}\b", item["title"])) - {"IPO", "ETF", "SEC", "FED", "CNBC"}
+        # ponytail: O(n²) is simpler and bounded to a few dozen feed items.
+        if any(
+            difflib.SequenceMatcher(None, key, normalize_title(saved["title"])).ratio() > 0.84
+            or (
+                entities
+                and entities & (set(re.findall(r"\b[A-Z][A-Z0-9.]{1,7}\b", saved["title"])) - {"IPO", "ETF", "SEC", "FED", "CNBC"})
+                and item["why_it_matters"] == saved["why_it_matters"]
+            )
+            for saved in unique
+        ):
+            continue
+        unique.append(item)
+        if len(unique) == 15:
+            break
+    if not unique:
+        raise ValueError("最近 36 小时没有筛选到可靠的股票或基金资讯，不覆盖上一期看板")
+
+    topic_counts: dict[str, int] = {}
+    for item in unique:
+        topic_counts[item["topic"]] = topic_counts.get(item["topic"], 0) + 1
+    top_topics = "、".join(name for name, _ in sorted(topic_counts.items(), key=lambda pair: pair[1], reverse=True)[:3])
+    official_count = sum(item["official"] for item in unique)
+    for item in unique:
+        item.pop("topic", None)
+    return {
+        "headline": f"{current:%m月%d日} 全球股市与基金晨报",
+        "market_summary": f"过去 {LOOKBACK_HOURS} 小时共筛选 {len(unique)} 条股票、基金及相关宏观资讯，其中 {official_count} 条来自监管机构、交易所或央行。重点集中在{top_topics}。内容按来源可靠性、市场相关性与发布时间排序，不构成买卖建议。",
+        "items": unique,
+    }
 
 
 def parse_published_at(value: str, current: datetime) -> datetime:
@@ -228,7 +325,7 @@ def validate_digest(raw: dict[str, Any], current: datetime, source_hosts: set[st
     if not headline or not summary:
         raise ValueError("日报缺少标题或市场总览")
 
-    cutoff = current - timedelta(hours=36)
+    cutoff = current - timedelta(hours=LOOKBACK_HOURS)
     future_limit = current + timedelta(hours=2)
     seen_titles: set[str] = set()
     seen_urls: set[str] = set()
@@ -293,11 +390,11 @@ def public_digest(validated: dict[str, Any], current: datetime) -> dict[str, Any
         "date": current.date().isoformat(),
         "generated_at": current.isoformat(timespec="minutes"),
         "timezone": "Asia/Shanghai",
-        "model": MODEL,
+        "model": ENGINE,
         "headline": validated["headline"],
         "market_summary": validated["market_summary"],
         "items": items,
-        "disclaimer": "AI 汇总，仅供信息参考，不构成任何投资建议。",
+        "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。",
     }
 
 
@@ -376,7 +473,7 @@ def feishu_card(digest: dict[str, Any], private_items: list[dict[str, Any]] | No
     elements.append(
         {
             "tag": "note",
-            "elements": [{"tag": "plain_text", "content": f"{digest['generated_at']} · AI 汇总，仅供信息参考"}],
+            "elements": [{"tag": "plain_text", "content": f"{digest['generated_at']} · 自动汇总，仅供信息参考"}],
         }
     )
     return {
@@ -449,9 +546,9 @@ def demo_digest(current: datetime) -> dict[str, Any]:
         "timezone": "Asia/Shanghai",
         "model": "demo",
         "headline": "全球市场晨间简报 · 示例",
-        "market_summary": "当前展示固定示例数据，用于预览页面而非投资决策。配置 API 密钥并运行自动化后，将替换为每日联网资讯。",
+        "market_summary": "当前展示固定示例数据，用于预览页面而非投资决策。运行自动化后，将替换为每日公开来源资讯。",
         "items": items,
-        "disclaimer": "AI 汇总，仅供信息参考，不构成任何投资建议。",
+        "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。",
     }
 
 
@@ -519,6 +616,8 @@ def self_test() -> None:
     payload: dict[str, Any] = {}
     sign_feishu(payload, "test-secret")
     assert payload.get("timestamp") and payload.get("sign")
+    assert not has_term("retail trader", "trade")
+    assert not is_relevant("Startup closes a seed funding round")
     print("self-test: ok")
 
 
@@ -547,12 +646,9 @@ def main() -> int:
         if args.demo:
             digest = demo_digest(current)
         else:
-            api_key = os.getenv("OPENAI_API_KEY", "").strip()
-            if not api_key:
-                raise ValueError("缺少 OPENAI_API_KEY")
             watchlist = parse_watchlist(os.getenv("WATCHLIST_JSON", ""))
-            raw, source_hosts = fetch_digest(api_key, watchlist, current)
-            private_digest = validate_digest(raw, current, source_hosts)
+            raw = collect_digest(watchlist, current)
+            private_digest = validate_digest(raw, current)
             digest = public_digest(private_digest, current)
             atomic_write_json(
                 ROOT / ".private-items.json",
