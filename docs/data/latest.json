@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T00:49+08:00",
+  "generated_at": "2026-07-15T01:08+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
@@ -401,20 +401,21 @@
       "official": false
     },
     {
-      "id": "8c63e84fc701",
-      "title": "CNBC：并购重组｜Paramount still plans to close WBD merger by end of September despite lawsuit",
-      "summary": "英文摘要：Paramount is still planning for its acquisition of Warner Bros. Discovery to close by late September despite lawsuit challenge from state attorneys general.",
-      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
+      "id": "9d898f2bf43e",
+      "title": "CNBC：贸易政策｜U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
+      "summary": "英文摘要：The remark is a sign that H200 shipments to China have restarted, potentially boosting Nvidia's sales even higher.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
       "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-07-14T23:36+08:00",
+      "published_at": "2026-07-15T00:50+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/paramount-wbd-merger-lawsuit.html",
+      "source_url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html",
       "official": false
     },
     {
