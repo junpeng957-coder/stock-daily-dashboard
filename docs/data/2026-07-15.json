@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T01:14+08:00",
+  "generated_at": "2026-07-15T01:23+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
@@ -104,6 +104,24 @@
       "source_name": "美国证监会",
       "source_url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access",
       "official": true
+    },
+    {
+      "id": "0e45387b4def",
+      "title": "MarketWatch：利率与通胀｜Your paycheck is rising faster than prices for a change — but when will you feel the relief?",
+      "summary": "英文摘要：Wage growth in June outpaced inflation, after falling behind during April and May.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-15T01:17+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/your-paycheck-is-rising-faster-than-prices-for-a-change-but-when-will-you-feel-the-relief-cbbcb8bd?mod=mw_rss_topstories",
+      "official": false
     },
     {
       "id": "e2c2a4f56230",
@@ -398,24 +416,6 @@
       "market_tone": "中性",
       "source_name": "新华社",
       "source_url": "https://finance.eastmoney.com/a/202607103802030444.html",
-      "official": false
-    },
-    {
-      "id": "9d898f2bf43e",
-      "title": "CNBC：贸易政策｜U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China",
-      "summary": "英文摘要：The remark is a sign that H200 shipments to China have restarted, potentially boosting Nvidia's sales even higher.",
-      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-15T00:50+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/nvidia-h200-ai-chips-china.html",
       "official": false
     },
     {
