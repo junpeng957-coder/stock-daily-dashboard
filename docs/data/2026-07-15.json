@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T01:23+08:00",
+  "generated_at": "2026-07-15T15:25+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
   "headline": "07月15日 全球股市与基金晨报",
@@ -106,113 +106,130 @@
       "official": true
     },
     {
-      "id": "0e45387b4def",
-      "title": "MarketWatch：利率与通胀｜Your paycheck is rising faster than prices for a change — but when will you feel the relief?",
-      "summary": "英文摘要：Wage growth in June outpaced inflation, after falling behind during April and May.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-15T01:17+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/your-paycheck-is-rising-faster-than-prices-for-a-change-but-when-will-you-feel-the-relief-cbbcb8bd?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "e2c2a4f56230",
-      "title": "MarketWatch：公司业绩｜Sky-high returns and earnings expectations could mean the end is near for this stock-market bull run",
-      "summary": "英文摘要：Never since 1950 have the S&P 500’s price and earnings both been so far above the historical trend at one time, one strategist said.",
+      "id": "8a6a436bc58e",
+      "title": "CNBC：公司业绩｜ASML jumps over 7% after hiking sales forecast for second time this year on strong AI chip demand",
+      "summary": "英文摘要：ASML on Wednesday raised its guidance for a second time this year as its customers continue to ramp up their production capacity of AI chips.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-15T01:12+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/sky-high-returns-and-earnings-expectations-could-mean-the-end-is-near-for-this-stock-market-bull-run-429b4085?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "ab33f8cce6c2",
-      "title": "CNBC：利率与通胀｜Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on American people",
-      "summary": "英文摘要：Warsh pledged Tuesday to \"get monetary policy right\" and defeat the inflation that has bedeviled the central bank for the past five years.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-14T23:39+08:00",
+      "published_at": "2026-07-15T15:11+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
+      "source_url": "https://www.cnbc.com/2026/07/15/asml-2q-earnings-ai-chips-orders.html",
       "official": false
     },
     {
-      "id": "504fd80bf483",
-      "title": "MarketWatch：公司业绩｜Jamie Dimon says ‘booming’ markets and a ‘fine’ consumer fueled JPMorgan’s blowout profits",
-      "summary": "英文摘要：JPMorgan blew past earnings expectations for the second quarter, as CEO Jamie Dimon said markets are booming.",
+      "id": "3b7cc3b11e26",
+      "title": "实验猴涨价 “猴茅”净利最高预增超13倍 股价创近4年新高",
+      "summary": "【实验猴涨价 “猴茅”净利最高预增超13倍 股价创近4年新高】7月15日，昭衍新药（603127.SH）股价涨停，截至10:54，报50.62元/股，创近4年来新高，板上封单金额最高16.39亿元，总市值为379.32亿元。昭衍新药表示，今年上半年生物资产市场价格上涨叠加自身自然生长增值，双重因素驱动其公允价值正向变动，为公司业绩作出积极贡献。上半年生物资产公允价值变动贡献的净利润约7.03亿元到7.77亿元。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T23:20+08:00",
+      "published_at": "2026-07-15T11:22+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202607153807232497.html",
+      "official": false
+    },
+    {
+      "id": "a6caa91e82d1",
+      "title": "MarketWatch：利率与通胀｜Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump",
+      "summary": "英文摘要：Americans got some relief at the gas pump in recent weeks, enough to slow down inflation. That might not last long as the U.S. and Iran continue to vie for control of the Strait of Hormuz.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-15T08:28+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/jpmorgan-beats-profit-expectations-by-the-most-in-five-years-as-equity-markets-revenue-surges-9a0d8805?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/brace-for-4-gas-again-how-u-s-iran-tensions-are-threatening-to-end-the-price-break-at-the-pump-343a76e1?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "946c2ef8a813",
-      "title": "CNBC：公司业绩｜IBM stock craters 23% after issuing second-quarter earnings warning",
-      "summary": "英文摘要：CEO blamed the shortfall on weakness in the software and infrastructure business because clients shifted money toward hardware purchases.",
+      "id": "0b70ed5e9b65",
+      "title": "猴价推高业绩？昭衍新药上半年净利润预增 最高超1377%",
+      "summary": "【猴价推高业绩？昭衍新药上半年净利润预增 最高超1377%】7月14日盘后，国内药物安全性评价龙头昭衍新药披露2026年半年度业绩预告。公司预计上半年实现营业收入6.69亿元-7.39亿元，同比上涨0%-10.5%；归母净利润达6亿元-9亿元，同比上涨884.9%-1377.4%；归母扣非净利润达5.61亿元-8.42亿元，同比上涨2334.2%-3551.3%。7月13日记者以投资者身份致电昭衍新药，相关负责人坦言，整个市场的资源都比较紧张，价格“略微在增长”。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-15T08:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202607143805892266.html",
+      "official": false
+    },
+    {
+      "id": "ef6f1bb031f5",
+      "title": "CNBC：利率与通胀｜Current and former employees sue Meta, alleging discrimination in using AI to conduct layoffs",
+      "summary": "英文摘要：The lawsuit filed by current and former Meta employees underscores rising concerns about AI's impact on jobs and people with disabilities in the workforce.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-15T05:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/meta-lawsuit-layoffs-ai.html",
+      "official": false
+    },
+    {
+      "id": "dd6c5a678fa7",
+      "title": "MarketWatch：公司业绩｜What IBM’s profit warning means: Hardware is ‘eating everyone’s lunch’",
+      "summary": "英文摘要：The company said the shortfall in its software and infrastructure business was tied to clients spending on memory ahead of price hikes.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T23:16+08:00",
+      "published_at": "2026-07-15T05:10+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/what-ibms-profit-warning-means-hardware-is-eating-everyones-lunch-c6878824?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "1c38b998f083",
-      "title": "CNBC：公司业绩｜Chamath Palihapitiya says soaring AI token spend will hit companies' earnings",
-      "summary": "英文摘要：Palihapitiya is part of a growing chorus of investors and tech executives who are cautioning that the tokenmaxxing era is coming to an end.",
+      "id": "e2c4ea99cbdb",
+      "title": "MarketWatch：公司业绩｜Wall Street has set a sky-high bar for companies to clear this earnings season. They just might pull it off.",
+      "summary": "英文摘要：Analysts have set a sky-high bar for second-quarter earnings. However, Piper Sandler thinks corporate America can still clear it.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-07-14T22:47+08:00",
+      "published_at": "2026-07-15T05:03+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/chamath-palihapitiya-ai-tokenmaxxing.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/wall-street-has-set-a-sky-high-bar-for-companies-to-clear-this-earnings-season-they-just-might-pull-it-off-45731862?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "836a42b67910",
-      "title": "CNBC：利率与通胀｜Sen. Tim Scott wants to hear from Warsh on data centers and artificial intelligence",
-      "summary": "英文摘要：Sen. Tim Scott, R-S.C., will host Kevin Warsh before the Senate Banking Committee on Wednesday for his first time testifying as Fed chairman.",
+      "id": "5b0e961db8e7",
+      "title": "CNBC：利率与通胀｜Here’s the inflation breakdown for June 2026 — in one chart",
+      "summary": "英文摘要：The consumer price index rose 3.5% in June from a year earlier, a deceleration after several months of upward moves.",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
@@ -220,11 +237,28 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T21:36+08:00",
+      "published_at": "2026-07-15T05:02+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/07/14/tim-scott-kevin-warsh-data-centers-artificial-intelligence.html",
+      "source_url": "https://www.cnbc.com/2026/07/14/inflation-cpi-june-2026-in-one-chart.html",
+      "official": false
+    },
+    {
+      "id": "db23943552aa",
+      "title": "CNBC：公司业绩｜Johnson & Johnson has a chance to show it's more than just a rotation winner",
+      "summary": "英文摘要：The healthcare giant's second-quarter earnings will shine the spotlight on its exciting new products and pipeline.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-07-15T03:43+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/07/14/johnson-johnson-has-a-chance-to-show-its-more-than-just-a-rotation-winner.html",
       "official": false
     },
     {
@@ -367,60 +401,8 @@
       "official": false
     },
     {
-      "id": "d69003944773",
-      "title": "多只公募产品二季度净值大涨 “含科量”成业绩密码",
-      "summary": "天天基金发布与“公司业绩”相关的新信息。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-07-11T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607113802215647.html",
-      "official": false
-    },
-    {
-      "id": "f081d4f30f5c",
-      "title": "“AI卖水人”拟上市：卖Token一年亏了3亿",
-      "summary": "【“AI卖水人”拟上市：卖Token一年亏了3亿】近日，AI“Token工厂”北京硅基流动科技股份有限公司（下称硅基流动）向港交所递交招股书。成立不到三年，硅基流动2025年的营收涨幅高达653.2%，但未实现盈利。随着公有云业务占比首次过半，公司整体毛利率由正转负，Token越卖越亏。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-07-11T10:23+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中新经纬",
-      "source_url": "https://finance.eastmoney.com/a/202607113802449922.html",
-      "official": false
-    },
-    {
-      "id": "b9e7e3328d12",
-      "title": "国常会：全链条推动新兴支柱产业规模化发展 加强基础研究和关键软硬件攻关",
-      "summary": "【国务院常务会议研究新兴支柱产业培育有关工作】李强主持召开国务院常务会议，会议研究新兴支柱产业培育有关工作。会议指出，要全链条推动新兴支柱产业规模化发展，加强基础研究和关键软硬件攻关，加速技术迭代和生态完善。要优化监管模式，引导各地因地制宜、错位发展。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-07-10T19:16+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "新华社",
-      "source_url": "https://finance.eastmoney.com/a/202607103802030444.html",
-      "official": false
-    },
-    {
-      "id": "1e489da10c33",
-      "title": "【一图看懂】重仓股大洗牌，知名基金经理最新持仓曝光",
+      "id": "f37e40865a9e",
+      "title": "韩股又熔断！芯片股杠杆ETF放大波动 券商讨论提高投资门槛",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -428,16 +410,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607143805945361.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153807251185.html",
       "official": false
     },
     {
-      "id": "b73f5e3f9fd3",
-      "title": "宽基ETF惊现“机构式”扫货 7月已有1800亿元资金“入市” A股变盘时刻已到？",
+      "id": "2e0c87cc847a",
+      "title": "基金公司相继出手自购，“真金白银”投向何处？",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -445,16 +427,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607143805898813.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153807083934.html",
       "official": false
     },
     {
-      "id": "a0cb1f4f26db",
-      "title": "一批“翻倍基”二季报出炉，“站在光里”的基金经理分歧了？",
+      "id": "655751279b24",
+      "title": "告别尾盘大幅异动！ETF交易新规落地首周 机构大额调仓更顺畅",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -462,16 +444,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607143805834886.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153806309615.html",
       "official": false
     },
     {
-      "id": "6720a960b95e",
-      "title": "昨日股票ETF资金净流入超610亿元！宽基、半导体持续“吸金”",
+      "id": "9ca3ace0f351",
+      "title": "个人养老金基金扩容至321只 Y份额年内收益最高已超50%",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -479,16 +461,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607143805385833.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153806304778.html",
       "official": false
     },
     {
-      "id": "9ab9cea20d50",
-      "title": "基金共管：“1+1”能否带来新气象？",
+      "id": "4937729339f4",
+      "title": "资金借道股票型ETF流入市场 宽基产品获大举增持",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -496,16 +478,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
-      "market_tone": "中性",
+      "market_tone": "偏积极",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607143804295363.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153806300637.html",
       "official": false
     },
     {
-      "id": "8c0684cae0bd",
-      "title": "个人养老金基金扩容至321只！Y份额年内收益最高已超50%",
+      "id": "9f318101896e",
+      "title": "股票型ETF连续六日净流入 市场结构向均衡演进",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -513,16 +495,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607133804262958.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153806261874.html",
       "official": false
     },
     {
-      "id": "fe50a5ebaa58",
-      "title": "科技“抱团资金”要瓦解？基金公司最新研判来了",
+      "id": "d5e7ab1c058b",
+      "title": "绩优基金二季报密集披露：更加聚焦硬科技 锚定产业发展趋势",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -530,11 +512,28 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-07-14T12:00+08:00",
+      "published_at": "2026-07-15T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202607133804183165.html",
+      "source_url": "https://fund.eastmoney.com/a/202607153806264386.html",
+      "official": false
+    },
+    {
+      "id": "e667e7601ecc",
+      "title": "为行业注入差异化动能 外资机构积极筹备基金投顾业务",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-07-15T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202607153806265326.html",
       "official": false
     }
   ],
