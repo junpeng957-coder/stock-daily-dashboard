@@ -1,9 +1,10 @@
-name: 更新每日股市资讯看板
+name: 北京时间晨报更新
 
 on:
   schedule:
-    # GitHub cron uses UTC here: 23:30 UTC = 07:30 Beijing time next day.
-    - cron: "30 23 * * *"
+    # Standard UTC cron. 23:20 UTC = 07:20 Beijing time next day;
+    # the ten-minute buffer covers GitHub queueing and digest generation.
+    - cron: "20 23 * * *"
   workflow_dispatch:
 
 permissions:
