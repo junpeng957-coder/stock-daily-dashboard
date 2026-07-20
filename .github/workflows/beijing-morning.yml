@@ -1,11 +1,6 @@
 name: 北京时间晨报更新
 
 on:
-  schedule:
-    # GitHub previously kept firing the daily slot around 15:30 Beijing time
-    # even after its UTC hour was changed. An hourly tick plus a runtime clock
-    # check avoids depending on the scheduler's timezone interpretation.
-    - cron: "10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,27 +13,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  beijing_morning_gate:
-    runs-on: ubuntu-latest
-    outputs:
-      should_run: ${{ steps.clock.outputs.should_run }}
-    steps:
-      - name: 检查北京时间
-        id: clock
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          beijing_hour="$(TZ=Asia/Shanghai date +%H)"
-          echo "Beijing hour: ${beijing_hour}"
-          if [ "$EVENT_NAME" = "workflow_dispatch" ] || [ "$beijing_hour" = "07" ]; then
-            echo "should_run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "should_run=false" >> "$GITHUB_OUTPUT"
-          fi
-
   update:
-    needs: beijing_morning_gate
-    if: needs.beijing_morning_gate.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
