@@ -1,6 +1,9 @@
 name: 北京时间晨报更新
 
 on:
+  schedule:
+    - cron: "10 7 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 permissions:
