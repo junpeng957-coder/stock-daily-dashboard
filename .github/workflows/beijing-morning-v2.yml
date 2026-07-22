@@ -1,9 +1,11 @@
-name: 北京时间晨报更新
+name: 北京时间晨报更新 v2
 
 on:
   schedule:
-    - cron: "10 7 * * *"
-      timezone: "Asia/Shanghai"
+    # GitHub cron uses UTC. These are 06:45, 07:00 and 07:15 in Beijing.
+    - cron: "45 22 * * *"
+    - cron: "0 23 * * *"
+    - cron: "15 23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: beijing-morning-v2
   cancel-in-progress: false
 
 jobs:
@@ -23,11 +25,38 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Scheduled runs can queue on an older SHA. Always inspect the latest
+          # branch so backup slots see a digest committed by the first slot.
+          ref: main
+
+      - name: 判断今天是否已经更新
+        id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          today="$(TZ=Asia/Shanghai date +%F)"
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            should_run=true
+            reason="manual dispatch"
+          elif [ -f "docs/data/${today}.json" ]; then
+            should_run=false
+            reason="${today} digest already exists"
+          else
+            should_run=true
+            reason="${today} digest is missing"
+          fi
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "today=${today}" >> "$GITHUB_OUTPUT"
+          echo "${reason}"
+
       - uses: actions/setup-python@v5
+        if: steps.gate.outputs.should_run == 'true'
         with:
           python-version: "3.12"
 
       - name: 生成并验证日报
+        if: steps.gate.outputs.should_run == 'true'
         env:
           WATCHLIST_JSON: ${{ secrets.WATCHLIST_JSON }}
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
@@ -37,6 +66,7 @@ jobs:
           python generate.py
 
       - name: 保存最近 30 天数据
+        if: steps.gate.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,14 +75,20 @@ jobs:
           git push
 
       - uses: actions/configure-pages@v5
+        if: steps.gate.outputs.should_run == 'true'
+
       - uses: actions/upload-pages-artifact@v3
+        if: steps.gate.outputs.should_run == 'true'
         with:
           path: docs
+
       - name: 发布 GitHub Pages
         id: deployment
+        if: steps.gate.outputs.should_run == 'true'
         uses: actions/deploy-pages@v4
 
       - name: 推送飞书摘要
+        if: steps.gate.outputs.should_run == 'true'
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
           FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
