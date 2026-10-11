@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10T09:54+08:00",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T09:14+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月10日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 5 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "10月11日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 5 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -89,7 +89,7 @@
     },
     {
       "id": "29c1c8624907",
-      "title": "MarketWatch：公司业绩｜‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
+      "title": "MarketWatch：公司业绩｜‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
       "summary": "英文摘要：“I presume these are sophisticated investors taking a profit.”",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
@@ -97,7 +97,7 @@
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-10T08:00+08:00",
+      "published_at": "2026-10-11T02:31+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "MarketWatch",
@@ -105,20 +105,55 @@
       "official": false
     },
     {
-      "id": "e7282010199a",
-      "title": "CNBC：公司业绩｜Cramer’s week ahead: Earnings kick off as banks and chipmakers face big tests",
-      "summary": "英文摘要：CNBC’s Jim Cramer said next week’s earnings reports will give investors a clearer picture of corporate performance and the strength of the AI trade.",
+      "id": "927eef6d3138",
+      "title": "最高年化22%？多家香港银行推出限时高息定存 业内提醒：不建议内地投资者专门换汇套利",
+      "summary": "【最高年化22%？多家香港银行推出限时高息定存 业内提醒：不建议内地投资者专门换汇套利】对比内地银行持续走低的存款利率，记者梳理发现，近期香港地区多家银行均推出高利率存款产品，这类产品利率普遍高于香港地区3%—4%的普通定期存款利率，且多为限时推出、持有时间较短，通常小于1年。每经记者注意到，不同银行推出的高利率存款产品需要满足的条件不同，部分高利率定存产品设有多重门槛。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-10T13:15+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610103891889281.html",
+      "official": false
+    },
+    {
+      "id": "d262d067490d",
+      "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
+      "summary": "中国证监会发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-10T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
+      "official": true
+    },
+    {
+      "id": "2db9f36f2918",
+      "title": "“长跑”业绩两极分化 中小公募探索突围路径",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-10T06:22+08:00",
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/09/jim-cramer-week-ahead-bank-earnings-ai-chips.html",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610103891620865.html",
       "official": false
     },
     {
@@ -193,6 +228,23 @@
       "official": false
     },
     {
+      "id": "fc9306d4ef0d",
+      "title": "CNBC：公司业绩｜Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+      "summary": "英文摘要：Delta Air Lines reported third-quarter earnings and missed Wall Street estimates for the first time in two years.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-09T23:07+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
+      "official": false
+    },
+    {
       "id": "1115963bd16a",
       "title": "晚报丨特朗普称不会在中期选举前攻击伊朗；据悉苹果因需求疲软削减iPhone 18 Pro订单；美国光通信龙头称2029年初的产能也已售罄；OpenAI澄清年化营收：年底目标700亿美元；SK海力士押注需求增长",
       "summary": "特朗普称不会在中期选举前攻击伊朗；据悉苹果因需求疲软削减iPhone 18 Pro订单；美国光通信龙头称2029年初的产能也已售罄；OpenAI澄清年化营收：年底目标700亿美元；SK海力士押注需求增长。",
@@ -226,23 +278,6 @@
       "source_name": "财联社",
       "source_url": "https://finance.eastmoney.com/a/202610093891206794.html",
       "official": false
-    },
-    {
-      "id": "d262d067490d",
-      "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
-      "summary": "中国证监会发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-09T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
-      "official": true
     },
     {
       "id": "36502c03d0c8",
@@ -367,24 +402,6 @@
       "official": false
     },
     {
-      "id": "f4601436fca1",
-      "title": "影响有多大？恒生科技指数编制规则重大修订，成分股数量由30只扩至50只",
-      "summary": "券商中国发布与“监管政策”相关的新信息。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-08T10:09+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "券商中国",
-      "source_url": "https://finance.eastmoney.com/a/202610083889307527.html",
-      "official": false
-    },
-    {
       "id": "d26e4181470c",
       "title": "AI投资步入后半程！外资公募：褪去主题炒作 聚焦结构性业绩机会",
       "summary": "天天基金发布与“公司业绩”相关的新信息。",
@@ -402,25 +419,42 @@
       "official": false
     },
     {
-      "id": "6ebf7c00defc",
-      "title": "千亿级资金涌入大模型 商业化难题待解",
-      "summary": "【千亿级资金涌入大模型 商业化难题待解】近半个月来，多家大模型公司接近完成海量融资或并购，AI行业的财富效应进一步显现。在国内，有消息称深度求索（DeepSeek）接近完成数百亿元人民币融资，年内累计融资突破千亿元；月之暗面（Kimi）近期也以数百亿美元估值推动新一轮融资。放眼国外，9月底AMD宣布拟以82亿美元收购AI专家李飞飞的AI公司。融资金额屡创新高的同时，业内人士最担心的是，大模型公司的商业化能力。",
-      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
+      "id": "1fdd4a415eeb",
+      "title": "长鑫科技登顶！ETF成加仓主渠道 前三季度韩国投资者A股、港股“扫货”名单来了",
+      "summary": "【长鑫科技登顶！ETF成加仓主渠道 前三季度韩国投资者A股、港股“扫货”名单来了】韩国证券存托结算院信息门户（SEIBro）数据显示，2026年前三季度（结算日1月1日至9月30日），韩国投资者净买入金额前15名的港股合计净买入约2.28亿美元，同期净买入前15名A股合计约7987万美元。A股方面，前三季度，存储芯片龙头长鑫科技深受韩国投资者青睐，其净买入额占A股前15名合计的一半以上。半导体、5G通信、动力电池等A股成长板块亦获青睐。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "港股",
       "asset_types": [
-        "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-10-10T08:02+08:00",
+      "published_at": "2026-10-11T08:13+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202610113892018684.html",
+      "official": false
+    },
+    {
+      "id": "e477eabbd416",
+      "title": "养老金最新持仓动向浮现！两股获社保基金增持",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 2,
       "market_tone": "偏积极",
-      "source_name": "经济参考报",
-      "source_url": "https://finance.eastmoney.com/a/202610093891595484.html",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610103891913924.html",
       "official": false
     },
     {
-      "id": "cf4a7fb478ae",
-      "title": "布局四季度 知名基金经理调研行踪曝光",
+      "id": "414d89273f8c",
+      "title": "调整就是机会？节后机构疯狂抄底 超430亿元资金借道ETF进场扫货",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -428,16 +462,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-09T12:00+08:00",
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610093890173722.html",
+      "source_url": "https://fund.eastmoney.com/a/202610103891884587.html",
       "official": false
     },
     {
-      "id": "0e8745a98902",
-      "title": "宽基ETF午后持续放量 多只中证1000ETF成交额超昨日全天",
+      "id": "287bb22f605a",
+      "title": "基金新规大修 十大调整直击风格漂移、迷你基金",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -445,16 +479,34 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-09T12:00+08:00",
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610093891060232.html",
+      "source_url": "https://fund.eastmoney.com/a/202610103891648479.html",
       "official": false
     },
     {
-      "id": "33756b3a7ec7",
-      "title": "借道定增加码科技 金梓才、谢治宇、乔迁等百亿级基金经理密集出手",
+      "id": "f519d15f2eef",
+      "title": "A股市场下探回升 机构称市场具备修复性反弹基础",
+      "summary": "天天基金发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-10T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610103891645733.html",
+      "official": false
+    },
+    {
+      "id": "d47e4dde44ec",
+      "title": "股基ETF4个交易日资金净流入逾530亿元",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -462,16 +514,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-09T12:00+08:00",
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610093890045056.html",
+      "source_url": "https://fund.eastmoney.com/a/202610103891621021.html",
       "official": false
     },
     {
-      "id": "efbee3364786",
-      "title": "“双十” 基金经理名单出炉：十年老将 “双十”见真章",
+      "id": "7d164411db48",
+      "title": "证监会规范公募基金投资运作 支持权益类基金发展",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -479,62 +531,11 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-09T12:00+08:00",
+      "published_at": "2026-10-10T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610083889989080.html",
-      "official": false
-    },
-    {
-      "id": "d746ec7273f2",
-      "title": "节后首日20只齐发！10月新基发行迎小高峰 北交所主题基金开启认购",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-09T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610083889892074.html",
-      "official": false
-    },
-    {
-      "id": "b5d2bb61acd6",
-      "title": "超4500万元！基金公司抛出自购大单",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-09T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610083889870330.html",
-      "official": false
-    },
-    {
-      "id": "f242d7be6ee4",
-      "title": "上百只新基金定档10月 四季度钱往哪儿投？",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-09T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610083889843182.html",
+      "source_url": "https://fund.eastmoney.com/a/202610103891608021.html",
       "official": false
     }
   ],
