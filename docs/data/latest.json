@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T11:10+08:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:23+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月13日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 5 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "10月14日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 31 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、IPO与融资。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -34,45 +34,232 @@
       "official": true
     },
     {
-      "id": "9843fd1f36c1",
-      "title": "美国证监会：监管政策｜SEC Seeks Final Judgment Against Former Western Asset Co-CIO Ken Leech in Cherry Picking Case",
-      "summary": "英文摘要：The Securities and Exchange Commission today moved for entry of a final judgment by consent against Stephen Kenneth Leech II, the former co-chief investment officer of registered investment adviser Western Asset Management Company LLC, whom the SEC…",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "美股",
+      "id": "8fbb18afd13a",
+      "title": "美联储：利率与通胀｜Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently",
+      "summary": "英文摘要：Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "全球宏观",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-07T04:30+08:00",
+      "published_at": "2026-10-09T04:30+08:00",
       "importance": 4,
-      "market_tone": "中性",
-      "source_name": "美国证监会",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-103-sec-seeks-final-judgment-against-former-western-asset-co-cio-ken-leech-cherry-picking-case",
+      "market_tone": "偏谨慎",
+      "source_name": "美联储",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "official": true
     },
     {
-      "id": "10e87a343d27",
-      "title": "美国证监会：监管政策｜SEC to Host Virtual National Compliance Outreach Seminar for Investment Companies and Investment Advisers",
-      "summary": "英文摘要：The Securities and Exchange Commission’s Compliance Outreach Program announced today that it will host a virtual national seminar for investment companies and investment advisers on November 19, 2026. The purpose of the event is to help chief compliance…",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "美股",
+      "id": "65f1ecc6afc1",
+      "title": "力拓第三季度全球铁矿石销量同比增长3%",
+      "summary": "【力拓第三季度全球铁矿石销量同比增长3%】10月14日，矿业巨头力拓发布2026年第三季度业绩报告。报告显示，第三季度全球铁矿石销量为9080万吨，同比增长3%，其中皮尔巴拉销量同比增长2%；第三季度奥尤陶勒盖铜矿产量同比增长27%，年初至今增长29%。力拓预计到2026年底，年化生产力效益运行率将达到18亿美元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:20+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610143895008916.html",
+      "official": false
+    },
+    {
+      "id": "9acabb12c3c1",
+      "title": "杰创智能发布前三季预增公告 净利润同比增长61.16%~116.93%",
+      "summary": "杰创智能(301248)10月13日发布前三季业绩预增公告，预计实现净利润为3670.00万元~4940.00万元，净利润同比增长61.16%~116.93%。报告期内，公司业绩同比、环比均有显著增长，主要由于公司“AI+云计算”业务稳健发展，新建智算云集群持续交付并进入计费周期，智算云服务业务收入环比持续提升，带动归母净利润快速增长。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:17+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610143895009330.html",
+      "official": false
+    },
+    {
+      "id": "b741a1a8b916",
+      "title": "市场企稳信号初显，题材轮动加快，聚焦三季报业绩机会",
+      "summary": "导读：①昨日市场走出深V行情，短期初现企稳信号，反弹持续性有待观察；②科技股反弹，PCB领涨，光通信同步走强，后续或可聚焦业绩超预期个股；③存量博弈下热点轮动加速。冰雪经济受消息催化爆发；传媒板块内部分化；固态电池高位兑现杀跌，高位题材波动加大。昨日市场探底回升，沪指小幅收红，双创指数盘中一度急跌超3%，在恐慌抛压释放后资金承接力度增强，最终近乎平盘收盘。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:16+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610143895008260.html",
+      "official": false
+    },
+    {
+      "id": "34bfec90051c",
+      "title": "丽珠集团：预计全年收入端降幅与上半年基本持平，利润端降幅将较上半年收窄",
+      "summary": "南财智讯10月14日电，丽珠集团在投资者关系活动中表示，2026年公司经营阶段性承压，主要受到部分成熟产品医保谈判及集采降价集中执行的影响。随着相关影响逐步消化，公司将继续推进新品准入和商业化、制剂国际化及经营效率提升，努力改善经营表现。预计全年收入端降幅与上半年基本持平，利润端降幅将较上半年收窄、同比表现向收入端靠拢。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:14+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202610143894993632.html",
+      "official": false
+    },
+    {
+      "id": "68709e77dc04",
+      "title": "中钨高新前三季净利润预计增长超两倍",
+      "summary": "中钨高新(000657)10月13日发布前三季业绩预增公告，预计实现净利润为29.00亿元~31.00亿元，净利润同比增长219.00%~241.00%。公司表示，前三季净利润同比增长，主要原因是：1.报告期内钨精矿均价同比上涨，钨精矿及粉末产品盈利水平提升，同时公司依托全产业链成本优势，上下游业务盈利空间均有扩大。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:13+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610143894992742.html",
+      "official": false
+    },
+    {
+      "id": "ca06e8253a61",
+      "title": "Anthropic即将首次公开其第三季度营收数据",
+      "summary": "【Anthropic即将首次公开其第三季度营收数据】Anthropic计划于当地时间周三在旧金山总部召集一批潜在机构投资者，举行Pre-IPO投资者日。届时该公司将首次公开其第三季度营收数据。此次披露将帮助公司高管和承销银行评估投资者兴趣，并检验市场对其最新财务数据的反应。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610143894944962.html",
+      "official": false
+    },
+    {
+      "id": "6bbfffd2300e",
+      "title": "31家创业板公司前三季业绩亮相 77.42%预增",
+      "summary": "31家创业板公司前三季业绩预告亮相，业绩预增公司有24家，占比77.42%。证券时报·数据宝统计显示，截至10月14日，31家创业板公司公布了前三季业绩预告。按业绩预告类型进行统计，预增公司有24家，预盈2家，合计报喜公司比例为83.87%；业绩预降、预亏、减亏公司分别有2家、1家、1家。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610143894987196.html",
+      "official": false
+    },
+    {
+      "id": "73b52ef5e8ba",
+      "title": "兑吧：预计AI短剧业务第三季度连续3个月录得纯利",
+      "summary": "10月14日，兑吧（01753）发布公告，公司2026年第三季度AI短剧业务表现强劲，自2026年1月推出以来，该业务持续高速增长。根据公司管理层初步评估，预计公司AI短剧业务在第三季度连续3个月录得纯利，相较于截至2026年6月30日止6个月的经营业绩显著改善。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:10+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财中社",
+      "source_url": "https://finance.eastmoney.com/a/202610143894954744.html",
+      "official": false
+    },
+    {
+      "id": "471a8bdf6ab3",
+      "title": "富春染织：预计前三季净利润3.38亿元~3.78亿元 同比增1347.69%~1519.01%",
+      "summary": "富春染织(605189)10月13日发布前三季业绩预增公告，预计实现净利润为3.38亿元~3.78亿元，净利润同比增长1347.69%~1519.01%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:08+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610143894986527.html",
+      "official": false
+    },
+    {
+      "id": "bd831ca78b51",
+      "title": "联亚药业：股票将于10月15日在创业板上市",
+      "summary": "上证智讯10月13日晚间，联亚药业发布上市公告书称，公司股票将于2026年10月15日在深圳证券交易所创业板上市，股票简称“联亚药业”，股票代码“301569”。公司本次公开发行新股约13373.96万股，占发行后总股本的15%，发行价格为7.00元/股，发行后总股本约8.92亿股，对应2025年扣非前后孰低归母净利润的摊薄后市盈率为27.99倍。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T09:07+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202610143894954649.html",
+      "official": false
+    },
+    {
+      "id": "b1150a8c3b10",
+      "title": "早报丨年内再次加息？市场关注今夜美国CPI；谷歌Gemini 4 Argon上线，苹果发布HomeView；腾讯发债逾57亿美元，为AI投资扩张筹集资金",
+      "summary": "年内再次加息？市场关注今夜美国CPI；苹果发布HomeView；谷歌Gemini 4 Argon上线；腾讯发债逾57亿美元，为AI投资扩张筹集资金。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-06T22:37+08:00",
-      "importance": 4,
+      "published_at": "2026-10-14T08:12+08:00",
+      "importance": 3,
       "market_tone": "中性",
-      "source_name": "美国证监会",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-102-sec-host-virtual-national-compliance-outreach-seminar-investment-companies-investment-advisers",
-      "official": true
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610143894795943.html",
+      "official": false
     },
     {
-      "id": "384b04a3be45",
-      "title": "CNBC：利率与通胀｜Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
-      "summary": "英文摘要：The Cleveland Fed president said that tighter monetary policy would be needed to bring down inflation.",
+      "id": "6dcf433c6f66",
+      "title": "CNBC：公司业绩｜Anthropic to disclose new revenue numbers as AI lab financials become central to tech trade",
+      "summary": "英文摘要：Anthropic will release updated financials to a group of investors gathering at its headquarters this week, according to people familiar with the matter.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T05:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html",
+      "official": false
+    },
+    {
+      "id": "57342065756b",
+      "title": "CNBC：利率与通胀｜Don't let inflation bite — how to hedge with TIPS, commodities and infrastructure funds",
+      "summary": "英文摘要：TIPS are looking attractive but they aren't the only way to get inflation protection.",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
@@ -80,81 +267,99 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-13T10:58+08:00",
+      "published_at": "2026-10-14T04:52+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
+      "source_url": "https://www.cnbc.com/2026/10/13/inflation-hedge-tips-commodities-infrastructure.html",
       "official": false
     },
     {
-      "id": "df1c26327a95",
-      "title": "翰宇药业大涨5.34% 预计前三季净利润暴增",
-      "summary": "翰宇药业股价出现异动，截至今日10时10分，股价大涨5.34%，成交6325.59万股，成交金额16.29亿元，换手率为8.49%，公司发布的最新业绩预告显示，预计前三季实现净利润4.30亿元—4.50亿元，净利润同比增长502.65%—530.68%。业绩变动原因：报告期内公司原料药业务持续放量，带来营收、利润双增长。",
+      "id": "c4d633e6303f",
+      "title": "CNBC：公司业绩｜Bank of America fined $1.2 billion over money-laundering violations",
+      "summary": "英文摘要：The action by the Treasury Department was announced less than a day before Bank of America reports quarterly earnings.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-13T10:57+08:00",
+      "published_at": "2026-10-14T04:45+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/13/bank-of-america-treasury-money-laundering.html",
+      "official": false
+    },
+    {
+      "id": "f8bad51dd190",
+      "title": "MarketWatch：利率与通胀｜My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+      "summary": "英文摘要：“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T04:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "17e0f558925f",
+      "title": "CNBC：公司业绩｜We're upgrading our rating on Wells Fargo as the stock's pullback offers a nice entry point",
+      "summary": "英文摘要：Wells Fargo's third-quarter results were not perfect, but CEO Charlie Scharf's turnaround should bear more fruit ahead.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T03:51+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/10/13/were-upgrading-our-rating-on-wells-fargo-as-the-stocks-pullback-offers-a-nice-entry-point.html",
+      "official": false
+    },
+    {
+      "id": "0889f6ca19f9",
+      "title": "CNBC：利率与通胀｜Williams says Fed may not have to hike rates in 2027, at odds with traders",
+      "summary": "英文摘要：New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T03:46+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
+      "official": false
+    },
+    {
+      "id": "0273e188adc4",
+      "title": "CNBC：利率与通胀｜The latest inflation data is expected to show price increases are accelerating",
+      "summary": "英文摘要：Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T02:05+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "证券时报网",
-      "source_url": "https://finance.eastmoney.com/a/202610133893929766.html",
-      "official": false
-    },
-    {
-      "id": "8fc48581bb7f",
-      "title": "平安财险福建分公司被罚50万，福州中支被罚67万，涉财务数据不真实等",
-      "summary": "蓝鲸新闻10月13日讯，近日，福建金融监管局发布行政处罚决定书，剑指中国平安财产保险股份有限公司福建分公司、福州中心支公司及相关责任人。罚单显示，中国平安财产保险股份有限公司福建分公司的主要违法违规行为是：未按照规定使用经备案的保险条款、保险费率。中国平安财产保险股份有限公司福州中心支公司的主要违法违规行为是：财务数据不真实；虚挂保险中介业务套取费用。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T10:46+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202610133893920465.html",
-      "official": false
-    },
-    {
-      "id": "430363d633ef",
-      "title": "中源协和募投肿瘤诊断试剂项目延期至2028年年底：监管新规叠加临床试验推进遇阻、样本入组困难拖累研发节奏",
-      "summary": "深圳商报·读创客户端记者穆砚10月12日晚间，中源协和细胞基因工程股份有限公司（以下简称“中源协和”或“公司”）发布关于募投项目肿瘤标志物类诊断试剂开发项目延期的公告。公告显示，公司肿瘤标志物类诊断试剂开发募投项目将延期至2028年12月达到预定可使用状态，项目投资规模、实施主体等均保持不变，延期主要受监管新规、临床试验方案调整以及样本入组难度大等因素影响。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T10:45+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610133893920552.html",
-      "official": false
-    },
-    {
-      "id": "3dd30ab311ec",
-      "title": "【涨停直击】业绩爆发！100亿龙头直线涨停，封单超92万手",
-      "summary": "10月13日早盘，超声电子股价直线涨停。截至记者发稿，超声电子涨停板上封单逾92万手，最新市值为132.79亿元。今年以来，其股价涨幅超67%。10月12日晚，超声电子发布2026年前三季度业绩预告。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T10:43+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证券报·中证金牛座",
-      "source_url": "https://finance.eastmoney.com/a/202610133893922265.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
       "official": false
     },
     {
@@ -172,111 +377,6 @@
       "market_tone": "中性",
       "source_name": "哈富证券",
       "source_url": "https://finance.eastmoney.com/a/202610133893314730.html",
-      "official": false
-    },
-    {
-      "id": "9b5b55b2b7e0",
-      "title": "MarketWatch：公司业绩｜Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
-      "summary": "英文摘要：The chip makers introduced hardware and software designs for future AI data centers, but the revenue potential is still far out, an analyst says.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T05:19+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/nvidia-and-amd-shares-fall-as-new-ai-announcements-fail-to-re-energize-investors-4a0dd766?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "fb3292a7ae62",
-      "title": "CNBC：公司业绩｜Earnings beats are now the norm. What the stock market needs to keep rallying",
-      "summary": "英文摘要：Blockbuster profits are coming for the S&P 500. It may not be enough to keep fueling the rally.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T04:35+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
-      "official": false
-    },
-    {
-      "id": "65c667e3c999",
-      "title": "CNBC：利率与通胀｜Why older Americans' wealth may be helping keep consumer spending strong",
-      "summary": "英文摘要：Boomers report more financial confidence as Federal Reserve and JPMorgan data show older households hold more wealth and draw more from investments.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T01:23+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/12/baby-boomers-may-be-driving-resilient-consumer-spending.html",
-      "official": false
-    },
-    {
-      "id": "6bd3d758d522",
-      "title": "CNBC：公司业绩｜UnitedHealth shares are doing something unusual ahead of earnings",
-      "summary": "英文摘要：The only thing more expensive than health insurance is perhaps the costs of insuring shares of health insurers",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T00:42+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/12/unitedhealth-shares-are-doing-something-unusual-ahead-of-earnings.html",
-      "official": false
-    },
-    {
-      "id": "06fe6a5ae456",
-      "title": "CNBC：利率与通胀｜Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
-      "summary": "英文摘要：Traders think there's little chance core inflation, which excludes food and energy prices, will fall to 2.2% this year.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-12T23:37+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html",
-      "official": false
-    },
-    {
-      "id": "0087571a4b5f",
-      "title": "CNBC：利率与通胀｜India’s retail inflation jumps to 5.54% in September, above estimates",
-      "summary": "英文摘要：India inflations jumps for the 11-straight month, raising prospects of a further interest rate hike",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-12T18:49+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html",
       "official": false
     },
     {
@@ -331,23 +431,6 @@
       "official": false
     },
     {
-      "id": "804654d82263",
-      "title": "外部扰动不改A股内在韧性 机构建议聚焦业绩确定性标的",
-      "summary": "天天基金发布与“公司业绩”相关的新信息。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-12T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610123892134437.html",
-      "official": false
-    },
-    {
       "id": "589e30e8f3e3",
       "title": "香港交易所新增12隻每周及月度股票期權類別",
       "summary": "香港交易所发布与“市场与交易”相关的新信息。",
@@ -383,158 +466,90 @@
       "official": false
     },
     {
-      "id": "927eef6d3138",
-      "title": "最高年化22%？多家香港银行推出限时高息定存 业内提醒：不建议内地投资者专门换汇套利",
-      "summary": "【最高年化22%？多家香港银行推出限时高息定存 业内提醒：不建议内地投资者专门换汇套利】对比内地银行持续走低的存款利率，记者梳理发现，近期香港地区多家银行均推出高利率存款产品，这类产品利率普遍高于香港地区3%—4%的普通定期存款利率，且多为限时推出、持有时间较短，通常小于1年。每经记者注意到，不同银行推出的高利率存款产品需要满足的条件不同，部分高利率定存产品设有多重门槛。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "港股",
+      "id": "35bb95a5093c",
+      "title": "CNBC：贸易政策｜China's exports likely grew by double-digits in September",
+      "summary": "英文摘要：The country's customs agency is due to release September trade data on Wednesday.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-10T13:15+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "每日经济新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610103891889281.html",
-      "official": false
-    },
-    {
-      "id": "d262d067490d",
-      "title": "中国证监会就《公开募集证券投资基金运作管理办法（征求意见稿）》及配套规则公开征求意见",
-      "summary": "中国证监会发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-10T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7663393/content.shtml",
-      "official": true
-    },
-    {
-      "id": "1115963bd16a",
-      "title": "晚报丨特朗普称不会在中期选举前攻击伊朗；据悉苹果因需求疲软削减iPhone 18 Pro订单；美国光通信龙头称2029年初的产能也已售罄；OpenAI澄清年化营收：年底目标700亿美元；SK海力士押注需求增长",
-      "summary": "特朗普称不会在中期选举前攻击伊朗；据悉苹果因需求疲软削减iPhone 18 Pro订单；美国光通信龙头称2029年初的产能也已售罄；OpenAI澄清年化营收：年底目标700亿美元；SK海力士押注需求增长。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-09T18:31+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202610093891362631.html",
-      "official": false
-    },
-    {
-      "id": "8331140d9176",
-      "title": "A股市场缩量磨底 机构看好结构性机会",
-      "summary": "天天基金发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T12:00+08:00",
+      "published_at": "2026-10-14T09:16+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610133893056135.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
       "official": false
     },
     {
-      "id": "78fd40d8f275",
-      "title": "攻守兼备特性凸显 红利基金总规模快速增长",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T12:00+08:00",
-      "importance": 2,
-      "market_tone": "偏积极",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610133893057022.html",
-      "official": false
-    },
-    {
-      "id": "29195c25f043",
-      "title": "65只新发公募基金本周开启认购 FOF发行数量将创下单周历史新高",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610133893057354.html",
-      "official": false
-    },
-    {
-      "id": "8208e8e0cf0c",
-      "title": "公募基金改革“棋至中盘”",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-13T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202610133893050886.html",
-      "official": false
-    },
-    {
-      "id": "d1964c916130",
-      "title": "急需用钱？继妻子减持股票后 张勇向海底捞贷款不超1亿港元",
-      "summary": "【急需用钱？继妻子减持股票后 张勇向海底捞贷款不超1亿港元】10月12日晚，海底捞发布公告称，海底捞与公司控股股东、董事会主席兼CEO张勇订立贷款协议，海底捞同意向张勇提供不超过1亿港元本金、无担保的贷款融资，贷款期限为30天，利率为一月期港元同业拆息加60个基点。该贷款将于贷款协议签订后的三个营业日内一次性发放至张勇指定的账户。张勇为何要借钱尚不可知，但是近两个月，其与妻子确实有在筹措资金的举动。",
-      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T08:14+08:00",
-      "importance": 2,
-      "market_tone": "偏谨慎",
-      "source_name": "南方都市报",
-      "source_url": "https://finance.eastmoney.com/a/202610123893037277.html",
-      "official": false
-    },
-    {
-      "id": "e77a5ec07f13",
-      "title": "供需“紧平衡”引发电子布10月再涨价 覆铜板成本向PCB顺畅传导",
-      "summary": "【供需“紧平衡”引发电子布10月再涨价 覆铜板成本向PCB顺畅传导】多家机构数据显示，10月份，电子布价格延续上涨趋势，环比涨幅超过10%。国金证券研报显示，10月以来，电子布价格再次落地1.5元/米涨幅（7628型号），电子纱G75上涨3000元/吨，薄布（2116、1080型号）上涨2.5元/米。多家电子布行业头部上市公司接受中国证券报记者采访时表示，电子布行业整体处于库存紧平衡状态，薄布涨价幅度更大。",
+      "id": "60002fd05ef4",
+      "title": "新股招股丨「水上游览服务提供商」瘦西湖文旅启动招股，拟10月23日上市，一手认购金额5121.14港元",
+      "summary": "瘦西湖文旅(06157.HK)发布公告，于10月14日-10月20日招股，公司拟全球发售约4476万股股份，预期将于10月23日上市。公司概况公司是一家国有水上游览服务提供商，总部位于江苏省扬州市。公司主要在扬州的知名景区运营水上游船观光服务，即蜀冈—瘦西湖风景区和古运河区域。",
       "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
       "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-13T07:25+08:00",
+      "published_at": "2026-10-14T08:51+08:00",
       "importance": 2,
-      "market_tone": "偏积极",
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610143894812380.html",
+      "official": false
+    },
+    {
+      "id": "3bd02b379d77",
+      "title": "港股分拆上市趋热：三种路径、双重定价、一场考验",
+      "summary": "【港股分拆上市趋热：三种路径、双重定价、一场考验】近期，港股分拆上市政策利好持续释放。9月21日，港交所刊发《咨询文件》，就一系列建议征询市场意见。其中，本次改革提出将母公司上市后不可提交分拆上市申请的限制期，由三年缩短至一年。受政策利好影响，今年以来，包括江西铜业、海信集团、金斯瑞生物科技、信义玻璃、复星国际等多家公司推进港股分拆上市，港股分拆上市热度明显升温。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T07:24+08:00",
+      "importance": 2,
+      "market_tone": "中性",
       "source_name": "中国证券报",
-      "source_url": "https://finance.eastmoney.com/a/202610133893090177.html",
+      "source_url": "https://finance.eastmoney.com/a/202610143894571895.html",
+      "official": false
+    },
+    {
+      "id": "82f9d48c4cb2",
+      "title": "打击失当行为巩固市场信心 香港证监会重拳整肃IPO认购操纵",
+      "summary": "【打击失当行为巩固市场信心 香港证监会重拳整肃IPO认购操纵】10月13日，香港证监会宣布，已对两个可疑集团采取行动，因它们涉嫌参与欺诈计划，意图就首次公开招股（IPO）的股份需求营造虚假或非真实的表象。据悉，此次香港证监会对两个涉嫌操纵新股认购的集团采取执法行动，并向31家券商发出限制通知，冻结与12名个人及公司相关、合共逾46.6亿港元资产，涉及金额为历年来同类案件中规模最大。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T07:24+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202610143894540475.html",
+      "official": false
+    },
+    {
+      "id": "523bcbff899d",
+      "title": "CNBC：市场与交易｜Here's where Jim Cramer stands on this newly public AI infrastructure stock",
+      "summary": "英文摘要：CNBC’s Jim Cramer said investors should hold off on buying newly public AI infrastructure company Accelevation Holdings.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T06:47+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/13/jim-cramer-accelevation-stock.html",
       "official": false
     }
   ],
