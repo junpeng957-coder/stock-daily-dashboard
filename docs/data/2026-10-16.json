@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T08:45+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "10月16日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 28 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在利率与通胀、公司业绩、贸易政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 8,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "e9125648fbc8",
+      "title": "美国证监会：监管政策｜SEC Proposes Expanding Securities Eligible for Cross Trading by Registered Funds",
+      "summary": "英文摘要：The Securities and Exchange Commission today proposed amendments to the Investment Company Act “cross-trading rule,” which permits transactions in securities between a registered fund and its affiliates under certain conditions. The proposed amendments…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-09T22:59+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds",
+      "official": true
+    },
+    {
+      "id": "b238f62f3bb1",
+      "title": "智能眼镜新品密集发布 12只概念股前三季度业绩预喜",
+      "summary": "【智能眼镜新品密集发布 12只概念股前三季度业绩预喜】近期，多款智能眼镜新品发布。MetaConnect大会推出多款智能眼镜，包括Meta首款不搭载摄像头的Ray-BanMetaAudio、畅销产品第三代Ray-BanMeta(Gen3)、自有品牌MetaAdventurer，并将Muse助手功能引入旗下智能眼镜产品。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897600159.html",
+      "official": false
+    },
+    {
+      "id": "6509a9ce893e",
+      "title": "美股AI基建板块调整，应用材料跌3.72%领跌丨美股复盘",
+      "summary": "美东时间10月15日，美股AI基建/散热板块继续调整，三只成分股全线收跌，应用材料领跌。消息面上，美国9月生产者物价指数（PPI）大幅高于经济学家预期，通胀压力显现；投资者对AI基础设施投资回报及融资可持续性的担忧正在加剧。截至收盘，应用材料报430.01美元，下跌3.72%；维谛技术收报214.75美元，跌3.63%；泛林集团收于277.46美元，跌3.30%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:26+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202610163897599283.html",
+      "official": false
+    },
+    {
+      "id": "75eb25cee28a",
+      "title": "深夜，美股上演大逆转",
+      "summary": "当地时间周四（10月15日），美股科技股一度遭遇抛售，开盘陷入深度回调。但随后市场情绪企稳回升，三大指数均收复失地，最终全线上涨。盘面上，AI泡沫隐忧引发科技板块走势分化，高通涨超3%，美光科技涨近2%；英特尔跌超2%，英伟达跌近2%。中概股集体爆发，纳斯达克中国金龙指数涨1.96%。此外，继CPI数据之后，周四公布的美国9月PPI也超预期，通胀压力加剧令市场加息预期升温。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202610163897601898.html",
+      "official": false
+    },
+    {
+      "id": "84e444fb1645",
+      "title": "002008，前三季度新签订单约243亿元！扣非净利最高预增超300%",
+      "summary": "PCB行业高端产品需求持续释放，大族激光业绩大幅预增。10月15日晚间，大族激光(002008)披露2026年前三季度业绩预告，预计期内实现归母净利润21.2亿元至22.2亿元，比上年同期增长145.55%至157.13%；预计实现扣非净利润22.5亿元至23.5亿元，比上年同期上升295.85%至313.44%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:10+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610163897596396.html",
+      "official": false
+    },
+    {
+      "id": "18547255eb97",
+      "title": "中信证券：建议关注HDD、DRAM、NAND赛道中公司的投资机会",
+      "summary": "【中信证券：建议关注HDD、DRAM、NAND赛道中公司的投资机会】中信证券研报称，从产业进展来看，目前DRAM的技术仍以6F2单元结构为主，4F2技术的落地需看三星电子和长鑫科技的进展。目前来看，4F2技术仍处于早期验证阶段，后续仍需观察公司在这领域的良率、产量、毛利率、下游客户认证情况等各个指标，对于中短期存储产业的影响相对较小。建议关注HDD、DRAM、NAND赛道中公司的投资机会。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897590758.html",
+      "official": false
+    },
+    {
+      "id": "e7229eb23540",
+      "title": "牛市早报｜央行：继续实施好适度宽松的货币政策",
+      "summary": "【市场数据】截至10月15日收盘，上证综指跌1.59%，报3707.48点；深证成指跌2.43%，报11816.79点；创业板指跌2.92%，报2783.17点。纽约股市三大股指15日上涨。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:09+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610163897592719.html",
+      "official": false
+    },
+    {
+      "id": "714e8ee2c926",
+      "title": "科创早报|A股科技板块迎预增、回购潮 谷歌发布量子计算重大突破",
+      "summary": "《科创板日报》10月16日讯今日科创板早报主要内容有：工信部等三部门联合调查有关车辆刹车踏板支架断裂问题；DeepSeek发布补偿通知；多家上市公司前三季度业绩预喜。《科创板日报》主播小K为您播报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:05+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610163897562095.html",
+      "official": false
+    },
+    {
+      "id": "6d358924aa3b",
+      "title": "能源早报 | 本轮国内成品油价格不作调整；赣锋锂业前三季度归母净利润同比增长195倍",
+      "summary": "国家发改委：本轮国内成品油价格不作调整国家改革委10月15日消息，9月24日国内成品油价格调整以来，中东地缘局势复杂多变，国际市场原油价格短暂回落后又出现较大幅度上涨。根据国际市场油价变化情况，本次汽、柴油价格不作调整。中石油、中石化、中海油公司及其他原油加工企业要组织好成品油生产和调运，确保市场稳定供应，严格执行国家价格政策。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:00+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610163897565880.html",
+      "official": false
+    },
+    {
+      "id": "bc5f52fd881b",
+      "title": "CNBC：利率与通胀｜Economists: Hot PPI shows Fed's work is not done",
+      "summary": "英文摘要：'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-15T23:37+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+      "official": false
+    },
+    {
+      "id": "48bf0750820a",
+      "title": "潘功胜：央行将继续实施好适度宽松的货币政策",
+      "summary": "【中国人民银行行长潘功胜出席二十国集团财长和央行行长会议】2026年10月15日，二十国集团（G20）在泰国曼谷召开今年第三次G20财长和央行行长会议。会议讨论了全球经济形势与展望、金融部门改革等议题。中国人民银行行长潘功胜出席会议并发言，中国人民银行副行长宣昌能参加会议。潘功胜指出，地缘政治冲突加剧仍是全球经济的最大不确定性。一些国家国债市场大幅波动、人工智能相关资产估值回调风险加剧了金融脆弱性。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-15T19:02+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "央行网站",
+      "source_url": "https://finance.eastmoney.com/a/202610153897044033.html",
+      "official": false
+    },
+    {
+      "id": "99028e9a1f89",
+      "title": "赣锋锂业：前三季度净利润同比增长19541% 锂系列产品售价回升及锂电池系列产品销量增加",
+      "summary": "赣锋锂业公告称，第三季度营业收入130.62亿元，同比增长109.03%；归属于上市公司股东的净利润7.55亿元，同比增长35.62%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-15T18:49+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153897041957.html",
+      "official": false
+    },
+    {
+      "id": "959dedd5756b",
+      "title": "晚报丨美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期",
+      "summary": "美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-15T18:26+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610153897028633.html",
+      "official": false
+    },
+    {
+      "id": "3f74de9a7dc7",
+      "title": "腾讯Q3财报前瞻：主业基本盘依然稳健 AI重投入铺路中长期红利",
+      "summary": "腾讯控股将于2026年11月18日正式披露第三季度财报。瑞银与广发证券在近期相继发布前瞻研究报告，三季度腾讯主营业务基本盘依然具备强劲韧性，单季营收增速保持在7%至9%的稳健区间；受AI研发投入与算力基础设施扩张带来的成本折旧影响，短期利润端呈现个位数温和调整，但高质量增长逻辑并未动摇，两家机构均维持“买入”评级。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-15T13:48+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153896775944.html",
+      "official": false
+    },
+    {
+      "id": "227d3355f6be",
+      "title": "光模块、PCB接连被传限制 海外政策扰动被放大 多方解读来了",
+      "summary": "【光模块、PCB接连被传限制 海外政策扰动被放大 多方解读来了】记者梳理相关政策文件发现，近期引发市场波动的几项事件，涉及的监管范围和实施进度并不相同。FCC针对3.2T光模块的限制传闻尚无正式政策文本，美国现有PCB采购限制主要针对特定国防采购行为，337调查则仍处于立案阶段，尚未对相关专利侵权主张作出实质认定。随着政策细节逐渐清晰，部分机构开始重新评估海外限制对产业链的实际影响。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-15T08:54+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153896161980.html",
+      "official": false
+    },
+    {
+      "id": "4f642ef922f2",
+      "title": "早报丨通胀升温重锤科技股，AI基建融资又迎“鬼故事”；红利防御股获资金涌入，伯克希尔10连升；苹果市值收盘首破5万亿，报道称国行版本12月推出首批AI功能",
+      "summary": "通胀升温重锤科技股，AI基建融资又迎“鬼故事”；红利防御股获资金涌入，伯克希尔10连升；苹果市值收盘首破5万亿，报道称国行版本12月推出首批AI功能。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-15T08:18+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610153896133549.html",
+      "official": false
+    },
+    {
+      "id": "c6d5f4b95d08",
+      "title": "美国证监会：IPO与融资｜SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
+      "summary": "英文摘要：The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m. to continue discussing IPO modernization and explore potential policy…",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T22:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-105-sec-small-business-advisory-committee-discuss-ipo-modernization-regulation-crowdfunding",
+      "official": true
+    },
+    {
+      "id": "14c8e3c59b37",
+      "title": "晚报丨美国9月CPI今晚8时30分公布；胡塞武装袭击沙特炼油厂和机场；德银警告更大规模的平仓潮；Anthropic今日将首次透露Q3营收；阿斯麦公布强劲财报，客户咨询2030年订单",
+      "summary": "美国9月CPI今晚8时30分公布；胡塞武装袭击沙特炼油厂和机场；德银警告更大规模的平仓潮；Anthropic今日将首次透露Q3营收；阿斯麦公布强劲财报，客户咨询2030年订单。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-14T18:44+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610143895591329.html",
+      "official": false
+    },
+    {
+      "id": "148edc6816ad",
+      "title": "午后大反攻！港股集体爆发！四大核心利好集中引爆",
+      "summary": "午后，港股意外爆发！今日（10月14日），恒生科技指数升幅扩大至2.5%以上，美团、小米集团、阿里巴巴、蔚来均一度涨超5%左右。建筑节能、智能家居、旅游酒店、手机产业链等板块涨幅均超4%，不过，市场走势也较为分化，水产品、集成电路、生物医药、黄金等板块跌幅较大。分析人士认为，港股科技股爆发有四大利好驱动。一是外部利率压力边际缓解。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T14:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "券商中国",
+      "source_url": "https://finance.eastmoney.com/a/202610143895375295.html",
+      "official": false
+    },
+    {
+      "id": "2d3af26e790f",
+      "title": "国家统计局：9月CPI同比上涨0.9% PPI同比上涨5%",
+      "summary": "【国家统计局：9月CPI同比上涨0.9% PPI同比上涨5%】2026年9月份，全国居民消费价格同比上涨0.9%。其中，城市上涨0.9%，农村上涨0.8%；食品价格下降1.7%，非食品价格上涨1.5%；消费品价格上涨1.0%，服务价格上涨0.8%。1--—9月平均，全国居民消费价格比上年同期上涨0.9%。2026年9月份，全国工业生产者出厂价格同比上涨5.0%，环比上涨1.2%。工业生产者购进价格同比上涨6.9%，环比上涨1.2%。1—9月平均，工业生产者出厂价格比上年同期上涨2.3%，工业生产者购进价格上涨3.6%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T09:30+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "国家统计局",
+      "source_url": "https://finance.eastmoney.com/a/202610143895021553.html",
+      "official": false
+    },
+    {
+      "id": "b1150a8c3b10",
+      "title": "早报丨年内再次加息？市场关注今夜美国CPI；谷歌Gemini 4 Argon上线，苹果发布HomeView；腾讯发债逾57亿美元，为AI投资扩张筹集资金",
+      "summary": "年内再次加息？市场关注今夜美国CPI；苹果发布HomeView；谷歌Gemini 4 Argon上线；腾讯发债逾57亿美元，为AI投资扩张筹集资金。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-14T08:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610143894795943.html",
+      "official": false
+    },
+    {
+      "id": "0e1210789577",
+      "title": "国盛证券：海外气价上行 利好国内上游自产气、中游贸易企业",
+      "summary": "【国盛证券：海外气价上行 利好国内上游自产气、中游贸易企业】国盛证券研报指出，中东地缘冲突持续，扰动欧洲天然气供给，叠加补库进度偏弱，TTF气价中枢上移。",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:35+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897601494.html",
+      "official": false
+    },
+    {
+      "id": "efb16d267877",
+      "title": "雷军回吐10多亿浮盈",
+      "summary": "【雷军回吐10多亿浮盈】雷军刚签发一则公告，数字扎眼。10月12日，金山软件预计，三季度，投资的两只基金，分占合营及联营公司亏损，在10亿元~12亿元之间。北京顺金和深圳顺赢基金持仓的上市科技公司，7~9月股价下跌，公允价值变动，账面变脸。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:35+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202610163897557511.html",
+      "official": false
+    },
+    {
+      "id": "e1e60bbd119e",
+      "title": "CNBC：贸易政策｜A lot changed in stock market in just a few months. The single biggest risk did not",
+      "summary": "英文摘要：In 2025 and into 2026 investors were told to avoid S&P 500 tech stock risk by moving to equal-weight. That failed. Now the AI trade is reeling. So what's next?",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T07:12+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
+      "official": false
+    },
+    {
+      "id": "1af829f37eda",
+      "title": "MarketWatch：市场与交易｜CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending",
+      "summary": "英文摘要：Wall Street’s views on CoreWeave are starkly divisive as investors pay more attention to the financial details of big artificial-intelligence companies.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T05:03+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "50ac5d94b4fe",
+      "title": "MarketWatch：贸易政策｜Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+      "summary": "英文摘要：A continued selloff in the AI trade is forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T04:40+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "c9e64b063118",
+      "title": "CNBC：市场与交易｜Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "summary": "英文摘要：September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T00:15+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+      "official": false
+    },
+    {
+      "id": "5129069dd709",
+      "title": "CNBC：市场与交易｜JetBlue’s new domestic first class, BlueFirst, is now on sale",
+      "summary": "英文摘要：JetBlue announced that BlueFirst, its new domestic first class option, is available for booking on more than 30 routes. It launches December 8.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T00:13+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/jetblue-bluefirst-first-class.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}

@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T08:52+08:00",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T08:45+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月15日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、IPO与融资。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "10月16日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 28 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在利率与通胀、公司业绩、贸易政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
-    "美股": 10,
+    "美股": 8,
     "股票": 10,
     "基金": 10,
     "ETF": 10
@@ -34,9 +34,149 @@
       "official": true
     },
     {
-      "id": "5893aaa1676e",
-      "title": "CNBC：利率与通胀｜SK Hynix plunges 8% amid Asia tech rout as Fed rate hike fears, AI funding worries mount",
-      "summary": "英文摘要：A sell-off in global technology hardware stocks deepened Thursday.",
+      "id": "b238f62f3bb1",
+      "title": "智能眼镜新品密集发布 12只概念股前三季度业绩预喜",
+      "summary": "【智能眼镜新品密集发布 12只概念股前三季度业绩预喜】近期，多款智能眼镜新品发布。MetaConnect大会推出多款智能眼镜，包括Meta首款不搭载摄像头的Ray-BanMetaAudio、畅销产品第三代Ray-BanMeta(Gen3)、自有品牌MetaAdventurer，并将Muse助手功能引入旗下智能眼镜产品。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897600159.html",
+      "official": false
+    },
+    {
+      "id": "6509a9ce893e",
+      "title": "美股AI基建板块调整，应用材料跌3.72%领跌丨美股复盘",
+      "summary": "美东时间10月15日，美股AI基建/散热板块继续调整，三只成分股全线收跌，应用材料领跌。消息面上，美国9月生产者物价指数（PPI）大幅高于经济学家预期，通胀压力显现；投资者对AI基础设施投资回报及融资可持续性的担忧正在加剧。截至收盘，应用材料报430.01美元，下跌3.72%；维谛技术收报214.75美元，跌3.63%；泛林集团收于277.46美元，跌3.30%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:26+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202610163897599283.html",
+      "official": false
+    },
+    {
+      "id": "75eb25cee28a",
+      "title": "深夜，美股上演大逆转",
+      "summary": "当地时间周四（10月15日），美股科技股一度遭遇抛售，开盘陷入深度回调。但随后市场情绪企稳回升，三大指数均收复失地，最终全线上涨。盘面上，AI泡沫隐忧引发科技板块走势分化，高通涨超3%，美光科技涨近2%；英特尔跌超2%，英伟达跌近2%。中概股集体爆发，纳斯达克中国金龙指数涨1.96%。此外，继CPI数据之后，周四公布的美国9月PPI也超预期，通胀压力加剧令市场加息预期升温。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202610163897601898.html",
+      "official": false
+    },
+    {
+      "id": "84e444fb1645",
+      "title": "002008，前三季度新签订单约243亿元！扣非净利最高预增超300%",
+      "summary": "PCB行业高端产品需求持续释放，大族激光业绩大幅预增。10月15日晚间，大族激光(002008)披露2026年前三季度业绩预告，预计期内实现归母净利润21.2亿元至22.2亿元，比上年同期增长145.55%至157.13%；预计实现扣非净利润22.5亿元至23.5亿元，比上年同期上升295.85%至313.44%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:10+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610163897596396.html",
+      "official": false
+    },
+    {
+      "id": "18547255eb97",
+      "title": "中信证券：建议关注HDD、DRAM、NAND赛道中公司的投资机会",
+      "summary": "【中信证券：建议关注HDD、DRAM、NAND赛道中公司的投资机会】中信证券研报称，从产业进展来看，目前DRAM的技术仍以6F2单元结构为主，4F2技术的落地需看三星电子和长鑫科技的进展。目前来看，4F2技术仍处于早期验证阶段，后续仍需观察公司在这领域的良率、产量、毛利率、下游客户认证情况等各个指标，对于中短期存储产业的影响相对较小。建议关注HDD、DRAM、NAND赛道中公司的投资机会。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897590758.html",
+      "official": false
+    },
+    {
+      "id": "e7229eb23540",
+      "title": "牛市早报｜央行：继续实施好适度宽松的货币政策",
+      "summary": "【市场数据】截至10月15日收盘，上证综指跌1.59%，报3707.48点；深证成指跌2.43%，报11816.79点；创业板指跌2.92%，报2783.17点。纽约股市三大股指15日上涨。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:09+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610163897592719.html",
+      "official": false
+    },
+    {
+      "id": "714e8ee2c926",
+      "title": "科创早报|A股科技板块迎预增、回购潮 谷歌发布量子计算重大突破",
+      "summary": "《科创板日报》10月16日讯今日科创板早报主要内容有：工信部等三部门联合调查有关车辆刹车踏板支架断裂问题；DeepSeek发布补偿通知；多家上市公司前三季度业绩预喜。《科创板日报》主播小K为您播报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:05+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610163897562095.html",
+      "official": false
+    },
+    {
+      "id": "6d358924aa3b",
+      "title": "能源早报 | 本轮国内成品油价格不作调整；赣锋锂业前三季度归母净利润同比增长195倍",
+      "summary": "国家发改委：本轮国内成品油价格不作调整国家改革委10月15日消息，9月24日国内成品油价格调整以来，中东地缘局势复杂多变，国际市场原油价格短暂回落后又出现较大幅度上涨。根据国际市场油价变化情况，本次汽、柴油价格不作调整。中石油、中石化、中海油公司及其他原油加工企业要组织好成品油生产和调运，确保市场稳定供应，严格执行国家价格政策。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-16T08:00+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610163897565880.html",
+      "official": false
+    },
+    {
+      "id": "bc5f52fd881b",
+      "title": "CNBC：利率与通胀｜Economists: Hot PPI shows Fed's work is not done",
+      "summary": "英文摘要：'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
@@ -44,115 +184,98 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-15T08:42+08:00",
+      "published_at": "2026-10-15T23:37+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+      "source_url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
       "official": false
     },
     {
-      "id": "7d235298cd31",
-      "title": "韩股早盘大跌近6%、日股跌超3%，芯片股重挫！",
-      "summary": "10月15日，受人工智能投资担忧和美国加息预期的影响，日经225指数开盘跌1.33%，韩国综合股价指数（KOSPI）开盘下跌5.6%，至5673.01点。韩国交易所启动SIDECAR机制，暂停KOSPI程序化卖盘。截至发稿，日经225指数跌幅扩大至3.29%，报65514.85点。人工智能相关股票暴跌，铠侠股价跌超8%。",
+      "id": "48bf0750820a",
+      "title": "潘功胜：央行将继续实施好适度宽松的货币政策",
+      "summary": "【中国人民银行行长潘功胜出席二十国集团财长和央行行长会议】2026年10月15日，二十国集团（G20）在泰国曼谷召开今年第三次G20财长和央行行长会议。会议讨论了全球经济形势与展望、金融部门改革等议题。中国人民银行行长潘功胜出席会议并发言，中国人民银行副行长宣昌能参加会议。潘功胜指出，地缘政治冲突加剧仍是全球经济的最大不确定性。一些国家国债市场大幅波动、人工智能相关资产估值回调风险加剧了金融脆弱性。",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-15T08:41+08:00",
+      "published_at": "2026-10-15T19:02+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "证券时报",
-      "source_url": "https://finance.eastmoney.com/a/202610153896143116.html",
+      "source_name": "央行网站",
+      "source_url": "https://finance.eastmoney.com/a/202610153897044033.html",
       "official": false
     },
     {
-      "id": "85033951afa1",
-      "title": "ASML高管：现有产能难满足需求，光刻设备订单已谈到2030年",
-      "summary": "北京时间10月14日晚间，ASML首席执行官傅恪礼（ChristopheFouquet）在2026年第三季度业绩电话会上表示，客户对光刻设备的需求已延伸至2028年以后，部分客户已开始表达对2029年至2030年设备的采购意向。当天早些时候，阿斯麦（ASML）发布2026年第三季度财报。",
+      "id": "99028e9a1f89",
+      "title": "赣锋锂业：前三季度净利润同比增长19541% 锂系列产品售价回升及锂电池系列产品销量增加",
+      "summary": "赣锋锂业公告称，第三季度营业收入130.62亿元，同比增长109.03%；归属于上市公司股东的净利润7.55亿元，同比增长35.62%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-15T08:38+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610153896142553.html",
-      "official": false
-    },
-    {
-      "id": "6335a8ea0240",
-      "title": "宇通重工：第三季度净利润同比下降40.59%丨A股公告避雷针",
-      "summary": "重要公告1、宇通重工：第三季度净利润同比下降40.59%宇通重工发布三季度报告，第三季度公司实现营业收入6.13亿元，下降16.05%；归属于上市公司股东的净利润4069.09万元，下降40.59%。前三季度公司实现营业收入21.12亿元，下降11.65%；前三季度归属于上市公司股东的净利润1.44亿元，下降23.16%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T08:27+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "21世纪经济报道",
-      "source_url": "https://finance.eastmoney.com/a/202610153896138667.html",
-      "official": false
-    },
-    {
-      "id": "286ff5d9b38e",
-      "title": "佛塑科技：前三季度归母净利润同比预增367.70%至445.65%",
-      "summary": "上证报中国证券网讯（记者何治民）10月14日晚间，佛塑科技发布2026年前三季度业绩预告，预计2026年前三季度归母净利润为12亿元至14亿元，较上年同期（重组前）增长1329.95%至1568.28%，较上年同期（重组后）增长367.70%至445.65%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T08:26+08:00",
+      "published_at": "2026-10-15T18:49+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "上海证券报·中国证券网",
-      "source_url": "https://finance.eastmoney.com/a/202610153896138235.html",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153897041957.html",
       "official": false
     },
     {
-      "id": "786a5a5506f3",
-      "title": "江波龙：iSA相关技术与产品尚在有序商业化的过程当中",
-      "summary": "南财智讯10月15日电，江波龙在互动平台表示，iSA相关技术与产品尚在有序商业化的过程当中，对公司的业绩贡献亦需要过程。",
+      "id": "959dedd5756b",
+      "title": "晚报丨美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期",
+      "summary": "美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-15T08:23+08:00",
+      "published_at": "2026-10-15T18:26+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "南方财经网",
-      "source_url": "https://finance.eastmoney.com/a/202610153896135829.html",
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610153897028633.html",
       "official": false
     },
     {
-      "id": "27f9dab9ed5b",
-      "title": "吉利德签署至高18.8亿美元合作协议 探索AI设计抗癌药物",
-      "summary": "【吉利德签署至高18.8亿美元合作协议 探索AI设计抗癌药物】生物技术公司VirBiotechnology宣布，已与吉利德科学公司签署了一项价值高达18.8亿美元的合作协议，探索和开发针对实体瘤的新癌症治疗方法。根据协议，Vir公司将获得9000万美元的预付款，并有资格获得高达4500万美元的近期临床前里程碑付款，以及高达17.4亿美元的未来开发、监管和商业付款。Vir公司将利用其PRO-XTEN掩蔽技术和专有的dAIsY人工智能平台来设计候选药物。",
+      "id": "3f74de9a7dc7",
+      "title": "腾讯Q3财报前瞻：主业基本盘依然稳健 AI重投入铺路中长期红利",
+      "summary": "腾讯控股将于2026年11月18日正式披露第三季度财报。瑞银与广发证券在近期相继发布前瞻研究报告，三季度腾讯主营业务基本盘依然具备强劲韧性，单季营收增速保持在7%至9%的稳健区间；受AI研发投入与算力基础设施扩张带来的成本折旧影响，短期利润端呈现个位数温和调整，但高质量增长逻辑并未动摇，两家机构均维持“买入”评级。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-15T13:48+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153896775944.html",
+      "official": false
+    },
+    {
+      "id": "227d3355f6be",
+      "title": "光模块、PCB接连被传限制 海外政策扰动被放大 多方解读来了",
+      "summary": "【光模块、PCB接连被传限制 海外政策扰动被放大 多方解读来了】记者梳理相关政策文件发现，近期引发市场波动的几项事件，涉及的监管范围和实施进度并不相同。FCC针对3.2T光模块的限制传闻尚无正式政策文本，美国现有PCB采购限制主要针对特定国防采购行为，337调查则仍处于立案阶段，尚未对相关专利侵权主张作出实质认定。随着政策细节逐渐清晰，部分机构开始重新评估海外限制对产业链的实际影响。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-15T08:21+08:00",
+      "published_at": "2026-10-15T08:54+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "科创板日报",
-      "source_url": "https://finance.eastmoney.com/a/202610153896134296.html",
+      "market_tone": "偏谨慎",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610153896161980.html",
       "official": false
     },
     {
@@ -171,162 +294,6 @@
       "market_tone": "中性",
       "source_name": "哈富证券",
       "source_url": "https://finance.eastmoney.com/a/202610153896133549.html",
-      "official": false
-    },
-    {
-      "id": "56636b1452e3",
-      "title": "创源股份：开发中的AI玩具产品包含毛绒玩具品类，目前还处于开发优化阶段",
-      "summary": "南财智讯10月15日电，创源股份在互动平台表示，公司目前开发中的AI玩具产品是以陪伴功能为核心定位的桌宠类产品，其中包含毛绒玩具品类，通过AI对话交互、情感陪伴、趣味互动等方式，为用户提供温暖的情感连接与日常陪伴体验。目前公司AI玩具产品还处于开发优化阶段，对公司业绩不产生直接影响。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T08:11+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "南方财经网",
-      "source_url": "https://finance.eastmoney.com/a/202610153896137085.html",
-      "official": false
-    },
-    {
-      "id": "f2be5e07c590",
-      "title": "000973，重组后业绩起飞！",
-      "summary": "多家公司业绩预增。部分公司完成资产重组，增量业务驱动利润增长。佛塑科技(000973)将金力新能源纳入合并报表，形成锂电池隔膜业务增长点，同时确认4.56亿元营业外收入。公司预计今年前三季度净利润为12亿元—14亿元，比上年同期（重组前）上升1329.95%—1568.28%，比上年同期（重组后）上升367.70%—445.65%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T08:10+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "证券时报网",
-      "source_url": "https://finance.eastmoney.com/a/202610153896135744.html",
-      "official": false
-    },
-    {
-      "id": "9d02bb617037",
-      "title": "编造重大虚假内容、财报虚假记载！证监会开出1.7亿元巨额罚单",
-      "summary": "10月14日晚间，*ST清越（688496）披露公告，公司于10月13日收到中国证监会下发的《行政处罚决定书》，针对公司欺诈发行违法行为、信息披露违法行为，中国证监会决定对公司处以1.72亿元罚款。*ST清越于2022年12月28日在上交所科创板上市，公司主营业务是OLED等新型显示器件的研发、生产和销售，主要产品为PMOLED、电子纸模组与硅基OLED微显示器。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T08:09+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610153896136953.html",
-      "official": false
-    },
-    {
-      "id": "71f2ac05bc28",
-      "title": "牛市早报｜9月CPI同比涨幅微增，进出口增速高位上行",
-      "summary": "【市场数据】截至10月14日收盘，上证综指跌0.88%，报3767.23点；深证成指跌1.97%，报12110.59点；创业板指跌3.1%，报2866.76点。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-15T08:09+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "澎湃新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610153896133395.html",
-      "official": false
-    },
-    {
-      "id": "d22c847a7895",
-      "title": "CNBC：公司业绩｜Jim Cramer explains why even strong bank earnings couldn't save their stocks",
-      "summary": "英文摘要：All six banks fell following their earnings reports, even as some delivered strong results, reflecting concerns about interest rates and the economic outlook.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T06:48+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/cramer-big-bank-earnings-stock-reaction.html",
-      "official": false
-    },
-    {
-      "id": "8a074351a070",
-      "title": "MarketWatch：公司业绩｜Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
-      "summary": "英文摘要：Bank of America’s stock falls as investor disappointment over the $1.2 billion government fine added to the bank’s downbeat earnings report.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T05:40+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "0648410ae1c7",
-      "title": "CNBC：公司业绩｜Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
-      "summary": "英文摘要：Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T04:20+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-      "official": false
-    },
-    {
-      "id": "30dad3fe4557",
-      "title": "CNBC：利率与通胀｜How high inflation became a 'fact of life' in the U.S.",
-      "summary": "英文摘要：U.S. inflation has stayed elevated for years, raising concern at the Federal Reserve that consumers may come to expect stubbornly high prices.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-15T01:20+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-      "official": false
-    },
-    {
-      "id": "2f369ad7e09c",
-      "title": "CNBC：利率与通胀｜Here's the inflation breakdown for September 2026 — in one chart",
-      "summary": "英文摘要：The consumer price index rose by 3.7% in September, on the back of higher gasoline and energy prices largely due to the Iran war.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-14T22:56+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html",
       "official": false
     },
     {
@@ -418,78 +385,62 @@
       "official": false
     },
     {
-      "id": "2c94bceed74a",
-      "title": "早报丨哈玛克倾向更快加息，大摩称债市已在替美联储“加息”；Meta发布新模型，暗示接下来还要加速；今晚银行巨头开启财报季，苹果发布智能家居新品",
-      "summary": "哈玛克倾向更快加息，大摩称债市已在替美联储“加息”；Meta发布新模型，暗示接下来还要加速；今晚银行巨头开启财报季，苹果发布智能家居新品。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-13T08:17+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202610133893314730.html",
-      "official": false
-    },
-    {
-      "id": "99571408f1ac",
-      "title": "晚报丨高盛上调今年底原油价格预测 中东局势仍是最大变数；英特尔、博通CEO齐发警告 资金或成AI发展最大瓶颈；摩根大通、高盛领衔六大行财报周；微软新模型底座是阿里Qwen 超六成决策模型都基于Qwen开发",
-      "summary": "高盛上调今年底原油价格预测，中东局势仍是最大变数；英特尔、博通CEO齐发警告，资金或成AI发展最大瓶颈；摩根大通、高盛领衔六大行财报周；微软新模型底座是阿里Qwen，超六成决策模型都基于Qwen开发。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-12T18:04+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202610123892777863.html",
-      "official": false
-    },
-    {
-      "id": "589e30e8f3e3",
-      "title": "香港交易所新增12隻每周及月度股票期權類別",
-      "summary": "香港交易所发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "港股",
+      "id": "0e1210789577",
+      "title": "国盛证券：海外气价上行 利好国内上游自产气、中游贸易企业",
+      "summary": "【国盛证券：海外气价上行 利好国内上游自产气、中游贸易企业】国盛证券研报指出，中东地缘冲突持续，扰动欧洲天然气供给，叠加补库进度偏弱，TTF气价中枢上移。",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-12T12:00+08:00",
-      "importance": 3,
+      "published_at": "2026-10-16T08:35+08:00",
+      "importance": 2,
       "market_tone": "中性",
-      "source_name": "香港交易所",
-      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/261012news?sc_lang=zh-HK",
-      "official": true
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202610163897601494.html",
+      "official": false
     },
     {
-      "id": "0213c2aa3cb2",
-      "title": "CNBC：IPO与融资｜Inside India newsletter: Billionaire Ambani’s mega-IPO faces a valuation reality check amid Musk spat",
-      "summary": "英文摘要：Jio Platforms, the company at the center of Musk’s remarks, is launching an IPO later this month.",
-      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "id": "efb16d267877",
+      "title": "雷军回吐10多亿浮盈",
+      "summary": "【雷军回吐10多亿浮盈】雷军刚签发一则公告，数字扎眼。10月12日，金山软件预计，三季度，投资的两只基金，分占合营及联营公司亏损，在10亿元~12亿元之间。北京顺金和深圳顺赢基金持仓的上市科技公司，7~9月股价下跌，公允价值变动，账面变脸。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T08:35+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202610163897557511.html",
+      "official": false
+    },
+    {
+      "id": "e1e60bbd119e",
+      "title": "CNBC：贸易政策｜A lot changed in stock market in just a few months. The single biggest risk did not",
+      "summary": "英文摘要：In 2025 and into 2026 investors were told to avoid S&P 500 tech stock risk by moving to equal-weight. That failed. Now the AI trade is reeling. So what's next?",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
       "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-10-15T08:30+08:00",
+      "published_at": "2026-10-16T07:12+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html",
+      "source_url": "https://www.cnbc.com/2026/10/15/spx-sp500-tech-stocks-invest.html",
       "official": false
     },
     {
-      "id": "8c8b67ea267a",
-      "title": "MarketWatch：市场与交易｜Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
-      "summary": "英文摘要：Neutron, a medium-lift rocket meant to rival SpaceX’s Falcon 9, will no longer launch this year.",
+      "id": "1af829f37eda",
+      "title": "MarketWatch：市场与交易｜CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending",
+      "summary": "英文摘要：Wall Street’s views on CoreWeave are starkly divisive as investors pay more attention to the financial details of big artificial-intelligence companies.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -497,45 +448,65 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-15T08:02+08:00",
+      "published_at": "2026-10-16T05:03+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "4b012510990d",
-      "title": "“A+H”扩容打开的不只是融资通道",
-      "summary": "【“A+H”扩容打开的不只是融资通道】今年以来，“A+H”上市公司加速扩容。数据显示，前三季度共有38家A股公司成功实现H股上市，数量达2025年全年的两倍。与此同时，H股公司“回A”也取得新进展，继近日力勤资源登陆深交所后，智谱、映恩生物等企业正陆续推进“回A”进程，内地与香港资本市场双向互动的态势愈发清晰。",
-      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
-      "region": "港股",
+      "id": "50ac5d94b4fe",
+      "title": "MarketWatch：贸易政策｜Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
+      "summary": "英文摘要：A continued selloff in the AI trade is forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-10-15T07:45+08:00",
+      "published_at": "2026-10-16T04:40+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "证券日报",
-      "source_url": "https://finance.eastmoney.com/a/202610153895871726.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "bd6967705954",
-      "title": "“金主”包票、人头认购、借投资回流——港股IPO“围飞”乱象大起底",
-      "summary": "【“金主”包票、人头认购、借投资回流——港股IPO“围飞”乱象大起底】10月13日，香港证监会对两大涉嫌操纵首次公开招股（IPO）的集团采取行动并暂停茶百道的股份交易，合计冻结两大集团逾46.6亿港元资产，涉及金额为历年来同类案件中规模最大。香港证监会称，茶百道、拨康视云的IPO可能曾被人为操纵，意图就股份需求营造非真实的表象。监管层的这一记重拳，直接让港股资本市场圈中的“围飞”现象再次摆到了市场的聚光灯下。",
-      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
-      "region": "港股",
+      "id": "c9e64b063118",
+      "title": "CNBC：市场与交易｜Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+      "summary": "英文摘要：September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-10-15T07:21+08:00",
+      "published_at": "2026-10-16T00:15+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+      "official": false
+    },
+    {
+      "id": "5129069dd709",
+      "title": "CNBC：市场与交易｜JetBlue’s new domestic first class, BlueFirst, is now on sale",
+      "summary": "英文摘要：JetBlue announced that BlueFirst, its new domestic first class option, is available for booking on more than 30 routes. It launches December 8.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-16T00:13+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "证券时报",
-      "source_url": "https://finance.eastmoney.com/a/202610153895872728.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/15/jetblue-bluefirst-first-class.html",
       "official": false
     }
   ],
