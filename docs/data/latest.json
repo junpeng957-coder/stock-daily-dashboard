@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T08:19+08:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:30+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月18日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 1 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "10月19日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 1 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -16,26 +16,62 @@
   },
   "items": [
     {
-      "id": "ae3b23e91fad",
-      "title": "910亿代工女王，算力生意要爆发了",
-      "summary": "深圳代工女王，大手笔护盘。10月9日，立讯精密公告称已斥资10亿元，回购1700多万股股票。自5月高点以来，立讯股价阴跌，市值回调到3680亿元左右。王来春信心十足。8月的业绩会上，谈及工作，她表示“比较开心”，甚至“有些兴奋”。王来春过往的标签是“果链一姐”，每年可获得苹果千亿级的代工订单。如今，她大举布局AI算力，同步进军铜连接、光连接、散热解决方案、电源产品。",
+      "id": "f3e60a9efbff",
+      "title": "10月19日早间新闻精选",
+      "summary": "1、国务院总理李强16日主持召开国务院常务会议。会议指出，要不断深化拓展“人工智能+”行动，加强技术攻关和算法创新；要依法依规治理低价无序竞争，健全行业成本调查、制止低价倾销等配套规则。2、商务部、科技部16日公告，拟修订《中国禁止出口限制出口技术目录》，增列部分人工智能、生物医药、光伏技术。3、工信部等四部门组织30余家车企座谈，加强汽车产品创新设计和研发测试验证管理。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-19T08:00+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610193899259379.html",
+      "official": false
+    },
+    {
+      "id": "43dca485662c",
+      "title": "动力煤价格时隔3年首次突破1000元/吨！多家煤企净利润大幅飙升",
+      "summary": "【动力煤价格时隔3年首次突破1000元/吨！多家煤企净利润大幅飙升】近日，动力煤价格时隔3年首次突破1000元/吨。中国煤炭运销协会主管的中国煤炭市场网发布数据显示，10月16日，CCTD环渤海5500大卡动力煤现货价达1025元/吨，创下2023年10月中旬以来的新高。在煤价强势带动下，煤炭企业业绩大增，部分企业前三季度净利润增长超100%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-18T08:01+08:00",
+      "published_at": "2026-10-19T07:57+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "21世纪经济报道",
-      "source_url": "https://finance.eastmoney.com/a/202610183899098527.html",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202610193899254965.html",
       "official": false
     },
     {
-      "id": "3f6929776e4b",
-      "title": "DeepSeek大动作；美国总统特朗普宣布暂缓实施新一轮对俄制裁｜21早新闻",
-      "summary": "今日关注明天（19日），第十六届中国航展门票将正式开售。本届航展公众日门票实行实名制购票，购票时应通过官方指定线上渠道购买，现场不设售票窗口。宏观经济1、据中国人民银行，中国人民银行行长潘功胜出席第54届国际货币与金融委员会会议。潘功胜指出，贸易摩擦和保护主义通过影响供应链、推升通胀、扰乱市场预期等因素拖累全球经济。",
+      "id": "e0033bfde03f",
+      "title": "四家金融监管部门负责人将发声！金融街论坛年会今日开幕；OpenAI发力人形机器人研发，将AI大脑作为核心突破口；OpenSpace开源太空生态发布，开源计算星座首期规划2600颗卫星——《投资早参》",
+      "summary": "（一）重要市场新闻2026金融街论坛年会于10月19日至22日在北京金融街举办，全球40多个国家和地区的400余位重要嘉宾将出席年会。中国人民银行行长潘功胜、国家金融监督管理总局局长丁向群、中国证券监督管理委员会主席吴清、国家外汇管理局局长朱鹤新将出席2026金融街论坛年会并作主题演讲。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-19T07:55+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610193899255310.html",
+      "official": false
+    },
+    {
+      "id": "b3d59ef9da4b",
+      "title": "华泰证券港股策略：红利继续做底仓 可阶段性重点关注创新药及CXO龙头",
+      "summary": "【华泰证券港股策略：红利继续做底仓 可阶段性重点关注创新药及CXO龙头】华泰证券研报表示，上周美国9月CPI、PPI双双超预期，推动10月加息概率上升、美债长端收益率盘中触及二十四年来新高。但随后AI产业链在融资压力与增长担忧的双重影响下回撤，反向带动美债利率自高点回落。资产表现因此出现小幅逆转，非AI主线但受益于美债压力部分缓解的市场如印度和恒生指数相对收益跑赢，传统行业小幅修复。",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "A股",
       "asset_types": [
@@ -43,28 +79,166 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-18T07:35+08:00",
+      "published_at": "2026-10-19T07:51+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "21世纪经济报道",
-      "source_url": "https://finance.eastmoney.com/a/202610183899097014.html",
+      "market_tone": "偏积极",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202610193899254081.html",
       "official": false
     },
     {
-      "id": "c3cc21597785",
-      "title": "“校园贷鼻祖”罗敏补税7.9亿元！趣店营收几乎归零，利润全靠利息和投资",
-      "summary": "【导读】HTT（原名趣店）董事长罗敏需补税7.9亿元一家靠“校园贷”起家的美股上市公司，正打算为董事长的巨额个税买单。",
+      "id": "1120fbb16cec",
+      "title": "不搞强制考核 联通华盛 “欢乐模式” 落地企业 AI",
+      "summary": "一家年营收数百亿的公司推动AI，最怕什么？联通华盛副总经理陈丰伟的答案是：不怕花钱，不怕技术，怕的是员工“对着它，不知道要干什么”。于是这家中国联通的全资子公司没有搞顶层规划，没有强制考核，却让AI真正长进了公司的生产流程。过去一年，联通华盛开通的WorkBuddy企业版账号从100个、200个、300个一路“滚”到600个，全靠口口相传。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-18T00:48+08:00",
+      "published_at": "2026-10-19T07:26+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "中国基金报",
-      "source_url": "https://finance.eastmoney.com/a/202610173899085285.html",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202610193899249039.html",
+      "official": false
+    },
+    {
+      "id": "5dca98a73b81",
+      "title": "一周前瞻丨英伟达GTC与科技巨头财报联袂登场！聚焦黄仁勋演讲、Meta、特斯拉及SpaceX业绩；中国GDP与金融政策成焦点，港股周一休市",
+      "summary": "新一周市场将同时迎来中国三季度经济数据、金融街论坛年会、APEC财长会和英伟达(NVDA.US)GTC大会。美股财报季进入密集阶段，特斯拉(TSLA.US)、MetaPlatforms(META.US)等科技公司将披露业绩；港股方面，宁德时代(03750.HK)、中国移动(00941.HK)、中国电信(00728.HK)及中国联通(00762.HK)等公司也将放榜。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-19T07:21+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610193899248135.html",
+      "official": false
+    },
+    {
+      "id": "f8bad51dd190",
+      "title": "MarketWatch：利率与通胀｜My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "summary": "英文摘要：“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-19T01:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "8d77e724c3e0",
+      "title": "MarketWatch：公司业绩｜These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+      "summary": "英文摘要：Boeing, Meta and EchoStar recorded steep charges and expenses a year ago, which are expected to make this latest quarter’s results look especially strong by comparison.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-18T22:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "45ac6f559174",
+      "title": "MarketWatch：公司业绩｜Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+      "summary": "英文摘要：The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-18T21:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "d4d7d2fb8feb",
+      "title": "业绩强劲增长 港股保险龙头获资金连续21日净买入！",
+      "summary": "本周南向资金合计净卖出66.37亿港元。友邦保险获南向资金连续21日净买入本周（10月12日至10月16日）港股市场主要股指小幅回调，恒生指数累计跌0.1%，恒生科技指数跌2.13%，恒生中国企业指数跌0.24%。据证券时报·数据宝统计，本周南向资金合计净卖出66.37亿港元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-18T12:54+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "数据宝",
+      "source_url": "https://finance.eastmoney.com/a/202610183899118164.html",
+      "official": false
+    },
+    {
+      "id": "c82d5ff0a6b4",
+      "title": "利好！2700亿巨头净利预增超160%！多家A股龙头公司业绩预告报喜",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-18T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610183899105244.html",
+      "official": false
+    },
+    {
+      "id": "5d4a75e4e73f",
+      "title": "环球下周看点：黄仁勋GTC演讲 “癌症疫苗”详细数据出炉 Meta、特斯拉发布财报",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-18T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610183899095119.html",
+      "official": false
+    },
+    {
+      "id": "2dee8ea2f5da",
+      "title": "2%利率大额存单回归 中小行、外资行四季度揽储模式开启",
+      "summary": "天天基金发布与“利率与通胀”相关的新信息。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-18T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610173899088040.html",
       "official": false
     },
     {
@@ -82,144 +256,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/10/17/timberland-investing-returns-risk.html",
-      "official": false
-    },
-    {
-      "id": "b7b9a3ce5309",
-      "title": "连续4年财报失真！ST佳缘及相关责任人被罚1450万元",
-      "summary": "ST佳缘2019年至2022年的营业收入、利润总额有问题。10月16日晚间，ST佳缘（301117）同时披露收到中国证监会下发的《行政处罚决定书》、中国证券监督管理委员会四川监管局（下称“四川证监局”）出具的《关于对佳缘科技股份有限公司采取责令改正措施并对王进等相关责任人采取出具警示函措施的决定》。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-18T00:18+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "证券时报",
-      "source_url": "https://finance.eastmoney.com/a/202610173899077293.html",
-      "official": false
-    },
-    {
-      "id": "5f5feb55dc43",
-      "title": "煤炭价格突破1000元/吨 多家煤企净利润大幅飙升",
-      "summary": "近日，动力煤价格时隔3年首次突破1000元/吨。中国煤炭运销协会主管的中国煤炭市场网发布数据显示，10月16日，CCTD环渤海5500大卡动力煤现货价达1025元/吨，创下2023年10月中旬以来的新高。在煤价强势带动下，煤炭企业业绩大增，部分企业前三季度净利润增长超100%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-18T00:01+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "中国经营报",
-      "source_url": "https://finance.eastmoney.com/a/202610173899087979.html",
-      "official": false
-    },
-    {
-      "id": "2b7a2956ef50",
-      "title": "2%利率大额存单回归 中小行、外资行四季度揽储模式开启",
-      "summary": "沉寂一年有余的“2字头”大额存单，在四季度初重现市场。锡商银行手机银行App显示，该行3年期大额存单年化利率为2%，20万元起存，持有满90天可转让；众邦银行同期推出的3年期、5年期大额存单年化利率分别为2%和2.05%；华通银行也重新推出5年期定存产品，年化利率达2.1%。与此同时，部分外资银行也密集上架人民币大额存单产品。在市场整体利率下行的背景下，这一逆势操作引发关注。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-18T00:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国经营报",
-      "source_url": "https://finance.eastmoney.com/a/202610173899088040.html",
-      "official": false
-    },
-    {
-      "id": "8f905eec30b6",
-      "title": "大幅减亏！晶科能源第三季度最多亏5亿元 储能业务开始贡献利润",
-      "summary": "10月17日，光伏巨头晶科能源（688223）发布前三季度业绩预告，财务部门初步测算，预计2026前三季度实现归母净利润为-35.76亿元到-29.76亿元，上年同期为-39.20亿元，同比减亏8.77%~24.08%；扣非净利润为-44.11亿元到-38.11亿元，同比减亏2.91%~16.11%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-18T00:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610173899075321.html",
-      "official": false
-    },
-    {
-      "id": "e711a23f14ff",
-      "title": "连续4年财务造假！这家A股公司 被罚→",
-      "summary": "2026年10月16日，ST佳缘（301117）收到中国证监会《行政处罚决定书》，因年报虚增营收等信息披露违法违规行为被责令改正、给予警告，并处以600万元罚款。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-17T23:47+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "央视财经",
-      "source_url": "https://finance.eastmoney.com/a/202610173899087460.html",
-      "official": false
-    },
-    {
-      "id": "65e6e3d8fff0",
-      "title": "周末 两大风险 来袭！",
-      "summary": "【导读】AI股暴跌，叠加油价冲到110美元这个周末，华尔街很焦虑。两大危机袭来：AI产业链的抛售潮进一步加剧，甚至蔓延至债务融资市场；与此同时，油价升至每桶110美元，威胁让通胀变得更加难以控制。抛售压力席卷了庞大的AI产业链，从芯片制造商、数据中心供应商，一直到那些背负巨额债务、负责建设AI基础设施的企业，无一幸免。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-17T23:42+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "中国基金报",
-      "source_url": "https://finance.eastmoney.com/a/202610173899087347.html",
-      "official": false
-    },
-    {
-      "id": "ce912e9ef010",
-      "title": "CNBC：公司业绩｜AI stocks plunge. Inflation heats up. Where we're still finding opportunities",
-      "summary": "英文摘要：The sinking AI trade rattled last week's market. But solid bank earnings and a rotation beyond tech gave us reasons for optimism.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-17T23:42+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/investingclub/2026/10/17/ai-stocks-plunge-inflation-heats-up-where-were-still-finding-opportunities.html",
-      "official": false
-    },
-    {
-      "id": "59d2831ddc06",
-      "title": "烯草酮价跌叠加汇兑损失 先达股份第三季度由盈转亏 年内股价跌29%",
-      "summary": "10月17日，农药龙头企业先达股份（603086）发布前三季度业绩预告，预计2026年前三季度归母净利润4500万元~5000万元，同比减少74.48%~77.03%。扣非净利润为4,220万元到4,720万元，与上年同期相比，将减少13,988.82万~14,488.82万元，同比减少74.77%~77.44%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-17T23:30+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610173899086741.html",
       "official": false
     },
     {
@@ -272,23 +308,6 @@
       "market_tone": "中性",
       "source_name": "上海证券报",
       "source_url": "https://finance.eastmoney.com/a/202610173898793892.html",
-      "official": false
-    },
-    {
-      "id": "40a90eb8be7f",
-      "title": "CNBC：公司业绩｜Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
-      "summary": "英文摘要：Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-17T06:31+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
       "official": false
     },
     {
@@ -381,40 +400,6 @@
       "official": false
     },
     {
-      "id": "959dedd5756b",
-      "title": "晚报丨美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期",
-      "summary": "美国9月PPI、零售销售数据今晚20:30揭晓；AI领域上演“砸塌美债收益率”式大跌，韩国紧急开会救市；市场发现AI最大瓶颈是钱；美媒称美国已制定新的对伊打击计划；苹果智能在华获批；台积电营收净利双超预期。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T18:26+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202610153897028633.html",
-      "official": false
-    },
-    {
-      "id": "3f74de9a7dc7",
-      "title": "腾讯Q3财报前瞻：主业基本盘依然稳健 AI重投入铺路中长期红利",
-      "summary": "腾讯控股将于2026年11月18日正式披露第三季度财报。瑞银与广发证券在近期相继发布前瞻研究报告，三季度腾讯主营业务基本盘依然具备强劲韧性，单季营收增速保持在7%至9%的稳健区间；受AI研发投入与算力基础设施扩张带来的成本折旧影响，短期利润端呈现个位数温和调整，但高质量增长逻辑并未动摇，两家机构均维持“买入”评级。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-15T13:48+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202610153896775944.html",
-      "official": false
-    },
-    {
       "id": "c6d5f4b95d08",
       "title": "美国证监会：IPO与融资｜SEC Small Business Advisory Committee to Discuss IPO Modernization and Regulation Crowdfunding",
       "summary": "英文摘要：The Securities and Exchange Commission’s Small Business Capital Formation Advisory Committee announced that it will hold a meeting on Tuesday, October 27, 2026, at 10 a.m. to continue discussing IPO modernization and explore potential policy…",
@@ -432,9 +417,43 @@
       "official": true
     },
     {
-      "id": "a57d1a1ac6d2",
-      "title": "MarketWatch：市场与交易｜Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
-      "summary": "英文摘要：Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
+      "id": "753eac5d03e3",
+      "title": "格物通智已完成近亿元天使轮融资",
+      "summary": "【格物通智已完成近亿元天使轮融资】具身大脑公司格物通智已完成近亿元天使轮融资，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团、某省级具身产投及多家头部上市公司。资金将主要用于物理反演世界模型的大规模预训练与技术迭代、硬件与本体构建等，加快人才引进和规模扩充，并推进多个场景PoC验证和真实数据采集。MaplePledge枫承资本出任本轮独家私募股权融资顾问。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-19T08:22+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "科创板日报",
+      "source_url": "https://finance.eastmoney.com/a/202610193899263318.html",
+      "official": false
+    },
+    {
+      "id": "7fd705fce78c",
+      "title": "德业股份目标价涨幅超70%，宇通重工等9股获推荐丨券商评级观察",
+      "summary": "南方财经10月19日电，南财投研数据显示，10月12日至10月18日，券商给予上市公司目标价共51次，按最新收盘价计算，目标价涨幅排名居前的公司有亚翔集成、海光信息、新宙邦，目标价涨幅分别为90.28%、81.84%、79.38%，分别属于专业工程、半导体、电池行业。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-19T08:18+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202610193899263059.html",
+      "official": false
+    },
+    {
+      "id": "1d78493923d0",
+      "title": "CNBC：市场与交易｜India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+      "summary": "英文摘要：India's finance minister said that continued capital outflows are one of the biggest risks for the country in 2027.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -442,11 +461,65 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-18T02:40+08:00",
+      "published_at": "2026-10-19T07:00+08:00",
       "importance": 2,
       "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+      "official": false
+    },
+    {
+      "id": "835d5cf7c9de",
+      "title": "CNBC：贸易政策｜Why I am taking the other side of the trade that crushed the market Friday",
+      "summary": "英文摘要：How did this happen so quickly? Where were the buyers? I have some answers.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-19T06:23+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/10/18/jim-cramer-why-i-am-taking-the-other-side-of-the-trade-that-crushed-the-market-friday.html",
+      "official": false
+    },
+    {
+      "id": "1f05a314e8c2",
+      "title": "CNBC：市场与交易｜Top Wall Street analysts are bullish on the growth potential of these 3 stocks",
+      "summary": "英文摘要：Amid fear of rate hikes and oil prices, investors can look past volatility and track Street analysts' stock picks with strong long-term growth potential.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-18T20:34+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html",
+      "official": false
+    },
+    {
+      "id": "1c6f47f1bb96",
+      "title": "MarketWatch：市场与交易｜There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+      "summary": "英文摘要：A “triple-top” reversal chart pattern is pointing to a period of underperformance for the S&P 500 — perhaps a long one.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-18T20:00+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
       "official": false
     },
     {
@@ -460,82 +533,11 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-18T00:45+08:00",
+      "published_at": "2026-10-18T19:10+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
-      "official": false
-    },
-    {
-      "id": "2b18b1eb2267",
-      "title": "CNBC：市场与交易｜Berkshire shares buck market sell-off, rally to highest since Buffett said he would step down as CEO",
-      "summary": "英文摘要：Berkshire Hathaway shares are at their highest level since Warren Buffett told shareholders at the May 2025 annual meeting he planned to step down as CEO at the end of that year.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-17T20:46+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html",
-      "official": false
-    },
-    {
-      "id": "c246cb3c5802",
-      "title": "CNBC：贸易政策｜The Austin Powers steamroller: How to trade CoreWeave's slow moving crisis",
-      "summary": "英文摘要：After a 27.5% drop from last Friday's close to this Thursday morning's 52-week lows, followed by a 17% rebound, equity traders holding CoreWeave are dazed.",
-      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-17T02:24+08:00",
-      "importance": 2,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/16/playing-the-coreweave-disconnect.html",
-      "official": false
-    },
-    {
-      "id": "5c23513ce44d",
-      "title": "CNBC：并购重组｜Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
-      "summary": "英文摘要：Kalshi odds for a Tesla-SpaceX merger rose above 50% for early 2027 as Barclays outlined how a deal could work.",
-      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-17T01:02+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
-      "official": false
-    },
-    {
-      "id": "eae5a55c9be3",
-      "title": "CNBC：市场与交易｜U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
-      "summary": "英文摘要：The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-17T00:46+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
       "official": false
     }
   ],
