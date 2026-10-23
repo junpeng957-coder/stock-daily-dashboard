@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-10-22",
-  "generated_at": "2026-10-22T08:54+08:00",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:57+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月22日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 33 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 6 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "10月23日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、基金与ETF。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -70,330 +70,245 @@
       "official": true
     },
     {
-      "id": "033a97292e04",
-      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
-      "summary": "中国证监会发布与“监管政策”相关的新信息。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-19T12:00+08:00",
-      "importance": 4,
-      "market_tone": "偏谨慎",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7665427/content.shtml",
-      "official": true
-    },
-    {
-      "id": "2e77595ce396",
-      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
-      "summary": "中国证监会发布与“监管政策”相关的新信息。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-19T12:00+08:00",
-      "importance": 4,
-      "market_tone": "偏谨慎",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7665425/content.shtml",
-      "official": true
-    },
-    {
-      "id": "e2834c74f406",
-      "title": "美联储：利率与通胀｜Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "summary": "英文摘要：Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "id": "764d906328bb",
+      "title": "CNBC：利率与通胀｜Japan core inflation in September surges to its highest this year at 2.1%",
+      "summary": "英文摘要：Core inflation, which strips out prices of fresh food, was in line with the 2.1% forecast by economists polled by Reuters.",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "全球宏观",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-16T23:00+08:00",
-      "importance": 4,
+      "published_at": "2026-10-23T08:55+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
+      "official": false
+    },
+    {
+      "id": "3aab322dd7ef",
+      "title": "中工国际三季报出炉：营收增长而利润下滑，2.17亿元汇兑损失拖累盈利，海外在手订单近百亿美元",
+      "summary": "10月22日晚间，中工国际工程股份有限公司（以下简称“中工国际”或“公司”）发布2026年第三季度报告。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-23T08:49+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202610233904945464.html",
+      "official": false
+    },
+    {
+      "id": "7be2294439bd",
+      "title": "西部数据：第一财季净营收43.8亿美元 同比增长55%",
+      "summary": "西部数据第一财季净营收43.8亿美元，同比增长55%，分析师预期41.5亿美元；调整后每股收益4.64美元，市场预期为4.10美元。公司预计第二财季营收50亿-52亿美元，同比料增66%-72%，预计第二财季调整后EPS为5.60-6美元，预计运营开支4亿-4.1亿美元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-23T08:49+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "科创板日报",
+      "source_url": "https://finance.eastmoney.com/a/202610233904960146.html",
+      "official": false
+    },
+    {
+      "id": "24a318f28c34",
+      "title": "是否考虑适当提高cpu和dcu售价？合同负债为何较年初下降较大？海光信息三季度业绩会释疑",
+      "summary": "其中第三季度，公司营业收入为58.56亿元，同比上升45.46%；归母净利润为10.48亿元，同比上升37.90%；扣非归母净利润为9.53亿元，同比上升31.12%。截至三季度末，公司总资产406.88亿元，较上年度末增长14.17%；归母净资产为264.23亿元，较上年度末增长17.47%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-23T08:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202610233904922792.html",
+      "official": false
+    },
+    {
+      "id": "a9ce4e8fa743",
+      "title": "深科达前三季度净利增超两倍，玻璃基板设备首次亮相",
+      "summary": "10月22日晚，深科达（688328.SH）披露2026年第三季度报告。前三季度公司实现营业收入6.74亿元，同比增长27.74%；归母净利润8519.42万元，同比增长205.64%；扣非净利润8481.22万元，同比增长250.52%。第三季度营业收入2.39亿元，同比增长42.08%，归母净利润2374.68万元，同比增长226.63%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-23T08:40+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610233904922180.html",
+      "official": false
+    },
+    {
+      "id": "954264abc282",
+      "title": "A股震荡调整，沪市科技企业集中发声",
+      "summary": "【大河财立方记者王宇】10月22日，A股市场全天呈现震荡调整态势。受中东地缘局势扰动加剧全球石油供应担忧、国际油价上行，叠加特斯拉、Meta财报表现分化，市场对于AI板块反弹行情可持续性产生分歧，多重外部因素交织令市场短期情绪趋于谨慎。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-23T08:38+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "大河财立方",
+      "source_url": "https://finance.eastmoney.com/a/202610233904944843.html",
+      "official": false
+    },
+    {
+      "id": "3077001cf550",
+      "title": "688121，提前锁定退市！",
+      "summary": "科创板首家市值退市公司或将出现。10月22日晚间，*ST卓然(688121)发布公告称，公司股票2026年10月22日收盘价格0.54元/股，总市值1.26亿元，公司股票已连续16个交易日每日股票收盘市值均低于3亿元，即使后续4个交易日连续涨停，公司股票也将因市值连续20个交易日低于3亿元而触及交易类强制退市。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T08:36+08:00",
+      "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "美联储",
-      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-      "official": true
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610233904922029.html",
+      "official": false
     },
     {
-      "id": "4979c1d83212",
-      "title": "中毅达前三季度净利润增长17.99% 主营产品景气修复",
-      "summary": "上证报中国证券网讯中毅达10月21日晚间披露三季度报告。受益于主要产品毛利改善，公司前三季度交出营收、利润双增的成绩单：实现营业收入8.14亿元，同比增长6.92%；归母净利润5321.87万元，同比增长17.99%；基本每股收益0.0497元，同比增长18.05%。单季度表现尤为亮眼。",
+      "id": "a5d46e886ed5",
+      "title": "科技股调整，高增长逻辑还在吗？科创板公司集体发声：订单饱满、景气向上",
+      "summary": "《科创板日报》10月23日讯，10月22日，A股市场全天呈现震荡调整态势。受中东地缘局势扰动加剧全球石油供应担忧、国际油价上行，叠加特斯拉、Meta财报表现分化，市场对于AI板块反弹行情可持续性产生分歧，多重外部因素交织令市场短期情绪趋于谨慎。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-22T08:45+08:00",
+      "published_at": "2026-10-23T08:34+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "上海证券报·中国证券网",
-      "source_url": "https://finance.eastmoney.com/a/202610223903330477.html",
+      "source_name": "科创板日报",
+      "source_url": "https://finance.eastmoney.com/a/202610233904919922.html",
       "official": false
     },
     {
-      "id": "0dbf8125c232",
-      "title": "华锐精密前三季度净利润预增118%至147%",
-      "summary": "上证报中国证券网讯10月21日晚间，华锐精密自愿性披露2026年前三季度业绩预告。经财务部门初步测算，公司预计前三季度实现归属于母公司所有者的净利润3.00亿元至3.40亿元，同比增加118.27%至147.37%；扣非净利润2.95亿元至3.35亿元，同比增加117.59%至147.09%。上年同期，公司实现归母净利润1.37亿元、扣非净利润1.36亿元。",
+      "id": "2c64d3748fe8",
+      "title": "CNBC：公司业绩｜Moderna shares plunge after cancer vaccine data leaks — despite positive results",
+      "summary": "英文摘要：Moderna released full data on its closely watched cancer vaccine developed with Merck.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-22T08:35+08:00",
+      "published_at": "2026-10-23T05:52+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "上海证券报·中国证券网",
-      "source_url": "https://finance.eastmoney.com/a/202610223903326865.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/22/moderna-stock-cancer-vaccine-data-leak.html",
       "official": false
     },
     {
-      "id": "9e05bd67e62c",
-      "title": "精锻科技：机器人关节零部件已向相关客户送样、开展验证测试",
-      "summary": "【精锻科技：机器人关节零部件已向相关客户送样、开展验证测试】精锻科技在互动平台表示，公司依托精密锻造、齿轮零部件的工艺平台优势，除汽车领域外，公司产品还可适配工业自动化、工程机械、农业机械、机器人关节、航空、高铁等领域。机器人客户验证包含样件性能测试、耐久可靠性、工况适配、小批量试产等多个环节，并因客户、项目不同，验证周期存有差异。公司机器人关节零部件已向相关客户送样、开展验证测试，当前相关业务暂未贡献规模营收，敬请注意投资风险。",
+      "id": "22d2b9c02bd6",
+      "title": "CNBC：公司业绩｜A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why",
+      "summary": "英文摘要：Meta's in-house AI lab is not getting enough credit on Wall Street.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-22T08:33+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "南方财经网",
-      "source_url": "https://finance.eastmoney.com/a/202610223903326437.html",
-      "official": false
-    },
-    {
-      "id": "0addf6dcb92f",
-      "title": "汽车早报｜问界回应“陕西神木车辆碰撞起火”特斯拉三季度财报出炉",
-      "summary": "工信部：加强汽车产品创新设计和研发测试验证据国是直通车，工信部副部长辛国斌10月21日在北京举行的2026世界智能网联汽车大会开幕式上指出，中方将围绕能源动力、智能底盘、智能网联等关键领域，支持龙头企业牵头组建创新联合体。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T08:33+08:00",
+      "published_at": "2026-10-23T04:11+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610223903327124.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/10/22/meta-stock-why-were-staying-bullish-after-the-post-earnings-sell-off.html",
       "official": false
     },
     {
-      "id": "e3b4618dbe3f",
-      "title": "迈向汽车强国丨立时代潮头 促产业向新——宁德时代筑牢新能源汽车产业底座",
-      "summary": "宁德时代近日发布2026年三季报，前三季度实现营业收入4421.37亿元，同比增长56.19%。归母净利润645.3亿元，同比增长31.60%。公司在核心动力电池领域的领先地位进一步夯实。持续的业绩向好，体现出宁德时代强大的发展动力。而这种动力就来自其持续推进的多技术路径并行、超充与换电并进、出海模式升级、推进全域增量等战略的成功实施和良好效果。",
+      "id": "78a16e2dcae2",
+      "title": "CNBC：利率与通胀｜Bill Ackman says 2027 will be an amazing year for stocks as wars, inflation ease",
+      "summary": "英文摘要：\"We're going to have an amazing 2027,\" he said.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T01:53+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/22/bill-ackman-talks-meta-and-markets-with-cnbc.html",
+      "official": false
+    },
+    {
+      "id": "bedaafa75579",
+      "title": "晚报丨中东局势恶化，俄罗斯再袭基辅，油价走高；PHP漏洞冲击全球网站，网安股迎资金追捧；贝莱德看好黄金；Anthropic推出AI智能体；Meta被判250亿美元天价罚单，OpenAI支持AI强制监管",
+      "summary": "中东局势恶化，俄罗斯再袭基辅，油价走高；PHP漏洞冲击全球网站，网安股迎资金追捧；贝莱德看好黄金；Anthropic推出AI智能体；Meta被判250亿美元天价罚单，OpenAI支持AI强制监管。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-22T18:24+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610223904236161.html",
+      "official": false
+    },
+    {
+      "id": "024c5e0e59f2",
+      "title": "港股网易大跌近7% 野村下调目标价并称三季度业绩相对平淡",
+      "summary": "【港股网易大跌近7% 野村下调目标价并称三季度业绩相对平淡】今日网易港股盘中大幅走弱，跌幅一度逼近7%。截至发稿跌6.89%，报181港元。消息方面，野村证券在最新发布的研究报告中指出，受核心游戏业务短期增长乏力影响，网易第三季度整体业绩表现预计相对平淡，并下调了对公司的短期业绩与美股目标价预期。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-22T08:29+08:00",
+      "published_at": "2026-10-22T13:49+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "经济参考报",
-      "source_url": "https://finance.eastmoney.com/a/202610223903324923.html",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610223903964991.html",
       "official": false
     },
     {
-      "id": "430711401376",
-      "title": "特斯拉，盘后跌超3%",
-      "summary": "当地时间周三（10月21日），美股三大股指全线收涨，标普500指数连续三个交易日收涨，纳指涨超1%。盘面上，AI交易表现强劲，科技股普涨，三季报是主导本周美股走势的最重要因素之一：SpaceX财报超预期提振市场情绪，大幅上调财季营收指引的超微电脑收涨近9.6%；特斯拉三季报喜忧参半，股价盘后转跌，三季报不及预期的奈飞收跌超5%。",
+      "id": "000b5ec19075",
+      "title": "联想系港股受行业寒意冲击跌逾7% 大行力挺算力破局与业绩预期",
+      "summary": "今日联想系港股走弱，其中联想集团(00992.HK)跌7.92%，联想控股(03396.HK)跌7.72%。消息方面，Omdia的最新研究显示，2026年第三季度，全球台式机、笔记本电脑和工作站的出货量大幅下滑，同比下降21.2%，至5810万台。台式机出货量(包括台式工作站)下降23.5%，至1170万台；笔记本电脑出货量(包括移动工作站)下降20.6%，至4640万台。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-22T08:27+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "上海证券报",
-      "source_url": "https://finance.eastmoney.com/a/202610223903325375.html",
-      "official": false
-    },
-    {
-      "id": "15fd6ea6ed9b",
-      "title": "Meta三季度营收增长26%：Muse用户突破1000万，计划明年“拆股”",
-      "summary": "社交媒体巨头Meta上季度营收超预期而自由现金流转负，拟发行无投票权新股。当地时间10月21日，Meta公布了截至9月30日的2026财年第三财季业绩，公司第三财季营收646.01亿美元，较去年同期增长26%，高于市场预期的634亿美元；净利润同比大增264%至98.60亿美元；摊薄后每股收益（EPS）3.83美元。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T08:23+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "澎湃新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610223903324480.html",
-      "official": false
-    },
-    {
-      "id": "65675d740242",
-      "title": "特斯拉Q3财报出炉：加码AI和机器人汽车主业承压 资本支出远逊预期！",
-      "summary": "【特斯拉Q3财报出炉：加码AI和机器人汽车主业承压，资本支出远逊预期！】周三美股盘后，特斯拉发布了好于预期的第三季度财报，尽管汽车业务收入有所下降。截至发稿，该股在盘后交易中跌超3%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T08:17+08:00",
+      "published_at": "2026-10-22T11:18+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202610223903311593.html",
-      "official": false
-    },
-    {
-      "id": "e03b955f6b3c",
-      "title": "CNBC：公司业绩｜Tesla beats on earnings and sales even as auto revenue declines",
-      "summary": "英文摘要：Tesla reported better-than-expected third-quarter results.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T07:32+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html",
-      "official": false
-    },
-    {
-      "id": "ed83a0180242",
-      "title": "CNBC：公司业绩｜Southwest Airlines cuts 2026 profit forecast on higher fuel",
-      "summary": "英文摘要：Southwest Airlines became the third major U.S. airline this month to cut its 2026 profit forecast due to higher fuel prices.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T05:07+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/21/southwest-airlines-luv-3q-2026-earnings.html",
-      "official": false
-    },
-    {
-      "id": "95c7650f14e0",
-      "title": "MarketWatch：公司业绩｜7 healthcare stocks that stand out as investors pay up for the sector",
-      "summary": "英文摘要：Investors have pushed the healthcare sector to a record high, and some favored stocks have high projected revenue growth rates through 2028.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T04:59+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "888e7753d743",
-      "title": "MarketWatch：公司业绩｜Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
-      "summary": "英文摘要：Moderna is one of the hottest stocks of the year because of its custom cancer treatment. Full Phase 3 data are set to be revealed this weekend.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T04:18+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "fab9087a5627",
-      "title": "CNBC：公司业绩｜Meta and Tesla bulls get confidence boost after SpaceX earnings",
-      "summary": "英文摘要：A big rally in SpaceX after earnings is giving hope to Meta and Tesla bulls ahead of their reports due Wednesday afternoon.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T00:35+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
-      "official": false
-    },
-    {
-      "id": "f6a285907345",
-      "title": "CNBC：公司业绩｜SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
-      "summary": "英文摘要：SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-22T00:08+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-      "official": false
-    },
-    {
-      "id": "22ce2a381f68",
-      "title": "CNBC：公司业绩｜Goldman Sachs, JPMorgan and Morgan Stanley are dominating the AI stock boom. Here's their edge",
-      "summary": "英文摘要：Wall Street’s Big Three have generated $52 billion in equity trading revenue this year, capturing about 80% of the market on rising margin lending to hedge funds.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-21T23:30+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
-      "official": false
-    },
-    {
-      "id": "b4619394bd67",
-      "title": "CNBC：利率与通胀｜Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-      "summary": "英文摘要：Housing data deteriorated further in September, according to separate reports Tuesday.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-21T19:20+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+      "source_url": "https://finance.eastmoney.com/a/202610223903845234.html",
       "official": false
     },
     {
@@ -516,74 +431,107 @@
       "official": false
     },
     {
-      "id": "9658572c6ae1",
-      "title": "澜起科技：预计第三季度净利润同比增长154%-175%",
-      "summary": "【澜起科技：预计第三季度净利润同比增长154%-175%】澜起科技(688008.SH)公告称，预计2026年第三季度归属于上市公司股东的净利润为12.00亿元-13.00亿元，同比增长153.6%-174.7%。业绩变动主要系AI推理及Agent应用快速发展，服务器CPU需求增长，DDR5内存接口及模组配套芯片出货量大幅增加，推动经营业绩同比大幅增长。注：公司Q3净利润预计12亿-13亿，Q2净利润11.5亿，据此计算，Q3净利润预计环比增长4%-13%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
+      "id": "1c652a4e0735",
+      "title": "上交所首批主动ETF获批，助力中长期资金入市",
+      "summary": "上海证券交易所发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-19T12:00+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券交易所",
+      "source_url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261019_10835135.shtml",
+      "official": true
+    },
+    {
+      "id": "0b9e94db3ecc",
+      "title": "CNBC：IPO与融资｜SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+      "summary": "英文摘要：SK Hynix has shelved plans for a potential U.S. IPO of Solidigm amid market volatility and share price concerns.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-20T18:23+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202610203901429164.html",
+      "published_at": "2026-10-23T08:53+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
       "official": false
     },
     {
-      "id": "4318fd62ba4a",
-      "title": "10月LPR不变：1年期3.0% 5年期以上3.5%",
-      "summary": "【10月LPR不变：1年期3.0% 5年期以上3.5%】贷款市场报价利率（LPR）报价连续17个月不变。中国人民银行授权全国银行间同业拆借中心公布，2026年10月20日，贷款市场报价利率（LPR）为：1年期LPR为3.00%，5年期以上LPR为3.50%，均较上月保持不变，以上LPR在下一次发布LPR之前有效。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "港股",
+      "id": "ed6768fc7453",
+      "title": "机构风向标 | 开能健康(300272)2026年三季度已披露持仓机构仅2家",
+      "summary": "2026年10月23日，开能健康(300272.SZ)发布2026年第三季报。截至2026年10月22日，共有2个机构投资者披露持有开能健康A股股份，合计持股量达4157.81万股，占开能健康总股本的6.80%。其中，机构投资者包括上海市建国社会公益基金会、上海高森投资有限公司，机构投资者合计持股比例达6.80%。相较于上一季度，机构持股比例合计下跌了0.30个百分点。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T08:52+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610233904960555.html",
+      "official": false
+    },
+    {
+      "id": "5b5a173c894b",
+      "title": "机构风向标 | 朱老六(920726)2026年三季度已披露持仓机构仅1家",
+      "summary": "2026年10月22日，朱老六(920726.BJ)发布2026年第三季报。截至2026年10月22日，共有1个机构投资者披露持有朱老六A股股份，合计持股量达15.74万股，占朱老六总股本的0.16%。其中，机构投资者包括上海集微私募基金管理有限公司-集微西格玛套利三期私募证券投资基金，机构投资者合计持股比例达0.16%。相较于上一季度，机构持股比例合计下跌了0.02个百分点。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T08:51+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610233904945048.html",
+      "official": false
+    },
+    {
+      "id": "d13942a9c877",
+      "title": "MarketWatch：市场与交易｜CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
+      "summary": "英文摘要：Stop listening to market pundits and start looking at market performance.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-20T09:01+08:00",
-      "importance": 3,
+      "published_at": "2026-10-23T06:54+08:00",
+      "importance": 2,
       "market_tone": "中性",
-      "source_name": "澎湃新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610203900657344.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "60dba43bae4f",
-      "title": "早报丨哈塞特称通胀仍需应对，尊重美联储独立性；OpenAI据报加快融资，MiniMax发布M3.1 Flash；英伟达GTC柏林大会今日启动，宁德时代盘后放榜",
-      "summary": "哈塞特称通胀仍需应对，尊重美联储独立性；OpenAI据报加快融资，MiniMax发布M3.1 Flash；英伟达GTC柏林大会今日启动，宁德时代盘后放榜。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "港股",
+      "id": "98fb438ba0fb",
+      "title": "MarketWatch：贸易政策｜The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
+      "summary": "英文摘要：The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-20T08:26+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202610203900589897.html",
-      "official": false
-    },
-    {
-      "id": "7df521daca29",
-      "title": "证监会：加快推进人民币股票交易柜台和REITs纳入沪深港通",
-      "summary": "【证监会：加快推进人民币股票交易柜台和REITs纳入沪深港通】证监会主席吴清在参加2026金融街论坛年会开幕式时表示，落实内地与香港市场“五个协同”合作新模式，加快推进人民币股票交易柜台和REITs纳入沪深港通。深入参与国际金融组织治理改革，积极推动人工智能、金融稳定、可持续金融等重点议题的监管协作，努力贡献更多中国方案和中国智慧。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-19T17:16+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202610193899962949.html",
+      "published_at": "2026-10-23T06:17+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
       "official": false
     }
   ],
