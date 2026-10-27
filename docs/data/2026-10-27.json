@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T09:37+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "10月27日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、市场与交易、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "7585d6c3d9a1",
+      "title": "美国证监会：监管政策｜SEC Announces Fiscal Year 2027 Examination Priorities",
+      "summary": "英文摘要：The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T22:10+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "official": true
+    },
+    {
+      "id": "11c6c35fb882",
+      "title": "美国证监会：监管政策｜SEC and AMF Announce Supervisory MOU To Enhance Cooperation for Investment Advisers and Investment Service Providers",
+      "summary": "英文摘要：The U.S. Securities and Exchange Commission (SEC) and the French Autorité des Marchés Financiers (AMF) announced that they have entered into a Memorandum of Understanding (MOU) designed to facilitate consultation and information-sharing in the…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-20T21:25+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-108-sec-amf-announce-supervisory-mou-enhance-cooperation-investment-advisers-investment-service",
+      "official": true
+    },
+    {
+      "id": "9af88655e7d2",
+      "title": "美国证监会：监管政策｜SEC, FSA Hold Autumn Financial Regulatory Dialogue",
+      "summary": "英文摘要：The U.S. Securities and Exchange Commission (SEC) and the Financial Services Agency of Japan (FSA) convened the Autumn SEC-FSA Financial Regulatory Dialogue in Tokyo on Oct. 19, 2026.The SEC–FSA Dialogue builds upon longstanding efforts between the two…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-20T20:51+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-107-sec-fsa-hold-autumn-financial-regulatory-dialogue",
+      "official": true
+    },
+    {
+      "id": "92e8dc0df324",
+      "title": "早报丨斡旋方推美伊5日互让协议，国际油价微跌；Anthropic正式提交IPO申请；Meta股权融资筹集至多950亿美元；SK海力士、希捷科技、康宁等将发财报；东山精密今日港股暗盘交易",
+      "summary": "斡旋方推美伊5日互让协议，国际油价微跌；Anthropic正式提交IPO申请；Meta股权融资筹集至多950亿美元；SK海力士、希捷科技、康宁等将发财报；东山精密今日港股暗盘交易。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T08:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610273908966554.html",
+      "official": false
+    },
+    {
+      "id": "0ea2c447c7ce",
+      "title": "CNBC：利率与通胀｜Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+      "summary": "英文摘要：All survey respondents said they expect the BOJ to set the stage for a rate hike in December or January, as inflation and wages continue to rise.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T08:17+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/27/boj-october-meeting-rate-cnbc-survey.html",
+      "official": false
+    },
+    {
+      "id": "b35748426a76",
+      "title": "Anthropic招股书公布：上半年营收猛增13倍 净亏损超800亿美元 警告AI越界风险",
+      "summary": "AI（人工智能）初创巨头Anthropic提交了335页的招股书，披露了公司的爆发式增长及其背后的风险因素。当地时间10月26日，Anthropic向美国证券交易委员会（SEC）提交S-1注册文件，朝着史上规模最大的首次公开募股（IPO）之一的目标迈出关键一步。公司计划发行A类普通股，申请在纳斯达克全球精选市场以“ANT”为股票代码上市。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T07:16+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273908745570.html",
+      "official": false
+    },
+    {
+      "id": "89d21ae4cd71",
+      "title": "CNBC：公司业绩｜JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+      "summary": "英文摘要：JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T05:18+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
+      "official": false
+    },
+    {
+      "id": "e1647ff64b0f",
+      "title": "CNBC：利率与通胀｜Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+      "summary": "英文摘要：The Federal Reserve is expected to keep its overnight rate unchanged at the conclusion of its October meeting this week.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T02:51+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
+      "official": false
+    },
+    {
+      "id": "fd92928a52f7",
+      "title": "7个交易日股价涨超65%！宇树科技紧急提示：人形机器人尚处商业化早期",
+      "summary": "【7个交易日股价涨超65%！宇树科技紧急提示：人形机器人尚处商业化早期】10月26日盘后，宇树科技发布《股票交易异常波动公告》。公告显示，公司股票在10月22日、10月23日、10月26日连续三个交易日内收盘价格涨幅偏离值累计超过30%，依据《上海证券交易所交易规则》及《上海证券交易所科创板股票异常交易实时监控细则》，属于股票交易异常波动情形。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T00:09+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610263908386860.html",
+      "official": false
+    },
+    {
+      "id": "e1f78af9f954",
+      "title": "晚报丨科技财报周撞上超级央行周；IEA：全球能源市场明年难回美伊战争前水平；SK海力士拟追加最高60万亿韩元股东回报；药明康德、中信证券财报出炉；马斯克警告新云厂商危机将至",
+      "summary": "科技财报周撞上超级央行周；IEA：全球能源市场明年难回美伊战争前水平；SK海力士拟追加最高60万亿韩元股东回报；药明康德、中信证券财报出炉；马斯克警告新云厂商危机将至。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-26T18:45+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610263908204489.html",
+      "official": false
+    },
+    {
+      "id": "bbed3836521b",
+      "title": "中兴通讯：前三季度净利润同比下降23.71%",
+      "summary": "【中兴通讯：前三季度净利润同比下降23.71%】中兴通讯(000063.SZ)公告称，前三季度实现营业收入1168.38亿元，同比增长16.23%；归属于上市公司股东的净利润40.60亿元，同比下降23.71%。第三季度营业收入388.13亿元，同比增长33.99%；归属于上市公司股东的净利润13.07亿元，同比增长394.46%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-26T16:59+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610263908067972.html",
+      "official": false
+    },
+    {
+      "id": "deec675a9398",
+      "title": "QFII三季度持股动向曝光 业绩报喜股受追捧",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-25T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610243906815078.html",
+      "official": false
+    },
+    {
+      "id": "0f1975365cd1",
+      "title": "三季报预告密集披露 公募调研聚焦业绩确定性",
+      "summary": "天天基金发布与“公司业绩”相关的新信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-25T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610233906750251.html",
+      "official": false
+    },
+    {
+      "id": "9c5f77cecd22",
+      "title": "紫金矿业三季报：赚得更多了 但最好的那一段可能已经过去",
+      "summary": "【紫金矿业三季报：赚得更多了 但最好的那一段可能已经过去】前三季度，紫金矿业营收2835亿元，归母净利润575亿元，同比增长52%，经营现金流843亿元。这份成绩单足够漂亮。把575亿元拆回三个季度，画面就不同了。一季度归母净利润为200.79亿元，上半年累计392亿元，倒推二季度约191亿元，三季度约183亿元。这是连续两个季度的环比回落。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-24T12:01+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "红星资本局",
+      "source_url": "https://finance.eastmoney.com/a/202610243907070887.html",
+      "official": false
+    },
+    {
+      "id": "f2e8fda10a33",
+      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "summary": "中国证监会发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+      "official": true
+    },
+    {
+      "id": "bedaafa75579",
+      "title": "晚报丨中东局势恶化，俄罗斯再袭基辅，油价走高；PHP漏洞冲击全球网站，网安股迎资金追捧；贝莱德看好黄金；Anthropic推出AI智能体；Meta被判250亿美元天价罚单，OpenAI支持AI强制监管",
+      "summary": "中东局势恶化，俄罗斯再袭基辅，油价走高；PHP漏洞冲击全球网站，网安股迎资金追捧；贝莱德看好黄金；Anthropic推出AI智能体；Meta被判250亿美元天价罚单，OpenAI支持AI强制监管。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-22T18:24+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610223904236161.html",
+      "official": false
+    },
+    {
+      "id": "0b9586d08c0a",
+      "title": "清越科技3.7亿元基金先行赔付启动 监管部署券商做好适格投资者服务",
+      "summary": "【清越科技3.7亿元基金先行赔付启动 监管部署券商做好适格投资者服务】清越科技3.7亿元先行赔付基金落地执行工作正在稳步推进中。记者最新获悉，中证新要求各券商做好清越科技事件先行赔付适格投资者的通知与服务工作。清越科技于10月13日收到证监会《行政处罚决定书》，因欺诈发行、信息披露违法违规被行政处罚，公司保荐机构、主承销商、实控人已决定设立先行赔付专项基金，委托投保基金公司担任管理人，后者已于10月23日发布管理人公告。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:30+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610273909199958.html",
+      "official": false
+    },
+    {
+      "id": "6161ca8dbd26",
+      "title": "格力电器开盘跌超3%",
+      "summary": "格力电器开盘跌超3%。消息面上，格力电器披露的2026年第三季度报告显示，雅戈尔服饰持有格力电器9245.60万股股票，成为格力电器第六大股东，持股比例在董明珠之后。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:29+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273909215357.html",
+      "official": false
+    },
+    {
+      "id": "a965bfb3cab7",
+      "title": "CNBC：贸易政策｜China and Russia are redrawing Arctic trade. Can Europe fight back?",
+      "summary": "英文摘要：China and Russia are tightening their grip on Arctic shipping routes, turning the rapidly warming region into a new geopolitical battleground with Europe.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:24+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/27/arctic-shipping-china-and-russia-expand-grip-can-europe-fight-back.html",
+      "official": false
+    },
+    {
+      "id": "a776b9756c51",
+      "title": "机构风向标 | 中洲控股(000042)2026年三季度已披露持仓机构仅4家",
+      "summary": "2026年10月27日，中洲控股(000042.SZ)发布2026年第三季报。截至2026年10月26日，共有4个机构投资者披露持有中洲控股A股股份，合计持股量达3.61亿股，占中洲控股总股本的54.25%。其中，机构投资者包括深圳中洲集团有限公司、深圳市君至投资有限公司、香港中央结算有限公司、鹏扬中证A500指数增强A，机构投资者合计持股比例达54.25%。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:17+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273909213060.html",
+      "official": false
+    },
+    {
+      "id": "6ec0c4681db2",
+      "title": "机构风向标 | 恒实科技(300513)2026年三季度已披露前十大机构持股比例合计下跌1.50个百分点",
+      "summary": "2026年10月27日，恒实科技(300513.SZ)发布2026年第三季报。截至2026年10月26日，共有3个机构投资者披露持有恒实科技A股股份，合计持股量达2122.82万股，占恒实科技总股本的6.77%。其中，机构投资者包括新基信息技术集团股份有限公司、深圳市智慧城市科技发展集团有限公司、招商中证2000增强策略ETF，机构投资者合计持股比例达6.77%。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:16+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273909209117.html",
+      "official": false
+    },
+    {
+      "id": "838ba1a3ce2e",
+      "title": "机构风向标 | 万憬能源(002700)2026年三季度已披露前十大机构持股比例合计下跌3.24个百分点",
+      "summary": "2026年10月27日，万憬能源(002700.SZ)发布2026年第三季报。截至2026年10月26日，共有2个机构投资者披露持有万憬能源A股股份，合计持股量达378.32万股，占万憬能源总股本的0.91%。其中，机构投资者包括阿克苏众和投资管理有限公司、建信创业板综合增强策略ETF，机构投资者合计持股比例达0.91%。相较于上一季度，机构持股比例合计下跌了3.24个百分点。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T09:16+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273909212444.html",
+      "official": false
+    },
+    {
+      "id": "60dc00760518",
+      "title": "CNBC：IPO与融资｜From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+      "summary": "英文摘要：With the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T06:50+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
+      "official": false
+    },
+    {
+      "id": "d015be62042c",
+      "title": "MarketWatch：股东回报｜Dividend stocks are having an excellent October as tech sector struggles",
+      "summary": "英文摘要：ETFs focused on dividend stocks are seeing a powerful rally in October, adding to huge gains in 2026.",
+      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T06:10+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "4592f96e270c",
+      "title": "CNBC：市场与交易｜Jim Cramer warns this overlooked danger could threaten the market rally",
+      "summary": "英文摘要：CNBC’s Jim Cramer warned that a flood of massive IPOs could threaten the bull market's rally.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-27T06:09+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/26/jim-cramer-ipos-capital-raises-bull-market.html",
+      "official": false
+    },
+    {
+      "id": "9a3c203ed143",
+      "title": "南向资金净卖近21亿港元 净买入智谱逾4亿港元",
+      "summary": "【南向资金净卖近21亿港元 净买入智谱逾4亿港元】南向十大成交股中，智谱、百度集团-W、优必选分别获净买入4.31亿港元、2.65亿港元、1.41亿港元。阿里巴巴-W、中国海洋石油、中芯国际分别遭净卖出6.02亿港元、5.04亿港元、3.15亿港元。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-26T17:38+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610263908119410.html",
+      "official": false
+    },
+    {
+      "id": "bb1dea3479dd",
+      "title": "10月26日港股收盘：恒指涨0.51% 恒生科技指数跌0.36%",
+      "summary": "【10月26日港股收盘：恒指涨0.51% 恒生科技指数跌0.36%】恒生指数收报23211.81点，涨118.44点，涨幅0.51%；恒生科技指数收报3857.53点，跌14.13点，跌幅0.36%。恒生指数成分股中中国石油股份、领展房产基金、中国石油化工股份涨幅居前，紫金矿业、华虹宏力、洛阳钼业跌幅靠前。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "港股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-26T16:10+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "东方财富Choice数据",
+      "source_url": "https://finance.eastmoney.com/a/202610263907969869.html",
+      "official": false
+    },
+    {
+      "id": "48d63e432ba3",
+      "title": "“大模型双雄”股价持续下挫",
+      "summary": "【“大模型双雄”股价持续下挫】近期港股市场情绪走弱，恒生指数、恒生科技指数同步回调，市场风险偏好明显降温。10月26日，港股“大模型双雄”持续下挫。截至发稿，MINIMAX-W跌超7%，盘中一度跌超14%。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-26T14:29+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202610263907908754.html",
+      "official": false
+    },
+    {
+      "id": "33179dd9abb9",
+      "title": "港股午盘：恒指涨0.44% 国药控股领涨成分股",
+      "summary": "【港股午评：香港恒生指数涨0.44% 恒生科技指数跌0.37%】港股午间收盘，香港恒生指数涨0.44%，恒生科技指数跌0.37%。大型科网股走势分化，美团涨超3%，腾讯控股涨0.47%，京东、百度、阿里巴巴小幅下跌。黄金股全线下挫，紫金矿业跌近6%，赤峰黄金、灵宝黄金、中国黄金国际跌逾3%。PCB、光通信、存储概念股集体低迷，景旺电子跌近9%，蓝思科技跌逾7%，剑桥科技跌近7%，长飞光纤光缆、海光芯正跌近6%，兆易创新跌近5%。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-26T12:10+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610263907813980.html",
+      "official": false
+    },
+    {
+      "id": "9196fe1eb348",
+      "title": "港股头部公司屡现大手笔回购",
+      "summary": "【港股头部公司屡现大手笔回购】进入四季度以来，港股公司回购力度明显提升。截至10月25日，月内85家港股公司实施股份回购，金额达88亿港元。其中，10月12日、22日两日较为突出，单日回购金额分别约2.97亿港元、3.69亿港元。拉长时间来看，数据显示，今年以来，截至10月25日，年内已有356家港股公司实施股份回购，回购金额合计约1248.82亿港元，回购股份数量合计约100.88亿股。",
+      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-26T07:47+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "证券日报",
+      "source_url": "https://finance.eastmoney.com/a/202610263907385244.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
