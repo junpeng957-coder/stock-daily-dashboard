@@ -1,0 +1,569 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T09:56+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "10月29日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 32 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "a0c3e1be77e8",
+      "title": "美联储：利率与通胀｜Federal Reserve issues FOMC statement",
+      "summary": "英文摘要：Federal Reserve issues FOMC statement",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "全球宏观",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-29T02:00+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美联储",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "official": true
+    },
+    {
+      "id": "7585d6c3d9a1",
+      "title": "美国证监会：监管政策｜SEC Announces Fiscal Year 2027 Examination Priorities",
+      "summary": "英文摘要：The Securities and Exchange Commission today announced the Division of Examinations’ Fiscal Year 2027 examination priorities. The annual report identifies key areas of focus as the Division carries out its mission to promote compliance, prevent fraud,…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T22:10+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+      "official": true
+    },
+    {
+      "id": "526c58310cc3",
+      "title": "陕西煤业：前三季度归母净利170.65亿元 量价齐升 驱动业绩高质量增长",
+      "summary": "10月27日晚间，陕西煤业（601225.SH）披露2026年第三季度报告。前三季度，公司实现营业收入1227.66亿元，同比增长3.97%；归属于上市公司股东的净利润170.65亿元，同比增长34.23%；扣除非经常性损益的净利润155.14亿元，同比增长34.98%；基本每股收益1.76元。第三季度单季归母净利润57.93亿元，同比增长14.15%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T09:50+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202610293913429413.html",
+      "official": false
+    },
+    {
+      "id": "e59c87220f09",
+      "title": "利扬芯片前三季度净利润同比增长4574.9%",
+      "summary": "上证报中国证券网讯（记者李兴彩）10月28日晚间，利扬芯片发布2026年第三季度报告。前三季度，公司实现营业收入5.53亿元，同比增长24.84%；实现归母净利润3528.32万元，同比增长4574.9%；实现扣非后归母净利润3382.83万元。年初至报告期末，公司经营活动产生的现金流量净额为2.38亿元，同比增长48.77%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T09:49+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202610293913434521.html",
+      "official": false
+    },
+    {
+      "id": "234c8051eb06",
+      "title": "天孚通信盘中跌超15%",
+      "summary": "A股天孚通信盘中跌超15%，现报171.11元。10月28日，天孚通信披露的2026年第三季度报告显示，前三季度公司实现营业收入47.51亿元，同比增长21.25%；归母净利润20.83亿元，同比增长42.18%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T09:48+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610293913441713.html",
+      "official": false
+    },
+    {
+      "id": "711e1bfc5f94",
+      "title": "CNBC：公司业绩｜Samsung Electronics third-quarter profit in line with estimates amid rising demand for AI memory chips",
+      "summary": "英文摘要：Samsung Electronics reported third-quarter earnings on Thursday.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T09:13+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+      "official": false
+    },
+    {
+      "id": "797a65d361be",
+      "title": "早报丨万斯致信试图重启和平谈判；甲骨文指引2028财年下半年现金流转正；迈威尔科技拟收购Lumentum；微软谷歌绩后分化；亚马逊、闪迪、英特尔盘后发财报；三星电子9:00举行业绩发布会",
+      "summary": "万斯致信试图重启和平谈判；甲骨文指引2028财年下半年现金流转正；迈威尔科技拟收购Lumentum；微软谷歌绩后分化；亚马逊、闪迪、英特尔盘后发财报；三星电子9:00举行业绩发布会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T08:28+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610293913039194.html",
+      "official": false
+    },
+    {
+      "id": "6efe0651f1d4",
+      "title": "MarketWatch：公司业绩｜Why Alphabet’s stock could see its worst drop in years after the latest results",
+      "summary": "英文摘要：A doubling of cloud revenue wasn’t enough to appease Wall Street as investors grew more concerned that AI is hurting the company’s ability to make money off search queries.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T08:17+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "af3ad050e5e6",
+      "title": "MarketWatch：公司业绩｜The major reason Microsoft’s stock is heading higher after earnings",
+      "summary": "英文摘要：Microsoft showed investors that it’s able to grow rapidly while keeping spending in check.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T08:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "bd6b688b83f0",
+      "title": "谷歌三季度云业务营收翻番但整体业绩不及预期：营收净利双双“失守” 盘后股价大跌10%",
+      "summary": "科技巨头谷歌的最新财报给市场浇了一盆冷水。当地时间10月28日美股盘后，谷歌母公司Alphabet发布了截至9月30日的2026年第三季度财报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T07:45+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610293912955860.html",
+      "official": false
+    },
+    {
+      "id": "11ed3aeff6eb",
+      "title": "AI商业化兑现？微软财报亮眼：Azure同比猛增48% 现金流缩水但仍为正！",
+      "summary": "【AI商业化兑现？微软财报亮眼：Azure同比猛增48% 现金流缩水但仍为正！】美东时间周三盘后，微软公布2027财年第一财季（截至9月）业绩。得益于其Azure云业务营收同比激增48%，整体财报全面超预期。值得注意的是，微软首次在财报声明中以美元披露Azure云收入，本季度为331.7亿美元，增长48%。StreetAccount调查的分析师此前预期为323.2亿美元，即增长超过44%。6月季度（即2026财年第四财季）增长率为43%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T07:20+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610293912810156.html",
+      "official": false
+    },
+    {
+      "id": "5b385b20a670",
+      "title": "MarketWatch：公司业绩｜Fortinet’s stock is taking a dive after earnings. Here’s why.",
+      "summary": "英文摘要：Cybersecurity stocks are broadly falling as growth slows significantly in one of Fortinet’s business segments.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T07:18+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "b3f68b86919a",
+      "title": "CNBC：公司业绩｜Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+      "summary": "英文摘要：Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T06:34+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+      "official": false
+    },
+    {
+      "id": "4bb0c1891a6f",
+      "title": "MarketWatch：公司业绩｜Chipotle now has more demand from lower-income diners than higher-income ones",
+      "summary": "英文摘要：The fast-casual chain says menu-price increases helped results. It also noted rising beef costs and “higher protein usage” as people try to find ways to pack more protein into their diets.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T06:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/chipotle-expects-modestly-higher-sales-this-year-as-drive-thru-chipotlanes-come-to-more-stores-4f255bbc?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "2a727be03a40",
+      "title": "CNBC：公司业绩｜Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+      "summary": "英文摘要：Alphabet missed Q3 expectations on earnings and revenue, its first top-and-bottom-line miss in nearly four years.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T06:07+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "official": false
+    },
+    {
+      "id": "152bcbfec3c8",
+      "title": "CNBC：公司业绩｜Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
+      "summary": "英文摘要：Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T05:42+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
+      "official": false
+    },
+    {
+      "id": "6b773588cc7f",
+      "title": "CNBC：利率与通胀｜Here are five key takeaways from the Fed rate decision and Warsh news conference",
+      "summary": "英文摘要：Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-29T05:31+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+      "official": false
+    },
+    {
+      "id": "fbfec549ec09",
+      "title": "CNBC：利率与通胀｜Bessent says 'not necessarily' a mistake if the Fed hikes again",
+      "summary": "英文摘要：Treasury Secretary Scott Bessent joined CNBC for an interview on Oct. 28, 2026.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-29T05:06+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+      "official": false
+    },
+    {
+      "id": "bb7f2ba6b6f7",
+      "title": "宇树科技披露上市后首份财报 第三季度增收不增利",
+      "summary": "【宇树科技披露上市后首份财报 第三季度增收不增利】10月28日晚间，“A股人形机器人第一股”宇树科技披露了上市后的首份财报，即2026年三季报。2026年前三季度，宇树科技的归母净利润为3.87亿元，同比增长270.54%；扣非净利润为3.49亿元，同比下降18.78%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-29T00:13+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202610283912699417.html",
+      "official": false
+    },
+    {
+      "id": "ced4031a95a0",
+      "title": "中国石油：第三季度净利润同比增长21.6%",
+      "summary": "【中国石油：第三季度净利润同比增长21.6%】中国石油(601857.SH)公告称，前三季度实现营业收入23210.64亿元，同比增长7.0%；归属于母公司股东的净利润1557.76亿元，同比增长21.9%。第三季度营业收入7935.73亿元，同比增长10.4%；归属于母公司股东的净利润518.4亿元，同比增长21.6%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-28T18:54+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610283912269750.html",
+      "official": false
+    },
+    {
+      "id": "8c904061267f",
+      "title": "晚报丨凌晨2点美联储将公布利率决议；SK海力士强劲业绩提振芯片板块，谷歌、微软财报盘后公布；阿里、腾讯、字节寻求DRAM长期合同；伊朗：卡塔尔尚未提出结束与美敌对行动的新方案",
+      "summary": "凌晨2点美联储将公布利率决议；SK海力士强劲业绩提振芯片板块，谷歌、微软财报盘后公布；阿里、腾讯、字节寻求DRAM长期合同；伊朗：卡塔尔尚未提出结束与美敌对行动的新方案。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-28T18:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610283912206932.html",
+      "official": false
+    },
+    {
+      "id": "db0268b7c8e1",
+      "title": "机会速递 | SK海力士Q3业绩爆表，港股存储链大涨；PCB两家企业Q3净利暴涨超10倍；上海印发新一代智能制造方案，物理AI概念股走强；兆易创新财报明日公布",
+      "summary": "SK海力士Q3业绩爆表，港股存储链大涨；PCB两家企业Q3净利暴涨超10倍；上海印发新一代智能制造方案，物理AI概念股走强；兆易创新财报明日公布。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-28T15:50+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610283911875998.html",
+      "official": false
+    },
+    {
+      "id": "1883b6e1f91b",
+      "title": "香港交易所拓展綜合基金平台 推出平台及代理人服務",
+      "summary": "香港交易所发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "港股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-28T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "香港交易所",
+      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/261028news?sc_lang=zh-HK",
+      "official": true
+    },
+    {
+      "id": "2976f5ffcb07",
+      "title": "低开高走！泡泡玛特Q3营收近乎腰斩 大摩与主流机构多空激辩估值锚",
+      "summary": "在交出三季度业务“成绩单”后的首个交易日，港股潮玩龙头泡泡玛特(09992.HK)低开高走。早盘公司股价跳空低开超6%，随后逢低买盘涌入，目前几乎收复早盘的跌幅。截至发稿，泡泡玛特(09992.HK)跌0.45%，报131.40港元。引发公司大幅波动的原因与其三季报相关。单季整体收入同比下滑45%至50%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-28T11:09+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202610283911558926.html",
+      "official": false
+    },
+    {
+      "id": "0bf0e208c9b7",
+      "title": "港股风格再平衡 红利资产价值凸显",
+      "summary": "【港股风格再平衡 红利资产价值凸显】近期，南向资金在结束此前连续七周净流入后，已连续两周净流出。从市场表现看，AI硬件、存储、PCB等板块的相关个股股价出现明显回调，银行股则逆势走强，港股市场内部的结构性分化有所加大。分析人士认为，南向资金持续净流出与AI相关板块调整形成叠加效应，港股正在经历一轮风格再平衡，红利资产在利率环境变化期间的底仓价值受到更多关注。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-28T07:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202610283910682568.html",
+      "official": false
+    },
+    {
+      "id": "ce1bbd612396",
+      "title": "泡泡玛特三季报“暗淡” 段永平持股浮亏逾10%",
+      "summary": "【泡泡玛特三季报“暗淡” 段永平持股浮亏逾10%】10月27日，泡泡玛特在港交所披露2026年第三季度最新业务状况。公告显示，公司第三季度整体收益较2025年同期下降45%至50%。分区域看，中国市场收益同比下降25%至30%，亚太地区下降65%至70%，美洲市场降幅最大，达到70%至75%，欧洲及其他地区下降50%至55%。分渠道观察，中国线下渠道收益同比下降5%至10%，线上渠道降幅则达到45%至50%，线上流量退潮对业绩的拖累尤为明显。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-28T07:15+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202610273910534612.html",
+      "official": false
+    },
+    {
+      "id": "b81f7f8d36ed",
+      "title": "晚报丨存储超级财报周开启，SK海力士盘后放榜；台积电先进封装拟提价10%-20%；泡泡玛特Q3整体收益同比降45%-50%；中期选举前夕民调出炉，民主党大概率赢下众议院；高盛警告成品油紧张或持续至2027年",
+      "summary": "存储超级财报周开启，SK海力士盘后放榜；台积电先进封装拟提价10%-20%；泡泡玛特Q3整体收益同比下降45%-50%；中期选举前夕民调出炉，民主党大概率赢下众议院；高盛警告成品油紧张或持续至2027年。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T18:20+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202610273910099583.html",
+      "official": false
+    },
+    {
+      "id": "1477a72823f3",
+      "title": "恒瑞医药：第三季度归母净利润24.58亿元 同比增长88.92%",
+      "summary": "【恒瑞医药：第三季度归母净利润24.58亿元 同比增长88.92%】恒瑞医药10月27日公告，2026年第三季度实现营业收入89.53亿元，同比增长20.55%；归母净利润24.58亿元，同比增长88.92%；基本每股收益0.37元。前三季度实现营业收入244.09亿元，同比增长5.26%；归母净利润69.23亿元，同比增长20.38%；基本每股收益1.05元。报告期内，公司业绩增长主要受益于对外许可收入增加。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-27T16:43+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610273909911820.html",
+      "official": false
+    },
+    {
+      "id": "f2e8fda10a33",
+      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "summary": "中国证监会发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-23T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7666352/content.shtml",
+      "official": true
+    },
+    {
+      "id": "041b2c406368",
+      "title": "部分年金、保险、公募基金等机构近日加大买入力度",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-28T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610283911697357.html",
+      "official": false
+    },
+    {
+      "id": "94e1d755e5a9",
+      "title": "积极自购！公募机构三季度自购权益类基金超4.3亿元",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-28T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610283911877676.html",
+      "official": false
+    },
+    {
+      "id": "f9d839d82194",
+      "title": "公募基金三季度重仓股揭晓 依旧重仓AI硬件 大幅增持医药行业",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-28T12:00+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202610283911786755.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
