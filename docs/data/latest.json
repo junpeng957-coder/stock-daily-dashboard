@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T09:48+08:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T09:28+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "10月31日 全球股市与基金晨报",
+  "headline": "11月01日 全球股市与基金晨报",
   "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
@@ -52,71 +52,243 @@
       "official": true
     },
     {
-      "id": "963487851a4d",
-      "title": "【环球财经】美国石油企业三季度盈利继续暴增",
-      "summary": "新华财经纽约10月30日电（记者刘亚南）由于油价上涨和市场供应紧张，今年三季度美国石油开发和炼化企业盈利延续前一季度暴增势头。埃克森美孚控股公司在30日发布的财报显示，该公司在三季度实现154.13亿美元盈利，同比大增104.19%，盈利环比继续升高。雪佛龙公司30日发布的财报显示，该公司在三季度实现盈利99.24亿美元，虽然环比有所下降，但同比大幅增长180%。",
+      "id": "4cbd545fd0b7",
+      "title": "剥离短期扰动 2026三季度同方股份主业韧性凸显",
+      "summary": "同方股份10月30日晚发布2026年三季报。报告显示，前三季度公司实现营业收入75.27亿元，归母净利润亏损0.54亿元，较上年同期减少3.83亿元。账面利润出现波动，深入剖析其财务结构可知，这一变化主要受金融资产公允价值波动、智慧能源业务下滑等多重因素叠加影响。在剔除这些因素后，同方股份核心主业的稳健性与新产业布局的增长势能正逐步释放，经营质量呈现实质性提升。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-31T09:23+08:00",
+      "published_at": "2026-11-01T09:15+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "新华财经",
-      "source_url": "https://finance.eastmoney.com/a/202610313917520957.html",
+      "market_tone": "混合",
+      "source_name": "中国财富网",
+      "source_url": "https://finance.eastmoney.com/a/202611013917672821.html",
       "official": false
     },
     {
-      "id": "6b559de45683",
-      "title": "财报透视｜交船数量及毛利“双增”，中国船舶前三季度净利同比增长近130%",
-      "summary": "10月30日，中国船舶（600150）发布2026年三季报，前三季度营业总收入1311.18亿元，同比增长22.08%；归属于母公司所有者的净利润134.4亿元，同比增长129.67%；扣非净利润135.41亿元，同比增长209.01%。",
+      "id": "dfb3a5a630b8",
+      "title": "机构进入集中调研期 胜宏科技迎来542人调研",
+      "summary": "10月底，A股上市公司三季报收官，三季报发布进入密集期，发布业绩后的投资者交流活动也密集举行。Wind数据显示，最近一周（10月26日—30日），522家上市公司与投资者交流，机构也进入集中调研期，70家上市公司的调研机构数超过100家，其中胜宏科技更是获301家机构调研，新易盛、三花智控的调研机构分别为288家、260家。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-31T09:21+08:00",
+      "published_at": "2026-11-01T09:14+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610313917521714.html",
+      "market_tone": "中性",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202611013917672634.html",
       "official": false
     },
     {
-      "id": "6fb0b5814587",
-      "title": "三季度成功扭亏、双主业格局成形 *ST景谷迎来“价值重估”新参照系",
-      "summary": "文/十一在剥离不良资产、布局“算力”新业务后，曾深陷退市风险警示的*ST景谷，终于在第三季度有了触底回升的明确信号，让这场“保壳翻身仗”迎来曙光。10月30日晚，*ST景谷交出了今年第三季度扭亏为盈、业绩持续向好的“成绩单”。",
+      "id": "485f9a4fce8e",
+      "title": "失守江浙市场，会稽山三季度业绩为何“双降”？",
+      "summary": "黄酒上市公司会稽山凭借“一日一熏”气泡黄酒抢先进入年轻化赛道，打开知名度。然而，从最新发布的2026三季报来看，会稽山的日子似乎并不好过。财报数据是最直观的呈现，2026年前三季度会稽山实现营收12.19亿元，同比仅微增0.63%；实现归母净利润1.43亿元，同比增长23%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-31T09:02+08:00",
+      "published_at": "2026-11-01T09:00+08:00",
       "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "每日经济新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610313917519424.html",
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611013917671928.html",
       "official": false
     },
     {
-      "id": "69346580a877",
-      "title": "调味品巨头三季度分化：海天味业踩刹车，买下香港淘大押注海外，中炬高新净利涨近60%",
-      "summary": "海天味业（603288.SH）三季报发布后，有投资者调侃：“年轻人不喝茅台，不喝奶茶，也不喝酱油了。”一句玩笑，道出市场对传统消费品增长的担忧。10月29日，酱油行业龙头海天味业披露2026年第三季度报告，增长明显放缓。酱油老二中炬高新（600872.SH）的三季报则显示，营收和利润均保持双位数增长。同样身处调味品市场，一家增长踩下刹车，一家仍在加速。",
+      "id": "38e3ee3619ed",
+      "title": "ST星农前三季度营收增长23.5% 毛利率大幅度提升",
+      "summary": "上证报中国证券网讯（记者陈铭）10月30日晚，ST星农披露2026年第三季度报告。前三季度，公司实现营业收入2.88亿元，同比增长23.50%；归母净利润亏损1.13亿元，去年同期为亏损6558.92万元。其中，第三季度营收9017.61万元，同比下降27.67%；归母净利润亏损3406.93万元，去年同期为亏损2465.52万元。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-31T08:58+08:00",
+      "published_at": "2026-11-01T07:57+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611013917667544.html",
+      "official": false
+    },
+    {
+      "id": "d1324400adf0",
+      "title": "如何对抗股市暴涨暴跌？坚守“四不”原则 才能不入危局",
+      "summary": "费城半导体指数自今年5月份高点以来跌幅已经超过20%，但伯克希尔哈撒韦股价却在近期又创新高。伯克希尔这样的价值投资者能够穿越60年牛熊，业绩不断创出新高，不仅是因为他们有智慧能辨别什么是好的投资，而且更是因为他们有纪律能严格拒绝不合适的股票，尤其是抵御住数次泡沫的诱惑。很多人投资长期被困在低收益中，就是因为他们不能克服对热门股的“错失恐惧症”，不能对不合适的股票坚决说“不”。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T07:21+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "时代财经",
-      "source_url": "https://finance.eastmoney.com/a/202610313917517980.html",
+      "source_name": "券商中国",
+      "source_url": "https://finance.eastmoney.com/a/202611013917665713.html",
+      "official": false
+    },
+    {
+      "id": "d05659fdafc0",
+      "title": "四大行三季报出炉！利息收入集体提速 科技金融成必争之地",
+      "summary": "利息净收入重回10%左右的增速，让四大行集体交出了一份久违的营收提速答卷。利息净收入高增带动营收提速翻开四大行的最新三季报，利息净收入增速成为共同亮点，均实现了10%左右的同比增长。其中，农行利息净收入增速最快，达到10.59%，中行、建行、工行紧随其后，前三季度的利息净收入增速分别为10.38%、10.01%、9.64%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T07:21+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "券商中国",
+      "source_url": "https://finance.eastmoney.com/a/202611013917665891.html",
+      "official": false
+    },
+    {
+      "id": "4c5acf66007e",
+      "title": "环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭",
+      "summary": "【环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭】在科技股近期遭遇集中抛售之后，美股将在下周迎来一系列重要考验。美国中期选举、10月非农就业报告，以及苹果、AMD等大型科技公司的财报接踵而至，投资者将重新评估人工智能（AI）投资回报、货币政策前景及美国政治格局变化对金融市场的影响。Empower首席投资策略师Marta Norton表示，市场的不安主要源于持续存在、甚至不断加剧的AI担忧情绪，投资者仍在消化本周财报传递的信息。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T06:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611013917659992.html",
+      "official": false
+    },
+    {
+      "id": "08724d93a055",
+      "title": "三季度利润承压 长安汽车新能源产品结构改善 2030年海外目标200万辆",
+      "summary": "10月30日，长安汽车披露2026年第三季度财务报告。前三季度，长安汽车营业收入1018.84亿元，同比下降11.35%；归属于上市公司股东的净利润5927.53万元，同比下降98.06%。其中，第三季度实现营业收入362.50亿元，环比增长10.1%，归母净利润为-7.58亿元。对于业绩下滑，长安汽车将其归因于销量下降、原材料价格上涨以及汇兑损失增加。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T05:02+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "华夏时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611013917660462.html",
+      "official": false
+    },
+    {
+      "id": "591a45bc5c19",
+      "title": "机器人产业链公司三季度业绩分野 仍在等待盈利拐点",
+      "summary": "10月28日晚，宇树科技（688836.SH）交出上市后的首份三季报：第三季度实现营业收入6.65亿元，同比增长69.93%；归母净利润1.13亿元，同比下降17.37%。二季度归母净利润为2.24亿元，据此计算，三季度环比下降约49.7%。三花智控（002050.SZ）、拓普集团（601689.SH）披露的情况看，第三季度归母净利润也分别同比下降9.64%和4.78%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T00:56+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202610313917650484.html",
+      "official": false
+    },
+    {
+      "id": "63072e507122",
+      "title": "算力租赁三季报冰火两重天：头部企业盆满钵满 中小“玩家”增收不增利",
+      "summary": "2026年以来，算力租赁这门生意火得发烫，大单频现、租价上行。前三季度从事算力租赁业务的上市公司业绩表现如何？随着三季报收官，这条赛道的分化图景已经完整呈现：头部企业利润翻数倍，中小“玩家”却在“增收不增利”中挣扎。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-01T00:56+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "大河财立方",
+      "source_url": "https://finance.eastmoney.com/a/202610313917655611.html",
+      "official": false
+    },
+    {
+      "id": "2af9c31f026b",
+      "title": "MarketWatch：利率与通胀｜Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+      "summary": "英文摘要：The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-01T00:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "0ead4e6186d2",
+      "title": "CNBC：公司业绩｜Stocks started the week with promise but ended in despair. Our take on the big reversal",
+      "summary": "英文摘要：Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-31T23:37+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "official": false
+    },
+    {
+      "id": "b93d5512f690",
+      "title": "CNBC：利率与通胀｜Trump promised to slash energy costs — but gasoline, diesel and jet fuel all soared instead",
+      "summary": "英文摘要：President Donald Trump promised voters who were angry about inflation that he would slash gasoline prices below $2 a gallon in his first year in office.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-31T20:49+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html",
+      "official": false
+    },
+    {
+      "id": "9268bd60dda0",
+      "title": "CNBC：公司业绩｜Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "summary": "英文摘要：Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-10-31T14:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
       "official": false
     },
     {
@@ -137,109 +309,6 @@
       "official": false
     },
     {
-      "id": "62259adff2f1",
-      "title": "粤海饲料业绩交流会传递信号：第三季度营收增长净利下滑，前三季度利润翻倍，特种饲料放量，直面鱼粉高价压力",
-      "summary": "深圳商报·读创客户端记者穆砚10月31日，广东粤海饲料集团股份有限公司（以下简称“粤海饲料”或“公司”）发布公告称，公司于10月30日召开2026年第三季度业绩交流电话会，与多家机构投资者进行了交流。公司第三季度营收保持增长但单季净利润大幅下滑，前三季度营收、利润实现翻倍增长；公司前三季度饲料销量近78万吨，特种水产饲料占比抬升，大黄鱼料等品类放量亮眼。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T08:47+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610313917516989.html",
-      "official": false
-    },
-    {
-      "id": "3661fe79ca7d",
-      "title": "英特尔，创逾四十年来最大单日跌幅",
-      "summary": "科技股抛售席卷美股。当地时间10月30日，英特尔等大型科技企业财报不及预期，给市场对AI巨额投入回报的期待泼了一盆冷水，欧美股市多数收跌。其中，道指、标普500指数跌超1%，纳指跌近3%。本周来看，道指跌0.85%，标普500指数跌0.57%，纳指跌2%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T08:44+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "上海证券报",
-      "source_url": "https://finance.eastmoney.com/a/202610313917516225.html",
-      "official": false
-    },
-    {
-      "id": "02f78b1a8458",
-      "title": "近30%股份易主，施惠庆将成协和电子新实控人，公司股票11月2日复牌",
-      "summary": "协和电子表示，本报告期净利增长，主要系本报告期公司产品结构优化、成本价格合理传导等因素，销售毛利率同期对比有所提升。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-31T08:42+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202610313917516337.html",
-      "official": false
-    },
-    {
-      "id": "d97f148e28fe",
-      "title": "前三季度净亏超36亿元！传统建材龙头金隅集团第三季度净利同比降超2221%，成本降幅追不上售价降幅",
-      "summary": "10月30日盘后，金隅集团（601992.SH，股价1.3元，市值138亿元）发布《2026年第三季度报告》。报告显示，公司前三季度营业收入达到554.81亿元，同比下降20.16%，如此体量的收入之下，归母净利润却亏损36.68亿元，亏损扩大157.42%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T08:42+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "每日经济新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610313917515739.html",
-      "official": false
-    },
-    {
-      "id": "9c977feb91fc",
-      "title": "科技早报 | 英伟达总市值跌破5万亿美元；业绩展望不及预期，英特尔股价暴跌超28%",
-      "summary": "英伟达股价下跌4.22%，总市值跌破5万亿美元美东时间10月30日，英伟达股价收盘下跌4.22%，报204.64美元/股，总市值报4.93万亿美元，跌破5万亿美元。月初以来，英伟达股价累计下跌超9%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T08:41+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610313917515831.html",
-      "official": false
-    },
-    {
-      "id": "230aa6548801",
-      "title": "汽车早报｜多家车企发布三季度财报 特斯拉推出全新“5年0息”分期购车金融方案",
-      "summary": "长安汽车：第三季度归母净亏损7.58亿元，同比由盈转亏长安汽车10月30日公告，2026年第三季度实现营业收入362.5亿元，同比下降14.17%；归母净利润亏损7.58亿元，上年同期净利润7.64亿元，同比由盈转亏；基本每股收益亏损0.07元。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T08:33+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610313917515046.html",
-      "official": false
-    },
-    {
       "id": "aa3e41c12ebe",
       "title": "招商银行前三季业绩增长提速 私人银行客户逼近22万",
       "summary": "【招商银行前三季业绩增长提速 私人银行客户逼近22万】10月30日，招商银行发布三季报。前三季度，该行实现营业收入2648.52亿元，同比增长5.34%；实现归属于该行股东的净利润1164.76亿元，同比增长2.38%。三季报还显示，招商银行零售AUM达到18.71万亿元，较上年末增长9.52%。私人银行客户逼近22万户，较上年末增长10.10%。",
@@ -254,76 +323,6 @@
       "market_tone": "偏积极",
       "source_name": "南方都市报",
       "source_url": "https://finance.eastmoney.com/a/202610303916883649.html",
-      "official": false
-    },
-    {
-      "id": "9a79d637afe5",
-      "title": "CNBC：公司业绩｜Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
-      "summary": "英文摘要：Investors await earnings from Apple, AMD, and other major companies, as well as the midterm elections and the monthly jobs report.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T06:17+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
-      "official": false
-    },
-    {
-      "id": "009386a967cc",
-      "title": "CNBC：利率与通胀｜Fed officials are already saying they’ll need to get back to hiking rates",
-      "summary": "英文摘要：The comments from Federal Reserve Presidents Alberto Musalem and Lorie Logan offer the first morsels of insight into what leaders at the Fed see happening next.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-31T05:53+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
-      "official": false
-    },
-    {
-      "id": "e594a9f6ac67",
-      "title": "MarketWatch：利率与通胀｜Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-      "summary": "英文摘要：More interest-rate hikes are needed to fight inflation, Fed officials say.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-31T05:23+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "fd6ec7c554e0",
-      "title": "MarketWatch：公司业绩｜AMD’s stock slides after Intel earnings reveal two big issues",
-      "summary": "英文摘要：Intel is struggling to make enough AI server chips and dealing with a weak PC market. Investors will soon find out the degree to which AMD may be suffering from the same problems.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-31T04:28+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
       "official": false
     },
     {
@@ -342,40 +341,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
-      "official": false
-    },
-    {
-      "id": "a74aad64f75e",
-      "title": "CNBC：公司业绩｜Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
-      "summary": "英文摘要：Meta's Mark Zuckerberg and Elon Musk of Tesla and SpaceX adopted President Trump's preferred \"super intelligence\" term on their third-quarter earnings calls.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-30T23:14+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/30/trump-tech-allies-swap-ai-for-super-intelligence-in-earnings-calls.html",
-      "official": false
-    },
-    {
-      "id": "c77b78b34b49",
-      "title": "CNBC：公司业绩｜Swiss central bank posts bumper $23 billion profit thanks to gold, foreign assets",
-      "summary": "英文摘要：Unlike other major central banks, the Swiss National Bank has a significant equity portfolio.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-10-30T23:07+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/30/swiss-national-bank-q3-profit-gold-foreign-asset.html",
       "official": false
     },
     {
@@ -518,9 +483,9 @@
       "official": false
     },
     {
-      "id": "e9d66db524f3",
-      "title": "MarketWatch：市场与交易｜Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-      "summary": "英文摘要：Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
+      "id": "38e5960f8abb",
+      "title": "CNBC：市场与交易｜Anthropic's path to the Nasdaq just got a lot bumpier",
+      "summary": "英文摘要：Concerning projections from hyperscalers this week punished tech stocks and pushed the Nasdaq to its first three-week losing streak since March.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -528,11 +493,47 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-31T07:14+08:00",
+      "published_at": "2026-10-31T19:00+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+      "official": false
+    },
+    {
+      "id": "db7e53710721",
+      "title": "CNBC：贸易政策｜Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "summary": "英文摘要：Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-31T06:52+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "official": false
+    },
+    {
+      "id": "94fe7e50eeb0",
+      "title": "CNBC：市场与交易｜Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "summary": "英文摘要：Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-31T06:42+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
       "official": false
     }
   ],
