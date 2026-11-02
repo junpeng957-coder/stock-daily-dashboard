@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T09:28+08:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T09:49+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月01日 全球股市与基金晨报",
+  "headline": "11月02日 全球股市与基金晨报",
   "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
@@ -52,208 +52,224 @@
       "official": true
     },
     {
-      "id": "4cbd545fd0b7",
-      "title": "剥离短期扰动 2026三季度同方股份主业韧性凸显",
-      "summary": "同方股份10月30日晚发布2026年三季报。报告显示，前三季度公司实现营业收入75.27亿元，归母净利润亏损0.54亿元，较上年同期减少3.83亿元。账面利润出现波动，深入剖析其财务结构可知，这一变化主要受金融资产公允价值波动、智慧能源业务下滑等多重因素叠加影响。在剔除这些因素后，同方股份核心主业的稳健性与新产业布局的增长势能正逐步释放，经营质量呈现实质性提升。",
+      "id": "543d547648d9",
+      "title": "永泰能源：2026年前三季净利同比大幅下降92.16% 第三季亏损7505万元",
+      "summary": "南方财经11月2日电，永泰能源（600157.SH）披露2026年三季报。前三季度公司实现营业收入153.57亿元，同比下降13.38%；归母净利润1550.59万元，同比大幅下滑92.16%；扣非净利润5368.73万元，同比下降65.32%；利润总额2.77亿元，同比下降61.22%；经营活动现金流量净额42.29亿元，同比微降4.96%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-01T09:15+08:00",
+      "published_at": "2026-11-02T09:41+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611023917982274.html",
+      "official": false
+    },
+    {
+      "id": "808889d1a8b4",
+      "title": "中山公用前三季度业绩亮眼 推进垃圾焚烧项目整合",
+      "summary": "中山公用(000685)近日交出了一份亮眼的2026年三季报。报告显示，今年1—9月中山公用实现营业收入34.51亿元，同比增长9.81%；归母净利润20.27亿元，同比增长67.32%。单季度看，中山公用第三季度实现营业收入12.78亿元，同比增长25.10%；归母净利润5.59亿元，同比增长13.66%。业绩增长态势持续稳定。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T09:40+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611023917946894.html",
+      "official": false
+    },
+    {
+      "id": "9a3ada356195",
+      "title": "行业调整中逆势成功募资，新希望夯实穿越周期资金底盘",
+      "summary": "10月30日晚间，新希望（000876.SZ）发布2026年第三季度报告。报告期内，新希望持续全面聚焦饲料、生猪养殖与屠宰两大核心板块，实现营业收入876.98亿元，同比增长8.94%，经营现金流净流入26亿元。然而，受猪价下跌、生物资产计提等因素影响，前三季度业绩由盈转亏。在剔除一次性因素影响后，公司核心主业仍保持稳定运行，完成26亿元定增，增厚资金安全垫。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T09:39+08:00",
       "importance": 3,
       "market_tone": "混合",
-      "source_name": "中国财富网",
-      "source_url": "https://finance.eastmoney.com/a/202611013917672821.html",
+      "source_name": "证券市场周刊",
+      "source_url": "https://finance.eastmoney.com/a/202611023917947094.html",
       "official": false
     },
     {
-      "id": "dfb3a5a630b8",
-      "title": "机构进入集中调研期 胜宏科技迎来542人调研",
-      "summary": "10月底，A股上市公司三季报收官，三季报发布进入密集期，发布业绩后的投资者交流活动也密集举行。Wind数据显示，最近一周（10月26日—30日），522家上市公司与投资者交流，机构也进入集中调研期，70家上市公司的调研机构数超过100家，其中胜宏科技更是获301家机构调研，新易盛、三花智控的调研机构分别为288家、260家。",
+      "id": "f986d62eec11",
+      "title": "美迪西2026年前三季净利润同比大增409.92%，订单加速兑现，制剂CMO补链打开长期空间",
+      "summary": "2026年10月30日，美迪西披露2026年三季度报告。财务数据显示，公司前三季实现营业总收入12.15亿元，同比增长44.13%；归母净利润9199.92万元，同比增长409.92%；扣非归母净利润8224.32万元，同比增长249.88%。从已披露的业绩趋势看，三季度延续了上半年的复苏节奏，逐季度保持环比稳步增长。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-01T09:14+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国基金报",
-      "source_url": "https://finance.eastmoney.com/a/202611013917672634.html",
-      "official": false
-    },
-    {
-      "id": "485f9a4fce8e",
-      "title": "失守江浙市场，会稽山三季度业绩为何“双降”？",
-      "summary": "黄酒上市公司会稽山凭借“一日一熏”气泡黄酒抢先进入年轻化赛道，打开知名度。然而，从最新发布的2026三季报来看，会稽山的日子似乎并不好过。财报数据是最直观的呈现，2026年前三季度会稽山实现营收12.19亿元，同比仅微增0.63%；实现归母净利润1.43亿元，同比增长23%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-01T09:00+08:00",
+      "published_at": "2026-11-02T09:37+08:00",
       "importance": 3,
       "market_tone": "偏积极",
       "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202611013917671928.html",
+      "source_url": "https://finance.eastmoney.com/a/202611023917946993.html",
       "official": false
     },
     {
-      "id": "38e3ee3619ed",
-      "title": "ST星农前三季度营收增长23.5% 毛利率大幅度提升",
-      "summary": "上证报中国证券网讯（记者陈铭）10月30日晚，ST星农披露2026年第三季度报告。前三季度，公司实现营业收入2.88亿元，同比增长23.50%；归母净利润亏损1.13亿元，去年同期为亏损6558.92万元。其中，第三季度营收9017.61万元，同比下降27.67%；归母净利润亏损3406.93万元，去年同期为亏损2465.52万元。",
+      "id": "8b07797d71f3",
+      "title": "天合光能：2026年第三季度亏16.72亿元，非经常性损益由正转负，主业扣非口径仍在减亏",
+      "summary": "天合光能（688599.SH）发布2026年三季报。第三季度实现营业收入159.93亿元，同比下降15.45%、环比回升5.52%；单季归母净利润-16.72亿元，较第二季度1320.67万元的微利转亏。第三季度扣非归母净利润-12.15亿元，同比减亏10.63%、环比改善14.66%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-01T07:57+08:00",
+      "published_at": "2026-11-02T09:35+08:00",
       "importance": 3,
-      "market_tone": "混合",
+      "market_tone": "中性",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611023917939211.html",
+      "official": false
+    },
+    {
+      "id": "2ff591c5ee96",
+      "title": "海目星前三季度净利润1.33亿元 订单营收合同负债共振向上",
+      "summary": "海目星(688559)日前披露2026年三季报，前三季度公司实现营业收入49.04亿元，同比增长81.38%；归母净利润1.33亿元，同比扭亏为盈，报告期内公司实现了营收与盈利同步增长。从三季报核心财务数据来看，海目星已正式迈入稳健增长通道。而比利润表更具指示意义的是在手订单、合同负债等经营先行指标。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T09:34+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611023917946724.html",
+      "official": false
+    },
+    {
+      "id": "87ca1c9b2d92",
+      "title": "11月2日国际晨讯｜本周美国将举行中期选举 苹果、AMD、高通等科技巨头披露财报",
+      "summary": "【市场回顾】当地时间10月30日，美股三大指数集体收跌。截至当日收盘，道指跌1.09%收报51770.31点，标普500指数跌1.82%收报7580.07点，纳指跌2.86%收报25437.00点。10月，道指涨1.7%，标普500指数跌0.93%，纳指跌5.3%创下2025年3月以来最大月度跌幅。国际金价近日持续走低。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T09:32+08:00",
+      "importance": 3,
+      "market_tone": "中性",
       "source_name": "上海证券报·中国证券网",
-      "source_url": "https://finance.eastmoney.com/a/202611013917667544.html",
+      "source_url": "https://finance.eastmoney.com/a/202611023917938930.html",
       "official": false
     },
     {
-      "id": "d1324400adf0",
-      "title": "如何对抗股市暴涨暴跌？坚守“四不”原则 才能不入危局",
-      "summary": "费城半导体指数自今年5月份高点以来跌幅已经超过20%，但伯克希尔哈撒韦股价却在近期又创新高。伯克希尔这样的价值投资者能够穿越60年牛熊，业绩不断创出新高，不仅是因为他们有智慧能辨别什么是好的投资，而且更是因为他们有纪律能严格拒绝不合适的股票，尤其是抵御住数次泡沫的诱惑。很多人投资长期被困在低收益中，就是因为他们不能克服对热门股的“错失恐惧症”，不能对不合适的股票坚决说“不”。",
+      "id": "6c189376b555",
+      "title": "白酒概念表现活跃 皇台酒业2连板",
+      "summary": "白酒概念表现活跃，皇台酒业2连板，水井坊、古井贡酒、金徽酒、贵州茅台跟涨。消息面上，贵州茅台公告，第三季度净利润199.51亿元，同比增长3.78%，环比增长15%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-01T07:21+08:00",
+      "published_at": "2026-11-02T09:31+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "券商中国",
-      "source_url": "https://finance.eastmoney.com/a/202611013917665713.html",
-      "official": false
-    },
-    {
-      "id": "d05659fdafc0",
-      "title": "四大行三季报出炉！利息收入集体提速 科技金融成必争之地",
-      "summary": "利息净收入重回10%左右的增速，让四大行集体交出了一份久违的营收提速答卷。利息净收入高增带动营收提速翻开四大行的最新三季报，利息净收入增速成为共同亮点，均实现了10%左右的同比增长。其中，农行利息净收入增速最快，达到10.59%，中行、建行、工行紧随其后，前三季度的利息净收入增速分别为10.38%、10.01%、9.64%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-01T07:21+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "券商中国",
-      "source_url": "https://finance.eastmoney.com/a/202611013917665891.html",
-      "official": false
-    },
-    {
-      "id": "4c5acf66007e",
-      "title": "环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭",
-      "summary": "【环球下周看点：AI热潮遇考验 美国中期选举、非农与苹果财报接连来袭】在科技股近期遭遇集中抛售之后，美股将在下周迎来一系列重要考验。美国中期选举、10月非农就业报告，以及苹果、AMD等大型科技公司的财报接踵而至，投资者将重新评估人工智能（AI）投资回报、货币政策前景及美国政治格局变化对金融市场的影响。Empower首席投资策略师Marta Norton表示，市场的不安主要源于持续存在、甚至不断加剧的AI担忧情绪，投资者仍在消化本周财报传递的信息。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-01T06:40+08:00",
-      "importance": 3,
-      "market_tone": "中性",
       "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611013917659992.html",
+      "source_url": "https://finance.eastmoney.com/a/202611023917933178.html",
       "official": false
     },
     {
-      "id": "08724d93a055",
-      "title": "三季度利润承压 长安汽车新能源产品结构改善 2030年海外目标200万辆",
-      "summary": "10月30日，长安汽车披露2026年第三季度财务报告。前三季度，长安汽车营业收入1018.84亿元，同比下降11.35%；归属于上市公司股东的净利润5927.53万元，同比下降98.06%。其中，第三季度实现营业收入362.50亿元，环比增长10.1%，归母净利润为-7.58亿元。对于业绩下滑，长安汽车将其归因于销量下降、原材料价格上涨以及汇兑损失增加。",
+      "id": "b266254f976f",
+      "title": "华宇软件：目前业绩亏损的直接原因在于营业收入的绝对值体量不足",
+      "summary": "南财智讯11月2日电，华宇软件在投资者关系活动中表示，目前业绩亏损的直接原因在于营业收入的绝对值体量不足；同时，AI原生组织转型、AI创新及算力投入等也都还需要坚定投入，这也是制约公司暂时盈利水平的重要原因。公司坚定推进AI原生转型，持续提质增效，坚持业务、应用和服务创新，积极开源、努力扩大营收规模，这些工作是提升公司盈利水平的关键。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-01T05:02+08:00",
+      "published_at": "2026-11-02T09:28+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611023917904421.html",
+      "official": false
+    },
+    {
+      "id": "81d9fdb6db9d",
+      "title": "壹评级：锦江酒店改革成效持续兑现，关注中长期估值修复空间",
+      "summary": "锦江酒店发布2026年三季报，第三季度实现营业收入同比增长4.4%，归母净利润同比增长35.9%。第一财经“壹评级”认为，尽管当前酒店行业景气承压，但公司通过深化渠道改革与优化门店结构持续释放内部红利，业绩确定性较强。“壹评级”指出，公司第三季度业务结构持续改善。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T09:27+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "华夏时报网",
-      "source_url": "https://finance.eastmoney.com/a/202611013917660462.html",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202611023917915869.html",
       "official": false
     },
     {
-      "id": "591a45bc5c19",
-      "title": "机器人产业链公司三季度业绩分野 仍在等待盈利拐点",
-      "summary": "10月28日晚，宇树科技（688836.SH）交出上市后的首份三季报：第三季度实现营业收入6.65亿元，同比增长69.93%；归母净利润1.13亿元，同比下降17.37%。二季度归母净利润为2.24亿元，据此计算，三季度环比下降约49.7%。三花智控（002050.SZ）、拓普集团（601689.SH）披露的情况看，第三季度归母净利润也分别同比下降9.64%和4.78%。",
+      "id": "f5d6be8b997b",
+      "title": "MarketWatch：公司业绩｜This is the biggest threat to the AI-powered bull market",
+      "summary": "英文摘要：Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-01T00:56+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202610313917650484.html",
-      "official": false
-    },
-    {
-      "id": "63072e507122",
-      "title": "算力租赁三季报冰火两重天：头部企业盆满钵满 中小“玩家”增收不增利",
-      "summary": "2026年以来，算力租赁这门生意火得发烫，大单频现、租价上行。前三季度从事算力租赁业务的上市公司业绩表现如何？随着三季报收官，这条赛道的分化图景已经完整呈现：头部企业利润翻数倍，中小“玩家”却在“增收不增利”中挣扎。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-01T00:56+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "大河财立方",
-      "source_url": "https://finance.eastmoney.com/a/202610313917655611.html",
-      "official": false
-    },
-    {
-      "id": "2af9c31f026b",
-      "title": "MarketWatch：利率与通胀｜Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-      "summary": "英文摘要：The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
         "股票",
-        "基金",
-        "ETF"
+        "基金"
       ],
-      "published_at": "2026-11-01T00:02+08:00",
+      "published_at": "2026-11-02T08:22+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "0ead4e6186d2",
-      "title": "CNBC：公司业绩｜Stocks started the week with promise but ended in despair. Our take on the big reversal",
-      "summary": "英文摘要：Big Tech earnings reignited AI spending fears, sending investors into defensive stocks.",
+      "id": "381a4d907f68",
+      "title": "MarketWatch：公司业绩｜Apple’s new earnings era begins at a critical time for Big Tech",
+      "summary": "英文摘要：A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-10-31T23:37+08:00",
+      "published_at": "2026-11-02T08:21+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "3d167d0f1c53",
+      "title": "早报丨伊外长披露“两天计划”，欧佩克+维持12月产油量配额不变；金融管理部门今日将召开会议；Okta11月4日纳入标普500指数；苹果、Palantir盘后发财报",
+      "summary": "伊外长披露“两天计划”，欧佩克+维持12月产油量配额不变；金融管理部门今日将召开会议；Okta11月4日纳入标普500指数；苹果、Palantir盘后发财报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-02T08:14+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611023917860144.html",
       "official": false
     },
     {
@@ -466,20 +482,21 @@
       "official": false
     },
     {
-      "id": "f557bafed8b6",
-      "title": "东山精密：Q3净利润同比增长401% 环比增长26%",
-      "summary": "【东山精密：Q3净利润同比增长401% 环比增长26%】东山精密(002384.SZ)公告称，前三季度实现营业收入453.79亿元，同比增长67.63%；归属于上市公司股东的净利润52.89亿元，同比增长332.34%。第三季度实现营业收入175.82亿元，同比增长73.81%；归属于上市公司股东的净利润23.32亿元，同比增长401.18%。业绩变动主要系并购索尔思光电纳入合并范围后新增光模块业务，收入实现较大增长，协同传统板块业务稳步提升所致。注：公司Q3净利润23.32亿，Q2净利润18.47亿，据此计算，Q3净利润环比增长26%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
+      "id": "1b1c4bc55fe7",
+      "title": "CNBC：市场与交易｜The midterm election could reshape the muni bond market. Here’s what investors need to know",
+      "summary": "英文摘要：The 2026 election could affect municipal bonds through state tax measures, new bond supply and the makeup of Congress.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-10-30T16:28+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202610303916516094.html",
+      "published_at": "2026-11-01T20:30+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/01/election-municipal-bonds.html",
       "official": false
     },
     {
@@ -498,24 +515,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
-      "official": false
-    },
-    {
-      "id": "db7e53710721",
-      "title": "CNBC：贸易政策｜Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
-      "summary": "英文摘要：Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
-      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-10-31T06:52+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
       "official": false
     },
     {
