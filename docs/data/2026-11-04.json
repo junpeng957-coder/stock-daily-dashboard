@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T10:41+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月04日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "50914a0b386e",
+      "title": "美国证监会：监管政策｜SEC Issues Exemptive Relief from Treasury Clearing Requirements for Certain Inter-Affiliate and Non-U.S. Repo Transactions",
+      "summary": "英文摘要：The Securities and Exchange Commission took another step forward today to assist broker-dealers and other market participants on the path to central clearing of U.S. Treasury securities by issuing exemptive relief related to inter-affiliate repo…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-31T03:30+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo",
+      "official": true
+    },
+    {
+      "id": "fcdf492dcc44",
+      "title": "美国证监会：监管政策｜Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
+      "summary": "英文摘要：The Securities and Exchange Commission today charged two foreign-operated, Colorado-incorporated entities, BG Wealth Sharing Ltd and DSJ Exchange Pty Ltd, for orchestrating a fraud scheme that used false SEC filings to boost confidence in their…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-10-30T00:42+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
+      "official": true
+    },
+    {
+      "id": "164f2e620988",
+      "title": "福斯特：推进服务器PCB中高端电子材料进口替代",
+      "summary": "【福斯特：推进服务器PCB中高端电子材料进口替代】福斯特(603806)在2026年第三季度业绩说明会上表示，公司正在大力推进服务器PCB领域中高端电子材料的进口替代，海外的竞争对手主要是旭化成、力森诺科和杜邦。跟海外竞争对手相比，公司有多品类和本土化的供应优势，可以实现国内电子电路产业链协同，预计明后年能有更大的销售。公司当前铝塑膜的年度设计产能约3000万平方米，三季度利用率约70%，铝塑膜的产能利用率逐年提升。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T10:38+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611043921432547.html",
+      "official": false
+    },
+    {
+      "id": "d87958e7f9f6",
+      "title": "邦基科技：公司应收账款整体风险可控",
+      "summary": "【邦基科技：公司应收账款整体风险可控】邦基科技(603151)在2026年第三季度业绩说明会上表示，目前生猪行业处于周期底部，下游养殖客户盈利承压，但该部分合作客户抗风险能力较强、现金流基础相对稳健，公司持续动态跟踪客户经营与回款情况，应收账款整体风险可控。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T10:33+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611043921426919.html",
+      "official": false
+    },
+    {
+      "id": "7c2d7fb59bcd",
+      "title": "奥精医疗连续三个交易日“一”字跌停",
+      "summary": "【奥精医疗连续三个交易日“一”字跌停】11月4日早盘，奥精医疗（688613）再度跌停，最新报8.72元/股，跌幅20％。至此，该股已连续三个交易日走出“一”字跌停。消息面上，11月1日晚间，奥精医疗公告称，公司当日收到证监会对公司下发的《立案告知书》。因公司涉嫌定期报告等财务数据虚假记载，证监会决定对公司立案。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T10:31+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "北京商报",
+      "source_url": "https://finance.eastmoney.com/a/202611043921423293.html",
+      "official": false
+    },
+    {
+      "id": "1ccf234cf0d5",
+      "title": "山鹰国际：涉嫌内幕交易和短线交易，公司实控人、董事长吴明武遭证监会立案",
+      "summary": "11月3日晚间，山鹰国际(600567.SH）披露关于公司实际控制人、董事长收到中国证券监督管理委员会立案告知书的公告。公告称，公司实际控制人、董事长吴明武收到证监会《立案告知书》，因涉嫌内幕交易和短线交易，证监会决定对其立案。公告称，本次立案系针对吴明武个人，与公司日常经营管理和业务活动无关，不会对公司生产经营活动产生影响。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T10:28+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611043921429973.html",
+      "official": false
+    },
+    {
+      "id": "98f450be0111",
+      "title": "贵金属概念盘中走强，全球央行今年第三季度购金量同比大增42%|异动情报",
+      "summary": "11月4日，贵金属盘中上涨3.09%，相关成分股中，晓程科技（300139）上涨5.24%，山金国际（000975）上涨4.19%，招金黄金（000506）上涨4.10%，山东黄金（600547）上涨3.84%，赤峰黄金（600988）上涨3.79%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T10:27+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611043921422714.html",
+      "official": false
+    },
+    {
+      "id": "262a95949d3d",
+      "title": "半导体概念盘中走强，AMD营收超预期验证强劲需求|异动情报",
+      "summary": "11月4日，半导体盘中上涨3.01%，相关成分股中，托伦斯（301583）上涨15.92%，新洁能（605111）上涨9.99%，京仪装备（688652）上涨9.03%，通富微电（002156）上涨7.48%，臻宝科技（688797）上涨6.91%。消息面上，AMD周二在声明中表示，预计第四季度营收为170亿美元，上下浮动3%。相比之下，分析师平均预期为163亿美元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T10:27+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611043921422541.html",
+      "official": false
+    },
+    {
+      "id": "433568d54bca",
+      "title": "财险业三季报观察：承保改善难掩利润下滑，谁在逆势盈利？",
+      "summary": "87家财险公司三季度偿付能力报告近日披露完毕。86家可比公司合计实现保险业务收入约1.4万亿元，同比增长2.28%；合计净利润583.26亿元，同比下降25.05%。在自然灾害偏多、车险保费增速趋缓的双重压力下，头部险企承保端逆势改善：人保财险、平安产险、太保产险综合成本率同比全部优化。与此同时，非车险以远高于车险的增速接棒保费增量，行业正加速告别“车险独大”。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T10:24+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "南方都市报",
+      "source_url": "https://finance.eastmoney.com/a/202611043921429667.html",
+      "official": false
+    },
+    {
+      "id": "9a51f24ac8c4",
+      "title": "歌力思：前三季度收入稳健增长",
+      "summary": "近日，歌力思(603808)披露2026年三季报。前三季度，公司持续强化全链路核心竞争力，推动收入增长和经营质量提升，实现营业收入20.64亿元，同比增长2.2%，其中国内主营业务收入同比增长6.4%。公司深化降本增效举措，经营效率提升，前三季度扣非归母净利润达到1.17亿元，同比大幅增长54.46%；归母净利润达到1.14亿元，同比增长0.52%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T10:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611043921414379.html",
+      "official": false
+    },
+    {
+      "id": "58b773f1b0aa",
+      "title": "MarketWatch：公司业绩｜Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
+      "summary": "英文摘要：The chip maker is showing “real” revenue from AI, shrugging off sustainability concerns and leading to an upbeat forecast.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T09:16+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "ce5b698918e8",
+      "title": "早报丨美伊谈判尚未达成新进展，特朗普称没有立即打击伊朗计划；SK海力士纽约新建芯片工厂计划受阻；绩优股AMD、超微电脑、Block、Arista Networks盘后上涨；Circle盘前、Coherent、Arm与高通盘后发业绩",
+      "summary": "美伊谈判尚未达成新进展，特朗普称没有立即打击伊朗计划；SK海力士纽约新建芯片工厂计划受阻；绩优股AMD、超微电脑、Block、Arista Networks盘后上涨；Circle盘前、Coherent、Arm与高通盘后发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T08:30+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611043920935557.html",
+      "official": false
+    },
+    {
+      "id": "65a376e84d99",
+      "title": "AMD盘后大涨近7%！数据中心销售额近乎翻倍 营收展望超预期",
+      "summary": "【AMD盘后大涨近7%！数据中心销售额近乎翻倍 营收展望超预期】周二美股盘后，美国CPU巨头超威半导体（AMD）公布了2026财年第三季度财报，业绩和指引均超出华尔街预期，营收飙升45%创历史新高，数据中心业务销售额较上年同期近乎翻倍。财报公布后，该公司股价在盘后交易中上涨近7%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T08:24+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611043920930716.html",
+      "official": false
+    },
+    {
+      "id": "4f6b6c708537",
+      "title": "中际旭创：绝大部分客户未下修需求或订单 部分物料的确供应偏紧但不意味价格均上涨",
+      "summary": "曾经市值万亿的光模块龙头中际旭创（300308）11月3日晚间通过召开电话会议的形式，在回应“物料紧张是否会造成净利润下降”等市场关心的问题时表示，部分物料的确供应偏紧，但并非意味所有物料的价格均上涨。中际旭创副总裁、董事会秘书王军首先对市场相关传言进行了澄清。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T08:07+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611043920928763.html",
+      "official": false
+    },
+    {
+      "id": "f1a95493230c",
+      "title": "港股估值吸引力提升 11月市场聚焦盈利改善",
+      "summary": "【港股估值吸引力提升 11月市场聚焦盈利改善】10月港股市场结构分化明显，数据显示，恒生科技指数单月下跌11.73%，科技成长板块波动加大，南向资金同期出现阶段性净流出。多家券商11月策略认为，随着估值压力释放、海外利率扰动逐步被消化，港股后续表现将更多取决于企业盈利改善与估值匹配，市场关注点正从主题预期转向盈利兑现，风格再平衡与结构性机会成为共识。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T07:53+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611043920703362.html",
+      "official": false
+    },
+    {
+      "id": "8bb1ee464bfb",
+      "title": "MarketWatch：公司业绩｜What analysts are telling us while Apple’s stock falls after earnings report",
+      "summary": "英文摘要：Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T06:48+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "7a9643ff49da",
+      "title": "MarketWatch：公司业绩｜Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+      "summary": "英文摘要：The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T06:45+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "574f3002512f",
+      "title": "CNBC：公司业绩｜Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+      "summary": "英文摘要：In John Ternus' first earnings report as CEO, Apple issued a gross margin forecast that disappointed Wall Street.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T06:35+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+      "official": false
+    },
+    {
+      "id": "9df84c993856",
+      "title": "CNBC：公司业绩｜Options traders are betting heavily on these stocks ahead of election results",
+      "summary": "英文摘要：Solar stocks see heavy call activity as voting gets underway",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T04:51+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/03/options-traders-are-betting-heavily-on-these-stocks-ahead-of-election-results.html",
+      "official": false
+    },
+    {
+      "id": "b18f238ac4c7",
+      "title": "晚报丨港股三连涨，南向爆买234亿港元；美国中期选举今日投票；俄确认俄美乌三方会谈10日至11日在阿布扎比举行；AMD财报盘后公布；大摩：未来十年AI资本支出或达15万亿美元",
+      "summary": "港股三连涨，南向爆买234亿港元；美国中期选举今日投票；俄确认俄美乌三方会谈10日至11日在阿布扎比举行；AMD财报盘后公布；大摩：未来十年AI资本支出或达15万亿美元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-03T18:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611033920367270.html",
+      "official": false
+    },
+    {
+      "id": "342edf58f190",
+      "title": "国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑",
+      "summary": "【国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑】国务院关于金融工作情况的报告11月3日提请十四届全国人大常委会第二十五次会议审议。报告从继续实施好适度宽松的货币政策、进一步加强和完善金融监管、提升金融服务实体经济适配性等5方面介绍了我国金融工作下一步考虑。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T17:35+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "新华社",
+      "source_url": "https://finance.eastmoney.com/a/202611033920330271.html",
+      "official": false
+    },
+    {
+      "id": "d5a245ad6cf9",
+      "title": "香港交易所推出12隻新股票期貨合約",
+      "summary": "香港交易所发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T16:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "香港交易所",
+      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/261103news?sc_lang=zh-HK",
+      "official": true
+    },
+    {
+      "id": "75f6c276c678",
+      "title": "中际旭创H股创上市以来新低 三季报高增难挡产业链风偏回调",
+      "summary": "光模块龙头中际旭创(03308.HK)今日再遭重挫，午后加速下行一度跌逾10%。截至发稿，中际旭创H股日内跌11.49%，报616港元/股，成交约21亿港元。同时，也创下上市以来新低，较发行价已跌去近约四成。值得一提的是，中际旭创近日公布的财报显示，业绩端仍处于高速成长期，公司营业收入277.69亿元，同比增长171.83%，净利润为85.87亿元，同比增长173.74%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-03T15:17+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611033920211545.html",
+      "official": false
+    },
+    {
+      "id": "a8e514957fa4",
+      "title": "降低极端价格成交风险 港交所收紧证券买卖盘价格限制",
+      "summary": "【降低极端价格成交风险 港交所收紧证券买卖盘价格限制】11月2日，港股一项交易挂单规则的调整正式生效。按港交所此前公布的规则修订安排，除结构性产品外，所有证券的买卖盘价格限制门槛由九倍收紧为五倍。业内人士认为，这一规定意味着，证券价格偏离超过市场价五倍的订单在系统入口即被拒绝，不会进入买卖盘记录，更不可能成交。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T14:46+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611033920176518.html",
+      "official": false
+    },
+    {
+      "id": "d81eedb611ef",
+      "title": "港交所宣布！这类产品收市后交易时段将延长",
+      "summary": "11月2日，香港交易所宣布，2027年3月起衍生产品收市后交易时段的收市时间，将由凌晨3时延长至凌晨4时15分。同时视市场反馈及监管机构批准，考虑于2027年11月将收市时间再延至凌晨5时15分。香港交易所集团营运总监刘碧茵表示：“全球市场的联系日益紧密，投资者需要更灵活地应对不同时区的市场变化并管理风险。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T11:00+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "券商中国",
+      "source_url": "https://finance.eastmoney.com/a/202611033919962279.html",
+      "official": false
+    },
+    {
+      "id": "65c764489d5f",
+      "title": "4股换1股、不发新股：香港中旅拆分中旅港澳独立上市 报告期内利润承压",
+      "summary": "【4股换1股、不发新股：香港中旅拆分中旅港澳独立上市 报告期内利润承压】香港中旅（HK00308）的系统性业务重组进入第三步。10月30日，由香港中旅分拆而来的中旅港澳文旅控股有限公司公告称，公司全部已发行股本将以介绍方式在联交所主板上市，中国银河国际担任独家保荐人。此前的10月26日，中旅港澳在港交所刊发聆讯后资料集。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-03T10:58+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611033919954444.html",
+      "official": false
+    },
+    {
+      "id": "8c69e8aa194d",
+      "title": "央行：11月15日起上调金融机构外汇存款准备金率2个百分点",
+      "summary": "【中国人民银行决定上调金融机构外汇存款准备金率】为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T08:41+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "央行网站",
+      "source_url": "https://finance.eastmoney.com/a/202611033919446783.html",
+      "official": false
+    },
+    {
+      "id": "44d8709d90e8",
+      "title": "CNBC：市场与交易｜Jim Cramer sees signs of life in tech stocks — but not from the usual winners",
+      "summary": "英文摘要：Cramer said a new group of technology stocks may be emerging as market leaders.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T07:58+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html",
+      "official": false
+    },
+    {
+      "id": "432923e42bd3",
+      "title": "CNBC：市场与交易｜CrowdStrike's new kill switch can stop rogue AI agents in their tracks, CEO says",
+      "summary": "英文摘要：\"Enabling agents to work safely is a massive market opportunity for CrowdStrike,\" CrowdStrike CEO George Kurtz told CNBC's Jim Cramer.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T07:37+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html",
+      "official": false
+    },
+    {
+      "id": "38a930b2f399",
+      "title": "MarketWatch：市场与交易｜S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?",
+      "summary": "英文摘要：Falling below 7,500 would lead to a dramatic increase in selling pressure and volatility, a J.P. Morgan strategist says, and that could end in a full-blown correction",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T05:30+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/s-p-500-is-looking-over-the-edge-of-a-technical-cliff-what-happens-if-it-falls-off-be97ebd9?mod=mw_rss_topstories",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
