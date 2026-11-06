@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T10:47+08:00",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T10:49+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月05日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "11月06日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -15,6 +15,24 @@
     "ETF": 10
   },
   "items": [
+    {
+      "id": "b387bf87f498",
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-05T12:00+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+      "official": true
+    },
     {
       "id": "2d4cce0bb25c",
       "title": "美国证监会：监管政策｜SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
@@ -52,112 +70,181 @@
       "official": true
     },
     {
-      "id": "fcdf492dcc44",
-      "title": "美国证监会：监管政策｜Two Entities Charged in $130 Million Fraud Scheme That Used False SEC Filings to Boost Investor Confidence",
-      "summary": "英文摘要：The Securities and Exchange Commission today charged two foreign-operated, Colorado-incorporated entities, BG Wealth Sharing Ltd and DSJ Exchange Pty Ltd, for orchestrating a fraud scheme that used false SEC filings to boost confidence in their…",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "美股",
+      "id": "a6dd22cb474f",
+      "title": "科创芯片股持续回暖 华虹宏力涨超12%",
+      "summary": "科创芯片股日内持续回暖，华虹宏力涨超12%，盛美上海、中科飞测、华海清科、沪硅产业、中微公司、中芯国际等快速跟涨。消息面上，华虹宏力公告，第三季度净利润8.35亿元，同比增长136%。预计第四季度销售收入10.8亿-10.9亿美元，毛利率25%-26%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T10:39+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611063924636752.html",
+      "official": false
+    },
+    {
+      "id": "68d2d40b65fc",
+      "title": "黄金及贵金属股普跌 高盛下调金价预测至每盎司4150美元",
+      "summary": "11月6日，黄金及贵金属股普跌，紫金矿业(02899)跌逾4%、紫金黄金国际(02259)跌逾4%、万国黄金集团(03939)跌逾4%。消息面上，高盛将2026年底的黄金价格预测下调至每盎司4150美元，并将2027年底的预测下调至每盎司4800美元；据CME“美联储观察”，美联储12月维持利率不变的概率为31.3%，加息25个基点的概率为68.7%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-10-30T00:42+08:00",
-      "importance": 4,
-      "market_tone": "中性",
-      "source_name": "美国证监会",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-110-two-entities-charged-130-million-fraud-scheme-used-false-sec-filings-boost-investor-confidence",
-      "official": true
-    },
-    {
-      "id": "35de6ea440bc",
-      "title": "集装箱业务毛利率偏低拉低前三季度业绩，麦加芯彩业绩说明会回应销售费用增幅较大等关切",
-      "summary": "深圳商报·读创发布与“公司业绩”相关的新信息。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T10:23+08:00",
+      "published_at": "2026-11-06T10:36+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202611053923231859.html",
+      "source_name": "财中社",
+      "source_url": "https://finance.eastmoney.com/a/202611063924631761.html",
       "official": false
     },
     {
-      "id": "44806c46054a",
-      "title": "科德数控：燃气轮机、半导体等领域订单均按期履约交付",
-      "summary": "【科德数控：燃气轮机、半导体等领域订单均按期履约交付】科德数控(688305)在2026年第三季度业绩说明会上表示，公司在燃气轮机、半导体等领域订单均按期履约交付，新签订单也在持续推进。公司将坚持航空航天基本盘，同时向半导体、能源、医疗、汽车等多元领域延伸，依托新厂等基地产能释放、核心部件高国产化率及国产替代窗口，加快高附加值订单落地转化。",
+      "id": "182f27cc321c",
+      "title": "苏美达：前三季度新签船舶建造订单47艘",
+      "summary": "【苏美达：前三季度新签船舶建造订单47艘】苏美达(600710)在2026年第三季度业绩说明会上表示，公司船舶业务前三季度新签船舶建造订单47艘，截至三季度末在手订单106艘，覆盖散集油多元船型，产品结构持续优化，生产排期至2030年。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-05T10:20+08:00",
+      "published_at": "2026-11-06T10:33+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "人民财讯",
-      "source_url": "https://finance.eastmoney.com/a/202611053923185178.html",
+      "source_url": "https://finance.eastmoney.com/a/202611063924626038.html",
       "official": false
     },
     {
-      "id": "01e432b9cd3d",
-      "title": "【涨停直击】超260万手封单！光伏龙头涨停",
-      "summary": "11月5日，协鑫集成拉升涨停，最新总市值148.6亿元。截至9:50，该股涨停板上封单超264万手。协鑫集成主营业务涵盖高效光伏电池组件、储能系统及能源系统集成服务，并提供从设计、生产到安装的一站式解决方案。2026年前三季度，公司实现营收72.7亿元，同比下降37.83%。第三季度单季净利润亏损1.91亿元，亏损同比、环比均收窄。",
+      "id": "c78ccab60377",
+      "title": "杜邦公司第三季度净销售额19亿美元，同比增长4%",
+      "summary": "【杜邦公司第三季度净销售额19亿美元，同比增长4%】11月6日，杜邦公司最新财报披露，2026年第三季度净销售额为19亿美元，同比增长4%；经营性EBITDA（息税折旧摊销前利润）为4.69亿美元，同比增长8%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-05T10:17+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "中国证券报·中证金牛座",
-      "source_url": "https://finance.eastmoney.com/a/202611053923278332.html",
-      "official": false
-    },
-    {
-      "id": "836cf977d602",
-      "title": "瑞幸咖啡三季报：外卖省了11亿元，开店创纪录",
-      "summary": "11月3日，瑞幸咖啡（LKNCY）公布2026年第三季度财报，报告期内公司实现净收入178.91亿元人民币，同比增长17%；净利润18.6亿元人民币，同比增长45%；按照美国通用会计准则（GAAP）计算，营业利润为27.56亿元，同比增长55.1%。收入增速主要来自商品交易总额（GMV）同比增长20%至人民币207亿元。收入增长的同时，瑞幸咖啡门店正在加速扩张。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T10:17+08:00",
+      "published_at": "2026-11-06T10:28+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "财中社",
-      "source_url": "https://finance.eastmoney.com/a/202611053923173736.html",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611063924620325.html",
       "official": false
     },
     {
-      "id": "d16523a352f2",
-      "title": "CNBC：公司业绩｜Prediction markets cement their status after forecasting Democratic sweep of Congress",
-      "summary": "英文摘要：Prediction markets projected election results well before media outlets in an effort to position themselves as fast, reliable news sources.",
+      "id": "d6576501a612",
+      "title": "金融产品网络营销监管要求进一步细化 金融机构获客模式或将调整",
+      "summary": "近日，中国互联网金融协会发布《落实〈金融产品网络营销管理办法〉问答（一）》（以下简称《问答》），进一步明确支付场景金融产品展示、信息披露及第三方平台导流等监管要求。《问答》明确，贷款、资产管理等金融产品作为支付页面中付款资金来源选项的，应与银行卡等支付工具显著区隔展示，并明示产品性质和提供产品的主体名称。对于客户未预先开通的金融产品，不得在支付页面展示，也不得诱导用户开通。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T10:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202611063924617726.html",
+      "official": false
+    },
+    {
+      "id": "ca6169a57400",
+      "title": "伟明环保：国内垃圾焚烧市场仍存在结构性机会",
+      "summary": "【伟明环保：国内垃圾焚烧市场仍存在结构性机会】伟明环保(603568)在2026年第三季度业绩说明会上表示，国内垃圾焚烧市场仍存在结构性机会，部分省份、县域垃圾处理能力不足，仍需新建垃圾焚烧发电项目。山西沿黄区域项目建设规模为500吨/日，服务临汾市西部六县，特许经营期40年，总投资约2.81亿元。该项目特许经营期较长、垃圾处理服务费较高，服务区域有一定的垃圾量保障，经测算具备良好的投资回报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T10:22+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611063924620495.html",
+      "official": false
+    },
+    {
+      "id": "5c315df15517",
+      "title": "个股异动 | 南侨食品2连板 机构：食饮板块估值处于历史低位水平",
+      "summary": "上证报中国证券网讯（记者严晓菲）11月6日，南侨食品开盘“一字”涨停，录得2连板。万联证券发表研报认为，当前，食饮板块估值处于历史低位水平，一旦基本面出现边际改善的积极信号，食饮行业有望迎来反弹，建议关注经营好转预期较为明确的细分领域结构性投资机会，包括白酒、乳制品、软饮料、休闲零食行业中业绩表现相对较好的企业。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T10:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611063924596197.html",
+      "official": false
+    },
+    {
+      "id": "4cc6679153a9",
+      "title": "MarketWatch：公司业绩｜Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+      "summary": "英文摘要：Demand for automated AI protection is on the rise — and manifesting in Cloudflare’s earnings results.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-05T10:07+08:00",
+      "published_at": "2026-11-06T09:06+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/04/prediction-markets-2026-midterms-election-results.html",
+      "market_tone": "偏积极",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "6297c4f1918e",
-      "title": "CNBC：利率与通胀｜White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
-      "summary": "英文摘要：President Donald Trump first tried to fire Lisa Cook in August 2025, but the Supreme Court in June blocked him from doing so, for now.",
+      "id": "365083d17477",
+      "title": "早报丨美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩",
+      "summary": "美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T08:01+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611063924200651.html",
+      "official": false
+    },
+    {
+      "id": "a3dadbea756c",
+      "title": "CNBC：公司业绩｜Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "summary": "英文摘要：Following a dramatic plunge in its stock price, IREN said some revenue is being delayed from 2026 until early next year.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T07:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/05/iren-earnings-report-q1-2027-.html",
+      "official": false
+    },
+    {
+      "id": "3ae2bd95d429",
+      "title": "MarketWatch：利率与通胀｜The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "summary": "英文摘要：The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
       "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
@@ -165,28 +252,116 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-05T09:11+08:00",
+      "published_at": "2026-11-06T06:40+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/04/trump-federal-reserve-lisa-cook-hearing.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "7a18c41f14a6",
-      "title": "MarketWatch：公司业绩｜This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "summary": "英文摘要：AppLovin’s stock is popping after “clearly positive” earnings results.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "id": "fbf08e9c4104",
+      "title": "MarketWatch：利率与通胀｜After tech-stock rout, October jobs report could bring relief — or more pain",
+      "summary": "英文摘要：After a tech-led meltdown in the stock market, the October jobs report on Friday morning could bring investors some encouraging news — or add to their misery.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T05:39+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/after-tech-stock-rout-october-jobs-report-could-bring-relief-or-more-pain-db93357e?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "05b8e52b8ec5",
+      "title": "CNBC：利率与通胀｜The October jobs report is out Friday. Here's everything to expect",
+      "summary": "英文摘要：The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T05:32+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+      "official": false
+    },
+    {
+      "id": "be24835ae6b0",
+      "title": "CNBC：利率与通胀｜Barkin sees interest rate hikes ahead, but at a gradual pace",
+      "summary": "英文摘要：In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T00:34+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+      "official": false
+    },
+    {
+      "id": "3223b20fd9c9",
+      "title": "百济神州：前三季度净利润同比增长432%",
+      "summary": "【百济神州：前三季度净利润同比增长432%】百济神州(688235.SH)发布2026年三季度主要财务数据，前三季度实现营业总收入349.93亿元，同比增长26.8%；归属于母公司所有者的净利润为60.55亿元，同比增长431.8%。其中，第三季度产品收入125.60亿元，同比增长26.2%。前三季度产品收入343.57亿元，同比增长25.8%，主要得益于百悦泽、百泽安及安进授权产品的销售增长。2026年第三季度，百悦泽全球销售额总计94.24亿元，同比增长27.0%。其中美国销售额总计68.16亿元，同比增长29.4%。2026年第三季度，百泽安全球销售额总计16.40亿元，同比增长20.3%。2026年第三季度，安进公司授权产品销售额为11.33亿元，同比增长19.4%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-05T09:05+08:00",
+      "published_at": "2026-11-05T19:44+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611053923685572.html",
+      "official": false
+    },
+    {
+      "id": "773346430e3f",
+      "title": "晚报丨港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%",
+      "summary": "港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T18:43+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611053923642546.html",
+      "official": false
+    },
+    {
+      "id": "59b0435a5d22",
+      "title": "华虹宏力：第三季度净利润同比增长136% 环比增长222%",
+      "summary": "【华虹宏力：第三季度净利润同比增长136% 环比增长222%】华虹宏力(688347.SH)公告称，前三季度实现营业收入186.11亿元，同比增长14.06%；归属于上市公司股东的净利润16.03亿元，同比增长138.23%。第三季度实现营业收入67.06亿元，同比增长13.95%；归属于上市公司股东的净利润8.35亿元，同比增长136.14%。业绩变动主要系晶圆平均销售单价提升及晶圆销售数量上升使得毛利大幅上升所致。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T16:41+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611053923546439.html",
       "official": false
     },
     {
@@ -204,74 +379,6 @@
       "market_tone": "偏谨慎",
       "source_name": "哈富证券",
       "source_url": "https://finance.eastmoney.com/a/202611053922635573.html",
-      "official": false
-    },
-    {
-      "id": "54b062ca0a10",
-      "title": "CNBC：公司业绩｜Snap shares fall over 10% on third-quarter revenue miss",
-      "summary": "英文摘要：Snap misses on revenue and daily active users in third-quarter earnings reported Wednesday.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T08:14+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
-      "official": false
-    },
-    {
-      "id": "2e4d40167dfa",
-      "title": "CNBC：公司业绩｜Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
-      "summary": "英文摘要：Qualcomm delivered better-than-expected results but issued a weak earnings forecast.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T07:38+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
-      "official": false
-    },
-    {
-      "id": "44df25929845",
-      "title": "CNBC：公司业绩｜Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
-      "summary": "英文摘要：Figma is letting clients use more artificial intelligence features for the same price. The company would like the move to boost results in the long term.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T07:02+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
-      "official": false
-    },
-    {
-      "id": "c30082a0989d",
-      "title": "MarketWatch：公司业绩｜How do Americans feel about the midterm results? It depends on how much money they make.",
-      "summary": "英文摘要：Most Americans are “thrilled” or “happy” about the results of this year’s election. Some are especially so.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-05T06:06+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/how-do-americans-feel-about-the-midterm-results-it-depends-on-how-much-money-they-make-e2a43f08?mod=mw_rss_topstories",
       "official": false
     },
     {
@@ -362,176 +469,73 @@
       "official": false
     },
     {
-      "id": "342edf58f190",
-      "title": "国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑",
-      "summary": "【国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑】国务院关于金融工作情况的报告11月3日提请十四届全国人大常委会第二十五次会议审议。报告从继续实施好适度宽松的货币政策、进一步加强和完善金融监管、提升金融服务实体经济适配性等5方面介绍了我国金融工作下一步考虑。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-03T17:35+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "新华社",
-      "source_url": "https://finance.eastmoney.com/a/202611033920330271.html",
-      "official": false
-    },
-    {
-      "id": "d5a245ad6cf9",
-      "title": "香港交易所推出12隻新股票期貨合約",
-      "summary": "香港交易所发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-03T16:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "香港交易所",
-      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/261103news?sc_lang=zh-HK",
-      "official": true
-    },
-    {
-      "id": "75f6c276c678",
-      "title": "中际旭创H股创上市以来新低 三季报高增难挡产业链风偏回调",
-      "summary": "光模块龙头中际旭创(03308.HK)今日再遭重挫，午后加速下行一度跌逾10%。截至发稿，中际旭创H股日内跌11.49%，报616港元/股，成交约21亿港元。同时，也创下上市以来新低，较发行价已跌去近约四成。值得一提的是，中际旭创近日公布的财报显示，业绩端仍处于高速成长期，公司营业收入277.69亿元，同比增长171.83%，净利润为85.87亿元，同比增长173.74%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
+      "id": "ebca661ea0fb",
+      "title": "上交所资产支持证券开展集中簿记建档发行",
+      "summary": "上海证券交易所发布与“IPO与融资”相关的新信息。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-03T15:17+08:00",
+      "published_at": "2026-10-30T12:00+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611033920211545.html",
+      "market_tone": "中性",
+      "source_name": "上海证券交易所",
+      "source_url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261030_10836263.shtml",
+      "official": true
+    },
+    {
+      "id": "a979b97bf5de",
+      "title": "国务院关于金融工作情况的报告提出 支持中央汇金发挥类平准基金作用 巩固完善稳市机制",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611063923925160.html",
       "official": false
     },
     {
-      "id": "a8e514957fa4",
-      "title": "降低极端价格成交风险 港交所收紧证券买卖盘价格限制",
-      "summary": "【降低极端价格成交风险 港交所收紧证券买卖盘价格限制】11月2日，港股一项交易挂单规则的调整正式生效。按港交所此前公布的规则修订安排，除结构性产品外，所有证券的买卖盘价格限制门槛由九倍收紧为五倍。业内人士认为，这一规定意味着，证券价格偏离超过市场价五倍的订单在系统入口即被拒绝，不会进入买卖盘记录，更不可能成交。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
+      "id": "ac9ac22bcf17",
+      "title": "CNBC：市场与交易｜Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "summary": "英文摘要：Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-03T14:46+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "上海证券报·中国证券网",
-      "source_url": "https://finance.eastmoney.com/a/202611033920176518.html",
+      "published_at": "2026-11-06T10:40+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
       "official": false
     },
     {
-      "id": "162e399d8356",
-      "title": "市场波动幅度加大 新生代基金经理集体校准投资标尺",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
+      "id": "7f56e0ecf409",
+      "title": "MarketWatch：市场与交易｜Here’s what’s driving Iren’s stock higher after a brutal selloff",
+      "summary": "英文摘要：Iren announced a new cloud-computing deal and noted that much of its backlog is tied to “investment-grade counterparties.”",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
       "asset_types": [
+        "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-05T12:00+08:00",
+      "published_at": "2026-11-06T09:07+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922404144.html",
-      "official": false
-    },
-    {
-      "id": "f8208102fe6b",
-      "title": "基金年内“撒红包”超1300亿元 市场波动中扎堆分红",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-05T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922364877.html",
-      "official": false
-    },
-    {
-      "id": "08eff44bddfc",
-      "title": "公募机构持续自购旗下基金 权益产品受青睐",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-05T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922366727.html",
-      "official": false
-    },
-    {
-      "id": "ad5312e9d8d1",
-      "title": "首批18只主动ETF完成募集 合计资金达360亿元",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-05T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922366636.html",
-      "official": false
-    },
-    {
-      "id": "c4199fe12326",
-      "title": "传统和新兴两手抓 消费基金持仓积极“拓圈”",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-05T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922360387.html",
-      "official": false
-    },
-    {
-      "id": "3bfdf97a27c9",
-      "title": "资金借道股票ETF猛加仓 22天净买入超5500亿元",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-05T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611053922361355.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
       "official": false
     }
   ],
