@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:50+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月08日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 29 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 9,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "b387bf87f498",
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T12:00+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+      "official": true
+    },
+    {
+      "id": "2d4cce0bb25c",
+      "title": "美国证监会：监管政策｜SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+      "summary": "英文摘要：The Securities and Exchange Commission today adopted amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-05T00:28+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+      "official": true
+    },
+    {
+      "id": "b518c3a054ef",
+      "title": "昔日对手变股东 慕思股份斥资1.21亿元 成为ST喜临门第7大股东",
+      "summary": "日前，ST喜临门发布2026年三季度报告。财报披露，慕思健康睡眠股份有限公司（以下简称“慕思股份”）持有公司328.01万股，占总股本的0.89%，位列第七大股东；重庆慕雅时尚家居有限公司（以下简称“慕雅时尚”）新进前十大股东，持股262.14万股，占比0.71%，位列第十，慕雅时尚正是慕思股份的全资孙公司。两个持股主体合计持有590.15万股，占比1.60%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-08T09:01+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611083925583916.html",
+      "official": false
+    },
+    {
+      "id": "92666e196635",
+      "title": "伯克希尔最新持仓曝光",
+      "summary": "巴菲特旗下伯克希尔·哈撒韦披露财报。11月7日晚间，伯克希尔公布2026年第三季度业绩显示，第三季度归属于股东的净利润为221.12亿美元，同比下降28.2%；剔除投资收益的公司营业利润合计约127亿美元，同比下降约5.8%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-08T08:49+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202611083925582321.html",
+      "official": false
+    },
+    {
+      "id": "1236306959e7",
+      "title": "新华财经早报：11月8日",
+      "summary": "坚决反对美方以涉第三方为由对中企单边制裁商务部敦促其尽快纠正错误做法我国央行黄金储备“24连增”：10月末达7830万盎司，环比增加83万盎司美国多名国会议员说将推动撤销不合理关税政策选民对高生活成本和高通胀反应强烈商务部新闻发言人就美制裁中国企业答记者问时表示，我们注意到有关情况。美方以涉及第三方为由，对中国企业采取单边制裁，违反国际法和国际关系基本准则，中方对此坚决反对。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T08:41+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "新华财经",
+      "source_url": "https://finance.eastmoney.com/a/202611083925580766.html",
+      "official": false
+    },
+    {
+      "id": "b5799522afef",
+      "title": "立昂技术前三季度减亏24.31% 算力业务商业化细节仍待披露",
+      "summary": "算力网建设不断提速，数据中心运营商的发展折射出这一市场主体商业化的进程。立昂技术（300603.SZ）三季报显示，2026年前三季度，立昂技术实现营业收入5.15亿元，同比下降9.95%；归母净利润为-4534.55万元，同比减亏24.31%；扣除非经常性损益后的归母净利润为-4984.33万元，同比减亏18.91%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-08T07:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202611083925575533.html",
+      "official": false
+    },
+    {
+      "id": "23e55f309004",
+      "title": "品牌卤味为何风光不再",
+      "summary": "窄门餐眼数据显示，2023年末至2026年8月，绝味鸭脖门店数量从峰值时的近1.6万家缩减约6600家，平均每天约7家门店退场。与之相伴的是业绩承压：2025年公司营收、利润双降，扣非净利润近乎腰斩。翻看同业成绩单，周黑鸭2026年上半年营收同比增长19.5%，煌上煌同期实现营收净利双增。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-08T05:46+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "经济日报",
+      "source_url": "https://finance.eastmoney.com/a/202611083925569011.html",
+      "official": false
+    },
+    {
+      "id": "daadac59c5a4",
+      "title": "AI基建狂潮遭遇现实阻力！欧洲多国爆发抗议 要求暂停数据中心建设",
+      "summary": "针对数据中心建设的抗议浪潮正在欧洲多地蔓延。当地时间周六，多个国家的民众走上街头，表达对数据中心快速扩张可能带来的能源消耗、环境破坏及社会影响的担忧。据悉，来自欧洲15个国家的100多个民间组织和权益团体参与了此次联合行动，抗议能源消耗巨大的数据中心快速扩张，呼吁在建立更加明确的监管制度之前，暂停所有新的大型数据中心项目。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T05:21+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611083925568866.html",
+      "official": false
+    },
+    {
+      "id": "95843991185f",
+      "title": "环球下周看点：美国CPI与地缘风险接踵而至 AI交易能否走出抛售阴霾？",
+      "summary": "【环球下周看点：美国CPI与地缘风险接踵而至 AI交易能否走出抛售阴霾？】美国科技股本周遭遇猛烈抛售，AI投资热潮同时面临政策环境变化与资本市场信心动摇的双重考验。尽管芯片股周五出现反弹，但纳指仍处于技术性回调区间，市场对AI基础设施投资回报、融资能力和未来增长前景的疑虑尚未消散。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T02:00+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611083925563342.html",
+      "official": false
+    },
+    {
+      "id": "3ae2bd95d429",
+      "title": "MarketWatch：利率与通胀｜The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "summary": "英文摘要：The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T00:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "ac772a96af2e",
+      "title": "卖股票、回购、囤现金！伯克希尔操作变了",
+      "summary": "11月7日晚间，伯克希尔·哈撒韦公布2026年第三季度业绩。财报显示，公司第三季度归属于股东的净利润为221.12亿美元，同比下降28.2%；剔除投资收益的公司营业利润合计约127亿美元，同比下降约5.8%。伯克希尔三季报释放出一组信号：伯克希尔三季度小幅净卖出股票，却斥资近百亿美元回购自家股票；季末现金、现金等价物和短期美债总额仍升至约3774亿美元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-08T00:14+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611073925556882.html",
+      "official": false
+    },
+    {
+      "id": "8fb5530b9aab",
+      "title": "年内16家信用卡中心及下属分中心终止营业 信用卡持续“瘦身”为何？",
+      "summary": "日前，监管批复了一家股份行旗下两家信用卡分中心终止营业。记者梳理发现，截至2026年11月7日，年内经过金融监管局批复的宣布终止营业的信用卡中心以及下属分中心共有16家。当前国内信用卡发卡规模持续回落，行业已步入存量博弈阶段。信用卡中心下属分中心相继终止营业的原因是什么？是否为银行“降本增效”所作出的选择？未来信用卡业务发展又会如何？记者就此采访了业内专家。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T00:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611073925561774.html",
+      "official": false
+    },
+    {
+      "id": "fb6cc7958a4a",
+      "title": "CNBC：公司业绩｜Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+      "summary": "英文摘要：Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-07T23:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+      "official": false
+    },
+    {
+      "id": "bfe202721c09",
+      "title": "瑞银：国有大行H股仍有约30%上涨空间 消费贷风险可控",
+      "summary": "【瑞银：国有大行H股仍有约30%上涨空间 消费贷风险可控】11月6日，瑞银投资银行亚洲金融行业研究主管颜湄之在媒体分享会上表示，国有大行三季度营收同比增长9.4%，净利润增长8.6%，净息差企稳在1.33%，其H股市净率不到0.6倍，向0.8倍修复对应约三成上涨空间。瑞银压力测试显示，无抵押消费贷五年累计额外信贷成本约170个基点，国有大行现有拨备空间足以覆盖该成本。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-07T09:03+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611063925115536.html",
+      "official": false
+    },
+    {
+      "id": "8e7eded693e2",
+      "title": "CNBC：公司业绩｜Data center double-down: Hassett says blue wave won't stop AI build-out",
+      "summary": "英文摘要：Data centers are a crucial part of President Donald Trump's push to win the global artificial intelligence race, which he continues despite the midterm results.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-07T02:54+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/06/data-centers-ai-elections-hassett.html",
+      "official": false
+    },
+    {
+      "id": "56b6050385de",
+      "title": "多项指标创新高！港交所最新披露",
+      "summary": "【多项指标创新高！港交所最新披露】11月6日午间，香港交易所发布三季度业绩报告。报告显示，香港交易所2026年前三季的收入和其他收益及溢利创历来九个月新高。2026年前三季收入及其他收益为245.69亿港元，较2025年前三季上升12%；股东应占溢利为154.27亿港元，较2025年前三季上升15%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T13:38+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202611063924698820.html",
+      "official": false
+    },
+    {
+      "id": "a65402fea80c",
+      "title": "业绩爆发+回购加持 华虹宏力股价大涨",
+      "summary": "【业绩爆发+回购加持 华虹宏力股价大涨】科创芯片板块日内回暖，华虹宏力盘中涨幅一度超15%。消息面上，华虹宏力近日披露亮眼三季报及四季度指引，叠加股份回购提议，多重利好共振。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T11:25+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611063924652316.html",
+      "official": false
+    },
+    {
+      "id": "365083d17477",
+      "title": "早报丨美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩",
+      "summary": "美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T08:01+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611063924200651.html",
+      "official": false
+    },
+    {
+      "id": "3223b20fd9c9",
+      "title": "百济神州：前三季度净利润同比增长432%",
+      "summary": "【百济神州：前三季度净利润同比增长432%】百济神州(688235.SH)发布2026年三季度主要财务数据，前三季度实现营业总收入349.93亿元，同比增长26.8%；归属于母公司所有者的净利润为60.55亿元，同比增长431.8%。其中，第三季度产品收入125.60亿元，同比增长26.2%。前三季度产品收入343.57亿元，同比增长25.8%，主要得益于百悦泽、百泽安及安进授权产品的销售增长。2026年第三季度，百悦泽全球销售额总计94.24亿元，同比增长27.0%。其中美国销售额总计68.16亿元，同比增长29.4%。2026年第三季度，百泽安全球销售额总计16.40亿元，同比增长20.3%。2026年第三季度，安进公司授权产品销售额为11.33亿元，同比增长19.4%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T19:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611053923685572.html",
+      "official": false
+    },
+    {
+      "id": "773346430e3f",
+      "title": "晚报丨港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%",
+      "summary": "港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T18:43+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611053923642546.html",
+      "official": false
+    },
+    {
+      "id": "59b0435a5d22",
+      "title": "华虹宏力：第三季度净利润同比增长136% 环比增长222%",
+      "summary": "【华虹宏力：第三季度净利润同比增长136% 环比增长222%】华虹宏力(688347.SH)公告称，前三季度实现营业收入186.11亿元，同比增长14.06%；归属于上市公司股东的净利润16.03亿元，同比增长138.23%。第三季度实现营业收入67.06亿元，同比增长13.95%；归属于上市公司股东的净利润8.35亿元，同比增长136.14%。业绩变动主要系晶圆平均销售单价提升及晶圆销售数量上升使得毛利大幅上升所致。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T16:41+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611053923546439.html",
+      "official": false
+    },
+    {
+      "id": "dba26bb307f5",
+      "title": "早报丨民主党领袖称将结束对伊战争，国际油价下跌；苹果重返美股市值第一；绩优股AppLovin盘后大涨超23%、Coherent涨超6%，绩差股高通盘后跌近7%；AAOI、IREN美股盘后、华虹宏力今日发财报",
+      "summary": "民主党领袖称将结束对伊战争，国际油价下跌；苹果重返美股市值第一；绩优股AppLovin盘后大涨超23%、Coherent涨超6%，绩差股高通盘后跌近7%；AAOI、IREN美股盘后、华虹宏力今日发财报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T08:30+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611053922635573.html",
+      "official": false
+    },
+    {
+      "id": "f8002473b99e",
+      "title": "最高70亿美元 中国生物制药又有BD大动作",
+      "summary": "中国生物制药11月4日盘后发布公告，宣布与跨国药企勃林格殷格翰就下一代肿瘤疗法达成重磅对外授权，覆盖6个创新药临床前项目。根据协议，中国生物制药将获得3.58亿美元的首付款及近期付款，并有资格获得潜在的选择权行使付款以及开发、监管及商业化里程碑付款，总额最高可达70亿美元；此外，公司还可获得基于未来潜在产品销售额、最高达两位数的分级特许权使用费。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-04T20:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202611043922149560.html",
+      "official": false
+    },
+    {
+      "id": "453170584f5f",
+      "title": "晚报丨民主党大胜，全球股市“先崩后拉”、金银大涨，数据中心监管收紧预期升温；今晚21:15小非农来袭；10月DRAM价格再创新高；诺和诺德再度上调全年业绩指引",
+      "summary": "民主党大胜，全球股市“先崩后拉”、金银大涨，数据中心监管收紧预期升温；今晚21:15小非农来袭；10月DRAM价格再创新高；诺和诺德再度上调全年业绩指引。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-04T18:21+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611043922062863.html",
+      "official": false
+    },
+    {
+      "id": "7f73f9e71218",
+      "title": "MarketWatch：市场与交易｜Second-guessing my adviser: Is an annuity the right move in this market?",
+      "summary": "英文摘要：“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T04:36+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "0437bb1a9961",
+      "title": "MarketWatch：市场与交易｜The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
+      "summary": "英文摘要：The large-cap index is nowhere near as diversified as you think.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T00:40+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "b3bcd90d1df7",
+      "title": "CNBC：市场与交易｜Decisive election. Dramatic stock swings. How we handled the market last week",
+      "summary": "英文摘要：On Friday, Jim Cramer revealed his strategy for navigating this new era at the Investing Club's 4th Annual Meeting.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-08T00:31+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html",
+      "official": false
+    },
+    {
+      "id": "d243891b591e",
+      "title": "CNBC：IPO与融资｜Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "summary": "英文摘要：Anthropic is poised to become the first pure-play AI company to hit the public market at a time when the public is increasingly leary of the industry.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-07T21:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "official": false
+    },
+    {
+      "id": "1e1b370131f5",
+      "title": "CNBC：市场与交易｜Inside the card-grading empire shaping the price of Pokémon cards",
+      "summary": "英文摘要：PSA’s resale premium, backlog and grading-market dominance shape what collectors pay — and how much their Pokémon cards may fetch.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-07T10:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
