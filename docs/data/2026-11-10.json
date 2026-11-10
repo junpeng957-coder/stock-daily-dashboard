@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T12:19+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月10日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 5 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "b387bf87f498",
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T12:00+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+      "official": true
+    },
+    {
+      "id": "2d4cce0bb25c",
+      "title": "美国证监会：监管政策｜SEC Adopts Amendments to Update Definitions of Small Entity for Investment Companies and Investment Advisers",
+      "summary": "英文摘要：The Securities and Exchange Commission today adopted amendments to the rules that define which registered investment companies, investment advisers, and business development companies qualify as small entities for purposes of the Regulatory Flexibility…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-05T00:28+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-112-sec-adopts-amendments-update-definitions-small-entity-investment-companies-investment-advisers",
+      "official": true
+    },
+    {
+      "id": "97cea9e5ef23",
+      "title": "纵横股份：持续深化AI与无人机应用场景的对接与拓展",
+      "summary": "21财经11月10日电，纵横股份在2026年第三季度业绩说明会上表示，公司已构建一体化低空AI能力体系，整合形成覆盖多类低空治理场景的标准化算法清单，可实现低空复杂场景下各类目标的自动检测、精准分割与辅助决策，广泛应用于城市治理、耕地保护、生态环保、水利、交通、消防、应急等社会治理领域。同时，公司持续推进低空高质量数据集建设与核心算法国产化适配，并探索开发低空行业应用智能体。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T11:55+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611103927191660.html",
+      "official": false
+    },
+    {
+      "id": "29da1e80d0ee",
+      "title": "时代出版：已在所属出版社试点成立AI编辑室",
+      "summary": "【时代出版：已在所属出版社试点成立AI编辑室】时代出版在2026年第三季度业绩说明会上表示，公司将在稳固出版主业的基础上，加强拓展教育服务等创新业务板块，积极培育新的利润增长点。公司下属各出版单位均已布局开展数字出版业务，相关业务推进有序、成效良好。公司目前已在所属出版社试点成立AI编辑室，积极布局应用AI技术，加强内部运营的降本增效。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T11:37+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611103927184830.html",
+      "official": false
+    },
+    {
+      "id": "c4b3c1078e2d",
+      "title": "CNBC：利率与通胀｜PepsiCo to cut about 1,000 jobs as North American business struggles",
+      "summary": "英文摘要：PepsiCo plans to cut about 1,000 jobs across North America as it streamlines operations and works to revive sales in its home market.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T07:31+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/pepsico-north-america-job-cuts.html",
+      "official": false
+    },
+    {
+      "id": "cc51c8b74f73",
+      "title": "CNBC：公司业绩｜Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
+      "summary": "英文摘要：The updates came alongside a third-quarter earnings report for the legacy Paramount Skydance.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T07:14+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/skydance-cost-savings-breakdown.html",
+      "official": false
+    },
+    {
+      "id": "93a31ae2e2f6",
+      "title": "CNBC：公司业绩｜Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
+      "summary": "英文摘要：The quarterly results are the first since Lucid CEO Silvio Napoli, who started leading the company in June, announced a restructuring plan.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T07:05+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/lucid-group-lcid-earnings-q3-2026.html",
+      "official": false
+    },
+    {
+      "id": "27c9da168215",
+      "title": "CNBC：公司业绩｜Trump questions midterm election results, revives voting-machine conspiracy",
+      "summary": "英文摘要：President Trump's questioning of the legitimacy of his loss in the 2020 election culminated with an attack on the U.S. Capitol by a mob of his supporters.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T06:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/trump-election-results-democrats.html",
+      "official": false
+    },
+    {
+      "id": "192e7d2ce14b",
+      "title": "CNBC：利率与通胀｜3 unexpected reasons the October jobs report was so strong",
+      "summary": "英文摘要：October's jobs report blew past economist forecasts. Here are three reasons.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T06:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+      "official": false
+    },
+    {
+      "id": "079eca6bd3f2",
+      "title": "CNBC：公司业绩｜Tokenization platform Securitize gains 10% postmarket on Q3 results, move into asset-backed finance",
+      "summary": "英文摘要：Securitize saw growth in tokenization last quarter and announced its expansion into asset-backed finance through the acquisition of River One.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T05:24+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/tokenization-platform-securitize-reports-gains-expands-into-asset-backed-finance.html",
+      "official": false
+    },
+    {
+      "id": "4b202876b351",
+      "title": "MarketWatch：利率与通胀｜The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
+      "summary": "英文摘要：Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T05:24+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "ef755a10f6a3",
+      "title": "CNBC：利率与通胀｜A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+      "summary": "英文摘要：The CPI headline reading is expected to show an increase of 0.3% while the core is forecast to increase 0.2%.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T05:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+      "official": false
+    },
+    {
+      "id": "73b8caf2883a",
+      "title": "CNBC：公司业绩｜Millions of dollars poured into prediction markets on election night, trading on Democratic control of Congress and Texas governor's race",
+      "summary": "英文摘要：Election night showed how traders reacted in real time to midterm results, as trading activity surged and market prices shifted to Democrats on Nov. 3.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T03:41+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/09/millions-of-dollars-poured-into-prediction-markets-on-election-night.html",
+      "official": false
+    },
+    {
+      "id": "0245cd9897f9",
+      "title": "鸿腾精密较年内高点回撤逾70% 大摩狠砍其目标价55%",
+      "summary": "港股苹果概念股鸿腾精密(06088.HK)延续弱势表现，盘中跌近9%，报2.65港元。值得注意的是，相较年内10.89港元的高点，该股累计回撤幅度已超过70%。主要原因是公司业绩低于预期、AI业务变现不及预期叠加手机大盘承压，成为近期机构大幅削减其目标价与评级的主因。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-09T13:50+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611093926176029.html",
+      "official": false
+    },
+    {
+      "id": "775b29b7db37",
+      "title": "国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%",
+      "summary": "【国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%】2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1.5%；消费品价格上涨0.8%，服务价格上涨0.7%。1—10月平均，全国居民消费价格比上年同期上涨0.9%。2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-09T09:30+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "国家统计局",
+      "source_url": "https://finance.eastmoney.com/a/202611093925795942.html",
+      "official": false
+    },
+    {
+      "id": "bfe202721c09",
+      "title": "瑞银：国有大行H股仍有约30%上涨空间 消费贷风险可控",
+      "summary": "【瑞银：国有大行H股仍有约30%上涨空间 消费贷风险可控】11月6日，瑞银投资银行亚洲金融行业研究主管颜湄之在媒体分享会上表示，国有大行三季度营收同比增长9.4%，净利润增长8.6%，净息差企稳在1.33%，其H股市净率不到0.6倍，向0.8倍修复对应约三成上涨空间。瑞银压力测试显示，无抵押消费贷五年累计额外信贷成本约170个基点，国有大行现有拨备空间足以覆盖该成本。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-07T09:03+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611063925115536.html",
+      "official": false
+    },
+    {
+      "id": "56b6050385de",
+      "title": "多项指标创新高！港交所最新披露",
+      "summary": "【多项指标创新高！港交所最新披露】11月6日午间，香港交易所发布三季度业绩报告。报告显示，香港交易所2026年前三季的收入和其他收益及溢利创历来九个月新高。2026年前三季收入及其他收益为245.69亿港元，较2025年前三季上升12%；股东应占溢利为154.27亿港元，较2025年前三季上升15%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T13:38+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202611063924698820.html",
+      "official": false
+    },
+    {
+      "id": "2d4e42d76d88",
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
+      "official": true
+    },
+    {
+      "id": "896649802deb",
+      "title": "中国证监会同意葵花籽油期货和期权注册",
+      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-06T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7669216/content.shtml",
+      "official": true
+    },
+    {
+      "id": "a65402fea80c",
+      "title": "业绩爆发+回购加持 华虹宏力股价大涨",
+      "summary": "【业绩爆发+回购加持 华虹宏力股价大涨】科创芯片板块日内回暖，华虹宏力盘中涨幅一度超15%。消息面上，华虹宏力近日披露亮眼三季报及四季度指引，叠加股份回购提议，多重利好共振。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T11:25+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611063924652316.html",
+      "official": false
+    },
+    {
+      "id": "365083d17477",
+      "title": "早报丨美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩",
+      "summary": "美国10月非农数据今日公布；得州当选州长称可与马斯克合作，但须先停止数据中心建设；英伟达提出AI内存全栈协同设计方案，绩优股Cloudflare盘后涨超14%、爱彼迎涨近11%；Moderna、Oklo美股盘前发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-06T08:01+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611063924200651.html",
+      "official": false
+    },
+    {
+      "id": "3223b20fd9c9",
+      "title": "百济神州：前三季度净利润同比增长432%",
+      "summary": "【百济神州：前三季度净利润同比增长432%】百济神州(688235.SH)发布2026年三季度主要财务数据，前三季度实现营业总收入349.93亿元，同比增长26.8%；归属于母公司所有者的净利润为60.55亿元，同比增长431.8%。其中，第三季度产品收入125.60亿元，同比增长26.2%。前三季度产品收入343.57亿元，同比增长25.8%，主要得益于百悦泽、百泽安及安进授权产品的销售增长。2026年第三季度，百悦泽全球销售额总计94.24亿元，同比增长27.0%。其中美国销售额总计68.16亿元，同比增长29.4%。2026年第三季度，百泽安全球销售额总计16.40亿元，同比增长20.3%。2026年第三季度，安进公司授权产品销售额为11.33亿元，同比增长19.4%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T19:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611053923685572.html",
+      "official": false
+    },
+    {
+      "id": "773346430e3f",
+      "title": "晚报丨港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%",
+      "summary": "港股三大指数五连阳，恒科指大涨5.55%；得州“拉闸”，美国45%数据中心扩张计划或暂停，AI硬件股重挫；华尔街集体转向看多美股；华虹宏力：Q3净利润环比增长364%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-05T18:43+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611053923642546.html",
+      "official": false
+    },
+    {
+      "id": "d5a245ad6cf9",
+      "title": "香港交易所推出12隻新股票期貨合約",
+      "summary": "香港交易所发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-03T16:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "香港交易所",
+      "source_url": "https://www.hkex.com.hk/News/News-Release/2026/261103news?sc_lang=zh-HK",
+      "official": true
+    },
+    {
+      "id": "2ed6bbed1983",
+      "title": "港股午评：恒生指数涨0.29% 恒生科技指数涨0.7%",
+      "summary": "【港股午评：恒生指数涨0.29% 恒生科技指数涨0.7%】港股午间收盘，恒生指数涨0.29%，恒生科技指数涨0.7%。光通信、应用软件、存储涨幅居前，原油与天然气、在线教育跌幅居前。智谱涨超11%，联想控股涨超4%，中芯国际、小鹏集团、理想汽车涨超2%。阿里巴巴跌超3%，京东集团跌超1%。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T12:10+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611103927192140.html",
+      "official": false
+    },
+    {
+      "id": "3fa6b70ae32c",
+      "title": "年内最后一批储蓄国债“秒光”，有大行上线两分钟额度售罄，定存利率回升抢购潮未止",
+      "summary": "财联社11月10日讯（记者郭子硕）今日上午8点30分，2026年第九期、第十期储蓄国债（电子式）正式开售，发行期为11月10日至11月19日，这也是年内最后一批储蓄国债。开售仅数分钟，多家银行APP渠道额度即告售罄。值得注意的是，与年中相比，银行定存利率已悄然回升，储蓄国债与存款之间的利差几乎被抹平。即便如此，抢购热潮丝毫未减。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-10T12:04+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611103927193958.html",
+      "official": false
+    },
+    {
+      "id": "9d707e290ba3",
+      "title": "公募基金投顾专属“T类份额”落地 存量基金11月底前完成增设",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611103926669038.html",
+      "official": false
+    },
+    {
+      "id": "8d7643baa57c",
+      "title": "基金投顾业务七载深耕 踏上买方服务新征途",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611103926626896.html",
+      "official": false
+    },
+    {
+      "id": "9980dc14f420",
+      "title": "重仓基金数增长近10倍 金斯瑞生物科技被公募抱团增持",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T12:00+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611093926561360.html",
+      "official": false
+    },
+    {
+      "id": "0315017b0121",
+      "title": "基金投顾专属T类份额落地 买方投顾转型下沉至份额底层",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-10T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611093926486717.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
