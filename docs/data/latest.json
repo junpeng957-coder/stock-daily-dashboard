@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T10:54+08:00",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:41+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月13日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 5 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "11月14日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -15,6 +15,24 @@
     "ETF": 10
   },
   "items": [
+    {
+      "id": "d005115dd6c9",
+      "title": "美国证监会：监管政策｜SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "summary": "英文摘要：The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T00:57+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "official": true
+    },
     {
       "id": "a54130eed569",
       "title": "美国证监会：公司业绩｜SEC Announces Enforcement Annual Results for Fiscal Year 2026",
@@ -33,9 +51,43 @@
       "official": true
     },
     {
-      "id": "b387bf87f498",
-      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "id": "10cb825108fd",
+      "title": "科新发展主业持续承压 服务器租赁业务短期难填盈利缺口",
+      "summary": "2026年10月30日，山西科新发展股份有限公司（600234.SH，以下简称“科新发展”）交出了前三季度成绩单。乍看之下，归母净利润398.30万元，延续了上半年盈利势头，但细究之下，扣非净利润却为-53.48万元，同比下滑111.02%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-14T10:16+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国经营网",
+      "source_url": "https://finance.eastmoney.com/a/202611143931301440.html",
+      "official": false
+    },
+    {
+      "id": "1829d0505dc8",
+      "title": "数据中心业绩分化：算力布局提速 产能尚待消纳",
+      "summary": "在政策推动数据中心优化布局、加快存量改造的背景下，企业新增投入持续落地，但产能扩大、收入增长与盈利改善尚未同步。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-14T10:07+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国经营网",
+      "source_url": "https://finance.eastmoney.com/a/202611143931300967.html",
+      "official": false
+    },
+    {
+      "id": "3a13aab11b74",
+      "title": "如何拒绝作品被AI拿去训练？新的互联网“君子协议”涌现",
+      "summary": "【如何拒绝作品被AI拿去训练？新的互联网“君子协议”涌现】近期OpenAI、谷歌、微软和Anthropic承诺加入一项技术提案，允许网站一次性声明是否拒绝AI训练，不再需要为每个AI单独制定规则。这项名为“AI训练退出令牌”（AI training opt-out policy token）的草案如果顺利通过，四家巨头将在2027年之前接入。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -43,79 +95,169 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-06T12:00+08:00",
-      "importance": 4,
+      "published_at": "2026-11-14T09:59+08:00",
+      "importance": 3,
       "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
-      "official": true
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611143931297795.html",
+      "official": false
     },
     {
-      "id": "13171f7dcfe2",
-      "title": "CNBC：公司业绩｜Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-      "summary": "英文摘要：Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+      "id": "39ffb6d54ba3",
+      "title": "鲍斯股份：公司真空泵业务的营业收入为36,149.42万元，同比上升19.98%",
+      "summary": "21财经11月14日电，鲍斯股份在投资者关系活动中表示，真空泵业务是公司的重要业务板块，拥有完善的真空泵产品布局，涵盖螺杆真空泵、旋片真空泵等多种类型。2026年1-9月份，公司真空泵业务的营业收入为36,149.42万元，同比上升19.98%，营收实现稳步增长。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-14T09:41+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611143931296059.html",
+      "official": false
+    },
+    {
+      "id": "19f6aaaf1ad2",
+      "title": "鲍斯股份：公司压缩机业务的营业收入为78,557.72万元，同比上升0.93%",
+      "summary": "21财经11月14日电，鲍斯股份在投资者关系活动中表示，压缩机产品是公司重点发展的业务板块之一，主要从事螺杆空气压缩机产品的研发设计、生产和销售。2026年1-9月份，公司压缩机业务的营业收入为78,557.72万元，同比上升0.93%，营收较为稳健。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-14T09:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611143931296233.html",
+      "official": false
+    },
+    {
+      "id": "2d0e4a0694f4",
+      "title": "本周，英伟达市值蒸发逾3.8万亿元",
+      "summary": "美东时间周五，英伟达领导层动荡持续发酵叠加通胀数据持续高企，美国三大股指表现分化，标普、纳指收跌，道指则在消费股支撑下收涨。周线来看，英伟达股价已六周连跌，自10月6日以来市值蒸发1.84万亿美元。本周股价下跌12.75%，创2025年4月以来最大单周跌幅，本周市值蒸发逾5730亿美元（约合人民币3.82万亿元），跌破4万亿美元。与此同时，资金涌入消费、医药等防御性板块。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T09:34+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611143931293496.html",
+      "official": false
+    },
+    {
+      "id": "e171ad18800b",
+      "title": "【环球财经】投资者担忧持续 纽约股市三大股指13日涨跌不一",
+      "summary": "新华财经纽约11月13日电由于投资者对通胀和英伟达公司不确定性仍感到担忧，美国纽约股市三大股指13日高开低走，早盘一度显著下跌，随后跌幅逐渐收窄，收盘时纽约股市三大股指均涨跌不一。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T09:31+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "新华财经",
+      "source_url": "https://finance.eastmoney.com/a/202611143931292944.html",
+      "official": false
+    },
+    {
+      "id": "a346dd55078c",
+      "title": "均普智能前三季亏2183万元 10亿元定增款九成买理财",
+      "summary": "均普智能（688306.SH）最新财报显示，今年前三季度公司营业总收入约17.39亿元，同比增长15.28%，归母净利润仍亏损2183.25万元。这已是公司连续第四年前三季度亏损。在2024年、2025年，公司均靠第四季度单季数千万元的利润，把全年业绩从亏损线上拉回。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-14T09:29+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202611143931291897.html",
+      "official": false
+    },
+    {
+      "id": "fe44c8db40ad",
+      "title": "CNBC：利率与通胀｜AI risks are the biggest threat to the financial system, Fed survey finds",
+      "summary": "英文摘要：The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
       "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-11-13T10:43+08:00",
+      "published_at": "2026-11-14T05:18+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "source_url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "official": false
     },
     {
-      "id": "1113c209ff6e",
-      "title": "600467，涨停、炸板、涨停",
-      "summary": "11月13日，好当家（600467）开盘涨停，盘初炸板，随后快速回封涨停，收获二连板，截至发稿，报2.73元，成交额超4亿元，涨停板上封单超40万手。好当家发布的2026年第三季度报告显示，公司前三季度实现营业收入约9.73亿元，同比增长4.01%；归属于上市公司股东的净利润约3245万元，同比增长20.03%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "id": "c6510d5eb299",
+      "title": "CNBC：利率与通胀｜10-year Treasury yield moves to 5.17% as traders weigh producer price report",
+      "summary": "英文摘要：Treasury yields moved higher as investor expectations for a December rate hike by the Federal Reserve gain strength.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-11-13T10:38+08:00",
+      "published_at": "2026-11-14T05:08+08:00",
       "importance": 3,
       "market_tone": "偏积极",
-      "source_name": "中新经纬",
-      "source_url": "https://finance.eastmoney.com/a/202611133930572972.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
       "official": false
     },
     {
-      "id": "faf7d0f0f098",
-      "title": "中芯国际赵海军：AI算力供不应求，2027年半导体代工产能将非常紧缺",
-      "summary": "【中芯国际赵海军：AI算力供不应求，2027年半导体代工产能将非常紧缺】在今天举行的中芯国际2026年第三季度业绩会上，中芯国际联合CEO赵海军表达了对半导体代工业未来发展的积极正面看法。他认为，目前AI发展“方兴未艾”，算力需求供不应求。目前行业共识是，2027年将是产能非常紧缺的一年，预计持续到2028年中期至下半年。2028年中期之后，与AI相关的存储器需求或达到基本供需平衡，算力或其他配套芯片或仍然紧缺。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "id": "518f14d75539",
+      "title": "CNBC：利率与通胀｜Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "summary": "英文摘要：The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-11-13T10:18+08:00",
+      "published_at": "2026-11-13T22:22+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "第一财经",
-      "source_url": "https://finance.eastmoney.com/a/202611133930562966.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
       "official": false
     },
     {
-      "id": "0bdc2ef6fa6b",
-      "title": "直击中芯国际业绩会：上游设备采购价格提高、交付周期拉长 AI配套芯片代工价格维持上行趋势",
-      "summary": "“三季度公司整体销售收入再创新高，达到了31.9亿美元，环比增长6.1%。比起三个月前，我们看到客户对BCD、专用存储、Control等人工智能配套芯片的提拉需求，增量速度比原来预期的更快，使得三季度收入超出指引上限。”在中芯国际今日举行的业绩会上，该公司联合CEO赵海军如是称。",
+      "id": "a52f60ef4b77",
+      "title": "一图展望丨中概互联网Q3财报季开启！腾讯、阿里、拼多多、快手等下周密集放榜，两公司利润望翻倍",
+      "summary": "中概互联网Q3财报季开启！腾讯、阿里、拼多多、快手等下周密集放榜，阿里、美团利润望翻倍。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-13T10:05+08:00",
+      "published_at": "2026-11-13T13:05+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "科创板日报",
-      "source_url": "https://finance.eastmoney.com/a/202611133930558912.html",
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611133930608782.html",
       "official": false
     },
     {
@@ -133,23 +275,6 @@
       "market_tone": "偏积极",
       "source_name": "证券时报网",
       "source_url": "https://finance.eastmoney.com/a/202611133930532650.html",
-      "official": false
-    },
-    {
-      "id": "848d7e4d9be3",
-      "title": "AI需求持续爆发！美国半导体设备龙头：营收、盈利、业绩指引全面超预期",
-      "summary": "【AI需求持续爆发！美国半导体设备龙头：营收、盈利、业绩指引全面超预期】周四美股盘后，美国最大半导体设备制造商应用材料公布了最新财报。受AI热潮下半导体制造设备需求强劲推动，该公司在截至2026年10月25日的2026财年第四财季营收、盈利双双超预期。该公司还给出了超预期的业绩指引，押注对先进AI芯片的强劲需求将继续推动对其半导体制造设备的支出。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-13T08:36+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611133930315435.html",
       "official": false
     },
     {
@@ -184,94 +309,6 @@
       "market_tone": "中性",
       "source_name": "每日经济新闻",
       "source_url": "https://finance.eastmoney.com/a/202611133930090368.html",
-      "official": false
-    },
-    {
-      "id": "6c48c2d1a9c3",
-      "title": "MarketWatch：利率与通胀｜Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
-      "summary": "英文摘要：Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-13T06:16+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "d5ee61e8a4b5",
-      "title": "CNBC：公司业绩｜Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
-      "summary": "英文摘要：Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-13T05:20+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
-      "official": false
-    },
-    {
-      "id": "ae4ef936f4c6",
-      "title": "MarketWatch：利率与通胀｜The bond market now has an even bigger fear than AI fallout",
-      "summary": "英文摘要：Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-13T04:44+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "47ac57ef95c9",
-      "title": "CNBC：利率与通胀｜In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "summary": "英文摘要：There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-13T03:05+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "official": false
-    },
-    {
-      "id": "21fd72ba84ce",
-      "title": "CNBC：公司业绩｜Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
-      "summary": "英文摘要：Nebius' earnings report comes after fellow neoclouds IREN and CoreWeave showed better-than-expected results in the past week.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-13T01:53+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
       "official": false
     },
     {
@@ -397,23 +434,6 @@
       "official": false
     },
     {
-      "id": "05d61baff9fd",
-      "title": "一图展望丨中芯国际Q3财报周四盘后放榜，涨价红利释放，毛利率能否触及28%？",
-      "summary": "中芯国际将于11月12日（周四）港股盘后披露2026年第三季度业绩。机构预期2026Q3预计实现营收30.9亿美元，同比增加29.73%；预期每股收益0.05美元，同比增加150.0%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-11T14:58+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611113928353241.html",
-      "official": false
-    },
-    {
       "id": "2d4e42d76d88",
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "summary": "中国证监会发布与“市场与交易”相关的新信息。",
@@ -432,61 +452,26 @@
       "official": true
     },
     {
-      "id": "896649802deb",
-      "title": "中国证监会同意葵花籽油期货和期权注册",
-      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "A股",
+      "id": "fa68af9904cb",
+      "title": "MarketWatch：股东回报｜14 dividend stocks selected for long-term growth",
+      "summary": "英文摘要：These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
+      "region": "美股",
       "asset_types": [
         "股票",
-        "基金",
-        "ETF"
+        "基金"
       ],
-      "published_at": "2026-11-06T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7669216/content.shtml",
-      "official": true
-    },
-    {
-      "id": "157dd9ed8c2d",
-      "title": "半导体主题ETF上涨 中小盘宽基产品吸金",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-13T12:00+08:00",
+      "published_at": "2026-11-14T09:58+08:00",
       "importance": 2,
       "market_tone": "偏积极",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611133930091934.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "094f5f71f74e",
-      "title": "李强主持国务院第二十二次专题学习强调 强化社保基金安全监管和保值增值",
-      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "A股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-13T12:00+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611133930092596.html",
-      "official": false
-    },
-    {
-      "id": "f754074ea9b9",
-      "title": "MarketWatch：市场与交易｜Opening trading-card packs has become a $2 billion market",
-      "summary": "英文摘要：Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
+      "id": "a5460e7864dd",
+      "title": "MarketWatch：市场与交易｜Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+      "summary": "英文摘要：Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -494,17 +479,35 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-13T06:38+08:00",
+      "published_at": "2026-11-14T06:21+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "e3ca9f5cc80c",
-      "title": "MarketWatch：贸易政策｜The 10 best stocks for a year-end momentum trade",
-      "summary": "英文摘要：Why December is the best month of the year for momentum strategies",
+      "id": "2f69802150a2",
+      "title": "CNBC：市场与交易｜Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+      "summary": "英文摘要：Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T06:18+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "official": false
+    },
+    {
+      "id": "fc5398244224",
+      "title": "MarketWatch：贸易政策｜AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "summary": "英文摘要：At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
       "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
       "region": "美股",
       "asset_types": [
@@ -512,29 +515,28 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-13T05:50+08:00",
+      "published_at": "2026-11-14T05:10+08:00",
       "importance": 2,
-      "market_tone": "中性",
+      "market_tone": "偏积极",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "132e3b96c321",
-      "title": "CNBC：市场与交易｜Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-      "summary": "英文摘要：Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "id": "10c8aa208e5a",
+      "title": "CNBC：IPO与融资｜Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
+      "summary": "英文摘要：The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
       "region": "美股",
       "asset_types": [
         "股票",
-        "基金",
-        "ETF"
+        "基金"
       ],
-      "published_at": "2026-11-13T05:17+08:00",
+      "published_at": "2026-11-14T04:48+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "source_url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
       "official": false
     }
   ],
