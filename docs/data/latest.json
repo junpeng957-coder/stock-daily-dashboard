@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T10:07+08:00",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T10:23+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月15日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "11月16日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、监管政策。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -51,90 +51,175 @@
       "official": true
     },
     {
-      "id": "2ec6d476fe9d",
-      "title": "业绩暴增324倍后出手！德明利拟豪掷4亿元深度绑定新型存储器上游，标的持续亏损暗藏不确定性",
-      "summary": "11月13日晚间，德明利(001309.SZ)公告称，公司当日召开第三届董事会第九次会议，审议通过了《关于与关联方共同投资暨关联交易及签订的议案》。",
+      "id": "f58ba71c41e4",
+      "title": "燕东微前三季度营收增长，亏损同比大幅扩大！公司称正推进12英寸产线建设",
+      "summary": "11月13日，燕东微（688172）在上证路演中心召开2026年第三季度业绩说明会，公司董事长张劲松，副董事长兼总裁刘锋，执行副总裁兼董事会秘书霍凤祥，独立董事韩郑生，财务总监滕彦斌等高管出席。北京燕东微电子股份有限公司的主营业务是分立器件及模拟集成电路、高稳定集成电路及器件的设计、生产及销售，以及提供开放式晶圆制造、封装测试等服务。公司的主要产品是制造服务与产品解决方案。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-15T10:00+08:00",
+      "published_at": "2026-11-16T10:16+08:00",
       "importance": 3,
-      "market_tone": "偏谨慎",
+      "market_tone": "混合",
       "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202611153931399965.html",
+      "source_url": "https://finance.eastmoney.com/a/202611163931616085.html",
       "official": false
     },
     {
-      "id": "533fc7b77481",
-      "title": "中泰证券固收首席吕品：宏观流动性平稳、科技金融加力 为资本市场平稳健康发展提供有力支撑",
-      "summary": "近期资本市场出现一定短期波动，国内资金环境与产业基本面能否形成支撑？《每日经济新闻》记者就此采访了中泰证券固收首席吕品。吕品向记者表示，近期受海外加息预期升温、AI云厂商债务担忧等多重因素扰动，资本市场出现一定短期波动。但从国内金融环境来看，宏观流动性保持平稳，科技创新领域融资支持力度持续增强。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-15T09:23+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "每日经济新闻",
-      "source_url": "https://finance.eastmoney.com/a/202611153931396298.html",
-      "official": false
-    },
-    {
-      "id": "c7cbc1844d62",
-      "title": "吴清最新发声：防范市场异常波动；51个1类创新药进入医保｜21早新闻",
-      "summary": "今日关注据央行公众号，为加强金融机构外汇流动性管理，中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。宏观经济1、13日，中美双方通过视频会议方式举行中美经贸磋商机制项下贸易理事会首次会议。双方就关税、“300亿对300亿”对等降税安排、农产品贸易以及各自关心的其他议题进行了坦诚、深入、建设性的交流。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-15T07:08+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "21世纪经济报道",
-      "source_url": "https://finance.eastmoney.com/a/202611153931387736.html",
-      "official": false
-    },
-    {
-      "id": "40abcc2212ed",
-      "title": "环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市",
-      "summary": "【环球下周看点：英伟达迎财报日大考 Anthropic、GTA VI同日上市】刚刚过去的一周，环球市场在算力龙头的人事巨震与通胀压力中寻找方向。虽然英伟达遭遇重挫，但标普500指数和纳指仍终结了骇人的连续四周下跌，部分AI相关股票也逐步企稳。进入下周，刚刚有所恢复的市场信心将接连迎来两场重要检验：英伟达将在黄仁勋离任后首次公布财报，Claude开发商Anthropic则将登陆纳斯达克。",
+      "id": "6fbdf6f45e04",
+      "title": "7000亿家电龙头，历史新高",
+      "summary": "今天早盘，美的集团上涨，盘中股价创历史新高，最新市值超7000亿元。美的集团2026年三季报显示，今年前三季度公司实现营业总收入3691亿元，归属于上市公司股东的净利润为414亿元，同比增长9.3%，营收与净利润均实现同比增长。其中，第三季度单季归母净利润为149亿元，同比增长超过25%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-15T07:05+08:00",
+      "published_at": "2026-11-16T10:15+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611163931614239.html",
+      "official": false
+    },
+    {
+      "id": "792b6e970501",
+      "title": "八大建筑央企前三季度成绩单：4.3万亿元营收下的“寒意”与“暖流”",
+      "summary": "华夏时报记者刘昱汝徐芸茜北京报道截至目前，八大建筑央企2026年三季报已全部披露完毕。数据显示，前三季度8家公司合计实现营业收入约4.3万亿元，合计净利润超750亿元。从净利润来看，8家企业全部实现盈利，但仅中国化学一家实现同比正增长；从营业收入来看，中国建筑以超1.3万亿元的规模继续稳居第一，但8家企业中7家营收同比下滑。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-16T10:03+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "华夏时报",
+      "source_url": "https://finance.eastmoney.com/a/202611163931611078.html",
+      "official": false
+    },
+    {
+      "id": "836938bb5761",
+      "title": "002148，4连板！网友：跨年龙头拿好了",
+      "summary": "11月16日早盘，北纬科技开盘涨停后炸板，之后再次回封涨停，连走出4连板。有股民在该股股吧表示：“跨年龙头拿好了”“它到底牛在哪？”11月12日，北纬科技曾发布公告，北京北纬通信科技股份有限公司股票于2026年11月11日、2026年11月12日连续两个交易日收盘价格涨幅偏离值累计超过20%，根据《深圳证券交易所交易规则》的有关规定，属于股票交易异常波动情况。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-16T10:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "华夏时报",
+      "source_url": "https://finance.eastmoney.com/a/202611163931610331.html",
+      "official": false
+    },
+    {
+      "id": "1d3c657e7d67",
+      "title": "泰瑞机器2026年主业前三季亏损仍跨界布局存储合理性遭问询 公司回复",
+      "summary": "21财经11月16日电，泰瑞机器（603289.SH）11月14日回复上交所监管工作函。公司主营注塑装备，前三季营收7.58亿元、扣非净利-1480.62万元；拟控股的亿芯微做存储模组，同期未经审计营收3.99亿元、净利2683.44万元，二者不同行业且公司无存储经验。上交所要求说明跨界考虑、整合管控能力与资金安排，是否影响现金流和现有业务。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-16T09:53+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611153931387581.html",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611163931607944.html",
       "official": false
     },
     {
-      "id": "70959b351187",
-      "title": "业绩说明会上 多家券商回应股价问题",
-      "summary": "【业绩说明会上 多家券商回应股价问题】近日，多家券商陆续召开了三季度业绩说明会。不少投资者认为，券商在业绩高增的同时股价却缺乏表现，纷纷就股价问题向管理层提问。头部券商表示，“将研究和考虑进一步丰富价值运营和价值实现手段，促进公司股价合理反映公司的投资价值”“审慎评估其他市值管理方式的可行性”。此前，券商的坏账减值计提、国际化业务等也受到关注。",
+      "id": "2de5fe19a0c6",
+      "title": "英威腾：利润端季度同比降幅逐季收窄，总体呈现改善趋势",
+      "summary": "21财经11月16日电，英威腾在投资者关系活动中表示，今年前三季度，公司实现营业收入34亿元，同比增长10.44%。收入端，除了光伏储能业务主动策略调整聚焦产品迭代导致收入下降之外，其余业务均保持了同比增长。核心基本盘工业自动化业务收入21.86亿元，同比增长9.37%；新能源动力业务收入6.18亿元，同比增长34.61%；网络能源业务收入5.45亿元，同比增长4.97%。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-15T00:32+08:00",
+      "published_at": "2026-11-16T09:52+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611163931605462.html",
+      "official": false
+    },
+    {
+      "id": "9ea5c0ab02ae",
+      "title": "一周前瞻丨APEC峰会启幕；Anthropic登陆美股；Q3财报超级周来袭，英伟达迎财报大考，腾讯、阿里、拼多多等密集放榜；美联储会议纪要公布",
+      "summary": "新一周重磅日程一览APEC第三十三次领导人非正式会议将于2026年11月18日至19日在深圳举行亚太经合组织第三十三次领导人非正式会议将于11月18日至19日在深圳举行，会议主题为“建设亚太共同体，促进共同繁荣”。亚太经合组织工商领导人峰会将于11月17日至18日在深圳举行，会议主题为“共促繁荣，共赢未来”。这是中国第三次，也是时隔12年再次担任APEC东道主。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-16T08:07+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "券商中国",
-      "source_url": "https://finance.eastmoney.com/a/202611143931379036.html",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611163931564578.html",
+      "official": false
+    },
+    {
+      "id": "c8a2d6b185fb",
+      "title": "早报丨黄仁勋据报谋求回归，硅谷盟友力挺其复任；民主党拟改能源法案，数据中心或多担成本；美银更新存储价格预测，DRAM坚挺而NAND转弱；百度小鹏业绩将登场",
+      "summary": "黄仁勋据报谋求回归，硅谷盟友力挺其复任；民主党拟改能源法案，数据中心或多担成本；美银更新存储价格预测，DRAM坚挺而NAND转弱；百度小鹏业绩将登场。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-16T08:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611163931562130.html",
+      "official": false
+    },
+    {
+      "id": "625745855f94",
+      "title": "MarketWatch：公司业绩｜Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "summary": "英文摘要：Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-16T05:32+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "06de921b1fda",
+      "title": "CNBC：监管政策｜DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+      "summary": "英文摘要：The FAA ground stop came after updates to an older communication system managed by L3Harris Technologies, Transportation Secretary Sean Duffy said.",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-16T02:15+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
       "official": false
     },
     {
@@ -171,24 +256,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "official": false
-    },
-    {
-      "id": "fe44c8db40ad",
-      "title": "CNBC：利率与通胀｜AI risks are the biggest threat to the financial system, Fed survey finds",
-      "summary": "英文摘要：The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-14T05:18+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "official": false
     },
     {
@@ -311,79 +378,8 @@
       "official": true
     },
     {
-      "id": "e442a2286b38",
-      "title": "早报丨震惊市场！据报黄仁勋去留最快今日定；华尔街加息预期再升，高盛料降息明年底至；中际旭创H股获纳入MSCI新兴市场指数，中芯国际今日放榜",
-      "summary": "震惊市场！据报黄仁勋去留最快今日定；华尔街加息预期再升，高盛料降息明年底至；中际旭创H股获纳入MSCI新兴市场指数，中芯国际今日放榜。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-12T08:24+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611123929070120.html",
-      "official": false
-    },
-    {
-      "id": "29751a1c1fe0",
-      "title": "央行：用好债市非银大额赎回互换便利 维护股票、债券、外汇等金融市场平稳运行",
-      "summary": "【央行：用好债市非银大额赎回互换便利 维护股票、债券、外汇等金融市场平稳运行】央行发布2026年第三季度中国货币政策执行报告，下一阶段货币政策主要思路：积极稳妥防范化解金融风险。构建覆盖全面的宏观审慎管理体系，完善系统性金融风险防范处置机制。拓展丰富中央银行宏观审慎与金融稳定功能，丰富完善工具箱，加力实施支持资本市场的两项货币政策工具，用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-11T18:05+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202611113928506743.html",
-      "official": false
-    },
-    {
-      "id": "2d4e42d76d88",
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-11T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
-      "official": true
-    },
-    {
-      "id": "c539f4351079",
-      "title": "骤降99%！量化之王清仓式减持英伟达等个股",
-      "summary": "天天基金发布与“股东回报”相关的新信息。",
-      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-15T12:00+08:00",
-      "importance": 2,
-      "market_tone": "偏谨慎",
-      "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611143931379261.html",
-      "official": false
-    },
-    {
-      "id": "fceb3154774b",
-      "title": "踏空、重仓暴跌 基金经理该不该道歉？巴菲特给出答案！",
+      "id": "379495487208",
+      "title": "油气相关ETF领涨 机构研判后续投资机会",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -391,16 +387,16 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-15T12:00+08:00",
+      "published_at": "2026-11-16T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611153931388625.html",
+      "source_url": "https://fund.eastmoney.com/a/202611163931558775.html",
       "official": false
     },
     {
-      "id": "9f3d3dcd6438",
-      "title": "延期募集频现！FOF赛道迎来重塑 固收、黄金ETF成配置新方向",
+      "id": "134af1614df2",
+      "title": "AI硬件板块震荡加剧 基金调仓迹象显现",
       "summary": "天天基金发布与“基金与ETF”相关的新信息。",
       "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
@@ -408,28 +404,62 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-15T12:00+08:00",
+      "published_at": "2026-11-16T12:00+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "天天基金",
-      "source_url": "https://fund.eastmoney.com/a/202611143931303396.html",
+      "source_url": "https://fund.eastmoney.com/a/202611163931560823.html",
       "official": false
     },
     {
-      "id": "53d37199dbfb",
-      "title": "利扬芯片拟3.06亿元收购众望达51%股权 完善“光存算”测试布局",
-      "summary": "11月13日晚间，利扬芯片公告，公司与深圳市众望达光电有限公司（下称“众望达”）股东郑鸿章、邓荣辉签署《股权收购协议》，拟以现金方式收购众望达51%股权，后者整体估值6亿元，本次交易对价为3.06亿元（含税）。",
-      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
+      "id": "573e7160a449",
+      "title": "首批主动ETF净值分化 市场关注点转向投资管理能力",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
       "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-16T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611163931558978.html",
+      "official": false
+    },
+    {
+      "id": "1b4cfa1a8d84",
+      "title": "英伟达风波冲击全球算力格局 基金研判AI投资新变量",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-16T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611163931532683.html",
+      "official": false
+    },
+    {
+      "id": "1df63bedcf95",
+      "title": "康方生物双抗闯关美国失利 冲击全球肺癌主流方案还有机会吗？",
+      "summary": "【康方生物双抗闯关美国失利 冲击全球肺癌主流方案还有机会吗？】“这个结果我们所有人都很沮丧，这也是公司成立14年以来，让我个人最为沮丧的一次。”11月15日晚间9点半左右，在康方生物（09926.HK）电话会上，公司董事长夏瑜不无遗憾宣布，依沃西在美国的首次上市申请未获得批准。受此消息影响，康方生物股价在16日开盘暴跌超两成，而此前的一周内，该公司股价已处于阴跌状态，资本市场处于观望状态，直到目前消息尘埃落定。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "港股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-15T09:42+08:00",
+      "published_at": "2026-11-16T10:26+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "上海证券报",
-      "source_url": "https://finance.eastmoney.com/a/202611153931397770.html",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202611163931593195.html",
       "official": false
     },
     {
@@ -443,7 +473,7 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-15T06:34+08:00",
+      "published_at": "2026-11-16T10:22+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
@@ -451,9 +481,27 @@
       "official": false
     },
     {
-      "id": "24c04d1c0273",
-      "title": "CNBC：贸易政策｜Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-      "summary": "英文摘要：Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+      "id": "79aab8d2fc54",
+      "title": "CNBC：市场与交易｜China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+      "summary": "英文摘要：The investment slump deepened and retail sales again lagged industrial output, with the property market downturn eroding household wealth for a fifth year.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-16T10:14+08:00",
+      "importance": 2,
+      "market_tone": "偏谨慎",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
+      "official": false
+    },
+    {
+      "id": "e58f56dd3e27",
+      "title": "CNBC：贸易政策｜3 big things we're watching in the stock market in the week ahead",
+      "summary": "英文摘要：Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade.",
       "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
       "region": "美股",
       "asset_types": [
@@ -461,81 +509,28 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-15T02:48+08:00",
-      "importance": 2,
-      "market_tone": "偏积极",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
-      "official": false
-    },
-    {
-      "id": "bb4067689b86",
-      "title": "MarketWatch：市场与交易｜The trillion-dollar mistake corporate America is making about retirement",
-      "summary": "英文摘要：The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-15T01:50+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "85c189086e19",
-      "title": "CNBC：市场与交易｜Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-      "summary": "英文摘要：Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-15T01:46+08:00",
+      "published_at": "2026-11-15T23:26+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
       "official": false
     },
     {
-      "id": "f9f0c603b448",
-      "title": "CNBC：基金与ETF｜How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
-      "summary": "英文摘要：ETF experts say Nvidia’s leadership turmoil and Democratic control of Congress could shift AI demand to the benefit of other Big Tech stocks, rival chipmakers.",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "美股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-14T23:50+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
-      "official": false
-    },
-    {
-      "id": "9b62b4e3d200",
-      "title": "A股公司赴港上市潮涌：40家募资超2700亿港元，超110家排队",
-      "summary": "A股公司赴港上市潮涌。近日，普冉股份（688766.SH）公告，公司正在筹划发行境外股份（H股）并在港交所上市事宜，成为又一家加入赴港上市队伍的AI产业链公司。Wind数据显示，截至2026年11月13日，共有40家A股上市公司完成H股上市，首发募集资金合计2744.47亿港元；另有超110家A股公司在推进H股上市。",
+      "id": "31d37487b0b9",
+      "title": "CNBC：IPO与融资｜Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+      "summary": "英文摘要：Anthropic's IPO has outsized importance in the tech industry, which is heavily invested in the AI lab and is desperate for some positive momentum.",
       "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
-      "region": "港股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-14T10:24+08:00",
+      "published_at": "2026-11-15T20:00+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "时代周报",
-      "source_url": "https://finance.eastmoney.com/a/202611143931301812.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
       "official": false
     }
   ],
