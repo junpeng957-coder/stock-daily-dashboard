@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T12:46+08:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:51+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月17日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "11月18日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 1 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -34,175 +34,383 @@
       "official": true
     },
     {
-      "id": "a54130eed569",
-      "title": "美国证监会：公司业绩｜SEC Announces Enforcement Annual Results for Fiscal Year 2026",
-      "summary": "英文摘要：The Securities and Exchange Commission today provided its enforcement results for the past fiscal year which ended September 30. Throughout the fiscal year, the SEC’s Division of Enforcement remained focused on its fundamental responsibility: protecting…",
+      "id": "c1e7af7f1fec",
+      "title": "逃不掉了？翻倍牛股开盘即跌停，超360万手巨量封单，二连跌停！",
+      "summary": "11月18日，AI漫剧概念走弱，文投控股（600715）、浙文影业开盘直接按地板，连续两日跌停；大晟文化、慈文传媒、横店影视跌停，湖北广电大跌超8%。值得一提的是，截止发稿，跌停板上封单金额超360万手。此前，文投控股15天10板，累计涨幅120%。消息面上，文投控股公告，若2026年度经审计的净利润为负值且营收低于3亿元，公司股票将面临退市风险警示。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:46+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "华夏时报",
+      "source_url": "https://finance.eastmoney.com/a/202611183933856020.html",
+      "official": false
+    },
+    {
+      "id": "7e48fb39b0ab",
+      "title": "3倍大牛股，突然涨停！昨日上演“地天板”",
+      "summary": "11月18日，九阳股份（002242）开盘持续拉升，股价再度涨停。昨日，九阳股份走出“地天板”，自9月初至今，九阳股份累计涨幅超303%。11月17日晚间，九阳股份公告称，公司股票连续两个交易日收盘价格涨幅偏离值累计达21.13%，属于股票交易异常波动。公司2026年前三季度营收50.52亿元，同比下降9.55%；净利润7198.95万元，同比下降41.75%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:29+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611183933853435.html",
+      "official": false
+    },
+    {
+      "id": "22b4df7967fe",
+      "title": "皖维高新：电子陶瓷级PVB树脂产品已获国内头部客户认证",
+      "summary": "【皖维高新：电子陶瓷级PVB树脂产品已获国内头部客户认证】皖维高新(600063)在2026年第三季度业绩说明会上表示，目前公司电子陶瓷级PVB树脂产品已通过国内多家头部企业认证，部分型号已批量供货，其余型号正在测试验证中，整体测试进展顺利。关于该业务的销量、收入及占PVB业务比例等具体数据，因尚未达到单独披露标准，公司将在定期报告中按合并口径统一反映，暂不单独披露。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:28+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611183933852385.html",
+      "official": false
+    },
+    {
+      "id": "1ed6f110c8e0",
+      "title": "英伟达预计第四季度收入将达1300亿美元",
+      "summary": "深圳商报·读创客户端首席记者王海荣当地时间11月17日，英伟达公布了2027财年第三季度财务业绩报告，这是英伟达创始人兼前CEO黄仁勋离任后，该公司公布的首份季度财报。多项核心数据表现强劲，带动英伟达盘后股价反弹。截至11月18日，英伟达股价已较今年10月初的高点下跌约36％。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:23+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611183933853255.html",
+      "official": false
+    },
+    {
+      "id": "2dc9fdbe5c75",
+      "title": "英伟达董事会主席最新发声：已开展CEO全球遴选，不会仓促任命；设立国家安全与出口管制监督委员会；临时CEO称，过渡期“业务如常”",
+      "summary": "美东时间周二盘后，英伟达公布财报显示，2027财年第三季度公司营收、盈利双双大幅跑赢分析师预期，同时上调新财年增长指引。但人事动荡、美国出口管制新规、毛利率阶段性承压等多重不确定性仍悬于头顶。在财报电话会上，董事会主席哈维·琼斯开场表态，“董事会已聘请海德思哲开展全球CEO遴选，内外部候选人都会纳入考察，不会为求速度仓促任命。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202611183933852073.html",
+      "official": false
+    },
+    {
+      "id": "3fb2b95d15c3",
+      "title": "黄仁勋辞职后英伟达首场财报会：管理层强调业务“一切照常”，审慎评估AI投资",
+      "summary": "在创始人黄仁勋离开后，英伟达管理层试图向市场证明，公司业务不会因此受到影响，但未来对外投资的策略可能更加审慎。当地时间11月17日，英伟达（NVDA）发布2027财年第三季度财报并举办电话会。这是黄仁勋辞去公司CEO职务后，英伟达首次与投资者进行直接的正式沟通。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:19+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611183933850039.html",
+      "official": false
+    },
+    {
+      "id": "fe90889cca20",
+      "title": "亚玛芬体育三季报：所有区域及业务板块均实现双位数收入增长",
+      "summary": "新华财经北京11月18日电（记者沈寅飞）户外运动集团亚玛芬体育近日公布2026年第三季度财报，财报显示，亚玛芬体育第三季度实现收入21.69亿美元，同比增长24%，固定汇率下增长23%；调整后营业利润率提升70个基点至16.4%，所有区域及业务板块均实现双位数收入增长。公司同步上调全年业绩指引，并宣布一项总额不超过10亿美元的普通股回购计划。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "新华财经",
+      "source_url": "https://finance.eastmoney.com/a/202611183933849096.html",
+      "official": false
+    },
+    {
+      "id": "fdefed546ce4",
+      "title": "虎牙2026Q3财报：运营利润近四年首转正，直播与游戏相关服务持续提效",
+      "summary": "深圳商报·读创客户端首席记者董思11月17日下午，虎牙公司（NYSE:HUYA）公布了2026年第三季度财报。该季度，总收入为17.5亿元；游戏相关服务、广告及其他收入同比增长21.3%至6.4亿元，占总收入的36.8%。运营利润1520万元，实现2022年第三季度以来首次盈利；归属于虎牙公司的净利润同比大增205.2%至2930万元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611183933852291.html",
+      "official": false
+    },
+    {
+      "id": "78a5df4235bc",
+      "title": "东江环保控股子公司环境违法被罚14万元",
+      "summary": "每经AI快讯，“A股绿色报告”项目监控到的数据显示，东江环保（SZ002672）控股子公司深圳市宝安东江环保技术有限公司因环境违法行为受到行政处罚。依据《中华人民共和国固体废物污染环境防治法(2020修订)》第一百一十二条第一款第（六）项，深圳市宝安东江环保技术有限公司被处以罚款14万元。该处罚信息于2026年10月19日被相关监管机构披露。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-18T11:14+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611183933849197.html",
+      "official": false
+    },
+    {
+      "id": "6e0076576a18",
+      "title": "董事长吴世群辞任四年后主动投案，厦门银行经营业绩承压",
+      "summary": "据福建省纪委监委网站11月12日消息，厦门银行原党委书记、董事长吴世群涉嫌严重违纪违法，主动投案，目前正接受厦门市纪委监委纪律审查和监察调查。此时距他2022年9月辞任董事长，已过去四年。吴世群在厦门银行管理层任职长达19年，其中有13年在担任董事长。他曾表示，引进台湾富邦金控作为战略投资者、登陆A股是任内最具里程碑意义的两件大事。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T11:14+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "华夏时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611183933849762.html",
+      "official": false
+    },
+    {
+      "id": "223179dc0d89",
+      "title": "MarketWatch：公司业绩｜Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
+      "summary": "英文摘要：Nvidia’s revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-11T00:15+08:00",
-      "importance": 4,
-      "market_tone": "偏谨慎",
-      "source_name": "美国证监会",
-      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-113-sec-announces-enforcement-annual-results-fiscal-year-2026",
-      "official": true
+      "published_at": "2026-11-18T09:28+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
+      "official": false
     },
     {
-      "id": "c9384245296a",
-      "title": "维立志博：受托人依据H股奖励计划耗资737万港元购入22万股",
-      "summary": "11月17日，维立志博（09887）发布公告，11月16日，受托人已根据H股奖励计划购入22万股H股，总代价为737万港元。这项股份购买是根据H股奖励计划进行的，董事会认为此举彰显了公司对未来业务前景的信心，并将长期为公司带来利益，增强股东价值。公司可继续根据H股奖励计划规则指示受托人透过公开市场交易购入H股。",
+      "id": "95e9a5a6a758",
+      "title": "早报丨英伟达业绩提振AI交易！黄仁勋表态愿意回归；Anthropic上市在即，料亚马逊和谷歌各持股约28%；腾讯控股今日放榜",
+      "summary": "英伟达业绩提振AI交易！黄仁勋表态愿意回归；Anthropic上市在即，料亚马逊和谷歌各持股约28%；腾讯控股今日放榜。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T08:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611183933544915.html",
+      "official": false
+    },
+    {
+      "id": "86c952de4f79",
+      "title": "互联网龙头密集“交卷” 港股科技板块迎盈利与AI投入检验",
+      "summary": "【互联网龙头密集“交卷” 港股科技板块迎盈利与AI投入检验】本周（11月16日至19日），港股互联网龙头进入密集财报披露窗口，百度集团-W、京东集团-SW、腾讯控股、阿里巴巴-W将陆续交出最新季度业绩单。分析人士认为，港股科技板块估值经历重新消化后，本轮财报季市场的关注重心已从单纯的收入增速转向盈利改善的能见度、AI资本开支的回报周期以及现金流的安全边际。科技股能否借此契机展开进一步修复，仍需基本面给出扎实验证。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T07:35+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611183933346063.html",
+      "official": false
+    },
+    {
+      "id": "4bf64219f093",
+      "title": "MarketWatch：监管政策｜Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "summary": "英文摘要：Don’t rule out a half-point interest-rate hike in December, BofA Global’s rates team said.",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-17T12:37+08:00",
+      "published_at": "2026-11-18T06:08+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "财中社",
-      "source_url": "https://finance.eastmoney.com/a/202611173932759915.html",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
       "official": false
     },
     {
-      "id": "0d7d8ebe5542",
-      "title": "N菊乐上午收盘上涨75.00% 半日成交4.50亿元",
-      "summary": "北交所新股N菊乐（920309）今日上市，开盘上涨50.38%，截至上午收盘涨幅扩大至75.00%，半日成交量844.94万股，成交额4.50亿元，换手率84.54%。证券时报·数据宝统计显示，公司主营业务为含乳饮料及乳制品的研发、生产和销售。2023年、2024年、2025年公司净利润分别为1.96亿元、2.32亿元、2.91亿元。",
+      "id": "c5f686678c22",
+      "title": "CNBC：公司业绩｜Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+      "summary": "英文摘要：Investors have been weighing the fallout from former CEO Jensen Huang's resignation.",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-17T12:22+08:00",
+      "published_at": "2026-11-18T05:05+08:00",
       "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "证券时报网",
-      "source_url": "https://finance.eastmoney.com/a/202611173932759118.html",
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html",
       "official": false
     },
     {
-      "id": "149a3520c9aa",
-      "title": "利空已充分定价？英伟达财报前两家华尔街大行吹响乐观号角",
-      "summary": "【利空已充分定价？英伟达财报前两家华尔街大行吹响乐观号角】当“全球AI龙头”英伟达的预期市盈率比当前增长缓慢、举步维艰的百事可乐还低6个百分点时——就像目前的情况一样——就值得审视一下：华尔街当下正在基于怎样的财务假设进行定价。瑞银认为，鉴于英伟达即使没有黄仁勋担任CEO，在未来至少两年内仍将保持增长势头，因此市场现在对英伟达的假设过于残酷，而且不太可能是正确的。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T12:10+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611173932755030.html",
-      "official": false
-    },
-    {
-      "id": "fec59ac9dc2a",
-      "title": "国家药监局：北京同仁堂等17家药企27批次药品不符合规定",
-      "summary": "【国家药监局：北京同仁堂等17家药企27批次药品不符合规定】从国家药监局获悉，最新发布的药品抽检通告显示，经过天津市药品检验研究院等7家药品检验机构检验，标示为北京同仁堂股份有限公司同仁堂制药厂等17家药企生产的27批次药品不符合规定，这27批次药品的含水量、药品中存在可见异物，以及活性药物的溶出速度和程度等指标，达不到我国药品的规定要求。国家药监局表示，对这些抽检发现不符合规定的药品，药监部门已要求相关企业和单位采取暂停销售使用、召回等风险控制措施，对原因开展调查并切实整改。同时要求相关省级药监部门对相关企业和单位涉嫌违法行为立案调查，并按规定公开查处结果。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
+      "id": "f2f68f0ebc73",
+      "title": "CNBC：利率与通胀｜Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
+      "summary": "英文摘要：Cook's attorney sounded more hostile than ever in his first known letter to be sent in the matter since the GOP's drubbing in the Nov. 3 midterm elections.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-17T12:06+08:00",
+      "published_at": "2026-11-18T00:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html",
+      "official": false
+    },
+    {
+      "id": "27390fd717ba",
+      "title": "CNBC：利率与通胀｜St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+      "summary": "英文摘要：The forecast represents one of the most hawkish views among policymakers.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-17T21:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+      "official": false
+    },
+    {
+      "id": "810cbe0454fd",
+      "title": "美商务部发布限制远程获取先进半导体相关措施 中方回应",
+      "summary": "【商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问】中方注意到有关情况。美方泛化国家安全概念，滥用出口管制，对中国企业与其他国家企业正常贸易合作横加干涉。美方做法背离两国元首达成的重要共识，破坏市场规则和国际经贸秩序，冲击全球半导体产业链供应链稳定。中方对此强烈不满，坚决反对。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-17T20:29+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "商务部网站",
+      "source_url": "https://finance.eastmoney.com/a/202611173933075287.html",
+      "official": false
+    },
+    {
+      "id": "1fb717b3bbb7",
+      "title": "【视频直播】京东2026年第三季度业绩电话会",
+      "summary": "【视频直播】京东2026年第三季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-17T20:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611173933053322.html",
+      "official": false
+    },
+    {
+      "id": "74bd489cc179",
+      "title": "晚报丨英伟达财报盘后公布，市场聚焦四大看点；强美元或冲击全球股市；美伊冲突再现升级风险；三星电子与苹果将签DRAM长协；黄仁勋离职后，新云企业正面临多重压力",
+      "summary": "英伟达财报盘后公布，市场聚焦四大看点；强美元或冲击全球股市；美伊冲突再现升级风险；三星电子与苹果将签DRAM长协；黄仁勋离职后，新云企业正面临多重压力。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-17T18:35+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611173932753390.html",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611173932975381.html",
       "official": false
     },
     {
-      "id": "b02ff2d0643d",
-      "title": "小鹏集团第三季度财报：营收242.8亿元，交付量118,390台，均创历史新高",
-      "summary": "【2026年11月16日】中国广州—小鹏集团（NYSE:XPEV/HK.9868）今日公布其截至2026年9月30日止第三季度财务数据。2026年第三季度财报摘要：2026年第三季度，小鹏集团总交付量为118,390台，较2025年同期增长2.1%，较2026年第二季度增长14.6%，创下单季度交付历史新高。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
+      "id": "f53c658258ae",
+      "title": "香港金融服务业人工智能应用：势头强劲 挑战是这些",
+      "summary": "香港金融学院辖下负责研究工作的香港货币及金融研究中心今日发表新一份题为《由协助到自主：香港金融服务业人工智能应用、管治与合规》的研究报告。报告以研究中心于2025年发表的研究报告为基础，更新了生成式人工智能（GenA.I.）的最新概况，探讨香港金融服务业中代理式人工智能（agenticA.I.）的发展，尤其关注人工智能在监管合规方面的应用。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
       "asset_types": [
         "股票",
-        "基金"
+        "基金",
+        "ETF"
       ],
-      "published_at": "2026-11-17T12:02+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "理财周刊-财事汇",
-      "source_url": "https://finance.eastmoney.com/a/202611173932754115.html",
-      "official": false
-    },
-    {
-      "id": "b47359352688",
-      "title": "前三季度经营性现金流“失血”被投资者追问，东方电缆业绩说明会回应在手订单关切",
-      "summary": "东方电缆（603606）11月16日举行业绩说明会，今年前三季度公司实现营业总收入101亿元，同比增长34.70%；归母净利润10.44亿元，同比增长14.18%；扣非净利润10.37亿元，同比增长14.96%；经营活动产生的现金流量净额为-4.23亿元，上年同期为3.23亿元。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T12:00+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202611173932753943.html",
-      "official": false
-    },
-    {
-      "id": "a1191b2d958c",
-      "title": "贝壳港股盘中涨超10%，存量房盘活成增长新引擎",
-      "summary": "11月17日，贝壳-W（02423.HK）港股强势拉升，盘中涨幅一度超10%。消息面上，贝壳昨晚披露三季度财报，收入和利润双双超分析师预期。经调整净利润同比大增102.6%，二手房成交、新房GTV、租赁房源量、家装合同额均增长。财报会上，贝壳联合创始人、董事长兼首席执行官彭永东深度拆解了变革中一线业务钻研的服务细节改善。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T11:53+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "时代财经",
-      "source_url": "https://finance.eastmoney.com/a/202611173932751576.html",
-      "official": false
-    },
-    {
-      "id": "1c397db7033f",
-      "title": "声网Q3营收同比增长19%，每日Agent通话量超100万",
-      "summary": "北京时间11月17日，声网母公司Agora,Inc.（NASDAQ：API）公布2026年第三季度财报。财报显示，第三季度Agora,Inc.营收4210万美元，同比增长19%，Agent通话量超过100万/天；公司第四季度营收指引区间为4400万至4500万美元，同比增长15.3%至17.9%。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T11:53+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "界面新闻",
-      "source_url": "https://finance.eastmoney.com/a/202611173932752275.html",
-      "official": false
-    },
-    {
-      "id": "4c65ab7058f5",
-      "title": "黄仁勋离职后首份财报今夜来袭 英伟达目标价又遭两家投行下调",
-      "summary": "【黄仁勋离职后首份财报今夜来袭 英伟达目标价又遭两家投行下调】周二美股盘后，AI芯片巨头英伟达将公布2027财年第三季度财报并召开财报电话会议。这将是前CEO黄仁勋辞职以来，该公司首次举行重大公开活动。受黄仁勋辞职事件影响，华尔街分析师最近几日密集下调英伟达目标价或股票评级。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T11:30+08:00",
+      "published_at": "2026-11-17T15:49+08:00",
       "importance": 3,
       "market_tone": "中性",
       "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611173932744922.html",
+      "source_url": "https://finance.eastmoney.com/a/202611173932858893.html",
+      "official": false
+    },
+    {
+      "id": "3e9963128acb",
+      "title": "一图展望丨快手Q3业绩11月19日发布，主业承压等待拐点，可灵AI能否扛住资本开支拷问？",
+      "summary": "快手Q3业绩11月19日发布，主业承压等待拐点，可灵AI能否扛住资本开支拷问？",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-17T14:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611173932804956.html",
       "official": false
     },
     {
@@ -241,24 +449,6 @@
       "official": false
     },
     {
-      "id": "06e5749a7282",
-      "title": "CNBC：利率与通胀｜Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-      "summary": "英文摘要：Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-17T08:42+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-      "official": false
-    },
-    {
       "id": "97a32cb0e3ea",
       "title": "早报丨特朗普力挺黄仁勋回归，董事会称暂不考虑；伯克希尔加仓房企航空，减持美银与第一资本；英伟达财报今夜来袭",
       "summary": "特朗普力挺黄仁勋回归，董事会称暂不考虑；伯克希尔加仓房企航空，减持美银与第一资本；英伟达财报今夜来袭。",
@@ -276,217 +466,9 @@
       "official": false
     },
     {
-      "id": "ad4ed6be4eab",
-      "title": "从“资本通道”到“国际名片” 电池材料企业赴港逻辑生变",
-      "summary": "【从“资本通道”到“国际名片” 电池材料企业赴港逻辑生变】据高工产业研究院（GGII）的不完全统计，2025年至2026年上半年，已有30家锂电相关企业申报港股IPO。记者近日采访多位业内人士了解到，对电池产业链企业而言，港股已不只是融资通道，更是接入全球定价、争取海外客户背书与合规框架的一张“名片”。但“重销售、重发行”的规则、明显的流动性折价，以及海外投资者对利润质量、客户绑定、碳足迹的严苛要求，正让部分企业面临同质化竞争与周期标签双重压力。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T07:42+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证券报",
-      "source_url": "https://finance.eastmoney.com/a/202611173932249375.html",
-      "official": false
-    },
-    {
-      "id": "e4d2f6162b95",
-      "title": "CNBC：监管政策｜Nvidia fallout: Commerce targets loophole for China's data center use",
-      "summary": "英文摘要：The rule was written by the Treasury Department and the National Security Council after criticism of Commerce Secretary Howard Lutnick.",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-17T05:51+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-      "official": false
-    },
-    {
-      "id": "69e1fa7de924",
-      "title": "CNBC：公司业绩｜Market's Nvidia obsession obscuring an opportunity in this name",
-      "summary": "英文摘要：Investors might be overlooking Disney earnings.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-17T02:56+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/disney-options-trade-before-earnings.html",
-      "official": false
-    },
-    {
-      "id": "8f94ce73667c",
-      "title": "CNBC：利率与通胀｜Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "summary": "英文摘要：Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-17T01:14+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "official": false
-    },
-    {
-      "id": "b1040e31a86d",
-      "title": "CNBC：公司业绩｜Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
-      "summary": "英文摘要：Less than a week after Jensen Huang's abrupt departure, Nvidia interim CEO Colette Kress faces a major test with earnings.",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T21:42+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
-      "official": false
-    },
-    {
-      "id": "4ba4ad748c96",
-      "title": "中国证监会在沪召开国际顾问委员会第23次会议",
-      "summary": "【中国证监会在沪召开国际顾问委员会第23次会议】2026年11月13日，中国证监会国际顾问委员会（简称“顾委会”）第23次会议在上海召开。顾委会主席霍华德·戴维斯先生、副主席史美伦女士等14名顾委会委员，以及中国证监会主席吴清、副主席刘浩凌等出席了本次会议。来自中国人民银行、国家金融监管总局、上海市政府等单位代表，和中国证监会机关相关司局、派出机构、会管单位主要负责同志参加了会议。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-16T20:07+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "证监会网站",
-      "source_url": "https://finance.eastmoney.com/a/202611163931998197.html",
-      "official": false
-    },
-    {
-      "id": "294c9739413a",
-      "title": "晚报丨今夜凌晨1点，市场聚焦沃什讲话；黄仁勋回归争议升温，英伟达首份“无黄”财报周二盘后公布；民主党将矛头对准马斯克；阿里、腾讯推出新模型；百度、小鹏业绩出炉",
-      "summary": "今夜凌晨1点，市场聚焦沃什讲话；黄仁勋回归争议升温，英伟达首份“无黄”财报周二盘后公布；民主党将矛头对准马斯克；阿里、腾讯推出新模型；百度、小鹏业绩出炉。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T18:36+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611163931913429.html",
-      "official": false
-    },
-    {
-      "id": "86096f4e7c53",
-      "title": "一图展望丨腾讯Q3财报来袭 AI重投入压制短期盈利 主业韧性支撑长期价值",
-      "summary": "腾讯控股将于周三(北京时间11月18日)发布2026年第三季度财报。市场预期腾讯Q3实现营收2104.6亿元，同比增加9.12%；每股收益6.29元，同比下降7.25%。本季度处于AI战略全面落地的投入高峰期，市场核心矛盾在于：游戏、广告等核心主业的稳健增长，能否对冲大模型、算力基础设施与AI应用的大额投入，以及资本开支见顶与盈利修复拐点何时到来。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T17:39+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611163931999058.html",
-      "official": false
-    },
-    {
-      "id": "cec688e5cf75",
-      "title": "百度集团第三季度营收308.1亿元人民币 符合预期",
-      "summary": "【百度集团第三季度营收308.1亿元人民币 符合预期】百度集团第三季度营收308.1亿元，同比减少1%，环比减少2%。预估308.1亿元人民币。百度一般性业务收入249.7亿元，同比增长1%，环比减少1%；百度核心AI新业务收入132亿元人民币；经调整每ADS利润6.78元人民币，预估6.02元人民币；调整后营业利润17.1亿元人民币，预估16.7亿元人民币。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T17:01+08:00",
-      "importance": 3,
-      "market_tone": "偏积极",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611163931848357.html",
-      "official": false
-    },
-    {
-      "id": "cb01c8e4c88a",
-      "title": "三季报前夕资金博弈升温 腾讯卖空股数激增近9成",
-      "summary": "港股科网龙头本周迎来三季报密集披露期，在业绩公布前夕，市场资金博弈明显升温，腾讯控股(00700.HK)与阿里巴巴(09988.HK)的卖空数据表现分歧。具体来看，腾讯控股的卖空规模持续攀升。自11月6日至11月13日，其卖空股数由343.66万股稳步增至640.74万股，累计增幅超86%；同期卖空金额由14.53亿港元攀升至24.92亿港元。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T11:02+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "财联社",
-      "source_url": "https://finance.eastmoney.com/a/202611163931647462.html",
-      "official": false
-    },
-    {
-      "id": "9ea5c0ab02ae",
-      "title": "一周前瞻丨APEC峰会启幕；Anthropic登陆美股；Q3财报超级周来袭，英伟达迎财报大考，腾讯、阿里、拼多多等密集放榜；美联储会议纪要公布",
-      "summary": "新一周重磅日程一览APEC第三十三次领导人非正式会议将于2026年11月18日至19日在深圳举行亚太经合组织第三十三次领导人非正式会议将于11月18日至19日在深圳举行，会议主题为“建设亚太共同体，促进共同繁荣”。亚太经合组织工商领导人峰会将于11月17日至18日在深圳举行，会议主题为“共促繁荣，共赢未来”。这是中国第三次，也是时隔12年再次担任APEC东道主。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
-      "asset_types": [
-        "股票",
-        "基金"
-      ],
-      "published_at": "2026-11-16T08:07+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611163931564578.html",
-      "official": false
-    },
-    {
-      "id": "2d4e42d76d88",
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-11T12:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
-      "official": true
-    },
-    {
-      "id": "94ec8bdf4be8",
-      "title": "CNBC：贸易政策｜Jim Cramer says Nvidia’s leadership shake-up won’t derail the AI trade",
-      "summary": "英文摘要：CNBC's Jim Cramer pushed back against fears that Nvidia's leadership shake-up could unravel the AI boom.",
+      "id": "478f1d800fc6",
+      "title": "CNBC：贸易政策｜China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "summary": "英文摘要：Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector.",
       "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
       "region": "美股",
       "asset_types": [
@@ -494,17 +476,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-17T07:23+08:00",
+      "published_at": "2026-11-18T11:30+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/nvidia-cramer-ai-trade-leadership-change.html",
+      "source_url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
       "official": false
     },
     {
-      "id": "9ae00ab1b20a",
-      "title": "CNBC：市场与交易｜Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-      "summary": "英文摘要：Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+      "id": "20cf4589b309",
+      "title": "MarketWatch：市场与交易｜CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing",
+      "summary": "英文摘要：Nvidia interim CEO Colette Kress said neoclouds are “increasingly important,” but added the company will take “a very strong look” at the customers it helps with financing.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -512,29 +494,47 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-17T07:01+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
-      "official": false
-    },
-    {
-      "id": "92e348d15b48",
-      "title": "MarketWatch：市场与交易｜U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-      "summary": "英文摘要：The dollar recently climbed to its strongest level in a year and a half.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-17T06:46+08:00",
+      "published_at": "2026-11-18T09:59+08:00",
       "importance": 2,
       "market_tone": "中性",
       "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+      "source_url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "81d1210c8352",
+      "title": "CNBC：市场与交易｜Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock",
+      "summary": "英文摘要：Nvidia takes positive step forward with stronger sales outlook. Here’s our thoughts on the stock",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-18T09:18+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/17/nvidia-takes-positive-step-forward-with-stronger-sales-outlook-heres-our-thoughts-on-the-stock.html",
+      "official": false
+    },
+    {
+      "id": "806cc17fd820",
+      "title": "MarketWatch：市场与交易｜Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
+      "summary": "英文摘要：Mizuho analysts have seen an “acceleration on emergency prep sales” at the warehouse chain following the Microsoft outage and nationwide flight stoppage.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-18T06:46+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
       "official": false
     }
   ],
