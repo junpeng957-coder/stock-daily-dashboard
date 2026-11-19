@@ -1,0 +1,536 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:51+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月19日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 1 条来自监管机构、交易所或央行。重点集中在公司业绩、基金与ETF、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "d005115dd6c9",
+      "title": "美国证监会：监管政策｜SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "summary": "英文摘要：The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T00:57+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "official": true
+    },
+    {
+      "id": "7005fe04820e",
+      "title": "腾讯控股绩后低开低走跌近6% 三季报资本开支激增527%",
+      "summary": "11月19日港股开盘，腾讯控股（00700.HK）低开2.95%报361.80港元，随后跌幅持续扩大。截至发稿，股价报350.60港元，下跌5.95%，盘中最低触及350.40港元，创2024年8月以来新低，成交额已放大至约77.4亿港元。股价下挫的直接触发因素是前一晚公布的三季度业绩以及资本开支情况。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T11:32+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611193934921331.html",
+      "official": false
+    },
+    {
+      "id": "6fae06b46daf",
+      "title": "腾讯音乐，广告不好卖了丨消费参考",
+      "summary": "21世纪经济报道记者贺泓源、实习生黎原在市场波动下，腾讯音乐的经营正变得越来越“重”。11月17日，腾讯音乐发布三季报。财报显示，在三季度，腾讯音乐营收同比增长5.6%至89.4亿元；归母净利润为21.54亿元，去年同期为21.53亿元。作为对比，在2025年三季度，腾讯音乐的营收增速达到20.6%，归母净利润增速达到36.0%。腾讯音乐增长“失速”背后是业务结构的变化。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T11:25+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611193934916081.html",
+      "official": false
+    },
+    {
+      "id": "718c868a9d2c",
+      "title": "华勤技术(03296)早盘跌超9%",
+      "summary": "11月19日，华勤技术早盘跌超9%，截至发稿，跌9.05%，报48.16港元，成交额4715万港元。该股盘中创上市以来新低。2026年前三季度，公司实现营业总收入1660.14亿元，同比增长28.8%；归母净利润43.23亿元，同比增长39.5%。其中第三季度实现营业总收入722.95亿元，同比增长60.9%；归母净利润13.24亿元，同比增长9.4%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T11:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财中社",
+      "source_url": "https://finance.eastmoney.com/a/202611193934915835.html",
+      "official": false
+    },
+    {
+      "id": "d0c8ed8d94d4",
+      "title": "瑞斯康达：算力DCI产品正开展客户测试验证及市场投放",
+      "summary": "11月19日消息，瑞斯康达在2026年第三季度业绩说明会上表示，运营商集采方面，公司订单落地节奏随集采周期、项目实施安排有所波动。电力、油气等行业领域，公司稳步推进客户拓展与试点落地，持续挖掘行业需求。算力DCI相关产品正有序开展客户测试验证及市场投放，放量节奏取决于客户场景落地进度。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T11:18+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193934915457.html",
+      "official": false
+    },
+    {
+      "id": "82e94500f7d6",
+      "title": "欢聚集团第三季度总营收同比增长15.6%",
+      "summary": "11月19日，欢聚集团发布2026年第三季度财报，总营收达6.246亿美元，同比增长15.6%，环比增长5.7%。在非美国通用会计准则下，第三季度集团经营利润4660万美元，同比增长14.6%，EBITDA达5570万美元，同比增长10.1%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T11:12+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193934913448.html",
+      "official": false
+    },
+    {
+      "id": "3b042fcb836a",
+      "title": "MarketWatch：公司业绩｜Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+      "summary": "英文摘要：The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T09:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "1ed5788dde04",
+      "title": "早报丨美联储鹰声嘹亮，沃勒主张12月加息50基点；Anthropic定价每股83美元，今夜登陆纳斯达克；腾讯回应先进算力减少：短期训练承压，长期加速国产建设",
+      "summary": "美联储鹰声嘹亮，沃勒主张12月加息50基点；Anthropic定价每股83美元，今夜登陆纳斯达克；腾讯回应先进算力减少：短期训练承压，长期加速国产建设。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T08:20+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193934644546.html",
+      "official": false
+    },
+    {
+      "id": "8435431e510f",
+      "title": "CNBC：利率与通胀｜Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "summary": "英文摘要：India’s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T08:01+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "official": false
+    },
+    {
+      "id": "94645bc0bfc4",
+      "title": "腾讯业绩会重申组织重构 预计2028年投资压力缓解",
+      "summary": "【腾讯业绩会重申组织重构 预计2028年投资压力缓解】11月18日晚间，腾讯控股在发布2026年第三季度业绩后召开电话会议。第三季度腾讯资本开支创纪录至814亿元，市场关心AI投资回报期，以及各条业务线的进展。公司董事会主席兼首席执行官马化腾、总裁刘炽平、首席战略官James Mitchell、首席财务官罗硕瀚出席会议。为适应AI发展，管理层认为要进行组织重构，此外，管理层预计到2028年资本开支给经营带来的压力有望逐步缓解。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T07:35+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202611193934378522.html",
+      "official": false
+    },
+    {
+      "id": "19e7a18f2481",
+      "title": "腾讯总裁刘炽平回应AI“烧钱”：就像建工厂 不指望几周内就看到回报 预计2028年将好转",
+      "summary": "外界十分关注腾讯在AI上的持续高额投入是否会影响后期表现。11月18日，腾讯总裁刘炽平在财报后的电话会中，将本轮AI投入比喻为“建工厂”：“我们投入的基础设施建设，主要是为了启动我们的AI原生业务。这有点像建一座工厂，用来进行模型训练和Token生产。一旦基础设施建成，你就可以持续用它来训练新一代模型，并不断生成Token。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T07:33+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193934439154.html",
+      "official": false
+    },
+    {
+      "id": "86d5b02f62cf",
+      "title": "腾讯回应绿泡泡短剧业务",
+      "summary": "【腾讯回应绿泡泡短剧业务】针对市场关心的绿泡泡短剧业务，腾讯首席战略官、集团高级执行副总裁James Mitchell在腾讯业绩发布会上表示：“得益于微信的社交推荐功能、以及包括阅文在内的精品IP内容优势加持，绿泡泡短剧平台实现了快速的用户增长。”在后续的问答环节，James也提到绿泡泡短剧业务的快速发展对于拉动集团广告收益有重要作用，业务增长潜力巨大，预计会对其持续加大投入。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T07:20+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611193934360568.html",
+      "official": false
+    },
+    {
+      "id": "1cc98a1f461e",
+      "title": "CNBC：公司业绩｜Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren",
+      "summary": "英文摘要：Nvidia's earnings come at a tumultuous time for the company.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T05:06+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html",
+      "official": false
+    },
+    {
+      "id": "7fbbd5a076d5",
+      "title": "CNBC：利率与通胀｜Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "summary": "英文摘要：The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T03:41+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "official": false
+    },
+    {
+      "id": "1243197198c7",
+      "title": "CNBC：公司业绩｜Read Jim Cramer’s full interview with Nvidia’s Colette Kress: Demand, buybacks and China",
+      "summary": "英文摘要：Interim CEO Kress sat down with CNBC’s Jim Cramer Tuesday evening shortly after the AI chip giant delivered a quarterly beat and strong guidance.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T02:14+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+      "official": false
+    },
+    {
+      "id": "2e0590d7f043",
+      "title": "CNBC：公司业绩｜Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
+      "summary": "英文摘要：Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T01:56+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
+      "official": false
+    },
+    {
+      "id": "6909e8dd3bf1",
+      "title": "“浪已经杀过来了” 腾讯前三季度资本开支1661.53亿元",
+      "summary": "【“浪已经杀过来了” 腾讯前三季度资本开支1661.53亿元】11月18日，腾讯发布2026年第三季度业绩。此前，公司管理层喊出“浪已经杀过来了”。2026年第三季度，腾讯实现收入2073.36亿元，同比增长8%；公司权益持有人应占盈利636.12亿元，同比增长0.8%。值得注意的是，2026年前三季度，腾讯资本开支为1661.53亿元，同比增长178.94%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T01:52+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611183934275558.html",
+      "official": false
+    },
+    {
+      "id": "596da97dc0d7",
+      "title": "CNBC：利率与通胀｜Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "summary": "英文摘要：Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-18T23:13+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "official": false
+    },
+    {
+      "id": "03c59ee0b25b",
+      "title": "【视频直播】腾讯控股2026年第三季度业绩电话会",
+      "summary": "【视频直播】腾讯控股2026年第三季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T20:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611183934135280.html",
+      "official": false
+    },
+    {
+      "id": "af9557876529",
+      "title": "资本开支814亿、同比增527%：腾讯为AI砸了多少钱？",
+      "summary": "11月18日，腾讯控股（00700.HK）公布了2026年第三季度财报。该季度腾讯营收2073.36亿元，同比增长8%，环比增长1%；Non-IFRS经营利润680.73亿元，同比减少6%，环比减少10%。前三季度，腾讯营收6085.79亿元，同比增长9%，Non-IFRS经营利润2193.36亿元，同比增长4%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T18:50+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202611183934114822.html",
+      "official": false
+    },
+    {
+      "id": "480efbc72cf8",
+      "title": "晚报丨现货黄金失守3800美元；民主党筹备数据中心电力改革方案；小摩称英伟达业绩利好不足以缓解市场担忧；新云企业或面临危机；腾讯Q3营收同比增8%，资本开支大超预期",
+      "summary": "现货黄金失守3800美元；民主党筹备数据中心电力改革方案；小摩称英伟达业绩利好不足以缓解市场担忧；新云企业或面临危机；腾讯Q3营收同比增8%，资本开支大超预期。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T18:39+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611183934102167.html",
+      "official": false
+    },
+    {
+      "id": "927735fae8ff",
+      "title": "【业绩会直击】腾讯控股第三季度营收2073亿 同比增长8%",
+      "summary": "【腾讯控股第三季度营收2073.4亿元 同比增长8%】腾讯控股公告，第三季度实现收入2073.36亿元，同比增长8%；经营盈利591.47亿元，同比下降7%；公司权益持有人应占盈利636.12亿元，同比增长0.8%；非国际财务报告准则下，公司权益持有人应占盈利665.19亿元，同比下降6%。分业务看，金融科技及企业服务收入636.55亿元，同比增长9%，其中云服务收入同比增长35%。腾讯同时表示，WorkBuddy每日超千万用户合计消耗Token超100万亿。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T16:33+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611183934001422.html",
+      "official": false
+    },
+    {
+      "id": "3ca2791cfbf6",
+      "title": "服务收入占比24.7%创新高 京东的“新增长点”浮出水面",
+      "summary": "京东集团17日晚公布最新的业绩。财报显示，2026年三季度京东营收3096亿元，同比增长3.5%，结束此前数个季度的增长压力；经营利润52亿元，去年同期为亏损11亿元，经营利润率-0.4%回升至1.7%；Non-GAAP归母净利润83亿元、同比增长44%，净利率由1.9%升至2.7%；Non-GAAPEBITDA98亿元、利润率3.2%，去年同期分别为25亿元、0.8%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-18T16:10+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611183933984426.html",
+      "official": false
+    },
+    {
+      "id": "864370240e1a",
+      "title": "震荡市中谁更抗跌？红利基金交出亮眼成绩单",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611193934423214.html",
+      "official": false
+    },
+    {
+      "id": "4571c0efe4a2",
+      "title": "热门基金相继解除限购 机构资金“候场”转“入场”",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611193934414297.html",
+      "official": false
+    },
+    {
+      "id": "c7332aedcf94",
+      "title": "切实履行社会责任 公募基金构建惠及民生长效机制",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611193934413757.html",
+      "official": false
+    },
+    {
+      "id": "eb3071ab93ea",
+      "title": "红利筑底算力增强 首批主动ETF重仓股揭晓",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611193934379385.html",
+      "official": false
+    },
+    {
+      "id": "0852c5f57e68",
+      "title": "14只基金扛住市场震荡 押注半导体国产替代主线",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611193934379298.html",
+      "official": false
+    },
+    {
+      "id": "70b10790ea51",
+      "title": "CNBC：贸易政策｜'Parasite' backer and other South Korean media, gaming and travel stocks rally on China trade deal",
+      "summary": "英文摘要：Korean media, gaming and travel stocks surged on hopes of greater access to China.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T11:43+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/china-south-korea-trade-deal-films-gaming.html",
+      "official": false
+    },
+    {
+      "id": "0b2301f58d00",
+      "title": "CNBC：IPO与融资｜Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+      "summary": "英文摘要：Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T09:13+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
