@@ -1,0 +1,557 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:43+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月20日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 31 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在公司业绩、利率与通胀、IPO与融资。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "325a2d06cee1",
+      "title": "美联储：利率与通胀｜Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "summary": "英文摘要：Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "全球宏观",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T00:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "美联储",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "official": true
+    },
+    {
+      "id": "d005115dd6c9",
+      "title": "美国证监会：监管政策｜SEC Proposes Executive and Director Compensation Disclosure Reforms",
+      "summary": "英文摘要：The Securities and Exchange Commission today proposed rule amendments to make its executive and director compensation disclosure requirements more principles-based and materiality-driven, providing investors with clearer, more concise, and less complex…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-14T00:57+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms",
+      "official": true
+    },
+    {
+      "id": "d1e5213d3aa7",
+      "title": "月活连续三个季度环比增长 “年轻人重新用QQ”引热议",
+      "summary": "【月活连续三个季度环比增长 “年轻人重新用QQ”引热议】腾讯控股近日发布的2026年第三季度财报显示，QQ移动终端月活跃账户数达到5.33亿，同比增长3%，环比增长3%。值得注意的是，本季度QQ月活同比重新转正，环比已连续三个季度保持增长。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:39+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611203935962363.html",
+      "official": false
+    },
+    {
+      "id": "9bfc917f1185",
+      "title": "本土化妆品企业利润下滑 线上流量驱动模式宣告终结？",
+      "summary": "近期，A股以及港股化妆品企业陆续披露第三季度以及前三季度业绩。值得注意的是，部分头部企业今年以来陆续出现业绩大幅下滑。例如，珀莱雅扣非归母净利第三季度下滑65.2%。上美股份半年报业绩显示，上半年公司收入同比减少8.6%；同时利润同比大幅减少77.4%。而在此前的多年里，两家企业曾通过抓住渠道红利而实现高速增长。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:36+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935963774.html",
+      "official": false
+    },
+    {
+      "id": "1a062ee18453",
+      "title": "爱美客调整员工持股计划考核节奏 激励周期与公司战略同步拉长",
+      "summary": "上证报中国证券网讯（记者王子霖）爱美客11月19日晚间发布公告称，拟将2026年员工持股计划的业绩考核年度由2026年、2027年两个年度调整为2027年、2028年两个年度，并相应调整存续期、锁定期等事项。公司称，本次调整不改变股票来源、认购价格、持有人范围等核心条款，调整方案统一适用于全体持有人，遵循公平一致的原则。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:27+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611203935960343.html",
+      "official": false
+    },
+    {
+      "id": "31858b62c007",
+      "title": "阿里把增长押给全栈AI，平头哥是底牌，也是赌注",
+      "summary": "阿里巴巴的增长盘面，正在上演清晰的冷热分野。11月19日，阿里巴巴集团（以下简称“阿里”，HK09988）发布2027财年第二季度财报（截至2026年9月30日止季度）。本季度，阿里收入同比增长10%，经调整EBITA同比增长260%，净利润为人民币644.20亿元，同比增长213%，主要归因于投资净收益及经营利润的增加。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:23+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935959671.html",
+      "official": false
+    },
+    {
+      "id": "8060df43358b",
+      "title": "Q3经调整净利润同比下降84.2% 快手-W(01024)早盘跌超13%",
+      "summary": "11月20日，快手-W早盘跌超13%，截至发稿，跌10.07%，报20.72港元，成交额18.06亿港元。该股盘中创52周新低。消息面上，快手科技11月19日发布2026年第三季度业绩并召开业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:22+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财中社",
+      "source_url": "https://finance.eastmoney.com/a/202611203935960947.html",
+      "official": false
+    },
+    {
+      "id": "f2730864268b",
+      "title": "袁记食品通过港交所聆讯，前5个月营收同比增长39.8%",
+      "summary": "【袁记食品通过港交所聆讯，前5个月营收同比增长39.8%】11月19日，袁记食品集团股份有限公司向港交所披露聆讯后资料集，华泰国际和广发证券担任联席保荐人。聆讯后资料集显示，2025年度袁记食品门店GMV达66.62亿元，营收27.95亿元，经调整净利润2.62亿元；2026年前5个月，营收达13.06亿元，同比增长39.8%，经调整净利润1.85亿元，同比增长164%，经调整净利率提升至14.1%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:17+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "南方财经网",
+      "source_url": "https://finance.eastmoney.com/a/202611203935957440.html",
+      "official": false
+    },
+    {
+      "id": "e1a5c32a2a04",
+      "title": "三季度净收入19.46亿元 网易云音乐(09899)早盘跌超7%",
+      "summary": "11月20日，媒体及娱乐板块盘中走弱，网易云音乐早盘跌超7%，截至发稿，跌5.17%，报88.00港元，成交额1754万港元。同板块快手-W跌12.24%、哔哩哔哩-W跌4.89%、美图公司跌4.39%。消息面上，网易云音乐11月19日披露2026年第三季度未经审计财报，第三季度净收入19.46亿元。公司主营为音乐服务。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:11+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财中社",
+      "source_url": "https://finance.eastmoney.com/a/202611203935956853.html",
+      "official": false
+    },
+    {
+      "id": "ab2ead905d53",
+      "title": "吴泳铭：2030年阿里云外部收入千亿美元目标不变，国产算力推进超预期",
+      "summary": "“综合各因素影响，2031财年（2030自然年）云外部收入1000亿美元、利润率超过20%的目标不变。平头哥三代GPU产品路线图正在加速推进，今年真武M890全面上线，2027年V900、2028年J900的生产供应链全面推进并进入大规模量产。”11月19日，阿里巴巴集团（NYSE:BABA，09988.HK）CEO吴泳铭在财报电话会上作出上述表述。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:03+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "澎湃新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935955957.html",
+      "official": false
+    },
+    {
+      "id": "3cd1a8cebe0f",
+      "title": "黄金、白银，跳水！",
+      "summary": "【导读】黄金、白银价格跳水11月20日上午，黄金、白银价格跌势不止，盘中再度跳水。现货黄金跌破3540美元/盎司，日内跌2.55%，创下2025年9月初以来新低。现货白银同步走低，跌幅一度扩大至3%，现报41.66美元/盎司。国内贵金属概念股全线走低，赤峰黄金、山东黄金、盛达资源等跌幅居前。消息面上，美国通胀数据超预期后，美联储加息预期持续升温。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T11:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935954869.html",
+      "official": false
+    },
+    {
+      "id": "73967de8d0be",
+      "title": "CNBC：利率与通胀｜Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "summary": "英文摘要：The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T09:49+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+      "official": false
+    },
+    {
+      "id": "7735e252609d",
+      "title": "11月LPR报价出炉：5年期和1年期利率均维持不变",
+      "summary": "【11月LPR报价出炉：5年期和1年期利率均维持不变】中国人民银行授权全国银行间同业拆借中心公布，2026年11月20日贷款市场报价利率（LPR）为：1年期LPR为3.0%，5年期以上LPR为3.5%。以上LPR在下一次发布LPR之前有效。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T09:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935780929.html",
+      "official": false
+    },
+    {
+      "id": "47d13f33533a",
+      "title": "腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”",
+      "summary": "【腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”】记者注意到，针对市场关心的国际游戏收入增长拐点，腾讯管理层在业绩说明会上回应称，海外游戏业务增速放缓早于《GTA6》热度发酵，由多重内外部因素共同导致。腾讯计划推出具备长线运营潜力的新品，在今年买断制大作供给阶段性空档过后，2027年这类产品发行节奏有望回归常态。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:45+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193935404418.html",
+      "official": false
+    },
+    {
+      "id": "d5794a4e15cc",
+      "title": "阿里巴巴吴泳铭：2027、2028年将是中国算力最紧缺的两年 平头哥会成为阿里云芯片主力",
+      "summary": "【阿里巴巴吴泳铭：2027、2028年将是中国算力最紧缺的两年 平头哥会成为阿里云芯片主力】11月19日，阿里CEO吴泳铭在财报后的业绩电话会上表示，现在还是AI的早期阶段，至于未来应用和模型哪一方更重要，应当结合起来看待。模型与应用未来一定是协同发展、互相带动增长的关系。如果一款应用没有配套独特更强的模型，其长期留存用户的能力存疑。倘若市面上多个应用底层都使用相同的模型，应用本身的可替代性会非常高。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935424670.html",
+      "official": false
+    },
+    {
+      "id": "447344c7310a",
+      "title": "稀少！长牛股曝光 高股息、低波动！",
+      "summary": "22股11月以来股价稳稳创出新高。11月以来，全球市场震荡调整。市场观点认为，美国政策不确定性对AI产业叙事形成扰动，是重要影响因素之一。华创证券表示，美国中期选举民主党同时拿下参众两院，AI产业政策由增长优先转向约束与再分配，未来两年随着否决政治的常态化，AI产业的实际审批推进、数据中心的建设，均面临政策不确定性。此外，美联储有进一步加息的可能性，资本市场承压。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T07:38+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "数据宝",
+      "source_url": "https://finance.eastmoney.com/a/202611203935536921.html",
+      "official": false
+    },
+    {
+      "id": "1e3fe5c903e9",
+      "title": "华住集团股价创新高 连锁酒店龙头集中转向经营效率竞争",
+      "summary": "【华住集团股价创新高 连锁酒店龙头集中转向经营效率竞争】受益于超预期的三季度业绩，华住集团股价日前创历史新高，这是否意味着国内酒店行业会迎来春天？有迹象显示，当前国内酒店行业整体需求依然不强，但华住集团、首旅酒店、锦江酒店、亚朵等龙头纷纷开始变革转型，使得酒店赛道的竞争转向商业模式与经营效率的深层较量。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T07:24+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935441290.html",
+      "official": false
+    },
+    {
+      "id": "f501db8694f4",
+      "title": "阿里巴巴三季度营收同比增长10% 平头哥三代GPU路线图加速推进",
+      "summary": "【阿里巴巴三季度营收同比增长10% 平头哥三代GPU路线图加速推进】在阿里巴巴集团首席执行官吴泳铭看来，集团全栈AI能力持续提升商业化水平，推动季度表现强劲——2027财年第二季度，营收为2715.19亿元，同比增长10%；经营利润为291.16亿元，同比增长443%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T07:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935441920.html",
+      "official": false
+    },
+    {
+      "id": "c1475d31201f",
+      "title": "CNBC：公司业绩｜Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+      "summary": "英文摘要：Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T05:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
+      "official": false
+    },
+    {
+      "id": "5a6d2a93d8e5",
+      "title": "CNBC：公司业绩｜Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+      "summary": "英文摘要：Palo Alto Networks reported better-than-expected first-quarter results and inked a $4.5 billion deal for AI startup Applied Compute",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T05:00+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+      "official": false
+    },
+    {
+      "id": "db1be3fec736",
+      "title": "阿里CEO吴泳铭：未来绝大部分模型都会完全依赖于国产芯片做训练",
+      "summary": "【阿里CEO吴泳铭：未来绝大部分模型都会完全依赖于国产芯片做训练】阿里CEO吴泳铭在业绩电话会上表示，2027年一季度，新一代平头哥的国产芯片完全可以支持超大规模模型的训练。“其实，我们已经开始在今年这一代平头哥芯片开始训练下一代模型。随着平头哥的国产芯片的产能持续扩量，从长远来看，对于阿里模型的发展，会是一种长期的支撑。因为未来不管是阿里，还是合作伙伴、客户，绝大部分模型都会完全依赖于国产芯片做训练，无论是预训练还是后训练。”",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T20:53+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "科创板日报",
+      "source_url": "https://finance.eastmoney.com/a/202611193935237725.html",
+      "official": false
+    },
+    {
+      "id": "56bfc44f9daf",
+      "title": "【视频直播】阿里巴巴2026年9月份季度业绩电话会",
+      "summary": "【视频直播】阿里巴巴2026年9月份季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T20:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193935186121.html",
+      "official": false
+    },
+    {
+      "id": "cc0b14af4f4b",
+      "title": "【视频直播】快手2026年第三季度业绩电话会",
+      "summary": "【视频直播】快手2026年第三季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T19:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193935200552.html",
+      "official": false
+    },
+    {
+      "id": "bd10361a37a1",
+      "title": "晚报丨Anthropic今日上市，暗盘最高涨26%；400亿美元SpaceX芯片融资或本周入市；阿里二季度营收同比增10%，盘前涨超4%后转跌；联想绩后一度跌超12%",
+      "summary": "Anthropic今日上市，暗盘最高涨26%；400亿美元SpaceX芯片融资或本周入市；阿里二季度营收同比增10%，盘前涨超4%后转跌；联想绩后一度跌超12%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T18:45+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193935148418.html",
+      "official": false
+    },
+    {
+      "id": "4ce3034c2abd",
+      "title": "阿里巴巴：2027财年第二季度营收2715.2亿元 同比增长10%",
+      "summary": "【阿里巴巴：2027财年第二季度营收2,715.2亿元 同比增长10%】阿里巴巴发布2027财年第二季度财报，本季度营收2,715.2亿元，同比增长10%，预估2,705.3亿元；调整后净利润199.1亿元，预估266.1亿元；调整后每ADS收益8.10元，预估10.75元。阿里巴巴第二季度经营利润291.16亿元，同比增长443%；归属于普通股股东的净利润645.35亿元，同比增长207%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T18:03+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611193935121491.html",
+      "official": false
+    },
+    {
+      "id": "8435431e510f",
+      "title": "CNBC：利率与通胀｜Inside India newsletter: Foreign flows helped the market recover. Now it faces the inflation test",
+      "summary": "英文摘要：India’s inflation, which has been on the rise for 12 straight months, is becoming a risk to growth and to the reversal of foreign inflows.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-19T08:01+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/india-inflation-foreign-investor-nifty50.html",
+      "official": false
+    },
+    {
+      "id": "36ac05dea706",
+      "title": "CNBC：IPO与融资｜Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
+      "summary": "英文摘要：The Anthropic IPO is \"what the markets need.\" However, analysts say its shares will be volatile in the coming weeks.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T11:38+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
+      "official": false
+    },
+    {
+      "id": "fb284da734a3",
+      "title": "CNBC：市场与交易｜SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "summary": "英文摘要：The declines in Asia come after the tech-heavy Nasdaq Composite fell more than 2% overnight following Anthropic's highly anticipated Wall Street debut.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T11:30+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "official": false
+    },
+    {
+      "id": "f99faa579e1e",
+      "title": "MarketWatch：市场与交易｜I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "英文摘要：“We have a house worth $450,000. Our combined annual income is $125,000.”",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T09:30+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "748f3108b580",
+      "title": "CNBC：IPO与融资｜Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+      "summary": "英文摘要：Brokerage firms may put future IPO limits in place for investors who sell their Anthropic stake too soon.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:16+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+      "official": false
+    },
+    {
+      "id": "a0a7d143a41f",
+      "title": "CNBC：贸易政策｜Anthropic was supposed to save the AI trade. What went wrong?",
+      "summary": "英文摘要：Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T08:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
