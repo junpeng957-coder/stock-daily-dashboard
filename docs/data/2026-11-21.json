@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T11:28+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月21日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "ef9bf2ff25db",
+      "title": "美国证监会：监管政策｜SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "summary": "英文摘要：The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T02:03+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "official": true
+    },
+    {
+      "id": "956799c4df4c",
+      "title": "美国证监会：监管政策｜SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "summary": "英文摘要：The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T22:28+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "official": true
+    },
+    {
+      "id": "f93e7ea3e055",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "official": true
+    },
+    {
+      "id": "2f304dad213b",
+      "title": "美元指数，冲击104关口",
+      "summary": "美国持续高企的通胀数据，叠加11月中旬美联储官员沃什的鹰派表态，美元指数加速上行，盘中逼近104，基本收复了去年以来的跌幅。近日，衡量美元对六种主要货币的ICE美元指数一路“水涨船高”，接连突破102、103关键整数关口。北京时间11月19日，美元指数盘中一度升至103.9754，直逼104关口，刷新2025年4月以来的新高。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T11:14+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611213936795843.html",
+      "official": false
+    },
+    {
+      "id": "c7107c488351",
+      "title": "督导缺位！华创证券收监管警示函：知悉微瑞思创资金紧张、借款逾期等重大风险未及时报告",
+      "summary": "深圳商报·读创发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T11:11+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611213936795741.html",
+      "official": false
+    },
+    {
+      "id": "16bf5acdc61e",
+      "title": "建行河北分行被罚60万，涉违反金融统计管理规定",
+      "summary": "蓝鲸新闻11月21日讯，近日，中国人民银行河北省分行发布行政监管措施决定书，剑指中国建设银行股份有限公司河北省分行。决定书显示，中国建设银行股份有限公司河北省分行存在以下情形：违反金融统计管理规定。针对上述违法行为，中国人民银行河北省分行对中国建设银行股份有限公司河北省分行罚款60万元。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:59+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936796253.html",
+      "official": false
+    },
+    {
+      "id": "1db2cbc49566",
+      "title": "中国人寿随州分公司被罚32万，涉财务数据不真实等",
+      "summary": "蓝鲸新闻11月21日讯，近日，随州金融监管分局发布行政处罚决定书，剑指中国人寿保险股份有限公司随州分公司及相关责任人。罚单显示，中国人寿保险股份有限公司随州分公司的主要违法违规行为是：财务业务数据不真实,欺骗投保人、被保险人,使用含误导性表述的资料开展培训,代理人通过自媒体发布内容含有误导性表述。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:59+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936796328.html",
+      "official": false
+    },
+    {
+      "id": "d81d7ae4fdf4",
+      "title": "农行黄冈分行被罚55万，涉员工管理等违规",
+      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国农业银行股份有限公司黄冈分行及相关责任人。罚单显示，中国农业银行股份有限公司黄冈分行的主要违法违规行为是：员工行为管理不到位、信贷管理不到位。针对上述违法行为，黄冈金融监管分局对中国农业银行股份有限公司黄冈分行罚款55万元；对祝友珊、游民权分别禁止从事银行业工作10年，对徐晗、操天久、余朝晖警告。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:59+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936794927.html",
+      "official": false
+    },
+    {
+      "id": "df5988ee7dde",
+      "title": "农行临夏分行被罚36万，涉账户管理等违规",
+      "summary": "蓝鲸新闻11月21日讯，近日，中国人民银行临夏回族自治州分行发布行政监管措施决定书，剑指中国农业银行股份有限公司临夏分行。决定书显示，中国农业银行股份有限公司临夏分行存在以下情形：违反账户管理规定；违反金融统计管理规定；违反国库管理规定；违反征信管理规定。针对上述违法行为，中国人民银行临夏回族自治州分行对中国农业银行股份有限公司临夏分行警告并处罚款36万元。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:59+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936794867.html",
+      "official": false
+    },
+    {
+      "id": "ce4cc1548710",
+      "title": "人寿财险黄冈中支被罚6万，涉违规代缴保费",
+      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国人寿财产保险股份有限公司黄冈市中心支公司及相关责任人。罚单显示，中国人寿财产保险股份有限公司黄冈市中心支公司的主要违法违规行为是：违规接受投保人委托代缴保费。针对上述违法行为，黄冈金融监管分局对中国人寿财产保险股份有限公司黄冈市中心支公司警告并罚款6万元，对占静警告。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:49+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936793068.html",
+      "official": false
+    },
+    {
+      "id": "6add5188ae28",
+      "title": "中国人寿黄冈分公司被罚6万，涉违规代缴保费",
+      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国人寿保险股份有限公司黄冈分公司及相关责任人。罚单显示，中国人寿保险股份有限公司黄冈分公司的主要违法违规行为是：违规接受投保人委托代缴保费。针对上述违法行为，黄冈金融监管分局对中国人寿保险股份有限公司黄冈分公司警告并罚款6万元，对汪莉警告。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T10:49+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611213936794611.html",
+      "official": false
+    },
+    {
+      "id": "d964574eab30",
+      "title": "300755，拟跨界采购！",
+      "summary": "酒类流通商华致酒行(300755)11月20日晚披露，其全资子公司深圳华致科技有限公司（下称“华致科技”）拟以约8.48亿元向供应商A（下称“A公司”）采购计算机部件，用于搭建区别于酒类流通的新业务。公司此前未开展相关业务，本次系新业务的首期设备投入；项目目前尚未形成相关收入及确定客户订单；采购规模约相当于公司前三季度营收的18.5%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T10:40+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611213936794565.html",
+      "official": false
+    },
+    {
+      "id": "2091b75767ac",
+      "title": "CNBC：利率与通胀｜Warsh wants Fed officials to talk less. Instead, they’re talking more",
+      "summary": "英文摘要：Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T05:10+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+      "official": false
+    },
+    {
+      "id": "f4bfcf536e73",
+      "title": "CNBC：公司业绩｜Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
+      "summary": "英文摘要：Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T05:04+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
+      "official": false
+    },
+    {
+      "id": "92cd9a4fe467",
+      "title": "CNBC：利率与通胀｜A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
+      "summary": "英文摘要：Unhappy workers are staying put at their jobs as anxiety around the job market looms. If conditions improve, these workers could be the first to quit, according to experts.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T02:55+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html",
+      "official": false
+    },
+    {
+      "id": "e9381892b749",
+      "title": "专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价",
+      "summary": "【专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价】“5倍PE，我觉得是非常不合理的，即便是PC市场最低的时候，联想也没有到5倍PE。”11月19日，联想集团发布了一份亮眼的财报，单季度营收首次突破2000亿元，同比增长近50%；调整后净利润同比增长166%，调整后净利润率升至4.5%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T14:27+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611203936042164.html",
+      "official": false
+    },
+    {
+      "id": "b71c69a46906",
+      "title": "快手Q3总收入315.92亿元，继续执行160亿港元三年回购计划",
+      "summary": "【快手Q3总收入315.92亿元，继续执行160亿港元三年回购计划】业绩电话会上，快手科技创始人兼首席执行官程一笑与CFO金秉用三条线索回应了市场关切：可灵AI的商业化节奏、短剧与电商构成的营销基本盘，以及在AI高投入周期里如何守住现金流与股东回报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T12:45+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611203935978347.html",
+      "official": false
+    },
+    {
+      "id": "7735e252609d",
+      "title": "11月LPR报价出炉：5年期和1年期利率均维持不变",
+      "summary": "【11月LPR报价出炉：5年期和1年期利率均维持不变】中国人民银行授权全国银行间同业拆借中心公布，2026年11月20日贷款市场报价利率（LPR）为：1年期LPR为3.0%，5年期以上LPR为3.5%。以上LPR在下一次发布LPR之前有效。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T09:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935780929.html",
+      "official": false
+    },
+    {
+      "id": "47d13f33533a",
+      "title": "腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”",
+      "summary": "【腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”】记者注意到，针对市场关心的国际游戏收入增长拐点，腾讯管理层在业绩说明会上回应称，海外游戏业务增速放缓早于《GTA6》热度发酵，由多重内外部因素共同导致。腾讯计划推出具备长线运营潜力的新品，在今年买断制大作供给阶段性空档过后，2027年这类产品发行节奏有望回归常态。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:45+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193935404418.html",
+      "official": false
+    },
+    {
+      "id": "d5794a4e15cc",
+      "title": "阿里巴巴吴泳铭：2027、2028年将是中国算力最紧缺的两年 平头哥会成为阿里云芯片主力",
+      "summary": "【阿里巴巴吴泳铭：2027、2028年将是中国算力最紧缺的两年 平头哥会成为阿里云芯片主力】11月19日，阿里CEO吴泳铭在财报后的业绩电话会上表示，现在还是AI的早期阶段，至于未来应用和模型哪一方更重要，应当结合起来看待。模型与应用未来一定是协同发展、互相带动增长的关系。如果一款应用没有配套独特更强的模型，其长期留存用户的能力存疑。倘若市面上多个应用底层都使用相同的模型，应用本身的可替代性会非常高。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935424670.html",
+      "official": false
+    },
+    {
+      "id": "1e3fe5c903e9",
+      "title": "华住集团股价创新高 连锁酒店龙头集中转向经营效率竞争",
+      "summary": "【华住集团股价创新高 连锁酒店龙头集中转向经营效率竞争】受益于超预期的三季度业绩，华住集团股价日前创历史新高，这是否意味着国内酒店行业会迎来春天？有迹象显示，当前国内酒店行业整体需求依然不强，但华住集团、首旅酒店、锦江酒店、亚朵等龙头纷纷开始变革转型，使得酒店赛道的竞争转向商业模式与经营效率的深层较量。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T07:24+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券时报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935441290.html",
+      "official": false
+    },
+    {
+      "id": "f501db8694f4",
+      "title": "阿里巴巴三季度营收同比增长10% 平头哥三代GPU路线图加速推进",
+      "summary": "【阿里巴巴三季度营收同比增长10% 平头哥三代GPU路线图加速推进】在阿里巴巴集团首席执行官吴泳铭看来，集团全栈AI能力持续提升商业化水平，推动季度表现强劲——2027财年第二季度，营收为2715.19亿元，同比增长10%；经营利润为291.16亿元，同比增长443%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T07:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611203935441920.html",
+      "official": false
+    },
+    {
+      "id": "db1be3fec736",
+      "title": "阿里CEO吴泳铭：未来绝大部分模型都会完全依赖于国产芯片做训练",
+      "summary": "【阿里CEO吴泳铭：未来绝大部分模型都会完全依赖于国产芯片做训练】阿里CEO吴泳铭在业绩电话会上表示，2027年一季度，新一代平头哥的国产芯片完全可以支持超大规模模型的训练。“其实，我们已经开始在今年这一代平头哥芯片开始训练下一代模型。随着平头哥的国产芯片的产能持续扩量，从长远来看，对于阿里模型的发展，会是一种长期的支撑。因为未来不管是阿里，还是合作伙伴、客户，绝大部分模型都会完全依赖于国产芯片做训练，无论是预训练还是后训练。”",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T20:53+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "科创板日报",
+      "source_url": "https://finance.eastmoney.com/a/202611193935237725.html",
+      "official": false
+    },
+    {
+      "id": "56bfc44f9daf",
+      "title": "【视频直播】阿里巴巴2026年9月份季度业绩电话会",
+      "summary": "【视频直播】阿里巴巴2026年9月份季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T20:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193935186121.html",
+      "official": false
+    },
+    {
+      "id": "cc0b14af4f4b",
+      "title": "【视频直播】快手2026年第三季度业绩电话会",
+      "summary": "【视频直播】快手2026年第三季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-19T19:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611193935200552.html",
+      "official": false
+    },
+    {
+      "id": "319d6f371c05",
+      "title": "CNBC：市场与交易｜Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "summary": "英文摘要：Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T06:59+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "official": false
+    },
+    {
+      "id": "c48f3d2d81cf",
+      "title": "MarketWatch：市场与交易｜Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "summary": "英文摘要：All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T06:46+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "044beb6190e4",
+      "title": "MarketWatch：贸易政策｜Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+      "summary": "英文摘要：A major semiconductor index just posted its worst weekly performance in 25 years.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T06:44+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "aec9b9f2ef43",
+      "title": "MarketWatch：市场与交易｜These stocks were crushed the most this week as the tech wreck accelerated",
+      "summary": "英文摘要：94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T06:44+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "100309bcce02",
+      "title": "MarketWatch：基金与ETF｜Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+      "summary": "英文摘要：One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "美股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T05:58+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
