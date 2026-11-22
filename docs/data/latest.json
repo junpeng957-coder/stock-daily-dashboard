@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T11:28+08:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T10:39+08:00",
   "timezone": "Asia/Shanghai",
   "model": "zero-api-rules-v1",
-  "headline": "11月21日 全球股市与基金晨报",
-  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、利率与通胀。一条资讯可能进入多个板块，不构成买卖建议。",
+  "headline": "11月22日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 2 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
   "coverage": {
     "A股": 10,
     "港股": 10,
@@ -52,9 +52,9 @@
       "official": true
     },
     {
-      "id": "f93e7ea3e055",
-      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
-      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "id": "bfe53f35c770",
+      "title": "搜狐张朝阳回应被出具警示函：不是我，太搞笑了",
+      "summary": "近日，“张朝阳被北京证监局出具警示函”话题冲上微博热搜，随后搜狐公司张朝阳本人回应：“此张朝阳不是我”。11月20日，据北京证监局网站消息，北京证监局于2026年11月10日作出决定，对张朝阳出具警示函，该文书在11月20日对外公示。处罚原因是其未经证监会许可从事证券投资咨询业务，这份警示函会被记入证券期货市场诚信档案。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -62,35 +62,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-20T12:00+08:00",
-      "importance": 4,
-      "market_tone": "偏谨慎",
-      "source_name": "中国证监会",
-      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
-      "official": true
-    },
-    {
-      "id": "2f304dad213b",
-      "title": "美元指数，冲击104关口",
-      "summary": "美国持续高企的通胀数据，叠加11月中旬美联储官员沃什的鹰派表态，美元指数加速上行，盘中逼近104，基本收复了去年以来的跌幅。近日，衡量美元对六种主要货币的ICE美元指数一路“水涨船高”，接连突破102、103关键整数关口。北京时间11月19日，美元指数盘中一度升至103.9754，直逼104关口，刷新2025年4月以来的新高。",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T11:14+08:00",
+      "published_at": "2026-11-22T10:23+08:00",
       "importance": 3,
-      "market_tone": "中性",
-      "source_name": "上海证券报",
-      "source_url": "https://finance.eastmoney.com/a/202611213936795843.html",
+      "market_tone": "偏谨慎",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611223936875524.html",
       "official": false
     },
     {
-      "id": "c7107c488351",
-      "title": "督导缺位！华创证券收监管警示函：知悉微瑞思创资金紧张、借款逾期等重大风险未及时报告",
-      "summary": "深圳商报·读创发布与“监管政策”相关的新信息。",
+      "id": "938406f24476",
+      "title": "英国对中国割草机器人启动反倾销调查，大叶股份积极应对，公司股价近期跌至“冰点”",
+      "summary": "11月20日，大叶股份（300879）公布，英国贸易救济局发布《立案公告》，应HusqvarnaUKLimited申请，对原产于中国的割草机器人（RobotLawnMowers）发起反倾销调查。针对上述反倾销调查，大叶股份将采取多项措施积极应对。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -98,17 +80,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T11:11+08:00",
+      "published_at": "2026-11-22T10:17+08:00",
       "importance": 3,
       "market_tone": "偏谨慎",
       "source_name": "深圳商报·读创",
-      "source_url": "https://finance.eastmoney.com/a/202611213936795741.html",
+      "source_url": "https://finance.eastmoney.com/a/202611223936875493.html",
       "official": false
     },
     {
-      "id": "16bf5acdc61e",
-      "title": "建行河北分行被罚60万，涉违反金融统计管理规定",
-      "summary": "蓝鲸新闻11月21日讯，近日，中国人民银行河北省分行发布行政监管措施决定书，剑指中国建设银行股份有限公司河北省分行。决定书显示，中国建设银行股份有限公司河北省分行存在以下情形：违反金融统计管理规定。针对上述违法行为，中国人民银行河北省分行对中国建设银行股份有限公司河北省分行罚款60万元。",
+      "id": "574aecd3d792",
+      "title": "美国拟禁止中国电信、中国联通、中国移动等直接获取美国互联网电话号码资源，中方：坚决反对，敦促美方立即撤销有关措施",
+      "summary": "据商务部网站11月22日消息，商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问。问：美东时间11月19日，美国联邦通信委员会（FCC）投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？答：我们注意到有关情况。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -116,17 +98,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T10:59+08:00",
+      "published_at": "2026-11-22T09:51+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936796253.html",
+      "source_name": "中国基金报",
+      "source_url": "https://finance.eastmoney.com/a/202611223936874014.html",
       "official": false
     },
     {
-      "id": "1db2cbc49566",
-      "title": "中国人寿随州分公司被罚32万，涉财务数据不真实等",
-      "summary": "蓝鲸新闻11月21日讯，近日，随州金融监管分局发布行政处罚决定书，剑指中国人寿保险股份有限公司随州分公司及相关责任人。罚单显示，中国人寿保险股份有限公司随州分公司的主要违法违规行为是：财务业务数据不真实,欺骗投保人、被保险人,使用含误导性表述的资料开展培训,代理人通过自媒体发布内容含有误导性表述。",
+      "id": "9dec66c8e52b",
+      "title": "美拟禁止中国电信运营商直接获取美互联网电话号码资源，商务部回应",
+      "summary": "截图来源：商务部官网据商务部官网11月22日早间消息，商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问。问：美东时间11月19日，美国联邦通信委员会（FCC）投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？答：我们注意到有关情况。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -134,17 +116,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T10:59+08:00",
+      "published_at": "2026-11-22T09:50+08:00",
       "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936796328.html",
+      "market_tone": "中性",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611223936874120.html",
       "official": false
     },
     {
-      "id": "d81d7ae4fdf4",
-      "title": "农行黄冈分行被罚55万，涉员工管理等违规",
-      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国农业银行股份有限公司黄冈分行及相关责任人。罚单显示，中国农业银行股份有限公司黄冈分行的主要违法违规行为是：员工行为管理不到位、信贷管理不到位。针对上述违法行为，黄冈金融监管分局对中国农业银行股份有限公司黄冈分行罚款55万元；对祝友珊、游民权分别禁止从事银行业工作10年，对徐晗、操天久、余朝晖警告。",
+      "id": "d9e1eeb517b7",
+      "title": "中方坚决反对！敦促美方立即撤销→",
+      "summary": "商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问。问：美东时间11月19日，美国联邦通信委员会（FCC）投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？答：我们注意到有关情况。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -152,17 +134,17 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T10:59+08:00",
+      "published_at": "2026-11-22T09:48+08:00",
       "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936794927.html",
+      "market_tone": "中性",
+      "source_name": "央视财经",
+      "source_url": "https://finance.eastmoney.com/a/202611223936873873.html",
       "official": false
     },
     {
-      "id": "df5988ee7dde",
-      "title": "农行临夏分行被罚36万，涉账户管理等违规",
-      "summary": "蓝鲸新闻11月21日讯，近日，中国人民银行临夏回族自治州分行发布行政监管措施决定书，剑指中国农业银行股份有限公司临夏分行。决定书显示，中国农业银行股份有限公司临夏分行存在以下情形：违反账户管理规定；违反金融统计管理规定；违反国库管理规定；违反征信管理规定。针对上述违法行为，中国人民银行临夏回族自治州分行对中国农业银行股份有限公司临夏分行警告并处罚款36万元。",
+      "id": "ede1df56e438",
+      "title": "商务部就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问",
+      "summary": "中新经纬11月22日电商务部网站22日消息，商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问。问：美东时间11月19日，美国联邦通信委员会(FCC)投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？答：我们注意到有关情况。",
       "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
       "region": "A股",
       "asset_types": [
@@ -170,64 +152,131 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T10:59+08:00",
+      "published_at": "2026-11-22T09:48+08:00",
       "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936794867.html",
+      "market_tone": "中性",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202611223936874236.html",
       "official": false
     },
     {
-      "id": "ce4cc1548710",
-      "title": "人寿财险黄冈中支被罚6万，涉违规代缴保费",
-      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国人寿财产保险股份有限公司黄冈市中心支公司及相关责任人。罚单显示，中国人寿财产保险股份有限公司黄冈市中心支公司的主要违法违规行为是：违规接受投保人委托代缴保费。针对上述违法行为，黄冈金融监管分局对中国人寿财产保险股份有限公司黄冈市中心支公司警告并罚款6万元，对占静警告。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T10:49+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936793068.html",
-      "official": false
-    },
-    {
-      "id": "6add5188ae28",
-      "title": "中国人寿黄冈分公司被罚6万，涉违规代缴保费",
-      "summary": "蓝鲸新闻11月21日讯，近日，黄冈金融监管分局发布行政处罚决定书，剑指中国人寿保险股份有限公司黄冈分公司及相关责任人。罚单显示，中国人寿保险股份有限公司黄冈分公司的主要违法违规行为是：违规接受投保人委托代缴保费。针对上述违法行为，黄冈金融监管分局对中国人寿保险股份有限公司黄冈分公司警告并罚款6万元，对汪莉警告。",
-      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
-      "region": "A股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T10:49+08:00",
-      "importance": 3,
-      "market_tone": "偏谨慎",
-      "source_name": "蓝鲸财经",
-      "source_url": "https://finance.eastmoney.com/a/202611213936794611.html",
-      "official": false
-    },
-    {
-      "id": "d964574eab30",
-      "title": "300755，拟跨界采购！",
-      "summary": "酒类流通商华致酒行(300755)11月20日晚披露，其全资子公司深圳华致科技有限公司（下称“华致科技”）拟以约8.48亿元向供应商A（下称“A公司”）采购计算机部件，用于搭建区别于酒类流通的新业务。公司此前未开展相关业务，本次系新业务的首期设备投入；项目目前尚未形成相关收入及确定客户订单；采购规模约相当于公司前三季度营收的18.5%。",
+      "id": "51b5d2e3b9a8",
+      "title": "AI周报|英伟达董事会不打算恢复黄仁勋职务；DeepSeek千亿融资落地",
+      "summary": "英伟达董事会不打算恢复黄仁勋职务当地时间11月17日，英伟达发布2027财年第三季度财报。该季度英伟达营收1158亿美元，同比增长103%，GAAP净利润653亿美元，同比增长105%，营收和净利润都超过此前市场预期。虽然黄仁勋同日表示他愿意重返CEO的岗位，但英伟达董事会主席哈维·C·琼斯（HarveyC.Jones）在财报电话会上称，董事会不打算恢复他的CEO职务。",
       "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
       "region": "A股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-21T10:40+08:00",
+      "published_at": "2026-11-22T08:40+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202611223936869455.html",
+      "official": false
+    },
+    {
+      "id": "a69f39274f82",
+      "title": "业绩暴增+低估值 3股被机构盯上",
+      "summary": "好想你、恒逸石化、雅化集团等机构调研股最新滚动市盈率低至个位数。近一周（11月14日至20日）机构调研个股有120多只，微导纳米调研机构数最多。微导纳米有142家机构调研。2026年前三季度公司实现营业收入18.08亿元，其中半导体设备业务收入9.98亿元，同比增长89.69%，占主营业务收入比重提升至55.4%，已成为公司第一大收入来源和核心增长引擎。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-22T07:46+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "数据宝",
+      "source_url": "https://finance.eastmoney.com/a/202611223936867127.html",
+      "official": false
+    },
+    {
+      "id": "80d0a90a074b",
+      "title": "华西证券孙付：大盘蓝筹估值仍处历史中低位 A股中长期配置价值进一步凸显",
+      "summary": "11月21日，华西证券大类资产首席分析师孙付在接受中国证券报·中证金牛座记者采访时表示，A股三季报确认了上市公司盈利改善趋势，科技创新与自主可控成为利润增长的核心引擎。随着11月以来稳市政策“组合拳”密集落地，长期资金入市渠道持续拓宽。大盘蓝筹估值仍处历史中低位，股债性价比突出，A股中长期配置价值进一步凸显。孙付表示，在科技与资源双轮驱动下，上市公司业绩稳步改善。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-22T00:42+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "中国证券报",
+      "source_url": "https://finance.eastmoney.com/a/202611213936853814.html",
+      "official": false
+    },
+    {
+      "id": "50f919310617",
+      "title": "拟注入“利润奶牛”但连吃两个跌停 中国稀土吞下中稀凉山 同业竞争承诺延期",
+      "summary": "在停牌10个交易日后，中国稀土集团资源科技股份有限公司（下称“中国稀土”，000831.SZ）带着一份酝酿已久的资产注入方案重回交易。11月13日晚，中国稀土发布公告表示，拟通过发行股份的方式，购买公司实控人中国稀土集团持有的中稀（凉山）稀土有限公司（下称“中稀凉山”）51%的股权，发行价格为39.41元/股。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-22T00:11+08:00",
       "importance": 3,
       "market_tone": "中性",
-      "source_name": "证券时报网",
-      "source_url": "https://finance.eastmoney.com/a/202611213936794565.html",
+      "source_name": "华夏时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611213936835690.html",
+      "official": false
+    },
+    {
+      "id": "53ae4dbcf6cd",
+      "title": "CNBC：监管政策｜State and federal battle over prediction markets regulation heats up after midterms",
+      "summary": "英文摘要：States, Congress and the CFTC are escalating the fight over prediction market regulation after the midterms.",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T21:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
+      "official": false
+    },
+    {
+      "id": "d294df19fafe",
+      "title": "第三季度财报里的AI：钱花出去了 收入跟上了吗？",
+      "summary": "【第三季度财报里的AI：钱花出去了 收入跟上了吗？】11月17日至19日，京东、腾讯、快手、拼多多、阿里巴巴相继交出2026年第三季度财报。若以更能反映主营业务经营趋势的经调整净利润（Non-GAAP）口径来看，本季度阿里巴巴经调整净利润同比增长92%，京东非公认会计准则净利润增长44%，拼多多经调整净利润微降约1.2%，腾讯调整后净利润下滑6%，快手经调整净利润下滑84%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:59+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "大河财立方",
+      "source_url": "https://finance.eastmoney.com/a/202611213936805394.html",
+      "official": false
+    },
+    {
+      "id": "19149e53c97a",
+      "title": "短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响",
+      "summary": "【短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响】在网易第三季度财报电话会议上，管理层被问及短剧和AI对游戏行业的影响。管理层表示，尽管短剧在短期内吸引了较高的用户关注度，但游戏基于“控制与反馈”的核心玩法依然具备不可替代的优势。AI技术将为游戏行业带来更广阔的想象空间，让过去难以实现的创意玩法（如互动影游）成为可能，推动游戏内容向更多元、更高质量的方向创新发展。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方都市报",
+      "source_url": "https://finance.eastmoney.com/a/202611213936803293.html",
       "official": false
     },
     {
@@ -263,24 +312,6 @@
       "market_tone": "中性",
       "source_name": "CNBC",
       "source_url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
-      "official": false
-    },
-    {
-      "id": "92cd9a4fe467",
-      "title": "CNBC：利率与通胀｜A wave of 'pent-up quits' could boost turnover in the job market, expert says: 'The labor market is a bit like a coiled spring'",
-      "summary": "英文摘要：Unhappy workers are staying put at their jobs as anxiety around the job market looms. If conditions improve, these workers could be the first to quit, according to experts.",
-      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T02:55+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "CNBC",
-      "source_url": "https://www.cnbc.com/make-it/2026/11/20/worker-turnover-quits-hiring-2027.html",
       "official": false
     },
     {
@@ -421,37 +452,55 @@
       "official": false
     },
     {
-      "id": "56bfc44f9daf",
-      "title": "【视频直播】阿里巴巴2026年9月份季度业绩电话会",
-      "summary": "【视频直播】阿里巴巴2026年9月份季度业绩电话会。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
+      "id": "9a0d630bdb6c",
+      "title": "CNBC：IPO与融资｜Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+      "summary": "英文摘要：Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-19T20:00+08:00",
-      "importance": 3,
-      "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611193935186121.html",
+      "published_at": "2026-11-22T00:40+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
       "official": false
     },
     {
-      "id": "cc0b14af4f4b",
-      "title": "【视频直播】快手2026年第三季度业绩电话会",
-      "summary": "【视频直播】快手2026年第三季度业绩电话会。",
-      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
-      "region": "港股",
+      "id": "43781dc411ed",
+      "title": "CNBC：IPO与融资｜Why Anthropic's blockbuster IPO couldn't escape the stock market correction",
+      "summary": "英文摘要：Anthropic's IPO was a big public market success for the company, but Friday's selloff shows that valuing the AI stock will remain volatile for investors.",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "美股",
       "asset_types": [
         "股票",
         "基金"
       ],
-      "published_at": "2026-11-19T19:00+08:00",
-      "importance": 3,
+      "published_at": "2026-11-21T22:07+08:00",
+      "importance": 2,
       "market_tone": "中性",
-      "source_name": "哈富证券",
-      "source_url": "https://finance.eastmoney.com/a/202611193935200552.html",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-ai-stock-market-selloff.html",
+      "official": false
+    },
+    {
+      "id": "edf1c3c3a302",
+      "title": "CNBC：市场与交易｜An early breakdown in the polar vortex is threatening already depleted gas stocks",
+      "summary": "英文摘要：Colder weather and low wind speeds could strain Europe’s gas market, where storage started winter at its lowest level in more than a decade.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T20:47+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/21/polar-vortex-europe-gas-prices.html",
       "official": false
     },
     {
@@ -473,9 +522,9 @@
       "official": false
     },
     {
-      "id": "c48f3d2d81cf",
-      "title": "MarketWatch：市场与交易｜Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
-      "summary": "英文摘要：All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
+      "id": "6ecad1c1cccd",
+      "title": "CNBC：市场与交易｜Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+      "summary": "英文摘要：Cybersecurity companies have been hunting for acquisitions in the AI era.",
       "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
       "region": "美股",
       "asset_types": [
@@ -483,64 +532,11 @@
         "基金",
         "ETF"
       ],
-      "published_at": "2026-11-21T06:46+08:00",
+      "published_at": "2026-11-21T05:35+08:00",
       "importance": 2,
       "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "044beb6190e4",
-      "title": "MarketWatch：贸易政策｜Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-      "summary": "英文摘要：A major semiconductor index just posted its worst weekly performance in 25 years.",
-      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T06:44+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "aec9b9f2ef43",
-      "title": "MarketWatch：市场与交易｜These stocks were crushed the most this week as the tech wreck accelerated",
-      "summary": "英文摘要：94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
-      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
-      "region": "美股",
-      "asset_types": [
-        "股票",
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T06:44+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-      "official": false
-    },
-    {
-      "id": "100309bcce02",
-      "title": "MarketWatch：基金与ETF｜Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
-      "summary": "英文摘要：One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
-      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
-      "region": "美股",
-      "asset_types": [
-        "基金",
-        "ETF"
-      ],
-      "published_at": "2026-11-21T05:58+08:00",
-      "importance": 2,
-      "market_tone": "中性",
-      "source_name": "MarketWatch",
-      "source_url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
       "official": false
     }
   ],
