@@ -1,0 +1,542 @@
+{
+  "version": 1,
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:07+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月23日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "ef9bf2ff25db",
+      "title": "美国证监会：监管政策｜SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "summary": "英文摘要：The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T02:03+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "official": true
+    },
+    {
+      "id": "956799c4df4c",
+      "title": "美国证监会：监管政策｜SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "summary": "英文摘要：The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T22:28+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "official": true
+    },
+    {
+      "id": "f93e7ea3e055",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "official": true
+    },
+    {
+      "id": "dd7c803ab30e",
+      "title": "拼多多发布Q3财报：新十年首年答卷，质量优先于规模",
+      "summary": "21世纪经济报道记者董静怡11月19日，拼多多发布截至9月30日的2026年第三季度财报。受益于“新十年高质量发展”战略的效用释放，以及平台治理体系的持续升级，拼多多三季度营收达到1083亿元，归母净利润295.4亿元，同比仅增0.7%；非GAAP归母净利润310亿元，同比小幅下降1.2%。“本季度标志着我们新十年高质量发展战略的第一年完成。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T10:56+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611233937115277.html",
+      "official": false
+    },
+    {
+      "id": "24ff21a730ea",
+      "title": "银河微电6.45亿元并购获受理：新增商誉约2.39亿元，标的交割前分红1.71亿元，业绩补偿上限4500万元",
+      "summary": "银河微电公告称，11月19日，公司收到上交所出具的《关于受理常州银河世纪微电子股份有限公司发行股份购买资产并募集配套资金申请的通知》。上海证券交易所依据相关规定对公司报送的申请文件进行了核对，认为该项申请文件齐备，符合法定形式，决定予以受理并依法进行审核。根据重组报告书（申报稿），本次交易标的公司100%股权交易作价为64,500.00万元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T10:48+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611233937115724.html",
+      "official": false
+    },
+    {
+      "id": "56c50a9e6ac3",
+      "title": "市场交易员削减美联储加息力度！恒生科技距离最高点回撤超45%，资金加速“抄底”港股互联网",
+      "summary": "截至2026年11月23日10:21，港股加速探底，恒生科技指数跌2.55%，最新报3420点，距离去年10月初最高点已回撤超45%。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T10:39+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611233937111387.html",
+      "official": false
+    },
+    {
+      "id": "f052f92fbdc7",
+      "title": "Gap集团三季度盈利超预期",
+      "summary": "11月23日，北京商报记者获悉，美国服饰零售集团GapInc.发布截至10月31日的2026财年第三季度业绩。公告显示，三季度净销售额40.11亿美元，同比增长1.8%（公司披露的四舍五入口径为增长2%），可比销售额同比持平；净利润3.11亿美元，同比增长31.8%；毛利率42.5%，同比提升10个基点；营业利润3.96亿美元，同比增长18.6%，营业利润率9.9%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T10:39+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "北京商报",
+      "source_url": "https://finance.eastmoney.com/a/202611233937110938.html",
+      "official": false
+    },
+    {
+      "id": "609e6c8f693f",
+      "title": "又一“大肉签”登陆北交所！金宇轮胎、盛新锂能、浙江医药等现身大客户名单",
+      "summary": "金融投资报记者贺梦璐11月23日，华晟智能正式登陆北交所，发行价为23.52元/股。上市首日股价高开，截至记者上午发稿时，最高报42.45元/股，成为北交所又一只“大肉签”。首日大涨背后，资本市场关注的不仅是新股资金流入情绪，更是这家智能物流装备企业的客户基本盘与业绩成色。记者注意到，从招股书披露的信息来看，华晟智能的客户结构颇具看点。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T10:37+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "金融投资网",
+      "source_url": "https://finance.eastmoney.com/a/202611233937112863.html",
+      "official": false
+    },
+    {
+      "id": "8dc2559219bc",
+      "title": "CNBC：利率与通胀｜3 big things we're watching in the market this Thanksgiving week",
+      "summary": "英文摘要：Can the AI trade rebound? Plus, a big week for retail activity and Fed policy discussion.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T08:42+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/22/3-big-things-were-watching-in-the-market-this-thanksgiving-week.html",
+      "official": false
+    },
+    {
+      "id": "d14fa5371be8",
+      "title": "从最新季报看互联网大厂AI转型现状",
+      "summary": "【从最新季报看互联网大厂AI转型现状】AI（人工智能）投入是利润率和现金流承压的重要变量。本财季，腾讯资本开支同比增长527%至814.33亿元，剔除新AI产品贡献后经营盈利同比增长8%；百度智能云营收同比增长94%，成为财报中少有的亮色，但广告收入的下滑与算力、大模型的持续投入，拖累了整体利润；阿里巴巴资本支出同比增长60%至504.77亿元，AI云与算力服务收入同比大增53%，外部客户收入增长64%。三家公司路径不同，但共同点是将更多资源投向算力、模型和AI应用。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T08:19+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券日报",
+      "source_url": "https://finance.eastmoney.com/a/202611233936993345.html",
+      "official": false
+    },
+    {
+      "id": "d3ddf57f0a86",
+      "title": "华泰证券港股策略：短期密集压力或已接近峰值",
+      "summary": "【华泰证券港股策略：短期密集压力或已接近峰值】华泰证券发布港股策略研报称，本周财报密集期接近尾声，且技术面指标已经接近极端状态，市场压力有望边际缓解，甚至不排除技术性反弹，但反弹持续性仍有待观察。12月加息与解禁高峰在前，行情或偏N型，中期仍需等待盈利企稳与长端利率回落的确认，更大概率在明年一季度后。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T07:46+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611233937035140.html",
+      "official": false
+    },
+    {
+      "id": "326939267ffb",
+      "title": "一周前瞻丨核心PCE检验加息预期！小米、美团将放榜，戴尔业绩检验AI需求；感恩节、黑五购物季将至，美股周四休市、周五提前收市",
+      "summary": "新一周重磅日程一览美国10月PCE撞上三季度GDP，周三数据密集检验加息预期美国10月PCE及核心PCE物价指数将于周三（11月25日）21:30公布，成为下周最重要的宏观交易事件。同一时间，美国第三季度实际GDP年化季率修正值、10月个人支出、耐用品订单及当周初请失业金人数也将集中出炉。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T07:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611233937031883.html",
+      "official": false
+    },
+    {
+      "id": "f863d27f394e",
+      "title": "AI制药提速！研发周期最多缩短一半 多股明年业绩可期(名单)",
+      "summary": "【AI制药提速！研发周期最多缩短一半 多股明年业绩可期(名单)】11月20日，全球多家制药巨头披露，AI已把新分子推进至临床的时间最多缩短一半。机构预测，24只AI制药概念股明年业绩有望改善。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T06:21+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "东方财富研究中心",
+      "source_url": "https://finance.eastmoney.com/a/202611233937018117.html",
+      "official": false
+    },
+    {
+      "id": "1fe036b9d7bf",
+      "title": "MarketWatch：公司业绩｜Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+      "summary": "英文摘要：There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T05:51+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "ee6c8be31e76",
+      "title": "三大交易所同时宣布！时隔十个月融资保证金重回80% 积极信号明确",
+      "summary": "杠杆资金退到年内低位之际，监管层再度按下逆周期调节的按钮。今日晚间，沪深北三大交易所同步发布通知，宣布经中国证监会批准，将投资者融资买入证券时的融资保证金最低比例从现行的100%下调至80%，相关规则调整自11月30日起施行。截至11月19日，全市场两融余额2.2万亿元，与3.03万亿元的年内高点相比，已有逾8000亿元融资盘悄然离场。这已经是年内第二次调整融资保证金比例。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-22T20:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611223936945780.html",
+      "official": false
+    },
+    {
+      "id": "53ae4dbcf6cd",
+      "title": "CNBC：监管政策｜State and federal battle over prediction markets regulation heats up after midterms",
+      "summary": "英文摘要：States, Congress and the CFTC are escalating the fight over prediction market regulation after the midterms.",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T21:12+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
+      "official": false
+    },
+    {
+      "id": "d294df19fafe",
+      "title": "第三季度财报里的AI：钱花出去了 收入跟上了吗？",
+      "summary": "【第三季度财报里的AI：钱花出去了 收入跟上了吗？】11月17日至19日，京东、腾讯、快手、拼多多、阿里巴巴相继交出2026年第三季度财报。若以更能反映主营业务经营趋势的经调整净利润（Non-GAAP）口径来看，本季度阿里巴巴经调整净利润同比增长92%，京东非公认会计准则净利润增长44%，拼多多经调整净利润微降约1.2%，腾讯调整后净利润下滑6%，快手经调整净利润下滑84%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:59+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "大河财立方",
+      "source_url": "https://finance.eastmoney.com/a/202611213936805394.html",
+      "official": false
+    },
+    {
+      "id": "19149e53c97a",
+      "title": "短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响",
+      "summary": "【短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响】在网易第三季度财报电话会议上，管理层被问及短剧和AI对游戏行业的影响。管理层表示，尽管短剧在短期内吸引了较高的用户关注度，但游戏基于“控制与反馈”的核心玩法依然具备不可替代的优势。AI技术将为游戏行业带来更广阔的想象空间，让过去难以实现的创意玩法（如互动影游）成为可能，推动游戏内容向更多元、更高质量的方向创新发展。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方都市报",
+      "source_url": "https://finance.eastmoney.com/a/202611213936803293.html",
+      "official": false
+    },
+    {
+      "id": "e9381892b749",
+      "title": "专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价",
+      "summary": "【专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价】“5倍PE，我觉得是非常不合理的，即便是PC市场最低的时候，联想也没有到5倍PE。”11月19日，联想集团发布了一份亮眼的财报，单季度营收首次突破2000亿元，同比增长近50%；调整后净利润同比增长166%，调整后净利润率升至4.5%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T14:27+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611203936042164.html",
+      "official": false
+    },
+    {
+      "id": "b71c69a46906",
+      "title": "快手Q3总收入315.92亿元，继续执行160亿港元三年回购计划",
+      "summary": "【快手Q3总收入315.92亿元，继续执行160亿港元三年回购计划】业绩电话会上，快手科技创始人兼首席执行官程一笑与CFO金秉用三条线索回应了市场关切：可灵AI的商业化节奏、短剧与电商构成的营销基本盘，以及在AI高投入周期里如何守住现金流与股东回报。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T12:45+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611203935978347.html",
+      "official": false
+    },
+    {
+      "id": "7735e252609d",
+      "title": "11月LPR报价出炉：5年期和1年期利率均维持不变",
+      "summary": "【11月LPR报价出炉：5年期和1年期利率均维持不变】中国人民银行授权全国银行间同业拆借中心公布，2026年11月20日贷款市场报价利率（LPR）为：1年期LPR为3.0%，5年期以上LPR为3.5%。以上LPR在下一次发布LPR之前有效。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T09:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611203935780929.html",
+      "official": false
+    },
+    {
+      "id": "47d13f33533a",
+      "title": "腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”",
+      "summary": "【腾讯游戏第三季度收入665亿元、国际游戏收入同比下滑9% 管理层称“AI现阶段无法支撑游戏全流程开发”】记者注意到，针对市场关心的国际游戏收入增长拐点，腾讯管理层在业绩说明会上回应称，海外游戏业务增速放缓早于《GTA6》热度发酵，由多重内外部因素共同导致。腾讯计划推出具备长线运营潜力的新品，在今年买断制大作供给阶段性空档过后，2027年这类产品发行节奏有望回归常态。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T08:45+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "每日经济新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611193935404418.html",
+      "official": false
+    },
+    {
+      "id": "ec0508fc1d9b",
+      "title": "首批主动ETF今上市 主动投资迈入“明牌”时代",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611233937007379.html",
+      "official": false
+    },
+    {
+      "id": "e44b93bd7e2a",
+      "title": "首批主动ETF来袭！国泰海通重仓入局：扫货9只！多家券商资管同步买入",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611233937032174.html",
+      "official": false
+    },
+    {
+      "id": "2b38c5bbd7e6",
+      "title": "大举扫货首批主动ETF 15家券商自营现身十大持有人名单",
+      "summary": "天天基金发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "天天基金",
+      "source_url": "https://fund.eastmoney.com/a/202611233937006141.html",
+      "official": false
+    },
+    {
+      "id": "7433614ba414",
+      "title": "CNBC：市场与交易｜Let's weigh the cons — and pros — of this brutal market to find a way forward",
+      "summary": "英文摘要：My dad always said a list can help you make an informed decision — not always the right one, but the most informed at that moment.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T07:49+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/22/lets-weigh-the-cons-and-pros-of-this-market-to-find-a-way-forward.html",
+      "official": false
+    },
+    {
+      "id": "a2e9db747b21",
+      "title": "MarketWatch：市场与交易｜These little-known investments could be among the best bargains in a crash",
+      "summary": "英文摘要：If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T02:23+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "f99faa579e1e",
+      "title": "MarketWatch：市场与交易｜I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+      "summary": "英文摘要：“We have a house worth $450,000. Our combined annual income is $125,000.”",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T00:32+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "253e21036fe6",
+      "title": "CNBC：股东回报｜Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "summary": "英文摘要：Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+      "why_it_matters": "资本运作会直接影响流通供给、股东回报和市场预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-22T20:13+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "official": false
+    },
+    {
+      "id": "7bbcaa493709",
+      "title": "CNBC：市场与交易｜The Nasdaq is in freefall. Here's one stock to look at",
+      "summary": "英文摘要：Elevated options premiums are creating an opportunity in Amazon",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-22T20:10+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
