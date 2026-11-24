@@ -1,0 +1,541 @@
+{
+  "version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T14:24+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月24日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 30 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 4 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、基金与ETF。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 10,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "f93e7ea3e055",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "official": true
+    },
+    {
+      "id": "ef9bf2ff25db",
+      "title": "美国证监会：监管政策｜SEC Issues Proposal to Restructure the Consolidated Audit Trail",
+      "summary": "英文摘要：The Securities and Exchange Commission today issued a proposal to address the inefficiencies in the current governance and funding model of the Consolidated Audit Trail (CAT). The Commission is proposing to rescind Rule 613 of Regulation NMS, which…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-21T02:03+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail",
+      "official": true
+    },
+    {
+      "id": "956799c4df4c",
+      "title": "美国证监会：监管政策｜SEC Charges Indianapolis-Based Backward Hat Capital and Its Co-Founders With $560 Million Dollar Offering Fraud and Obtains Emergency Relief",
+      "summary": "英文摘要：The Securities and Exchange Commission today announced that it has obtained a temporary restraining order, asset freeze, expedited discovery, and other relief against Indianapolis-based Backward Hat Capital, its co-founders Phillip Williams and Devin…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-20T22:28+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering",
+      "official": true
+    },
+    {
+      "id": "c66f8ba46dd3",
+      "title": "市场化改革仍在持续 茅台正注销清算三家关联公司",
+      "summary": "【市场化改革仍在持续 茅台正注销清算三家关联公司】据了解三家关联企业正在注销清算，这是贵州茅台渠道改革的其中一步。据记者此前报道，今年半年业绩说明会上，贵州茅台高管明确表示，进一步优化国内市场渠道统筹，所有茅台集团子公司、本公司子公司、惠群公司原销售的贵州茅台酒，计划将于年内有序回到贵州茅台酒销售公司。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T14:20+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方都市报",
+      "source_url": "https://finance.eastmoney.com/a/202611243938372620.html",
+      "official": false
+    },
+    {
+      "id": "ca9e3ed60f74",
+      "title": "板块异动 | 刚果（金）出口禁令月底落地 钴价上涨近12%",
+      "summary": "上证报中国证券网讯（记者霍星羽）11月23日，刚果（金）战略矿产市场监管局（ARECOMS）宣布，自11月30日起暂停全部钴出口，恢复时间另行通知。该政策旨在缓解国际市场供应过剩压力，推动钴市场实现可持续再平衡。刚果（金）是全球第一大钴生产国，2025年其钴产量占全球的74.2%。11月24日，钴价继续上涨。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T14:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "上海证券报·中国证券网",
+      "source_url": "https://finance.eastmoney.com/a/202611243938378194.html",
+      "official": false
+    },
+    {
+      "id": "e1aacd366c3b",
+      "title": "8.48亿砸向计算机部件 华致酒行跨界投资新业务",
+      "summary": "A股酒类连锁龙头华致酒行（300755.SZ）抛出了一笔极具反差感的投资。11月20日晚间，公司公告披露，全资子公司深圳华致科技拟向供应商A采购计算机部件，含税总金额约8.48亿元，相关资产作为固定资产长期持有，用来搭建一套和酒类流通完全独立的新业务体系。8.48亿元，约等于公司今年前三季度45.97亿元营收的18.5%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T14:06+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "海报新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611243938374219.html",
+      "official": false
+    },
+    {
+      "id": "642cccd57d6f",
+      "title": "宝莱特子公司血透A粉检验记录编造，被责令暂停生产",
+      "summary": "11月23日晚间，宝莱特（300246.SZ）发布公告披露，全资子公司天津市挚信鸿达医疗器械开发有限公司（以下简称“天津挚信”）在国家药监局飞行检查中被查出质量管控违规问题，因血液透析A粉存在枸橼酸根离子浓度未实测、编造检验记录等行为，监管部门依法责令其暂停生产。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T14:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国经营报",
+      "source_url": "https://finance.eastmoney.com/a/202611243938372244.html",
+      "official": false
+    },
+    {
+      "id": "397abc60a44d",
+      "title": "黄仁勋回归首日：A股高开回落，机构称估值修复仍待业绩验证",
+      "summary": "黄仁勋辞职11天后重返英伟达，给此前一周大幅回调的A股科技股带来一轮集中反弹。11月24日A股开盘，沪指涨0.82%报3567.84点，深成指涨2.43%报10708.62点，创业板指涨3.88%报2368.70点，科创综指涨3.94%，全市场逾4900只个股上涨。开盘后不久，创业板指涨幅一度扩大至4%以上，上涨个股超过5000只。英伟达产业链个股成为最直接的受益方向。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T13:59+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611243938372163.html",
+      "official": false
+    },
+    {
+      "id": "1bb475d3b696",
+      "title": "旺仔牛奶更不好卖了丨消费参考",
+      "summary": "21世纪经济报道记者贺泓源实习生黎原、郑淇元旺仔牛奶的销售额继续下滑。11月23日，中国旺旺发布业绩。财报显示，在截至2026年9月30日的6个月内，中国旺旺营收同比下滑9.7%至100.26亿元；归母净利润同比下滑39.9%至10.33亿元。其中，堪称业绩压舱石的旺仔牛奶销售下滑明显。在2026财年上半年，中国旺旺的乳品及饮料类产品销售额同比下滑11.3%至52.68亿元。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T13:46+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611243938354347.html",
+      "official": false
+    },
+    {
+      "id": "a3d775c9cd6f",
+      "title": "早报丨特朗普、万斯及“其他相关方”亲自介入，黄仁勋重新担任英伟达CEO；马斯克承认AI研发落后对手，Arm CEO承诺执掌公司至2033年；小米今日发业绩",
+      "summary": "特朗普、万斯及“其他相关方”亲自介入，黄仁勋重新担任英伟达CEO；马斯克承认AI研发落后对手，Arm CEO承诺执掌公司至2033年；小米今日发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T08:28+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611243938014211.html",
+      "official": false
+    },
+    {
+      "id": "9a9ebcf60a56",
+      "title": "MarketWatch：公司业绩｜Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
+      "summary": "英文摘要：Two products aiming to profit off daily declines in Nvidia shares were nearly wiped out as the stock rallied more than 30%.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T05:19+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "e7b248e2a411",
+      "title": "CNBC：利率与通胀｜Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "summary": "英文摘要：The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T05:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "official": false
+    },
+    {
+      "id": "317163d939e3",
+      "title": "CNBC：公司业绩｜Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+      "summary": "英文摘要：CrowdStrike's quarterly results, released alongside the deal's announcement, show a company acting from a position of strength rather than weakness.",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T04:26+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+      "official": false
+    },
+    {
+      "id": "071ee24ea0bd",
+      "title": "CNBC：监管政策｜Trump administration proposes rule that could curb ESG investing in 401(k)s",
+      "summary": "英文摘要：The Labor Department proposed a regulation Monday that seeks to curb uptake of ESG funds in workplace retirement plans such as 401(k)s.",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T03:46+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/23/labor-department-esg-401k-rule.html",
+      "official": false
+    },
+    {
+      "id": "4184bbbc68d0",
+      "title": "回调至338港元后迎重估契机？美银和大摩双双指出腾讯现金流拐点将至",
+      "summary": "【回调至338港元后迎重估契机？美银和大摩双双指出腾讯现金流拐点将至】近日，美银证券与摩根士丹利相继发布最新研究报告，对腾讯的AI资本开支周期、核心主业利润率及商业化落地进展进行了全面复盘。综合两大投行的核心研判，尽管短期业绩仍受成本与投入拖累，但腾讯AI投入最密集的阶段正在逐步向商业化变现过渡，其长期基本面韧性依然获得高度认可。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T15:28+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611233937249755.html",
+      "official": false
+    },
+    {
+      "id": "a1db6c46269f",
+      "title": "一图展望丨小米三季报将揭晓，Q3盈利或触底，利润“V”形回升可期",
+      "summary": "小米集团-W将于11月24日（周二）盘后披露2026年第三季度业绩。市场普遍预期小米2026Q3预计实现营收1055.9亿元，同比减少6.66%；预期每股收益0.15元，同比下滑67.39%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T15:01+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611233937241456.html",
+      "official": false
+    },
+    {
+      "id": "fd845e04339f",
+      "title": "首批主动ETF在上交所上市",
+      "summary": "上海证券交易所发布与“基金与ETF”相关的新信息。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "上海证券交易所",
+      "source_url": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20261123_10838703.shtml",
+      "official": true
+    },
+    {
+      "id": "d14fa5371be8",
+      "title": "从最新季报看互联网大厂AI转型现状",
+      "summary": "【从最新季报看互联网大厂AI转型现状】AI（人工智能）投入是利润率和现金流承压的重要变量。本财季，腾讯资本开支同比增长527%至814.33亿元，剔除新AI产品贡献后经营盈利同比增长8%；百度智能云营收同比增长94%，成为财报中少有的亮色，但广告收入的下滑与算力、大模型的持续投入，拖累了整体利润；阿里巴巴资本支出同比增长60%至504.77亿元，AI云与算力服务收入同比大增53%，外部客户收入增长64%。三家公司路径不同，但共同点是将更多资源投向算力、模型和AI应用。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T08:19+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券日报",
+      "source_url": "https://finance.eastmoney.com/a/202611233936993345.html",
+      "official": false
+    },
+    {
+      "id": "d3ddf57f0a86",
+      "title": "华泰证券港股策略：短期密集压力或已接近峰值",
+      "summary": "【华泰证券港股策略：短期密集压力或已接近峰值】华泰证券发布港股策略研报称，本周财报密集期接近尾声，且技术面指标已经接近极端状态，市场压力有望边际缓解，甚至不排除技术性反弹，但反弹持续性仍有待观察。12月加息与解禁高峰在前，行情或偏N型，中期仍需等待盈利企稳与长端利率回落的确认，更大概率在明年一季度后。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T07:46+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "人民财讯",
+      "source_url": "https://finance.eastmoney.com/a/202611233937035140.html",
+      "official": false
+    },
+    {
+      "id": "326939267ffb",
+      "title": "一周前瞻丨核心PCE检验加息预期！小米、美团将放榜，戴尔业绩检验AI需求；感恩节、黑五购物季将至，美股周四休市、周五提前收市",
+      "summary": "新一周重磅日程一览美国10月PCE撞上三季度GDP，周三数据密集检验加息预期美国10月PCE及核心PCE物价指数将于周三（11月25日）21:30公布，成为下周最重要的宏观交易事件。同一时间，美国第三季度实际GDP年化季率修正值、10月个人支出、耐用品订单及当周初请失业金人数也将集中出炉。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-23T07:23+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611233937031883.html",
+      "official": false
+    },
+    {
+      "id": "ee6c8be31e76",
+      "title": "三大交易所同时宣布！时隔十个月融资保证金重回80% 积极信号明确",
+      "summary": "杠杆资金退到年内低位之际，监管层再度按下逆周期调节的按钮。今日晚间，沪深北三大交易所同步发布通知，宣布经中国证监会批准，将投资者融资买入证券时的融资保证金最低比例从现行的100%下调至80%，相关规则调整自11月30日起施行。截至11月19日，全市场两融余额2.2万亿元，与3.03万亿元的年内高点相比，已有逾8000亿元融资盘悄然离场。这已经是年内第二次调整融资保证金比例。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-22T20:30+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611223936945780.html",
+      "official": false
+    },
+    {
+      "id": "d294df19fafe",
+      "title": "第三季度财报里的AI：钱花出去了 收入跟上了吗？",
+      "summary": "【第三季度财报里的AI：钱花出去了 收入跟上了吗？】11月17日至19日，京东、腾讯、快手、拼多多、阿里巴巴相继交出2026年第三季度财报。若以更能反映主营业务经营趋势的经调整净利润（Non-GAAP）口径来看，本季度阿里巴巴经调整净利润同比增长92%，京东非公认会计准则净利润增长44%，拼多多经调整净利润微降约1.2%，腾讯调整后净利润下滑6%，快手经调整净利润下滑84%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:59+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "大河财立方",
+      "source_url": "https://finance.eastmoney.com/a/202611213936805394.html",
+      "official": false
+    },
+    {
+      "id": "19149e53c97a",
+      "title": "短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响",
+      "summary": "【短剧和AI冲击游戏？网易管理层：游戏核心竞争力不受影响】在网易第三季度财报电话会议上，管理层被问及短剧和AI对游戏行业的影响。管理层表示，尽管短剧在短期内吸引了较高的用户关注度，但游戏基于“控制与反馈”的核心玩法依然具备不可替代的优势。AI技术将为游戏行业带来更广阔的想象空间，让过去难以实现的创意玩法（如互动影游）成为可能，推动游戏内容向更多元、更高质量的方向创新发展。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-21T12:25+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "南方都市报",
+      "source_url": "https://finance.eastmoney.com/a/202611213936803293.html",
+      "official": false
+    },
+    {
+      "id": "e9381892b749",
+      "title": "专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价",
+      "summary": "【专访联想集团CFO郑孝明：5倍PE不合理，公司未被充分定价】“5倍PE，我觉得是非常不合理的，即便是PC市场最低的时候，联想也没有到5倍PE。”11月19日，联想集团发布了一份亮眼的财报，单季度营收首次突破2000亿元，同比增长近50%；调整后净利润同比增长166%，调整后净利润率升至4.5%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-20T14:27+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "21世纪经济报道",
+      "source_url": "https://finance.eastmoney.com/a/202611203936042164.html",
+      "official": false
+    },
+    {
+      "id": "aa61c7fc361b",
+      "title": "大家人寿、亦庄国投等在北京成立股权投资基金，出资额20亿",
+      "summary": "【大家人寿、亦庄国投等在北京成立股权投资基金，出资额20亿】天眼查App显示，11月20日，北京屹唐盛鼎科新股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为盛鼎（北京）私募基金管理有限责任公司，出资额20亿元人民币，经营范围为私募股权投资基金管理、创业投资基金管理服务。",
+      "why_it_matters": "可能影响基金申赎、资金配置和相关指数产品表现。",
+      "region": "A股",
+      "asset_types": [
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T14:18+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "界面新闻",
+      "source_url": "https://finance.eastmoney.com/a/202611243938378665.html",
+      "official": false
+    },
+    {
+      "id": "0d7a040b9aaf",
+      "title": "深圳多部门联合召开上市公司座谈会 用好回购增持工具夯实市场信心",
+      "summary": "11月24日上午，深圳市委金融办联合深圳证监局、中国人民银行深圳市分行和深圳金融监管局组织召开辖区上市公司座谈会，引导上市公司用好回购、增持等市场化工具，稳定市场预期、增强投资者信心。工业富联、立讯精密、中兴通讯、汇川技术等40家上市公司负责人，以及平安集团、招商银行、中信证券、国信证券等多家金融机构代表参加会议。",
+      "why_it_matters": "融资与上市安排会影响市场供给、估值参照和相关板块情绪。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T14:15+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611243938378884.html",
+      "official": false
+    },
+    {
+      "id": "c48dcaf31882",
+      "title": "CNBC：贸易政策｜U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "summary": "英文摘要：The U.S. has added Megaspeed and six other companies to its trade blacklist over concerns about the potential diversion of advanced computing products.",
+      "why_it_matters": "贸易政策变化可能传导至企业成本、供应链和跨市场风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T10:37+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html",
+      "official": false
+    },
+    {
+      "id": "10acb92b7a75",
+      "title": "CNBC：市场与交易｜Asian Nvidia-related stocks jump after Huang's return, with Taiwan's near price limits",
+      "summary": "英文摘要：Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T10:20+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+      "official": false
+    },
+    {
+      "id": "04d92ef6a6fd",
+      "title": "MarketWatch：市场与交易｜HPE just posted its strongest growth ever — but its stock is sinking",
+      "summary": "英文摘要：HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-24T09:01+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "cdd90393d389",
+      "title": "CNBC：并购重组｜CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+      "summary": "英文摘要：CrowdStrike CEO George Kurtz defended the company's $44 billion acquisition of Zscaler.",
+      "why_it_matters": "交易条款和整合预期可能影响相关公司估值与行业格局。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-24T07:53+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
