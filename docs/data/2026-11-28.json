@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T12:14+08:00",
+  "timezone": "Asia/Shanghai",
+  "model": "zero-api-rules-v1",
+  "headline": "11月28日 全球股市与基金晨报",
+  "market_summary": "优先检索最近 36 小时，不足类别回溯至 7 天，共筛选 29 条去重资讯；A股、港股、美股、股票、基金、ETF 六个板块各精选最多 10 条，其中 3 条来自监管机构、交易所或央行。重点集中在公司业绩、监管政策、市场与交易。一条资讯可能进入多个板块，不构成买卖建议。",
+  "coverage": {
+    "A股": 10,
+    "港股": 10,
+    "美股": 9,
+    "股票": 10,
+    "基金": 10,
+    "ETF": 10
+  },
+  "items": [
+    {
+      "id": "fc310f539bd2",
+      "title": "美国证监会：监管政策｜SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "summary": "英文摘要：The Securities and Exchange Commission’s Investor Advisory Committee will hold a virtual public meeting on Dec. 3, at 9:30 a.m. ET to discuss the trading of tokenized securities, bankruptcy, and accounting oversight. The meeting will be webcast…",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-25T22:10+08:00",
+      "importance": 4,
+      "market_tone": "中性",
+      "source_name": "美国证监会",
+      "source_url": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "official": true
+    },
+    {
+      "id": "f93e7ea3e055",
+      "title": "证券监管部门联合公安机关依法处罚编造传播资本市场虚假信息行为 公布4起典型案例",
+      "summary": "中国证监会发布与“监管政策”相关的新信息。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-23T12:00+08:00",
+      "importance": 4,
+      "market_tone": "偏谨慎",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7671953/content.shtml",
+      "official": true
+    },
+    {
+      "id": "4ac652e786bd",
+      "title": "600095、601519，终止合并；688121，下周摘牌，科创板首例市值退市，四种财务造假手法曝光",
+      "summary": "27日晚间，多家A股公司发布重要公告。湘财股份、大智慧终止合并湘财股份（600095）与大智慧（601519）双双发布公告，宣布撤回湘财股份换股吸收合并大智慧并募集配套资金暨关联交易申请，并与交易对方签署《湘财股份有限公司与上海大智慧股份有限公司之吸收合并协议之解除协议》。同一天，上交所出具决定，终止对该项交易的审核。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T11:38+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202611283942348989.html",
+      "official": false
+    },
+    {
+      "id": "9489a26391ae",
+      "title": "天津银行选举杨毅为董事长 任职资格待监管核准",
+      "summary": "中证报中证网讯（记者李静）近日，天津银行公告，董事会已选举杨毅为第八届董事会董事长，任期至第八届董事会届满，任职资格待监管机构核准后生效。10月30日，于建忠因工作调整辞去天津银行董事长、执行董事等职务，过渡期内由行长吴洪涛代行董事长职责。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T11:37+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证券报·中证网",
+      "source_url": "https://finance.eastmoney.com/a/202611283942351390.html",
+      "official": false
+    },
+    {
+      "id": "65a2989836fe",
+      "title": "订单带动产销提升 海天精工前三季度经营稳步向好",
+      "summary": "本报记者吴奕萱见习记者王楠11月27日，宁波海天精工股份有限公司（以下简称“海天精工”）召开2026年三季度业绩说明会，公司高层就投资者关心的问题进行解答。三季报显示，海天精工前三季度实现营业收入31.77亿元，同比增长26%；实现归属于上市公司股东的净利润4.11亿元，同比增长21.77%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-28T11:31+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券日报",
+      "source_url": "https://finance.eastmoney.com/a/202611283942350461.html",
+      "official": false
+    },
+    {
+      "id": "03a9ad739f94",
+      "title": "葵花药业被调出中证1000指数 公司今年前三季度业绩扭亏，近年股价持续下跌",
+      "summary": "11月27日，中证指数公司发布公告称，决定调整沪深300、中证500、中证1000、中证A50、中证A100、中证A500等指数样本。其中，葵花药业（002737）被调出中证1000指数。被调出中证1000指数背后，葵花药业今年以来股价持续承压，业绩成功扭亏，但暂未恢复亏损前水准。资料显示，葵花药业主营业务为各类中成药、化学药品（包括生物制药）、健康养生品的研发、生产和销售。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-28T11:23+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "深圳商报·读创",
+      "source_url": "https://finance.eastmoney.com/a/202611283942346247.html",
+      "official": false
+    },
+    {
+      "id": "c532dbb7b1c8",
+      "title": "行情炸场！中国资产大爆发，美联储，加息突传重磅！",
+      "summary": "当地时间11月27日，美股三大指数集体收涨，纳斯达克综合指数涨逾2%。截至收盘，标准普尔500指数涨1.6%，报7297.49点；纳斯达克综合指数涨2.31%，报24129.5点；道琼斯工业平均指数涨1.18%，报50774.94点。中国资产表现亮眼，美团、蔚来等中概股涨幅居前。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T11:22+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国商报",
+      "source_url": "https://finance.eastmoney.com/a/202611283942345941.html",
+      "official": false
+    },
+    {
+      "id": "97d938e1cd60",
+      "title": "花旗发生350亿美元记账失误，两名相关负责人调离岗位",
+      "summary": "花旗伦敦业务中心出现一笔350亿美元记账差错，引发内部人事调整，也让这家频繁出错的大型美银修复与全球监管机构关系的努力受挫。该行发言人表示，今年夏季，一名员工发现一项资产负债表关键指标统计存在低估后，花旗向英国一家主要子公司注资约30亿美元，并称该错误属于“内部资本模型问题”。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T11:21+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中新经纬",
+      "source_url": "https://finance.eastmoney.com/a/202611283942345760.html",
+      "official": false
+    },
+    {
+      "id": "003f7009a8b9",
+      "title": "万亿关口资产缩表之际，天津银行迎来新董事长",
+      "summary": "蓝鲸新闻11月28日讯（记者金磊）近日，天津银行（1578.HK）发布公告称，该行董事会已选举杨毅为第八届董事会董事长，任期至第八届董事会届满为止，其任职资格将自获得监管机构核准后生效。事实上，天津银行此次换帅的相关安排在今年10月末便已基本明确。10月30日晚间，天津银行发布公告称，董事长于建忠因工作调整辞去董事长等职务，辞任当日生效。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T11:09+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "蓝鲸财经",
+      "source_url": "https://finance.eastmoney.com/a/202611283942344810.html",
+      "official": false
+    },
+    {
+      "id": "b3653247c5a1",
+      "title": "600410，就“华为概念”等公告澄清",
+      "summary": "11月27日当天涨停的华胜天成(600410)晚间发布股票交易异常波动公告，警示相关风险。公司称，已关注到部分媒体对公司与华为算力合作关注度较高。公司与华为主要合作模式为基于项目建设与运营需求采购华为软件硬件产品；截至2026年9月30日，公司向华为的供货金额不足100万元，对公司业绩不构成重大影响。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-28T10:45+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "证券时报网",
+      "source_url": "https://finance.eastmoney.com/a/202611283942343870.html",
+      "official": false
+    },
+    {
+      "id": "1f56969d6a52",
+      "title": "潮玩港股企业月内集中回购",
+      "summary": "【潮玩港股企业月内集中回购】11月份以来，港股潮玩赛道代表性企业相继实施股份回购。泡泡玛特、布鲁可、名创优品先后出手回购，且回购股份均拟注销。“三家港股公司的回购注销，意在回馈股东、优化股本结构。其背后是公司现金流与经营业绩的支撑。”研究员表示，谷子经济扩容、企业“出海”加速和产品品类迭代，为行业打开成长空间。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-28T08:16+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "证券日报",
+      "source_url": "https://finance.eastmoney.com/a/202611283942115628.html",
+      "official": false
+    },
+    {
+      "id": "75d93b63a005",
+      "title": "美团Q3扭亏背后：核心本地商业迅速回血 新业务减亏",
+      "summary": "【美团Q3扭亏背后：核心本地商业迅速回血 新业务减亏】11月27日，美团（03690.HK）披露了最新业绩公告。根据公告，2026年第三季度，美团实现营收1155.56亿元，同比增长21.6%；实现净利润20.71亿元，扭亏为盈。不过，拆解美团的利润表可以看到，美团业绩改善的另一个重要原因是销售及营销开支的大幅缩减。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-28T07:44+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "财闻",
+      "source_url": "https://finance.eastmoney.com/a/202611283942240820.html",
+      "official": false
+    },
+    {
+      "id": "637377960abe",
+      "title": "CNBC：利率与通胀｜Inflation has shoppers hunting for value. That bodes well for Black Friday",
+      "summary": "英文摘要：Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T06:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
+      "official": false
+    },
+    {
+      "id": "33d98bc4a60f",
+      "title": "CNBC：利率与通胀｜German software firm SAP is reportedly cutting at least 10,000 jobs in AI push",
+      "summary": "英文摘要：SAP is reportedly considering cutting 10,000 jobs as it reshapes its software business around AI.",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T22:52+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html",
+      "official": false
+    },
+    {
+      "id": "7fc7c29fe7af",
+      "title": "【视频直播】美团2026年第三季度业绩电话会",
+      "summary": "【视频直播】美团2026年第三季度业绩电话会。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-27T19:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611273941734029.html",
+      "official": false
+    },
+    {
+      "id": "29ffd30acf4b",
+      "title": "晚报丨国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期",
+      "summary": "国常会关于资本市场部署释放五大鲜明信号，科技股集体大涨；金银油集体上涨；美股今日将提前休市；日央行12月加息预期升温；美团Q3营收、利润超预期。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-27T18:32+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611273941802382.html",
+      "official": false
+    },
+    {
+      "id": "a0c6d79ab20d",
+      "title": "美团发布最新财报：三季度扭亏为盈 外卖行业迎来了拐点",
+      "summary": "美团在最新一季度财报中表示，外卖行业迎来了拐点。11月27日，美团（股票代码：3690.HK）发布了2026年第三季度业绩报告。三季度，美团实现收入1156亿元（人民币，下同），同比增长21.6%。净利润为20.7亿元，去年同期净亏损为186亿元，实现扭亏为盈。今日收盘美团股价下跌4%至61.45港元/股。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-27T18:29+08:00",
+      "importance": 3,
+      "market_tone": "混合",
+      "source_name": "第一财经",
+      "source_url": "https://finance.eastmoney.com/a/202611273941807245.html",
+      "official": false
+    },
+    {
+      "id": "b621351b9258",
+      "title": "央行发布《人民币存贷款利率管理规定》 自2027年3月21日起施行",
+      "summary": "【《人民币存贷款利率管理规定》自2027年3月21日起施行】《人民币存贷款利率管理规定》已经2026年10月30日中国人民银行第10次行务会审议通过，现予发布，自2027年3月21日起施行。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T18:16+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "央行网站",
+      "source_url": "https://finance.eastmoney.com/a/202611273941797846.html",
+      "official": false
+    },
+    {
+      "id": "c320595e6dc9",
+      "title": "港股黄金板块连续反弹多股涨逾9% 加息压力松动带来“喘息窗口”",
+      "summary": "经过前期大幅调整后，港股黄金股短线迎来一波连续反弹。截至发稿，今日多只黄金股延续冲高走势，灵宝黄金(03330.HK)涨近11%，集海黄金(02489.HK)涨逾10%，中国黄金国际(02099.HK)等多只个股涨9%以上。消息面上，11月27日，现货黄金重新站上3600美元/盎司关口，短线从3400美元一线强势反弹。",
+      "why_it_matters": "利率和通胀预期会影响权益估值、美元流动性及成长板块定价。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T15:02+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "财联社",
+      "source_url": "https://finance.eastmoney.com/a/202611273941652345.html",
+      "official": false
+    },
+    {
+      "id": "c46c02349ff8",
+      "title": "中国证监会同意瓦楞原纸期货和期权注册",
+      "summary": "中国证监会发布与“市场与交易”相关的新信息。",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "A股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T12:00+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "中国证监会",
+      "source_url": "https://www.csrc.gov.cn/csrc/c100028/c7673465/content.shtml",
+      "official": true
+    },
+    {
+      "id": "fc847e563841",
+      "title": "国家统计局：1—10月份全国规模以上工业企业利润增长16.0%",
+      "summary": "【国家统计局：1—10月份全国规模以上工业企业利润增长16.0%】1—10月份，全国规模以上工业企业实现利润总额67373.6亿元，同比增长16.0%。10月份，规模以上工业企业利润同比增长20.1%。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-27T09:30+08:00",
+      "importance": 3,
+      "market_tone": "偏积极",
+      "source_name": "国家统计局",
+      "source_url": "https://finance.eastmoney.com/a/202611273941472336.html",
+      "official": false
+    },
+    {
+      "id": "667411621ea3",
+      "title": "早报丨美股周五将提前3小时休市；特朗普质疑GDP数据，称将展开调查；英伟达据称已暂停向东南亚交付芯片，MINIMAX加快采用华为和阿里AI芯片；美团今日发业绩",
+      "summary": "美股周五将提前3小时休市；特朗普质疑GDP数据，称将展开调查；英伟达据称已暂停向东南亚交付芯片，MINIMAX加快采用华为和阿里AI芯片；美团今日发业绩。",
+      "why_it_matters": "业绩与指引会改变市场对公司盈利和估值的预期。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金"
+      ],
+      "published_at": "2026-11-27T08:22+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "哈富证券",
+      "source_url": "https://finance.eastmoney.com/a/202611273941264437.html",
+      "official": false
+    },
+    {
+      "id": "eb7fcc6a7140",
+      "title": "CNBC：监管政策｜Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+      "summary": "英文摘要：A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T01:04+08:00",
+      "importance": 3,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "official": false
+    },
+    {
+      "id": "1499841cb73c",
+      "title": "商务部：坚决反对美对中国等经济体加征301关税",
+      "summary": "【商务部：坚决反对美对中国等经济体加征301关税】针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。",
+      "why_it_matters": "监管变化可能影响上市公司合规成本、交易制度和风险偏好。",
+      "region": "港股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-26T15:10+08:00",
+      "importance": 3,
+      "market_tone": "偏谨慎",
+      "source_name": "新华社",
+      "source_url": "https://finance.eastmoney.com/a/202611263940576143.html",
+      "official": false
+    },
+    {
+      "id": "0bb0f0cba6df",
+      "title": "MarketWatch：市场与交易｜These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+      "summary": "英文摘要：Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T04:16+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "b910ed99c64a",
+      "title": "CNBC：市场与交易｜Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+      "summary": "英文摘要：Jensen Huang's return sparked a fleeting AI rally, but persistent market volatility gave us another opportunity to put cash to work.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T02:46+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+      "official": false
+    },
+    {
+      "id": "7c5c2b3e3f3d",
+      "title": "MarketWatch：市场与交易｜The warnings behind this week’s stock-market rally",
+      "summary": "英文摘要：Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-28T02:40+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "MarketWatch",
+      "source_url": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
+      "official": false
+    },
+    {
+      "id": "baa1056c7f8b",
+      "title": "CNBC：市场与交易｜The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+      "summary": "英文摘要：The November sell-off has so far pushed the S&P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T21:21+08:00",
+      "importance": 2,
+      "market_tone": "中性",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+      "official": false
+    },
+    {
+      "id": "d7944e82cdc9",
+      "title": "CNBC：市场与交易｜Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+      "summary": "英文摘要：Chinese stocks rebounded sharply after a rare intraday state media readout cheered investors as top policymakers pledged market liquidity support.",
+      "why_it_matters": "市场结构或交易变化可能影响流动性、波动率及相关资产定价。",
+      "region": "美股",
+      "asset_types": [
+        "股票",
+        "基金",
+        "ETF"
+      ],
+      "published_at": "2026-11-27T18:13+08:00",
+      "importance": 2,
+      "market_tone": "偏积极",
+      "source_name": "CNBC",
+      "source_url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html",
+      "official": false
+    }
+  ],
+  "disclaimer": "自动汇总，仅供信息参考，不构成任何投资建议。"
+}
